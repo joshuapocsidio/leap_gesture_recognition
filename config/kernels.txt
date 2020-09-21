@@ -1,0 +1,4 @@
+linear
+poly
+rbf
+sigmoid
