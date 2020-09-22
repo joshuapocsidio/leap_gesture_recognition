@@ -166,6 +166,7 @@ class NN_Trainer(Trainer):
             verbose=False,
             batch_size=self.batch_size,
             max_iter=1000,
+            early_stopping=True
         )
 
         # Initialize configurations of hyper parameters
