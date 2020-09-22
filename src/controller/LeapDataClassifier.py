@@ -51,7 +51,7 @@ class LeapDataClassifier:
             y_data = y_data_set[i]
 
             # Classify gestures and return results
-            result, time_taken, _ = self.classify_gesture(
+            prediction, result, time_taken = self.classify_gesture(
                 feature_data_set=X_data,
                 feature_type=feature_set,
                 chosen_gesture=y_data,
@@ -60,9 +60,22 @@ class LeapDataClassifier:
             )
 
             time_list.append(time_taken)
+            # Check if correct
             if result is True:
                 correct_predictions += 1
-                pass
+
+            # Check if personalized
+            if lower(test_subject) == lower(comparison_subject):
+                personalized = "personalized"
+            else:
+                personalized = "non-personalized"
+
+            # Append to csv results
+            io.append_classification_csv_results(personalized=personalized, classifier_type=classifier_type,
+                                                 training_score=trainer.training_acc, train_subject=comparison_subject,
+                                                 test_subject=test_subject, gesture_set=gesture_set,
+                                                 feature_set=feature_set, correct=result, time=time_taken,
+                                                 gesture=y_data, prediction=prediction)
             i += 1
 
         # Process corresponding results
@@ -150,7 +163,7 @@ class LeapDataClassifier:
         start_time = time.time()
         prediction = trainer.classify([feature_data_set])
         end_time = time.time()
-        time_taken = round(end_time - start_time, 5)
+        time_taken = round(end_time - start_time, 8)
 
         # Output for user
         if (prediction[0]) == chosen_gesture:
@@ -167,7 +180,7 @@ class LeapDataClassifier:
             print("Prediction   : " + lower(prediction[0]))
             print("Time Taken   : " + str(time_taken) + "\n")
 
-        return result, time_taken, prediction
+        return prediction[0], result, time_taken
 
 
     def process_modified_test_results(self, comparison_subject, test_subject, classifier_type, correct_classification,

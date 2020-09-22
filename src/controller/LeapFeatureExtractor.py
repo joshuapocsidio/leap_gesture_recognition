@@ -82,8 +82,9 @@ def extract_finger_palm_angle_distance(hand):
 
     # Obtain both information
     _, angle_set = extract_finger_palm_angle(hand=hand)
+    angle_set.pop()
     _, distance_set = extract_finger_palm_distance(hand=hand)
-
+    distance_set.pop()
     # Number of distances and angle should be the same
     num_angles = len(angle_set)
     num_distances = len(distance_set)

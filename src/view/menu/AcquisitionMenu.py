@@ -172,6 +172,7 @@ def do_systematic_acquisition(acquisitor, training=False, testing=False):
             n_taken = 0
 
             while n_taken < intervals:
+                time.sleep(0.05)
                 # Acquire data and append to hand set
                 hand = acquisitor.acquire_single_hand_data()
                 hand_set.append(hand)
