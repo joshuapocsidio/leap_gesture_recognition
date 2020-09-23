@@ -1,0 +1,90 @@
+* * * * * * * * * *
+SUMMARY REPORT
+* * * * * * * * * *
+CLASSIFIER          : Multi-Layer Perceptron Neural Network
+FEATURE TYPE        : finger-to-palm-distance
+GESTURE SET         : COUNTING GESTURES
+
+TIME(TOTAL)         : 255.959 seconds 
+TIME(WORST)         : 26.099 seconds 
+TIME(BEST)          : 25.112 seconds 
+TIME(AVERAGE)       : 25.5959 seconds
+
+ACCURACY(WORST)     : 99.444% with Training = 99.881% and Testing = 99.444% (-0.437%)
+ACCURACY(BEST)      : 100.0% with Training = 100.0% and Testing = 100.0% (+0.0%)
+ACCURACY(AVERAGE)   : 99.8332%
+
+OPTIMAL CLASSIFIER  : Classifier #2
+OPTIMAL SCORE       : 100.0%
+OPTIMAL PENALTY     : +0.0%
+
+ - - - - - - - - HYPER PARAMETERS - - - - - - - - - 
+ACTIVATION          : logistic
+OPTIMIZER           : adam
+BATCH_SIZE          : 6
+HIDDEN_LAYERS       : 1
+HIDDEN_LAYER_NODES  : (128,)
+LEARNING RATE       : 0.05
+
+* * * * * * * * * *
+
+* * * * * * * * * *
+SUMMARY REPORT
+* * * * * * * * * *
+CLASSIFIER          : Multi-Layer Perceptron Neural Network
+FEATURE TYPE        : finger-to-palm-distance
+GESTURE SET         : STATUS GESTURES
+
+TIME(TOTAL)         : 586.763 seconds 
+TIME(WORST)         : 62.427 seconds 
+TIME(BEST)          : 56.392 seconds 
+TIME(AVERAGE)       : 58.6763 seconds
+
+ACCURACY(WORST)     : 98.167% with Training = 99.286% and Testing = 98.167% (-1.119%)
+ACCURACY(BEST)      : 99.833% with Training = 99.214% and Testing = 99.833% (+0.619%)
+ACCURACY(AVERAGE)   : 99.0333%
+
+OPTIMAL CLASSIFIER  : Classifier #5
+OPTIMAL SCORE       : 99.833%
+OPTIMAL PENALTY     : +0.619%
+
+ - - - - - - - - HYPER PARAMETERS - - - - - - - - - 
+ACTIVATION          : logistic
+OPTIMIZER           : adam
+BATCH_SIZE          : 6
+HIDDEN_LAYERS       : 1
+HIDDEN_LAYER_NODES  : (128,)
+LEARNING RATE       : 0.05
+
+* * * * * * * * * *
+
+* * * * * * * * * *
+SUMMARY REPORT
+* * * * * * * * * *
+CLASSIFIER          : Multi-Layer Perceptron Neural Network
+FEATURE TYPE        : finger-to-palm-distance
+GESTURE SET         : COMBINED GESTURES
+
+TIME(TOTAL)         : 584.649 seconds 
+TIME(WORST)         : 62.203 seconds 
+TIME(BEST)          : 56.343 seconds 
+TIME(AVERAGE)       : 58.4649 seconds
+
+ACCURACY(WORST)     : 95.667% with Training = 98.929% and Testing = 95.667% (-3.262%)
+ACCURACY(BEST)      : 100.0% with Training = 98.857% and Testing = 100.0% (+1.143%)
+ACCURACY(AVERAGE)   : 98.8166%
+
+OPTIMAL CLASSIFIER  : Classifier #2
+OPTIMAL SCORE       : 100.0%
+OPTIMAL PENALTY     : +1.143%
+
+ - - - - - - - - HYPER PARAMETERS - - - - - - - - - 
+ACTIVATION          : logistic
+OPTIMIZER           : adam
+BATCH_SIZE          : 6
+HIDDEN_LAYERS       : 1
+HIDDEN_LAYER_NODES  : (64,)
+LEARNING RATE       : 0.01
+
+* * * * * * * * * *
+

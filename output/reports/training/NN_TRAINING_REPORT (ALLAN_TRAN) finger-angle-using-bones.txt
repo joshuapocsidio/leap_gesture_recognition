@@ -1,0 +1,90 @@
+* * * * * * * * * *
+SUMMARY REPORT
+* * * * * * * * * *
+CLASSIFIER          : Multi-Layer Perceptron Neural Network
+FEATURE TYPE        : finger-angle-using-bones
+GESTURE SET         : COUNTING GESTURES
+
+TIME(TOTAL)         : 273.319 seconds 
+TIME(WORST)         : 28.368 seconds 
+TIME(BEST)          : 26.59 seconds 
+TIME(AVERAGE)       : 27.3319 seconds
+
+ACCURACY(WORST)     : 98.056% with Training = 99.405% and Testing = 98.056% (-1.349%)
+ACCURACY(BEST)      : 100.0% with Training = 99.167% and Testing = 100.0% (+0.833%)
+ACCURACY(AVERAGE)   : 99.0833%
+
+OPTIMAL CLASSIFIER  : Classifier #2
+OPTIMAL SCORE       : 100.0%
+OPTIMAL PENALTY     : +0.833%
+
+ - - - - - - - - HYPER PARAMETERS - - - - - - - - - 
+ACTIVATION          : logistic
+OPTIMIZER           : sgd
+BATCH_SIZE          : 6
+HIDDEN_LAYERS       : 1
+HIDDEN_LAYER_NODES  : (64,)
+LEARNING RATE       : 0.05
+
+* * * * * * * * * *
+
+* * * * * * * * * *
+SUMMARY REPORT
+* * * * * * * * * *
+CLASSIFIER          : Multi-Layer Perceptron Neural Network
+FEATURE TYPE        : finger-angle-using-bones
+GESTURE SET         : STATUS GESTURES
+
+TIME(TOTAL)         : 593.243 seconds 
+TIME(WORST)         : 65.704 seconds 
+TIME(BEST)          : 55.619 seconds 
+TIME(AVERAGE)       : 59.3243 seconds
+
+ACCURACY(WORST)     : 97.0% with Training = 98.643% and Testing = 97.0% (-1.643%)
+ACCURACY(BEST)      : 99.833% with Training = 98.571% and Testing = 99.833% (+1.262%)
+ACCURACY(AVERAGE)   : 98.2%
+
+OPTIMAL CLASSIFIER  : Classifier #8
+OPTIMAL SCORE       : 99.833%
+OPTIMAL PENALTY     : +1.262%
+
+ - - - - - - - - HYPER PARAMETERS - - - - - - - - - 
+ACTIVATION          : logistic
+OPTIMIZER           : adam
+BATCH_SIZE          : 6
+HIDDEN_LAYERS       : 1
+HIDDEN_LAYER_NODES  : (64,)
+LEARNING RATE       : 0.01
+
+* * * * * * * * * *
+
+* * * * * * * * * *
+SUMMARY REPORT
+* * * * * * * * * *
+CLASSIFIER          : Multi-Layer Perceptron Neural Network
+FEATURE TYPE        : finger-angle-using-bones
+GESTURE SET         : COMBINED GESTURES
+
+TIME(TOTAL)         : 591.544 seconds 
+TIME(WORST)         : 60.555 seconds 
+TIME(BEST)          : 57.48 seconds 
+TIME(AVERAGE)       : 59.1544 seconds
+
+ACCURACY(WORST)     : 98.333% with Training = 98.786% and Testing = 98.333% (-0.453%)
+ACCURACY(BEST)      : 99.833% with Training = 98.786% and Testing = 99.833% (+1.047%)
+ACCURACY(AVERAGE)   : 99.0666%
+
+OPTIMAL CLASSIFIER  : Classifier #8
+OPTIMAL SCORE       : 99.833%
+OPTIMAL PENALTY     : +1.047%
+
+ - - - - - - - - HYPER PARAMETERS - - - - - - - - - 
+ACTIVATION          : logistic
+OPTIMIZER           : adam
+BATCH_SIZE          : 6
+HIDDEN_LAYERS       : 1
+HIDDEN_LAYER_NODES  : (64,)
+LEARNING RATE       : 0.01
+
+* * * * * * * * * *
+
