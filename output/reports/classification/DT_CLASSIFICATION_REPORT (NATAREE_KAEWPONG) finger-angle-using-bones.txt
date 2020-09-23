@@ -1,0 +1,350 @@
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : DT (NATAREE_KAEWPONG) COUNTING GESTURES--finger-angle-using-bones_entropy 
+Unseen Subject Data    : (ALLAN_TRAN) COUNTING GESTURES--finger-angle-using-bones
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    NATAREE_KAEWPONG
+        Unseen Subject :    ALLAN_TRAN
+        Feature        :    finger-angle-using-bones
+        Gesture Set    :    COUNTING GESTURES
+        Correct        :    280
+        Incorrect      :    20
+        Result         :    280 / 300
+        Avg Time       :    0.0001133358 seconds
+        
+        TRAINING 
+        Accuracy       :    100.0 %
+        
+        TESTING
+        Accuracy       :    93.33 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : DT (NATAREE_KAEWPONG) STATUS GESTURES--finger-angle-using-bones_entropy 
+Unseen Subject Data    : (ALLAN_TRAN) STATUS GESTURES--finger-angle-using-bones
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    NATAREE_KAEWPONG
+        Unseen Subject :    ALLAN_TRAN
+        Feature        :    finger-angle-using-bones
+        Gesture Set    :    STATUS GESTURES
+        Correct        :    333
+        Incorrect      :    167
+        Result         :    333 / 500
+        Avg Time       :    0.00011000142 seconds
+        
+        TRAINING 
+        Accuracy       :    99.429 %
+        
+        TESTING
+        Accuracy       :    66.6 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : DT (NATAREE_KAEWPONG) COUNTING GESTURES--finger-angle-using-bones_entropy 
+Unseen Subject Data    : (JORELLE_INTERINO) COUNTING GESTURES--finger-angle-using-bones
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    NATAREE_KAEWPONG
+        Unseen Subject :    JORELLE_INTERINO
+        Feature        :    finger-angle-using-bones
+        Gesture Set    :    COUNTING GESTURES
+        Correct        :    273
+        Incorrect      :    27
+        Result         :    273 / 300
+        Avg Time       :    9.66679e-05 seconds
+        
+        TRAINING 
+        Accuracy       :    100.0 %
+        
+        TESTING
+        Accuracy       :    91.0 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : DT (NATAREE_KAEWPONG) STATUS GESTURES--finger-angle-using-bones_entropy 
+Unseen Subject Data    : (JORELLE_INTERINO) STATUS GESTURES--finger-angle-using-bones
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    NATAREE_KAEWPONG
+        Unseen Subject :    JORELLE_INTERINO
+        Feature        :    finger-angle-using-bones
+        Gesture Set    :    STATUS GESTURES
+        Correct        :    330
+        Incorrect      :    170
+        Result         :    330 / 500
+        Avg Time       :    0.00010200294 seconds
+        
+        TRAINING 
+        Accuracy       :    99.429 %
+        
+        TESTING
+        Accuracy       :    66.0 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : DT (NATAREE_KAEWPONG) COUNTING GESTURES--finger-angle-using-bones_entropy 
+Unseen Subject Data    : (JOSHUA_POCSIDIO) COUNTING GESTURES--finger-angle-using-bones
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    NATAREE_KAEWPONG
+        Unseen Subject :    JOSHUA_POCSIDIO
+        Feature        :    finger-angle-using-bones
+        Gesture Set    :    COUNTING GESTURES
+        Correct        :    237
+        Incorrect      :    63
+        Result         :    237 / 300
+        Avg Time       :    0.0001033333 seconds
+        
+        TRAINING 
+        Accuracy       :    100.0 %
+        
+        TESTING
+        Accuracy       :    79.0 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : DT (NATAREE_KAEWPONG) STATUS GESTURES--finger-angle-using-bones_entropy 
+Unseen Subject Data    : (JOSHUA_POCSIDIO) STATUS GESTURES--finger-angle-using-bones
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    NATAREE_KAEWPONG
+        Unseen Subject :    JOSHUA_POCSIDIO
+        Feature        :    finger-angle-using-bones
+        Gesture Set    :    STATUS GESTURES
+        Correct        :    328
+        Incorrect      :    172
+        Result         :    328 / 500
+        Avg Time       :    8.400084e-05 seconds
+        
+        TRAINING 
+        Accuracy       :    99.429 %
+        
+        TESTING
+        Accuracy       :    65.6 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : DT (NATAREE_KAEWPONG) COUNTING GESTURES--finger-angle-using-bones_entropy 
+Unseen Subject Data    : (MARC_SALONGA) COUNTING GESTURES--finger-angle-using-bones
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    NATAREE_KAEWPONG
+        Unseen Subject :    MARC_SALONGA
+        Feature        :    finger-angle-using-bones
+        Gesture Set    :    COUNTING GESTURES
+        Correct        :    279
+        Incorrect      :    21
+        Result         :    279 / 300
+        Avg Time       :    0.0001066688 seconds
+        
+        TRAINING 
+        Accuracy       :    100.0 %
+        
+        TESTING
+        Accuracy       :    93.0 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : DT (NATAREE_KAEWPONG) STATUS GESTURES--finger-angle-using-bones_entropy 
+Unseen Subject Data    : (MARC_SALONGA) STATUS GESTURES--finger-angle-using-bones
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    NATAREE_KAEWPONG
+        Unseen Subject :    MARC_SALONGA
+        Feature        :    finger-angle-using-bones
+        Gesture Set    :    STATUS GESTURES
+        Correct        :    387
+        Incorrect      :    118
+        Result         :    387 / 505
+        Avg Time       :    0.00010494980198 seconds
+        
+        TRAINING 
+        Accuracy       :    99.429 %
+        
+        TESTING
+        Accuracy       :    76.63 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : DT (NATAREE_KAEWPONG) COUNTING GESTURES--finger-angle-using-bones_entropy 
+Unseen Subject Data    : (NATAREE_KAEWPONG) COUNTING GESTURES--finger-angle-using-bones
+__________________________________________________________________________________________________
+        PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    NATAREE_KAEWPONG
+        Unseen Subject :    NATAREE_KAEWPONG
+        Feature        :    finger-angle-using-bones
+        Gesture Set    :    COUNTING GESTURES
+        Correct        :    256
+        Incorrect      :    44
+        Result         :    256 / 300
+        Avg Time       :    7.66653e-05 seconds
+        
+        TRAINING 
+        Accuracy       :    100.0 %
+        
+        TESTING
+        Accuracy       :    85.33 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : DT (NATAREE_KAEWPONG) STATUS GESTURES--finger-angle-using-bones_entropy 
+Unseen Subject Data    : (NATAREE_KAEWPONG) STATUS GESTURES--finger-angle-using-bones
+__________________________________________________________________________________________________
+        PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    NATAREE_KAEWPONG
+        Unseen Subject :    NATAREE_KAEWPONG
+        Feature        :    finger-angle-using-bones
+        Gesture Set    :    STATUS GESTURES
+        Correct        :    396
+        Incorrect      :    104
+        Result         :    396 / 500
+        Avg Time       :    9.199932e-05 seconds
+        
+        TRAINING 
+        Accuracy       :    99.429 %
+        
+        TESTING
+        Accuracy       :    79.2 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : DT (NATAREE_KAEWPONG) COMBINED GESTURES--finger-angle-using-bones_entropy 
+Unseen Subject Data    : (ALLAN_TRAN) COMBINED GESTURES--finger-angle-using-bones
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    NATAREE_KAEWPONG
+        Unseen Subject :    ALLAN_TRAN
+        Feature        :    finger-angle-using-bones
+        Gesture Set    :    COMBINED GESTURES
+        Correct        :    385
+        Incorrect      :    115
+        Result         :    385 / 500
+        Avg Time       :    9.200076e-05 seconds
+        
+        TRAINING 
+        Accuracy       :    99.5 %
+        
+        TESTING
+        Accuracy       :    77.0 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : DT (NATAREE_KAEWPONG) COMBINED GESTURES--finger-angle-using-bones_entropy 
+Unseen Subject Data    : (COMBINED SUBJECTS) COMBINED GESTURES--finger-angle-using-bones
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    NATAREE_KAEWPONG
+        Unseen Subject :    COMBINED SUBJECTS
+        Feature        :    finger-angle-using-bones
+        Gesture Set    :    COMBINED GESTURES
+        Correct        :    1988
+        Incorrect      :    1717
+        Result         :    1988 / 3705
+        Avg Time       :    9.23081619433e-05 seconds
+        
+        TRAINING 
+        Accuracy       :    99.5 %
+        
+        TESTING
+        Accuracy       :    53.66 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : DT (NATAREE_KAEWPONG) COUNTING GESTURES--finger-angle-using-bones_entropy 
+Unseen Subject Data    : (COMBINED SUBJECTS) COUNTING GESTURES--finger-angle-using-bones
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    NATAREE_KAEWPONG
+        Unseen Subject :    COMBINED SUBJECTS
+        Feature        :    finger-angle-using-bones
+        Gesture Set    :    COUNTING GESTURES
+        Correct        :    4275
+        Incorrect      :    525
+        Result         :    4275 / 4800
+        Avg Time       :    8.604164375e-05 seconds
+        
+        TRAINING 
+        Accuracy       :    100.0 %
+        
+        TESTING
+        Accuracy       :    89.06 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : DT (NATAREE_KAEWPONG) STATUS GESTURES--finger-angle-using-bones_entropy 
+Unseen Subject Data    : (COMBINED SUBJECTS) STATUS GESTURES--finger-angle-using-bones
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    NATAREE_KAEWPONG
+        Unseen Subject :    COMBINED SUBJECTS
+        Feature        :    finger-angle-using-bones
+        Gesture Set    :    STATUS GESTURES
+        Correct        :    6434
+        Incorrect      :    1566
+        Result         :    6434 / 8000
+        Avg Time       :    9.17502075e-05 seconds
+        
+        TRAINING 
+        Accuracy       :    99.429 %
+        
+        TESTING
+        Accuracy       :    80.42 %
+        
+        
+

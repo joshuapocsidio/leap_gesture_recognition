@@ -1,0 +1,350 @@
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : NN (NATAREE_KAEWPONG) COUNTING GESTURES--finger-angle-using-bones_logistic 
+Unseen Subject Data    : (ALLAN_TRAN) COUNTING GESTURES--finger-angle-using-bones
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    NATAREE_KAEWPONG
+        Unseen Subject :    ALLAN_TRAN
+        Feature        :    finger-angle-using-bones
+        Gesture Set    :    COUNTING GESTURES
+        Correct        :    287
+        Incorrect      :    13
+        Result         :    287 / 300
+        Avg Time       :    0.0001066664 seconds
+        
+        TRAINING 
+        Accuracy       :    99.286 %
+        
+        TESTING
+        Accuracy       :    95.67 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : NN (NATAREE_KAEWPONG) STATUS GESTURES--finger-angle-using-bones_logistic 
+Unseen Subject Data    : (ALLAN_TRAN) STATUS GESTURES--finger-angle-using-bones
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    NATAREE_KAEWPONG
+        Unseen Subject :    ALLAN_TRAN
+        Feature        :    finger-angle-using-bones
+        Gesture Set    :    STATUS GESTURES
+        Correct        :    395
+        Incorrect      :    105
+        Result         :    395 / 500
+        Avg Time       :    0.00021600024 seconds
+        
+        TRAINING 
+        Accuracy       :    98.0 %
+        
+        TESTING
+        Accuracy       :    79.0 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : NN (NATAREE_KAEWPONG) COUNTING GESTURES--finger-angle-using-bones_logistic 
+Unseen Subject Data    : (JORELLE_INTERINO) COUNTING GESTURES--finger-angle-using-bones
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    NATAREE_KAEWPONG
+        Unseen Subject :    JORELLE_INTERINO
+        Feature        :    finger-angle-using-bones
+        Gesture Set    :    COUNTING GESTURES
+        Correct        :    284
+        Incorrect      :    16
+        Result         :    284 / 300
+        Avg Time       :    0.0001299997 seconds
+        
+        TRAINING 
+        Accuracy       :    99.286 %
+        
+        TESTING
+        Accuracy       :    94.67 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : NN (NATAREE_KAEWPONG) STATUS GESTURES--finger-angle-using-bones_logistic 
+Unseen Subject Data    : (JORELLE_INTERINO) STATUS GESTURES--finger-angle-using-bones
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    NATAREE_KAEWPONG
+        Unseen Subject :    JORELLE_INTERINO
+        Feature        :    finger-angle-using-bones
+        Gesture Set    :    STATUS GESTURES
+        Correct        :    398
+        Incorrect      :    102
+        Result         :    398 / 500
+        Avg Time       :    0.00027400146 seconds
+        
+        TRAINING 
+        Accuracy       :    98.0 %
+        
+        TESTING
+        Accuracy       :    79.6 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : NN (NATAREE_KAEWPONG) COUNTING GESTURES--finger-angle-using-bones_logistic 
+Unseen Subject Data    : (JOSHUA_POCSIDIO) COUNTING GESTURES--finger-angle-using-bones
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    NATAREE_KAEWPONG
+        Unseen Subject :    JOSHUA_POCSIDIO
+        Feature        :    finger-angle-using-bones
+        Gesture Set    :    COUNTING GESTURES
+        Correct        :    292
+        Incorrect      :    8
+        Result         :    292 / 300
+        Avg Time       :    0.0001166665 seconds
+        
+        TRAINING 
+        Accuracy       :    99.286 %
+        
+        TESTING
+        Accuracy       :    97.33 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : NN (NATAREE_KAEWPONG) STATUS GESTURES--finger-angle-using-bones_logistic 
+Unseen Subject Data    : (JOSHUA_POCSIDIO) STATUS GESTURES--finger-angle-using-bones
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    NATAREE_KAEWPONG
+        Unseen Subject :    JOSHUA_POCSIDIO
+        Feature        :    finger-angle-using-bones
+        Gesture Set    :    STATUS GESTURES
+        Correct        :    403
+        Incorrect      :    97
+        Result         :    403 / 500
+        Avg Time       :    0.00022400064 seconds
+        
+        TRAINING 
+        Accuracy       :    98.0 %
+        
+        TESTING
+        Accuracy       :    80.6 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : NN (NATAREE_KAEWPONG) COUNTING GESTURES--finger-angle-using-bones_logistic 
+Unseen Subject Data    : (MARC_SALONGA) COUNTING GESTURES--finger-angle-using-bones
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    NATAREE_KAEWPONG
+        Unseen Subject :    MARC_SALONGA
+        Feature        :    finger-angle-using-bones
+        Gesture Set    :    COUNTING GESTURES
+        Correct        :    289
+        Incorrect      :    11
+        Result         :    289 / 300
+        Avg Time       :    0.0001233343 seconds
+        
+        TRAINING 
+        Accuracy       :    99.286 %
+        
+        TESTING
+        Accuracy       :    96.33 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : NN (NATAREE_KAEWPONG) STATUS GESTURES--finger-angle-using-bones_logistic 
+Unseen Subject Data    : (MARC_SALONGA) STATUS GESTURES--finger-angle-using-bones
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    NATAREE_KAEWPONG
+        Unseen Subject :    MARC_SALONGA
+        Feature        :    finger-angle-using-bones
+        Gesture Set    :    STATUS GESTURES
+        Correct        :    432
+        Incorrect      :    73
+        Result         :    432 / 505
+        Avg Time       :    0.000201979346535 seconds
+        
+        TRAINING 
+        Accuracy       :    98.0 %
+        
+        TESTING
+        Accuracy       :    85.54 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : NN (NATAREE_KAEWPONG) COUNTING GESTURES--finger-angle-using-bones_logistic 
+Unseen Subject Data    : (NATAREE_KAEWPONG) COUNTING GESTURES--finger-angle-using-bones
+__________________________________________________________________________________________________
+        PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    NATAREE_KAEWPONG
+        Unseen Subject :    NATAREE_KAEWPONG
+        Feature        :    finger-angle-using-bones
+        Gesture Set    :    COUNTING GESTURES
+        Correct        :    265
+        Incorrect      :    35
+        Result         :    265 / 300
+        Avg Time       :    0.0001266674 seconds
+        
+        TRAINING 
+        Accuracy       :    99.286 %
+        
+        TESTING
+        Accuracy       :    88.33 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : NN (NATAREE_KAEWPONG) STATUS GESTURES--finger-angle-using-bones_logistic 
+Unseen Subject Data    : (NATAREE_KAEWPONG) STATUS GESTURES--finger-angle-using-bones
+__________________________________________________________________________________________________
+        PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    NATAREE_KAEWPONG
+        Unseen Subject :    NATAREE_KAEWPONG
+        Feature        :    finger-angle-using-bones
+        Gesture Set    :    STATUS GESTURES
+        Correct        :    444
+        Incorrect      :    56
+        Result         :    444 / 500
+        Avg Time       :    0.00021600168 seconds
+        
+        TRAINING 
+        Accuracy       :    98.0 %
+        
+        TESTING
+        Accuracy       :    88.8 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : NN (NATAREE_KAEWPONG) COMBINED GESTURES--finger-angle-using-bones_logistic 
+Unseen Subject Data    : (ALLAN_TRAN) COMBINED GESTURES--finger-angle-using-bones
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    NATAREE_KAEWPONG
+        Unseen Subject :    ALLAN_TRAN
+        Feature        :    finger-angle-using-bones
+        Gesture Set    :    COMBINED GESTURES
+        Correct        :    385
+        Incorrect      :    115
+        Result         :    385 / 500
+        Avg Time       :    0.00024399828 seconds
+        
+        TRAINING 
+        Accuracy       :    98.286 %
+        
+        TESTING
+        Accuracy       :    77.0 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : NN (NATAREE_KAEWPONG) COMBINED GESTURES--finger-angle-using-bones_logistic 
+Unseen Subject Data    : (COMBINED SUBJECTS) COMBINED GESTURES--finger-angle-using-bones
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    NATAREE_KAEWPONG
+        Unseen Subject :    COMBINED SUBJECTS
+        Feature        :    finger-angle-using-bones
+        Gesture Set    :    COMBINED GESTURES
+        Correct        :    2044
+        Incorrect      :    1661
+        Result         :    2044 / 3705
+        Avg Time       :    0.000265857060729 seconds
+        
+        TRAINING 
+        Accuracy       :    98.286 %
+        
+        TESTING
+        Accuracy       :    55.17 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : NN (NATAREE_KAEWPONG) COUNTING GESTURES--finger-angle-using-bones_logistic 
+Unseen Subject Data    : (COMBINED SUBJECTS) COUNTING GESTURES--finger-angle-using-bones
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    NATAREE_KAEWPONG
+        Unseen Subject :    COMBINED SUBJECTS
+        Feature        :    finger-angle-using-bones
+        Gesture Set    :    COUNTING GESTURES
+        Correct        :    4486
+        Incorrect      :    314
+        Result         :    4486 / 4800
+        Avg Time       :    0.000119166225 seconds
+        
+        TRAINING 
+        Accuracy       :    99.286 %
+        
+        TESTING
+        Accuracy       :    93.46 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : NN (NATAREE_KAEWPONG) STATUS GESTURES--finger-angle-using-bones_logistic 
+Unseen Subject Data    : (COMBINED SUBJECTS) STATUS GESTURES--finger-angle-using-bones
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    NATAREE_KAEWPONG
+        Unseen Subject :    COMBINED SUBJECTS
+        Feature        :    finger-angle-using-bones
+        Gesture Set    :    STATUS GESTURES
+        Correct        :    6727
+        Incorrect      :    1273
+        Result         :    6727 / 8000
+        Avg Time       :    0.0002147506575 seconds
+        
+        TRAINING 
+        Accuracy       :    98.0 %
+        
+        TESTING
+        Accuracy       :    84.09 %
+        
+        
+

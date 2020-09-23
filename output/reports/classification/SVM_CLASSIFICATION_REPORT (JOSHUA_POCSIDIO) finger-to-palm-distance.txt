@@ -1,0 +1,1075 @@
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : SVM (JOSHUA_POCSIDIO) COUNTING GESTURES--finger-to-palm-distance_sigmoid 
+Unseen Subject Data    : (ALLAN_TRAN) COUNTING GESTURES--finger-to-palm-distance
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    ALLAN_TRAN
+        Feature        :    finger-to-palm-distance
+        Gesture Set    :    COUNTING GESTURES
+        Correct        :    248
+        Incorrect      :    52
+        Result         :    248 / 300
+        Avg Time       :    9.33332e-05 seconds
+        
+        TRAINING 
+        Accuracy       :    100.0 %
+        
+        TESTING
+        Accuracy       :    82.67 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : SVM (JOSHUA_POCSIDIO) STATUS GESTURES--finger-to-palm-distance_sigmoid 
+Unseen Subject Data    : (ALLAN_TRAN) STATUS GESTURES--finger-to-palm-distance
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    ALLAN_TRAN
+        Feature        :    finger-to-palm-distance
+        Gesture Set    :    STATUS GESTURES
+        Correct        :    375
+        Incorrect      :    125
+        Result         :    375 / 500
+        Avg Time       :    0.00018400008 seconds
+        
+        TRAINING 
+        Accuracy       :    91.786 %
+        
+        TESTING
+        Accuracy       :    75.0 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : SVM (JOSHUA_POCSIDIO) COUNTING GESTURES--finger-to-palm-distance_sigmoid 
+Unseen Subject Data    : (JORELLE_INTERINO) COUNTING GESTURES--finger-to-palm-distance
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    JORELLE_INTERINO
+        Feature        :    finger-to-palm-distance
+        Gesture Set    :    COUNTING GESTURES
+        Correct        :    280
+        Incorrect      :    20
+        Result         :    280 / 300
+        Avg Time       :    0.000126669 seconds
+        
+        TRAINING 
+        Accuracy       :    100.0 %
+        
+        TESTING
+        Accuracy       :    93.33 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : SVM (JOSHUA_POCSIDIO) STATUS GESTURES--finger-to-palm-distance_sigmoid 
+Unseen Subject Data    : (JORELLE_INTERINO) STATUS GESTURES--finger-to-palm-distance
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    JORELLE_INTERINO
+        Feature        :    finger-to-palm-distance
+        Gesture Set    :    STATUS GESTURES
+        Correct        :    343
+        Incorrect      :    157
+        Result         :    343 / 500
+        Avg Time       :    0.00018199974 seconds
+        
+        TRAINING 
+        Accuracy       :    91.786 %
+        
+        TESTING
+        Accuracy       :    68.6 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : SVM (JOSHUA_POCSIDIO) COUNTING GESTURES--finger-to-palm-distance_sigmoid 
+Unseen Subject Data    : (JOSHUA_POCSIDIO) COUNTING GESTURES--finger-to-palm-distance
+__________________________________________________________________________________________________
+        PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    JOSHUA_POCSIDIO
+        Feature        :    finger-to-palm-distance
+        Gesture Set    :    COUNTING GESTURES
+        Correct        :    297
+        Incorrect      :    3
+        Result         :    297 / 300
+        Avg Time       :    0.0001266658 seconds
+        
+        TRAINING 
+        Accuracy       :    100.0 %
+        
+        TESTING
+        Accuracy       :    99.0 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : SVM (JOSHUA_POCSIDIO) STATUS GESTURES--finger-to-palm-distance_sigmoid 
+Unseen Subject Data    : (JOSHUA_POCSIDIO) STATUS GESTURES--finger-to-palm-distance
+__________________________________________________________________________________________________
+        PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    JOSHUA_POCSIDIO
+        Feature        :    finger-to-palm-distance
+        Gesture Set    :    STATUS GESTURES
+        Correct        :    442
+        Incorrect      :    58
+        Result         :    442 / 500
+        Avg Time       :    0.00019199904 seconds
+        
+        TRAINING 
+        Accuracy       :    91.786 %
+        
+        TESTING
+        Accuracy       :    88.4 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : SVM (JOSHUA_POCSIDIO) COUNTING GESTURES--finger-to-palm-distance_sigmoid 
+Unseen Subject Data    : (MARC_SALONGA) COUNTING GESTURES--finger-to-palm-distance
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    MARC_SALONGA
+        Feature        :    finger-to-palm-distance
+        Gesture Set    :    COUNTING GESTURES
+        Correct        :    249
+        Incorrect      :    51
+        Result         :    249 / 300
+        Avg Time       :    0.0001366683 seconds
+        
+        TRAINING 
+        Accuracy       :    100.0 %
+        
+        TESTING
+        Accuracy       :    83.0 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : SVM (JOSHUA_POCSIDIO) STATUS GESTURES--finger-to-palm-distance_sigmoid 
+Unseen Subject Data    : (MARC_SALONGA) STATUS GESTURES--finger-to-palm-distance
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    MARC_SALONGA
+        Feature        :    finger-to-palm-distance
+        Gesture Set    :    STATUS GESTURES
+        Correct        :    392
+        Incorrect      :    113
+        Result         :    392 / 505
+        Avg Time       :    0.000180200138614 seconds
+        
+        TRAINING 
+        Accuracy       :    91.786 %
+        
+        TESTING
+        Accuracy       :    77.62 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : SVM (JOSHUA_POCSIDIO) COUNTING GESTURES--finger-to-palm-distance_sigmoid 
+Unseen Subject Data    : (NATAREE_KAEWPONG) COUNTING GESTURES--finger-to-palm-distance
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    NATAREE_KAEWPONG
+        Feature        :    finger-to-palm-distance
+        Gesture Set    :    COUNTING GESTURES
+        Correct        :    247
+        Incorrect      :    53
+        Result         :    247 / 300
+        Avg Time       :    9.66671e-05 seconds
+        
+        TRAINING 
+        Accuracy       :    100.0 %
+        
+        TESTING
+        Accuracy       :    82.33 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : SVM (JOSHUA_POCSIDIO) STATUS GESTURES--finger-to-palm-distance_sigmoid 
+Unseen Subject Data    : (NATAREE_KAEWPONG) STATUS GESTURES--finger-to-palm-distance
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    NATAREE_KAEWPONG
+        Feature        :    finger-to-palm-distance
+        Gesture Set    :    STATUS GESTURES
+        Correct        :    398
+        Incorrect      :    102
+        Result         :    398 / 500
+        Avg Time       :    0.00023400186 seconds
+        
+        TRAINING 
+        Accuracy       :    91.786 %
+        
+        TESTING
+        Accuracy       :    79.6 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : SVM (JOSHUA_POCSIDIO) COMBINED GESTURES--finger-to-palm-distance_sigmoid 
+Unseen Subject Data    : (ALLAN_TRAN) COMBINED GESTURES--finger-to-palm-distance
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    ALLAN_TRAN
+        Feature        :    finger-to-palm-distance
+        Gesture Set    :    COMBINED GESTURES
+        Correct        :    368
+        Incorrect      :    132
+        Result         :    368 / 500
+        Avg Time       :    0.00017399934 seconds
+        
+        TRAINING 
+        Accuracy       :    92.643 %
+        
+        TESTING
+        Accuracy       :    73.6 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : SVM (JOSHUA_POCSIDIO) COMBINED GESTURES--finger-to-palm-distance_sigmoid 
+Unseen Subject Data    : (COMBINED SUBJECTS) COMBINED GESTURES--finger-to-palm-distance
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    COMBINED SUBJECTS
+        Feature        :    finger-to-palm-distance
+        Gesture Set    :    COMBINED GESTURES
+        Correct        :    1936
+        Incorrect      :    1769
+        Result         :    1936 / 3705
+        Avg Time       :    0.000191092955466 seconds
+        
+        TRAINING 
+        Accuracy       :    92.643 %
+        
+        TESTING
+        Accuracy       :    52.25 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : SVM (JOSHUA_POCSIDIO) COUNTING GESTURES--finger-to-palm-distance_sigmoid 
+Unseen Subject Data    : (COMBINED SUBJECTS) COUNTING GESTURES--finger-to-palm-distance
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    COMBINED SUBJECTS
+        Feature        :    finger-to-palm-distance
+        Gesture Set    :    COUNTING GESTURES
+        Correct        :    4156
+        Incorrect      :    644
+        Result         :    4156 / 4800
+        Avg Time       :    9.95832625e-05 seconds
+        
+        TRAINING 
+        Accuracy       :    100.0 %
+        
+        TESTING
+        Accuracy       :    86.58 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : SVM (JOSHUA_POCSIDIO) STATUS GESTURES--finger-to-palm-distance_sigmoid 
+Unseen Subject Data    : (COMBINED SUBJECTS) STATUS GESTURES--finger-to-palm-distance
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    COMBINED SUBJECTS
+        Feature        :    finger-to-palm-distance
+        Gesture Set    :    STATUS GESTURES
+        Correct        :    6525
+        Incorrect      :    1475
+        Result         :    6525 / 8000
+        Avg Time       :    0.00019212616125 seconds
+        
+        TRAINING 
+        Accuracy       :    91.786 %
+        
+        TESTING
+        Accuracy       :    81.56 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : SVM (JOSHUA_POCSIDIO) COMBINED GESTURES--finger-to-palm-distance_sigmoid 
+Unseen Subject Data    : (JORELLE_INTERINO) COMBINED GESTURES--finger-to-palm-distance
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    JORELLE_INTERINO
+        Feature        :    finger-to-palm-distance
+        Gesture Set    :    COMBINED GESTURES
+        Correct        :    341
+        Incorrect      :    159
+        Result         :    341 / 500
+        Avg Time       :    0.00019800438 seconds
+        
+        TRAINING 
+        Accuracy       :    92.643 %
+        
+        TESTING
+        Accuracy       :    68.2 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : SVM (JOSHUA_POCSIDIO) COMBINED GESTURES--finger-to-palm-distance_sigmoid 
+Unseen Subject Data    : (JOSHUA_POCSIDIO) COMBINED GESTURES--finger-to-palm-distance
+__________________________________________________________________________________________________
+        PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    JOSHUA_POCSIDIO
+        Feature        :    finger-to-palm-distance
+        Gesture Set    :    COMBINED GESTURES
+        Correct        :    440
+        Incorrect      :    60
+        Result         :    440 / 500
+        Avg Time       :    0.00020599998 seconds
+        
+        TRAINING 
+        Accuracy       :    92.643 %
+        
+        TESTING
+        Accuracy       :    88.0 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : SVM (JOSHUA_POCSIDIO) COMBINED GESTURES--finger-to-palm-distance_sigmoid 
+Unseen Subject Data    : (MARC_SALONGA) COMBINED GESTURES--finger-to-palm-distance
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    MARC_SALONGA
+        Feature        :    finger-to-palm-distance
+        Gesture Set    :    COMBINED GESTURES
+        Correct        :    389
+        Incorrect      :    116
+        Result         :    389 / 505
+        Avg Time       :    0.000186137465347 seconds
+        
+        TRAINING 
+        Accuracy       :    92.643 %
+        
+        TESTING
+        Accuracy       :    77.03 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : SVM (JOSHUA_POCSIDIO) COMBINED GESTURES--finger-to-palm-distance_sigmoid 
+Unseen Subject Data    : (NATAREE_KAEWPONG) COMBINED GESTURES--finger-to-palm-distance
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    NATAREE_KAEWPONG
+        Feature        :    finger-to-palm-distance
+        Gesture Set    :    COMBINED GESTURES
+        Correct        :    398
+        Incorrect      :    102
+        Result         :    398 / 500
+        Avg Time       :    0.00019200528 seconds
+        
+        TRAINING 
+        Accuracy       :    92.643 %
+        
+        TESTING
+        Accuracy       :    79.6 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : SVM (JOSHUA_POCSIDIO) COUNTING GESTURES--finger-to-palm-distance_sigmoid 
+Unseen Subject Data    : (ALLAN_TRAN) COUNTING GESTURES--finger-to-palm-distance
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    ALLAN_TRAN
+        Feature        :    finger-to-palm-distance
+        Gesture Set    :    COUNTING GESTURES
+        Correct        :    248
+        Incorrect      :    52
+        Result         :    248 / 300
+        Avg Time       :    9.66679e-05 seconds
+        
+        TRAINING 
+        Accuracy       :    100.0 %
+        
+        TESTING
+        Accuracy       :    82.67 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : SVM (JOSHUA_POCSIDIO) STATUS GESTURES--finger-to-palm-distance_sigmoid 
+Unseen Subject Data    : (ALLAN_TRAN) STATUS GESTURES--finger-to-palm-distance
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    ALLAN_TRAN
+        Feature        :    finger-to-palm-distance
+        Gesture Set    :    STATUS GESTURES
+        Correct        :    375
+        Incorrect      :    125
+        Result         :    375 / 500
+        Avg Time       :    0.00019199616 seconds
+        
+        TRAINING 
+        Accuracy       :    91.786 %
+        
+        TESTING
+        Accuracy       :    75.0 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : SVM (JOSHUA_POCSIDIO) COUNTING GESTURES--finger-to-palm-distance_sigmoid 
+Unseen Subject Data    : (JORELLE_INTERINO) COUNTING GESTURES--finger-to-palm-distance
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    JORELLE_INTERINO
+        Feature        :    finger-to-palm-distance
+        Gesture Set    :    COUNTING GESTURES
+        Correct        :    280
+        Incorrect      :    20
+        Result         :    280 / 300
+        Avg Time       :    7.66653e-05 seconds
+        
+        TRAINING 
+        Accuracy       :    100.0 %
+        
+        TESTING
+        Accuracy       :    93.33 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : SVM (JOSHUA_POCSIDIO) STATUS GESTURES--finger-to-palm-distance_sigmoid 
+Unseen Subject Data    : (JORELLE_INTERINO) STATUS GESTURES--finger-to-palm-distance
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    JORELLE_INTERINO
+        Feature        :    finger-to-palm-distance
+        Gesture Set    :    STATUS GESTURES
+        Correct        :    343
+        Incorrect      :    157
+        Result         :    343 / 500
+        Avg Time       :    0.0001979967 seconds
+        
+        TRAINING 
+        Accuracy       :    91.786 %
+        
+        TESTING
+        Accuracy       :    68.6 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : SVM (JOSHUA_POCSIDIO) COUNTING GESTURES--finger-to-palm-distance_sigmoid 
+Unseen Subject Data    : (JOSHUA_POCSIDIO) COUNTING GESTURES--finger-to-palm-distance
+__________________________________________________________________________________________________
+        PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    JOSHUA_POCSIDIO
+        Feature        :    finger-to-palm-distance
+        Gesture Set    :    COUNTING GESTURES
+        Correct        :    297
+        Incorrect      :    3
+        Result         :    297 / 300
+        Avg Time       :    0.0001033333 seconds
+        
+        TRAINING 
+        Accuracy       :    100.0 %
+        
+        TESTING
+        Accuracy       :    99.0 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : SVM (JOSHUA_POCSIDIO) STATUS GESTURES--finger-to-palm-distance_sigmoid 
+Unseen Subject Data    : (JOSHUA_POCSIDIO) STATUS GESTURES--finger-to-palm-distance
+__________________________________________________________________________________________________
+        PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    JOSHUA_POCSIDIO
+        Feature        :    finger-to-palm-distance
+        Gesture Set    :    STATUS GESTURES
+        Correct        :    442
+        Incorrect      :    58
+        Result         :    442 / 500
+        Avg Time       :    0.00020200266 seconds
+        
+        TRAINING 
+        Accuracy       :    91.786 %
+        
+        TESTING
+        Accuracy       :    88.4 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : SVM (JOSHUA_POCSIDIO) COUNTING GESTURES--finger-to-palm-distance_sigmoid 
+Unseen Subject Data    : (MARC_SALONGA) COUNTING GESTURES--finger-to-palm-distance
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    MARC_SALONGA
+        Feature        :    finger-to-palm-distance
+        Gesture Set    :    COUNTING GESTURES
+        Correct        :    249
+        Incorrect      :    51
+        Result         :    249 / 300
+        Avg Time       :    0.0001533346 seconds
+        
+        TRAINING 
+        Accuracy       :    100.0 %
+        
+        TESTING
+        Accuracy       :    83.0 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : SVM (JOSHUA_POCSIDIO) STATUS GESTURES--finger-to-palm-distance_sigmoid 
+Unseen Subject Data    : (MARC_SALONGA) STATUS GESTURES--finger-to-palm-distance
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    MARC_SALONGA
+        Feature        :    finger-to-palm-distance
+        Gesture Set    :    STATUS GESTURES
+        Correct        :    392
+        Incorrect      :    113
+        Result         :    392 / 505
+        Avg Time       :    0.000190102336634 seconds
+        
+        TRAINING 
+        Accuracy       :    91.786 %
+        
+        TESTING
+        Accuracy       :    77.62 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : SVM (JOSHUA_POCSIDIO) COUNTING GESTURES--finger-to-palm-distance_sigmoid 
+Unseen Subject Data    : (NATAREE_KAEWPONG) COUNTING GESTURES--finger-to-palm-distance
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    NATAREE_KAEWPONG
+        Feature        :    finger-to-palm-distance
+        Gesture Set    :    COUNTING GESTURES
+        Correct        :    247
+        Incorrect      :    53
+        Result         :    247 / 300
+        Avg Time       :    5.66667e-05 seconds
+        
+        TRAINING 
+        Accuracy       :    100.0 %
+        
+        TESTING
+        Accuracy       :    82.33 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : SVM (JOSHUA_POCSIDIO) STATUS GESTURES--finger-to-palm-distance_sigmoid 
+Unseen Subject Data    : (NATAREE_KAEWPONG) STATUS GESTURES--finger-to-palm-distance
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    NATAREE_KAEWPONG
+        Feature        :    finger-to-palm-distance
+        Gesture Set    :    STATUS GESTURES
+        Correct        :    398
+        Incorrect      :    102
+        Result         :    398 / 500
+        Avg Time       :    0.0001880022 seconds
+        
+        TRAINING 
+        Accuracy       :    91.786 %
+        
+        TESTING
+        Accuracy       :    79.6 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : SVM (JOSHUA_POCSIDIO) COMBINED GESTURES--finger-to-palm-distance_sigmoid 
+Unseen Subject Data    : (ALLAN_TRAN) COMBINED GESTURES--finger-to-palm-distance
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    ALLAN_TRAN
+        Feature        :    finger-to-palm-distance
+        Gesture Set    :    COMBINED GESTURES
+        Correct        :    368
+        Incorrect      :    132
+        Result         :    368 / 500
+        Avg Time       :    0.0001820007 seconds
+        
+        TRAINING 
+        Accuracy       :    92.643 %
+        
+        TESTING
+        Accuracy       :    73.6 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : SVM (JOSHUA_POCSIDIO) COMBINED GESTURES--finger-to-palm-distance_sigmoid 
+Unseen Subject Data    : (COMBINED SUBJECTS) COMBINED GESTURES--finger-to-palm-distance
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    COMBINED SUBJECTS
+        Feature        :    finger-to-palm-distance
+        Gesture Set    :    COMBINED GESTURES
+        Correct        :    1936
+        Incorrect      :    1769
+        Result         :    1936 / 3705
+        Avg Time       :    0.000185155125506 seconds
+        
+        TRAINING 
+        Accuracy       :    92.643 %
+        
+        TESTING
+        Accuracy       :    52.25 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : SVM (JOSHUA_POCSIDIO) COUNTING GESTURES--finger-to-palm-distance_sigmoid 
+Unseen Subject Data    : (COMBINED SUBJECTS) COUNTING GESTURES--finger-to-palm-distance
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    COMBINED SUBJECTS
+        Feature        :    finger-to-palm-distance
+        Gesture Set    :    COUNTING GESTURES
+        Correct        :    4156
+        Incorrect      :    644
+        Result         :    4156 / 4800
+        Avg Time       :    9.50003e-05 seconds
+        
+        TRAINING 
+        Accuracy       :    100.0 %
+        
+        TESTING
+        Accuracy       :    86.58 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : SVM (JOSHUA_POCSIDIO) COUNTING GESTURES--finger-to-palm-distance_sigmoid 
+Unseen Subject Data    : (ALLAN_TRAN) COUNTING GESTURES--finger-to-palm-distance
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    ALLAN_TRAN
+        Feature        :    finger-to-palm-distance
+        Gesture Set    :    COUNTING GESTURES
+        Correct        :    248
+        Incorrect      :    52
+        Result         :    248 / 300
+        Avg Time       :    0.0001066632 seconds
+        
+        TRAINING 
+        Accuracy       :    100.0 %
+        
+        TESTING
+        Accuracy       :    82.67 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : SVM (JOSHUA_POCSIDIO) STATUS GESTURES--finger-to-palm-distance_sigmoid 
+Unseen Subject Data    : (ALLAN_TRAN) STATUS GESTURES--finger-to-palm-distance
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    ALLAN_TRAN
+        Feature        :    finger-to-palm-distance
+        Gesture Set    :    STATUS GESTURES
+        Correct        :    375
+        Incorrect      :    125
+        Result         :    375 / 500
+        Avg Time       :    0.0001740003 seconds
+        
+        TRAINING 
+        Accuracy       :    91.786 %
+        
+        TESTING
+        Accuracy       :    75.0 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : SVM (JOSHUA_POCSIDIO) COUNTING GESTURES--finger-to-palm-distance_sigmoid 
+Unseen Subject Data    : (JORELLE_INTERINO) COUNTING GESTURES--finger-to-palm-distance
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    JORELLE_INTERINO
+        Feature        :    finger-to-palm-distance
+        Gesture Set    :    COUNTING GESTURES
+        Correct        :    280
+        Incorrect      :    20
+        Result         :    280 / 300
+        Avg Time       :    0.0001066672 seconds
+        
+        TRAINING 
+        Accuracy       :    100.0 %
+        
+        TESTING
+        Accuracy       :    93.33 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : SVM (JOSHUA_POCSIDIO) STATUS GESTURES--finger-to-palm-distance_sigmoid 
+Unseen Subject Data    : (JORELLE_INTERINO) STATUS GESTURES--finger-to-palm-distance
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    JORELLE_INTERINO
+        Feature        :    finger-to-palm-distance
+        Gesture Set    :    STATUS GESTURES
+        Correct        :    343
+        Incorrect      :    157
+        Result         :    343 / 500
+        Avg Time       :    0.00018199974 seconds
+        
+        TRAINING 
+        Accuracy       :    91.786 %
+        
+        TESTING
+        Accuracy       :    68.6 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : SVM (JOSHUA_POCSIDIO) COUNTING GESTURES--finger-to-palm-distance_sigmoid 
+Unseen Subject Data    : (JOSHUA_POCSIDIO) COUNTING GESTURES--finger-to-palm-distance
+__________________________________________________________________________________________________
+        PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    JOSHUA_POCSIDIO
+        Feature        :    finger-to-palm-distance
+        Gesture Set    :    COUNTING GESTURES
+        Correct        :    297
+        Incorrect      :    3
+        Result         :    297 / 300
+        Avg Time       :    0.0001000002 seconds
+        
+        TRAINING 
+        Accuracy       :    100.0 %
+        
+        TESTING
+        Accuracy       :    99.0 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : SVM (JOSHUA_POCSIDIO) STATUS GESTURES--finger-to-palm-distance_sigmoid 
+Unseen Subject Data    : (JOSHUA_POCSIDIO) STATUS GESTURES--finger-to-palm-distance
+__________________________________________________________________________________________________
+        PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    JOSHUA_POCSIDIO
+        Feature        :    finger-to-palm-distance
+        Gesture Set    :    STATUS GESTURES
+        Correct        :    442
+        Incorrect      :    58
+        Result         :    442 / 500
+        Avg Time       :    0.00019399842 seconds
+        
+        TRAINING 
+        Accuracy       :    91.786 %
+        
+        TESTING
+        Accuracy       :    88.4 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : SVM (JOSHUA_POCSIDIO) COUNTING GESTURES--finger-to-palm-distance_sigmoid 
+Unseen Subject Data    : (MARC_SALONGA) COUNTING GESTURES--finger-to-palm-distance
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    MARC_SALONGA
+        Feature        :    finger-to-palm-distance
+        Gesture Set    :    COUNTING GESTURES
+        Correct        :    249
+        Incorrect      :    51
+        Result         :    249 / 300
+        Avg Time       :    0.0001199988 seconds
+        
+        TRAINING 
+        Accuracy       :    100.0 %
+        
+        TESTING
+        Accuracy       :    83.0 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : SVM (JOSHUA_POCSIDIO) COUNTING GESTURES--finger-to-palm-distance_sigmoid 
+Unseen Subject Data    : (ALLAN_TRAN) COUNTING GESTURES--finger-to-palm-distance
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    ALLAN_TRAN
+        Feature        :    finger-to-palm-distance
+        Gesture Set    :    COUNTING GESTURES
+        Correct        :    248
+        Incorrect      :    52
+        Result         :    248 / 300
+        Avg Time       :    0.0001100011 seconds
+        
+        TRAINING 
+        Accuracy       :    100.0 %
+        
+        TESTING
+        Accuracy       :    82.67 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : SVM (JOSHUA_POCSIDIO) STATUS GESTURES--finger-to-palm-distance_sigmoid 
+Unseen Subject Data    : (ALLAN_TRAN) STATUS GESTURES--finger-to-palm-distance
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    ALLAN_TRAN
+        Feature        :    finger-to-palm-distance
+        Gesture Set    :    STATUS GESTURES
+        Correct        :    375
+        Incorrect      :    125
+        Result         :    375 / 500
+        Avg Time       :    0.0001780005 seconds
+        
+        TRAINING 
+        Accuracy       :    91.786 %
+        
+        TESTING
+        Accuracy       :    75.0 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : SVM (JOSHUA_POCSIDIO) COUNTING GESTURES--finger-to-palm-distance_sigmoid 
+Unseen Subject Data    : (JORELLE_INTERINO) COUNTING GESTURES--finger-to-palm-distance
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    JORELLE_INTERINO
+        Feature        :    finger-to-palm-distance
+        Gesture Set    :    COUNTING GESTURES
+        Correct        :    280
+        Incorrect      :    20
+        Result         :    280 / 300
+        Avg Time       :    9.33348e-05 seconds
+        
+        TRAINING 
+        Accuracy       :    100.0 %
+        
+        TESTING
+        Accuracy       :    93.33 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : SVM (JOSHUA_POCSIDIO) STATUS GESTURES--finger-to-palm-distance_sigmoid 
+Unseen Subject Data    : (JORELLE_INTERINO) STATUS GESTURES--finger-to-palm-distance
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    JORELLE_INTERINO
+        Feature        :    finger-to-palm-distance
+        Gesture Set    :    STATUS GESTURES
+        Correct        :    343
+        Incorrect      :    157
+        Result         :    343 / 500
+        Avg Time       :    0.00019800198 seconds
+        
+        TRAINING 
+        Accuracy       :    91.786 %
+        
+        TESTING
+        Accuracy       :    68.6 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : SVM (JOSHUA_POCSIDIO) COUNTING GESTURES--finger-to-palm-distance_sigmoid 
+Unseen Subject Data    : (JOSHUA_POCSIDIO) COUNTING GESTURES--finger-to-palm-distance
+__________________________________________________________________________________________________
+        PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    JOSHUA_POCSIDIO
+        Feature        :    finger-to-palm-distance
+        Gesture Set    :    COUNTING GESTURES
+        Correct        :    297
+        Incorrect      :    3
+        Result         :    297 / 300
+        Avg Time       :    0.0001099995 seconds
+        
+        TRAINING 
+        Accuracy       :    100.0 %
+        
+        TESTING
+        Accuracy       :    99.0 %
+        
+        
+

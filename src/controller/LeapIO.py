@@ -364,6 +364,7 @@ def create_csv_results(file_name, labels):
     writer.close()
     pass
 
+
 def create_training_csv_results():
     file_name = tra_dir + "training results.csv"
 
@@ -372,14 +373,18 @@ def create_training_csv_results():
         create_csv_results(file_name=file_name, labels=labels)
         pass
 
+
 def create_classification_csv_results():
     file_name = cla_dir + "classification results.csv"
 
     if does_file_exist(file_name) is False:
-        labels = ['type', 'classifier', 'training score', 'trained subject', 'test subject', 'gesture set', 'feature set', 'correct', 'time']
+        labels = ['type', 'classifier', 'training score', 'trained subject', 'test subject', 'gesture set',
+                  'gesture', 'prediction', 'feature set', 'correct', 'time']
         create_csv_results(file_name=file_name, labels=labels)
 
-def append_classification_csv_results(personalized, classifier_type, training_score, train_subject, test_subject, gesture_set, gesture, prediction, feature_set, correct, time):
+
+def append_classification_csv_results(personalized, classifier_type, training_score, train_subject, test_subject,
+                                      gesture_set, gesture, prediction, feature_set, correct, time):
     file_name = cla_dir + "classification results.csv"
 
     if does_file_exist(file_name) is False:
@@ -394,6 +399,7 @@ def append_classification_csv_results(personalized, classifier_type, training_sc
     writer.write(entry)
     writer.write("\n")
     writer.close()
+
 
 def append_training_csv_results(subject, classifier_type, gesture_set, feature_set, accuracy, time, penalty_acc):
     file_name = tra_dir + "training results.csv"

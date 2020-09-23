@@ -1,0 +1,1150 @@
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : NN (JOSHUA_POCSIDIO) COUNTING GESTURES--finger-angle-and-palm-distance_logistic 
+Unseen Subject Data    : (ALLAN_TRAN) COUNTING GESTURES--finger-angle-and-palm-distance
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    ALLAN_TRAN
+        Feature        :    finger-angle-and-palm-distance
+        Gesture Set    :    COUNTING GESTURES
+        Correct        :    213
+        Incorrect      :    87
+        Result         :    213 / 300
+        Avg Time       :    0.0001599976 seconds
+        
+        TRAINING 
+        Accuracy       :    99.405 %
+        
+        TESTING
+        Accuracy       :    71.0 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : NN (JOSHUA_POCSIDIO) STATUS GESTURES--finger-angle-and-palm-distance_logistic 
+Unseen Subject Data    : (ALLAN_TRAN) STATUS GESTURES--finger-angle-and-palm-distance
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    ALLAN_TRAN
+        Feature        :    finger-angle-and-palm-distance
+        Gesture Set    :    STATUS GESTURES
+        Correct        :    301
+        Incorrect      :    199
+        Result         :    301 / 500
+        Avg Time       :    0.0001020015 seconds
+        
+        TRAINING 
+        Accuracy       :    98.214 %
+        
+        TESTING
+        Accuracy       :    60.2 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : NN (JOSHUA_POCSIDIO) COUNTING GESTURES--finger-angle-and-palm-distance_logistic 
+Unseen Subject Data    : (JORELLE_INTERINO) COUNTING GESTURES--finger-angle-and-palm-distance
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    JORELLE_INTERINO
+        Feature        :    finger-angle-and-palm-distance
+        Gesture Set    :    COUNTING GESTURES
+        Correct        :    222
+        Incorrect      :    78
+        Result         :    222 / 300
+        Avg Time       :    0.0002266668 seconds
+        
+        TRAINING 
+        Accuracy       :    99.405 %
+        
+        TESTING
+        Accuracy       :    74.0 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : NN (JOSHUA_POCSIDIO) STATUS GESTURES--finger-angle-and-palm-distance_logistic 
+Unseen Subject Data    : (JORELLE_INTERINO) STATUS GESTURES--finger-angle-and-palm-distance
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    JORELLE_INTERINO
+        Feature        :    finger-angle-and-palm-distance
+        Gesture Set    :    STATUS GESTURES
+        Correct        :    300
+        Incorrect      :    200
+        Result         :    300 / 500
+        Avg Time       :    0.00011200032 seconds
+        
+        TRAINING 
+        Accuracy       :    98.214 %
+        
+        TESTING
+        Accuracy       :    60.0 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : NN (JOSHUA_POCSIDIO) COUNTING GESTURES--finger-angle-and-palm-distance_logistic 
+Unseen Subject Data    : (JOSHUA_POCSIDIO) COUNTING GESTURES--finger-angle-and-palm-distance
+__________________________________________________________________________________________________
+        PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    JOSHUA_POCSIDIO
+        Feature        :    finger-angle-and-palm-distance
+        Gesture Set    :    COUNTING GESTURES
+        Correct        :    267
+        Incorrect      :    33
+        Result         :    267 / 300
+        Avg Time       :    0.0002500025 seconds
+        
+        TRAINING 
+        Accuracy       :    99.405 %
+        
+        TESTING
+        Accuracy       :    89.0 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : NN (JOSHUA_POCSIDIO) STATUS GESTURES--finger-angle-and-palm-distance_logistic 
+Unseen Subject Data    : (JOSHUA_POCSIDIO) STATUS GESTURES--finger-angle-and-palm-distance
+__________________________________________________________________________________________________
+        PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    JOSHUA_POCSIDIO
+        Feature        :    finger-angle-and-palm-distance
+        Gesture Set    :    STATUS GESTURES
+        Correct        :    412
+        Incorrect      :    88
+        Result         :    412 / 500
+        Avg Time       :    0.00010400088 seconds
+        
+        TRAINING 
+        Accuracy       :    98.214 %
+        
+        TESTING
+        Accuracy       :    82.4 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : NN (JOSHUA_POCSIDIO) COUNTING GESTURES--finger-angle-and-palm-distance_logistic 
+Unseen Subject Data    : (MARC_SALONGA) COUNTING GESTURES--finger-angle-and-palm-distance
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    MARC_SALONGA
+        Feature        :    finger-angle-and-palm-distance
+        Gesture Set    :    COUNTING GESTURES
+        Correct        :    263
+        Incorrect      :    37
+        Result         :    263 / 300
+        Avg Time       :    0.0002500017 seconds
+        
+        TRAINING 
+        Accuracy       :    99.405 %
+        
+        TESTING
+        Accuracy       :    87.67 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : NN (JOSHUA_POCSIDIO) STATUS GESTURES--finger-angle-and-palm-distance_logistic 
+Unseen Subject Data    : (MARC_SALONGA) STATUS GESTURES--finger-angle-and-palm-distance
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    MARC_SALONGA
+        Feature        :    finger-angle-and-palm-distance
+        Gesture Set    :    STATUS GESTURES
+        Correct        :    345
+        Incorrect      :    160
+        Result         :    345 / 505
+        Avg Time       :    9.1087960396e-05 seconds
+        
+        TRAINING 
+        Accuracy       :    98.214 %
+        
+        TESTING
+        Accuracy       :    68.32 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : NN (JOSHUA_POCSIDIO) COUNTING GESTURES--finger-angle-and-palm-distance_logistic 
+Unseen Subject Data    : (NATAREE_KAEWPONG) COUNTING GESTURES--finger-angle-and-palm-distance
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    NATAREE_KAEWPONG
+        Feature        :    finger-angle-and-palm-distance
+        Gesture Set    :    COUNTING GESTURES
+        Correct        :    189
+        Incorrect      :    111
+        Result         :    189 / 300
+        Avg Time       :    0.0002000012 seconds
+        
+        TRAINING 
+        Accuracy       :    99.405 %
+        
+        TESTING
+        Accuracy       :    63.0 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : NN (JOSHUA_POCSIDIO) STATUS GESTURES--finger-angle-and-palm-distance_logistic 
+Unseen Subject Data    : (NATAREE_KAEWPONG) STATUS GESTURES--finger-angle-and-palm-distance
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    NATAREE_KAEWPONG
+        Feature        :    finger-angle-and-palm-distance
+        Gesture Set    :    STATUS GESTURES
+        Correct        :    369
+        Incorrect      :    131
+        Result         :    369 / 500
+        Avg Time       :    0.00011600292 seconds
+        
+        TRAINING 
+        Accuracy       :    98.214 %
+        
+        TESTING
+        Accuracy       :    73.8 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : NN (JOSHUA_POCSIDIO) COMBINED GESTURES--finger-angle-and-palm-distance_logistic 
+Unseen Subject Data    : (ALLAN_TRAN) COMBINED GESTURES--finger-angle-and-palm-distance
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    ALLAN_TRAN
+        Feature        :    finger-angle-and-palm-distance
+        Gesture Set    :    COMBINED GESTURES
+        Correct        :    286
+        Incorrect      :    214
+        Result         :    286 / 500
+        Avg Time       :    0.00011800086 seconds
+        
+        TRAINING 
+        Accuracy       :    98.429 %
+        
+        TESTING
+        Accuracy       :    57.2 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : NN (JOSHUA_POCSIDIO) COMBINED GESTURES--finger-angle-and-palm-distance_logistic 
+Unseen Subject Data    : (COMBINED SUBJECTS) COMBINED GESTURES--finger-angle-and-palm-distance
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    COMBINED SUBJECTS
+        Feature        :    finger-angle-and-palm-distance
+        Gesture Set    :    COMBINED GESTURES
+        Correct        :    1688
+        Incorrect      :    2017
+        Result         :    1688 / 3705
+        Avg Time       :    0.00011983854251 seconds
+        
+        TRAINING 
+        Accuracy       :    98.429 %
+        
+        TESTING
+        Accuracy       :    45.56 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : NN (JOSHUA_POCSIDIO) COUNTING GESTURES--finger-angle-and-palm-distance_logistic 
+Unseen Subject Data    : (COMBINED SUBJECTS) COUNTING GESTURES--finger-angle-and-palm-distance
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    COMBINED SUBJECTS
+        Feature        :    finger-angle-and-palm-distance
+        Gesture Set    :    COUNTING GESTURES
+        Correct        :    3888
+        Incorrect      :    912
+        Result         :    3888 / 4800
+        Avg Time       :    0.0002070844875 seconds
+        
+        TRAINING 
+        Accuracy       :    99.405 %
+        
+        TESTING
+        Accuracy       :    81.0 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : NN (JOSHUA_POCSIDIO) STATUS GESTURES--finger-angle-and-palm-distance_logistic 
+Unseen Subject Data    : (COMBINED SUBJECTS) STATUS GESTURES--finger-angle-and-palm-distance
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    COMBINED SUBJECTS
+        Feature        :    finger-angle-and-palm-distance
+        Gesture Set    :    STATUS GESTURES
+        Correct        :    5951
+        Incorrect      :    2049
+        Result         :    5951 / 8000
+        Avg Time       :    0.00011537511375 seconds
+        
+        TRAINING 
+        Accuracy       :    98.214 %
+        
+        TESTING
+        Accuracy       :    74.39 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : NN (JOSHUA_POCSIDIO) COMBINED GESTURES--finger-angle-and-palm-distance_logistic 
+Unseen Subject Data    : (JORELLE_INTERINO) COMBINED GESTURES--finger-angle-and-palm-distance
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    JORELLE_INTERINO
+        Feature        :    finger-angle-and-palm-distance
+        Gesture Set    :    COMBINED GESTURES
+        Correct        :    290
+        Incorrect      :    210
+        Result         :    290 / 500
+        Avg Time       :    0.00011199984 seconds
+        
+        TRAINING 
+        Accuracy       :    98.429 %
+        
+        TESTING
+        Accuracy       :    58.0 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : NN (JOSHUA_POCSIDIO) COMBINED GESTURES--finger-angle-and-palm-distance_logistic 
+Unseen Subject Data    : (JOSHUA_POCSIDIO) COMBINED GESTURES--finger-angle-and-palm-distance
+__________________________________________________________________________________________________
+        PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    JOSHUA_POCSIDIO
+        Feature        :    finger-angle-and-palm-distance
+        Gesture Set    :    COMBINED GESTURES
+        Correct        :    390
+        Incorrect      :    110
+        Result         :    390 / 500
+        Avg Time       :    0.00013400022 seconds
+        
+        TRAINING 
+        Accuracy       :    98.429 %
+        
+        TESTING
+        Accuracy       :    78.0 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : NN (JOSHUA_POCSIDIO) COMBINED GESTURES--finger-angle-and-palm-distance_logistic 
+Unseen Subject Data    : (MARC_SALONGA) COMBINED GESTURES--finger-angle-and-palm-distance
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    MARC_SALONGA
+        Feature        :    finger-angle-and-palm-distance
+        Gesture Set    :    COMBINED GESTURES
+        Correct        :    335
+        Incorrect      :    170
+        Result         :    335 / 505
+        Avg Time       :    0.000122771762376 seconds
+        
+        TRAINING 
+        Accuracy       :    98.429 %
+        
+        TESTING
+        Accuracy       :    66.34 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : NN (JOSHUA_POCSIDIO) COMBINED GESTURES--finger-angle-and-palm-distance_logistic 
+Unseen Subject Data    : (NATAREE_KAEWPONG) COMBINED GESTURES--finger-angle-and-palm-distance
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    NATAREE_KAEWPONG
+        Feature        :    finger-angle-and-palm-distance
+        Gesture Set    :    COMBINED GESTURES
+        Correct        :    387
+        Incorrect      :    113
+        Result         :    387 / 500
+        Avg Time       :    0.00012999666 seconds
+        
+        TRAINING 
+        Accuracy       :    98.429 %
+        
+        TESTING
+        Accuracy       :    77.4 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : NN (JOSHUA_POCSIDIO) COUNTING GESTURES--finger-angle-and-palm-distance_logistic 
+Unseen Subject Data    : (ALLAN_TRAN) COUNTING GESTURES--finger-angle-and-palm-distance
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    ALLAN_TRAN
+        Feature        :    finger-angle-and-palm-distance
+        Gesture Set    :    COUNTING GESTURES
+        Correct        :    213
+        Incorrect      :    87
+        Result         :    213 / 300
+        Avg Time       :    0.0002333322 seconds
+        
+        TRAINING 
+        Accuracy       :    99.405 %
+        
+        TESTING
+        Accuracy       :    71.0 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : NN (JOSHUA_POCSIDIO) STATUS GESTURES--finger-angle-and-palm-distance_logistic 
+Unseen Subject Data    : (ALLAN_TRAN) STATUS GESTURES--finger-angle-and-palm-distance
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    ALLAN_TRAN
+        Feature        :    finger-angle-and-palm-distance
+        Gesture Set    :    STATUS GESTURES
+        Correct        :    301
+        Incorrect      :    199
+        Result         :    301 / 500
+        Avg Time       :    0.000123999 seconds
+        
+        TRAINING 
+        Accuracy       :    98.214 %
+        
+        TESTING
+        Accuracy       :    60.2 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : NN (JOSHUA_POCSIDIO) COUNTING GESTURES--finger-angle-and-palm-distance_logistic 
+Unseen Subject Data    : (JORELLE_INTERINO) COUNTING GESTURES--finger-angle-and-palm-distance
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    JORELLE_INTERINO
+        Feature        :    finger-angle-and-palm-distance
+        Gesture Set    :    COUNTING GESTURES
+        Correct        :    222
+        Incorrect      :    78
+        Result         :    222 / 300
+        Avg Time       :    0.0001733364 seconds
+        
+        TRAINING 
+        Accuracy       :    99.405 %
+        
+        TESTING
+        Accuracy       :    74.0 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : NN (JOSHUA_POCSIDIO) STATUS GESTURES--finger-angle-and-palm-distance_logistic 
+Unseen Subject Data    : (JORELLE_INTERINO) STATUS GESTURES--finger-angle-and-palm-distance
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    JORELLE_INTERINO
+        Feature        :    finger-angle-and-palm-distance
+        Gesture Set    :    STATUS GESTURES
+        Correct        :    300
+        Incorrect      :    200
+        Result         :    300 / 500
+        Avg Time       :    0.00012400188 seconds
+        
+        TRAINING 
+        Accuracy       :    98.214 %
+        
+        TESTING
+        Accuracy       :    60.0 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : NN (JOSHUA_POCSIDIO) COUNTING GESTURES--finger-angle-and-palm-distance_logistic 
+Unseen Subject Data    : (JOSHUA_POCSIDIO) COUNTING GESTURES--finger-angle-and-palm-distance
+__________________________________________________________________________________________________
+        PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    JOSHUA_POCSIDIO
+        Feature        :    finger-angle-and-palm-distance
+        Gesture Set    :    COUNTING GESTURES
+        Correct        :    267
+        Incorrect      :    33
+        Result         :    267 / 300
+        Avg Time       :    0.0002133304 seconds
+        
+        TRAINING 
+        Accuracy       :    99.405 %
+        
+        TESTING
+        Accuracy       :    89.0 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : NN (JOSHUA_POCSIDIO) STATUS GESTURES--finger-angle-and-palm-distance_logistic 
+Unseen Subject Data    : (JOSHUA_POCSIDIO) STATUS GESTURES--finger-angle-and-palm-distance
+__________________________________________________________________________________________________
+        PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    JOSHUA_POCSIDIO
+        Feature        :    finger-angle-and-palm-distance
+        Gesture Set    :    STATUS GESTURES
+        Correct        :    412
+        Incorrect      :    88
+        Result         :    412 / 500
+        Avg Time       :    0.00013199844 seconds
+        
+        TRAINING 
+        Accuracy       :    98.214 %
+        
+        TESTING
+        Accuracy       :    82.4 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : NN (JOSHUA_POCSIDIO) COUNTING GESTURES--finger-angle-and-palm-distance_logistic 
+Unseen Subject Data    : (MARC_SALONGA) COUNTING GESTURES--finger-angle-and-palm-distance
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    MARC_SALONGA
+        Feature        :    finger-angle-and-palm-distance
+        Gesture Set    :    COUNTING GESTURES
+        Correct        :    263
+        Incorrect      :    37
+        Result         :    263 / 300
+        Avg Time       :    0.0002466694 seconds
+        
+        TRAINING 
+        Accuracy       :    99.405 %
+        
+        TESTING
+        Accuracy       :    87.67 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : NN (JOSHUA_POCSIDIO) STATUS GESTURES--finger-angle-and-palm-distance_logistic 
+Unseen Subject Data    : (MARC_SALONGA) STATUS GESTURES--finger-angle-and-palm-distance
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    MARC_SALONGA
+        Feature        :    finger-angle-and-palm-distance
+        Gesture Set    :    STATUS GESTURES
+        Correct        :    345
+        Incorrect      :    160
+        Result         :    345 / 505
+        Avg Time       :    0.00010891229703 seconds
+        
+        TRAINING 
+        Accuracy       :    98.214 %
+        
+        TESTING
+        Accuracy       :    68.32 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : NN (JOSHUA_POCSIDIO) COUNTING GESTURES--finger-angle-and-palm-distance_logistic 
+Unseen Subject Data    : (NATAREE_KAEWPONG) COUNTING GESTURES--finger-angle-and-palm-distance
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    NATAREE_KAEWPONG
+        Feature        :    finger-angle-and-palm-distance
+        Gesture Set    :    COUNTING GESTURES
+        Correct        :    189
+        Incorrect      :    111
+        Result         :    189 / 300
+        Avg Time       :    0.0002433347 seconds
+        
+        TRAINING 
+        Accuracy       :    99.405 %
+        
+        TESTING
+        Accuracy       :    63.0 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : NN (JOSHUA_POCSIDIO) STATUS GESTURES--finger-angle-and-palm-distance_logistic 
+Unseen Subject Data    : (NATAREE_KAEWPONG) STATUS GESTURES--finger-angle-and-palm-distance
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    NATAREE_KAEWPONG
+        Feature        :    finger-angle-and-palm-distance
+        Gesture Set    :    STATUS GESTURES
+        Correct        :    369
+        Incorrect      :    131
+        Result         :    369 / 500
+        Avg Time       :    0.00013400118 seconds
+        
+        TRAINING 
+        Accuracy       :    98.214 %
+        
+        TESTING
+        Accuracy       :    73.8 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : NN (JOSHUA_POCSIDIO) COMBINED GESTURES--finger-angle-and-palm-distance_logistic 
+Unseen Subject Data    : (ALLAN_TRAN) COMBINED GESTURES--finger-angle-and-palm-distance
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    ALLAN_TRAN
+        Feature        :    finger-angle-and-palm-distance
+        Gesture Set    :    COMBINED GESTURES
+        Correct        :    286
+        Incorrect      :    214
+        Result         :    286 / 500
+        Avg Time       :    0.00012600078 seconds
+        
+        TRAINING 
+        Accuracy       :    98.429 %
+        
+        TESTING
+        Accuracy       :    57.2 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : NN (JOSHUA_POCSIDIO) COMBINED GESTURES--finger-angle-and-palm-distance_logistic 
+Unseen Subject Data    : (COMBINED SUBJECTS) COMBINED GESTURES--finger-angle-and-palm-distance
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    COMBINED SUBJECTS
+        Feature        :    finger-angle-and-palm-distance
+        Gesture Set    :    COMBINED GESTURES
+        Correct        :    1688
+        Incorrect      :    2017
+        Result         :    1688 / 3705
+        Avg Time       :    0.000120108364372 seconds
+        
+        TRAINING 
+        Accuracy       :    98.429 %
+        
+        TESTING
+        Accuracy       :    45.56 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : NN (JOSHUA_POCSIDIO) COUNTING GESTURES--finger-angle-and-palm-distance_logistic 
+Unseen Subject Data    : (COMBINED SUBJECTS) COUNTING GESTURES--finger-angle-and-palm-distance
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    COMBINED SUBJECTS
+        Feature        :    finger-angle-and-palm-distance
+        Gesture Set    :    COUNTING GESTURES
+        Correct        :    3888
+        Incorrect      :    912
+        Result         :    3888 / 4800
+        Avg Time       :    0.00020937679375 seconds
+        
+        TRAINING 
+        Accuracy       :    99.405 %
+        
+        TESTING
+        Accuracy       :    81.0 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : NN (JOSHUA_POCSIDIO) STATUS GESTURES--finger-angle-and-palm-distance_logistic 
+Unseen Subject Data    : (COMBINED SUBJECTS) STATUS GESTURES--finger-angle-and-palm-distance
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    COMBINED SUBJECTS
+        Feature        :    finger-angle-and-palm-distance
+        Gesture Set    :    STATUS GESTURES
+        Correct        :    5951
+        Incorrect      :    2049
+        Result         :    5951 / 8000
+        Avg Time       :    0.00012537512875 seconds
+        
+        TRAINING 
+        Accuracy       :    98.214 %
+        
+        TESTING
+        Accuracy       :    74.39 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : NN (JOSHUA_POCSIDIO) COUNTING GESTURES--finger-angle-and-palm-distance_logistic 
+Unseen Subject Data    : (ALLAN_TRAN) COUNTING GESTURES--finger-angle-and-palm-distance
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    ALLAN_TRAN
+        Feature        :    finger-angle-and-palm-distance
+        Gesture Set    :    COUNTING GESTURES
+        Correct        :    213
+        Incorrect      :    87
+        Result         :    213 / 300
+        Avg Time       :    0.0002233337 seconds
+        
+        TRAINING 
+        Accuracy       :    99.405 %
+        
+        TESTING
+        Accuracy       :    71.0 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : NN (JOSHUA_POCSIDIO) STATUS GESTURES--finger-angle-and-palm-distance_logistic 
+Unseen Subject Data    : (ALLAN_TRAN) STATUS GESTURES--finger-angle-and-palm-distance
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    ALLAN_TRAN
+        Feature        :    finger-angle-and-palm-distance
+        Gesture Set    :    STATUS GESTURES
+        Correct        :    301
+        Incorrect      :    199
+        Result         :    301 / 500
+        Avg Time       :    0.00012200154 seconds
+        
+        TRAINING 
+        Accuracy       :    98.214 %
+        
+        TESTING
+        Accuracy       :    60.2 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : NN (JOSHUA_POCSIDIO) COUNTING GESTURES--finger-angle-and-palm-distance_logistic 
+Unseen Subject Data    : (JORELLE_INTERINO) COUNTING GESTURES--finger-angle-and-palm-distance
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    JORELLE_INTERINO
+        Feature        :    finger-angle-and-palm-distance
+        Gesture Set    :    COUNTING GESTURES
+        Correct        :    222
+        Incorrect      :    78
+        Result         :    222 / 300
+        Avg Time       :    0.0001933326 seconds
+        
+        TRAINING 
+        Accuracy       :    99.405 %
+        
+        TESTING
+        Accuracy       :    74.0 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : NN (JOSHUA_POCSIDIO) STATUS GESTURES--finger-angle-and-palm-distance_logistic 
+Unseen Subject Data    : (JORELLE_INTERINO) STATUS GESTURES--finger-angle-and-palm-distance
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    JORELLE_INTERINO
+        Feature        :    finger-angle-and-palm-distance
+        Gesture Set    :    STATUS GESTURES
+        Correct        :    300
+        Incorrect      :    200
+        Result         :    300 / 500
+        Avg Time       :    0.00011200128 seconds
+        
+        TRAINING 
+        Accuracy       :    98.214 %
+        
+        TESTING
+        Accuracy       :    60.0 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : NN (JOSHUA_POCSIDIO) COUNTING GESTURES--finger-angle-and-palm-distance_logistic 
+Unseen Subject Data    : (JOSHUA_POCSIDIO) COUNTING GESTURES--finger-angle-and-palm-distance
+__________________________________________________________________________________________________
+        PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    JOSHUA_POCSIDIO
+        Feature        :    finger-angle-and-palm-distance
+        Gesture Set    :    COUNTING GESTURES
+        Correct        :    267
+        Incorrect      :    33
+        Result         :    267 / 300
+        Avg Time       :    0.0001899979 seconds
+        
+        TRAINING 
+        Accuracy       :    99.405 %
+        
+        TESTING
+        Accuracy       :    89.0 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : NN (JOSHUA_POCSIDIO) STATUS GESTURES--finger-angle-and-palm-distance_logistic 
+Unseen Subject Data    : (JOSHUA_POCSIDIO) STATUS GESTURES--finger-angle-and-palm-distance
+__________________________________________________________________________________________________
+        PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    JOSHUA_POCSIDIO
+        Feature        :    finger-angle-and-palm-distance
+        Gesture Set    :    STATUS GESTURES
+        Correct        :    412
+        Incorrect      :    88
+        Result         :    412 / 500
+        Avg Time       :    0.00011600052 seconds
+        
+        TRAINING 
+        Accuracy       :    98.214 %
+        
+        TESTING
+        Accuracy       :    82.4 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : NN (JOSHUA_POCSIDIO) COUNTING GESTURES--finger-angle-and-palm-distance_logistic 
+Unseen Subject Data    : (MARC_SALONGA) COUNTING GESTURES--finger-angle-and-palm-distance
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    MARC_SALONGA
+        Feature        :    finger-angle-and-palm-distance
+        Gesture Set    :    COUNTING GESTURES
+        Correct        :    263
+        Incorrect      :    37
+        Result         :    263 / 300
+        Avg Time       :    0.000226666 seconds
+        
+        TRAINING 
+        Accuracy       :    99.405 %
+        
+        TESTING
+        Accuracy       :    87.67 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : NN (JOSHUA_POCSIDIO) STATUS GESTURES--finger-angle-and-palm-distance_logistic 
+Unseen Subject Data    : (MARC_SALONGA) STATUS GESTURES--finger-angle-and-palm-distance
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    MARC_SALONGA
+        Feature        :    finger-angle-and-palm-distance
+        Gesture Set    :    STATUS GESTURES
+        Correct        :    345
+        Incorrect      :    160
+        Result         :    345 / 505
+        Avg Time       :    0.000124753247525 seconds
+        
+        TRAINING 
+        Accuracy       :    98.214 %
+        
+        TESTING
+        Accuracy       :    68.32 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : NN (JOSHUA_POCSIDIO) COUNTING GESTURES--finger-angle-and-palm-distance_logistic 
+Unseen Subject Data    : (ALLAN_TRAN) COUNTING GESTURES--finger-angle-and-palm-distance
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    ALLAN_TRAN
+        Feature        :    finger-angle-and-palm-distance
+        Gesture Set    :    COUNTING GESTURES
+        Correct        :    213
+        Incorrect      :    87
+        Result         :    213 / 300
+        Avg Time       :    0.0001900011 seconds
+        
+        TRAINING 
+        Accuracy       :    99.405 %
+        
+        TESTING
+        Accuracy       :    71.0 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : NN (JOSHUA_POCSIDIO) STATUS GESTURES--finger-angle-and-palm-distance_logistic 
+Unseen Subject Data    : (ALLAN_TRAN) STATUS GESTURES--finger-angle-and-palm-distance
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    ALLAN_TRAN
+        Feature        :    finger-angle-and-palm-distance
+        Gesture Set    :    STATUS GESTURES
+        Correct        :    301
+        Incorrect      :    199
+        Result         :    301 / 500
+        Avg Time       :    0.00011599956 seconds
+        
+        TRAINING 
+        Accuracy       :    98.214 %
+        
+        TESTING
+        Accuracy       :    60.2 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : NN (JOSHUA_POCSIDIO) COUNTING GESTURES--finger-angle-and-palm-distance_logistic 
+Unseen Subject Data    : (JORELLE_INTERINO) COUNTING GESTURES--finger-angle-and-palm-distance
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    JORELLE_INTERINO
+        Feature        :    finger-angle-and-palm-distance
+        Gesture Set    :    COUNTING GESTURES
+        Correct        :    222
+        Incorrect      :    78
+        Result         :    222 / 300
+        Avg Time       :    0.0002133336 seconds
+        
+        TRAINING 
+        Accuracy       :    99.405 %
+        
+        TESTING
+        Accuracy       :    74.0 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : NN (JOSHUA_POCSIDIO) STATUS GESTURES--finger-angle-and-palm-distance_logistic 
+Unseen Subject Data    : (JORELLE_INTERINO) STATUS GESTURES--finger-angle-and-palm-distance
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    JORELLE_INTERINO
+        Feature        :    finger-angle-and-palm-distance
+        Gesture Set    :    STATUS GESTURES
+        Correct        :    300
+        Incorrect      :    200
+        Result         :    300 / 500
+        Avg Time       :    0.00011600052 seconds
+        
+        TRAINING 
+        Accuracy       :    98.214 %
+        
+        TESTING
+        Accuracy       :    60.0 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : NN (JOSHUA_POCSIDIO) COUNTING GESTURES--finger-angle-and-palm-distance_logistic 
+Unseen Subject Data    : (JOSHUA_POCSIDIO) COUNTING GESTURES--finger-angle-and-palm-distance
+__________________________________________________________________________________________________
+        PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    JOSHUA_POCSIDIO
+        Feature        :    finger-angle-and-palm-distance
+        Gesture Set    :    COUNTING GESTURES
+        Correct        :    267
+        Incorrect      :    33
+        Result         :    267 / 300
+        Avg Time       :    0.000186668 seconds
+        
+        TRAINING 
+        Accuracy       :    99.405 %
+        
+        TESTING
+        Accuracy       :    89.0 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : NN (JOSHUA_POCSIDIO) STATUS GESTURES--finger-angle-and-palm-distance_logistic 
+Unseen Subject Data    : (JOSHUA_POCSIDIO) STATUS GESTURES--finger-angle-and-palm-distance
+__________________________________________________________________________________________________
+        PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    JOSHUA_POCSIDIO
+        Feature        :    finger-angle-and-palm-distance
+        Gesture Set    :    STATUS GESTURES
+        Correct        :    412
+        Incorrect      :    88
+        Result         :    412 / 500
+        Avg Time       :    0.00015999982 seconds
+        
+        TRAINING 
+        Accuracy       :    98.214 %
+        
+        TESTING
+        Accuracy       :    82.4 %
+        
+        
+

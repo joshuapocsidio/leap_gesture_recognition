@@ -1,0 +1,350 @@
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : SVM (NATAREE_KAEWPONG) COUNTING GESTURES--finger-between-distance_sigmoid 
+Unseen Subject Data    : (ALLAN_TRAN) COUNTING GESTURES--finger-between-distance
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    NATAREE_KAEWPONG
+        Unseen Subject :    ALLAN_TRAN
+        Feature        :    finger-between-distance
+        Gesture Set    :    COUNTING GESTURES
+        Correct        :    239
+        Incorrect      :    61
+        Result         :    239 / 300
+        Avg Time       :    0.0001533362 seconds
+        
+        TRAINING 
+        Accuracy       :    89.286 %
+        
+        TESTING
+        Accuracy       :    79.67 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : SVM (NATAREE_KAEWPONG) STATUS GESTURES--finger-between-distance_sigmoid 
+Unseen Subject Data    : (ALLAN_TRAN) STATUS GESTURES--finger-between-distance
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    NATAREE_KAEWPONG
+        Unseen Subject :    ALLAN_TRAN
+        Feature        :    finger-between-distance
+        Gesture Set    :    STATUS GESTURES
+        Correct        :    367
+        Incorrect      :    133
+        Result         :    367 / 500
+        Avg Time       :    0.00015599868 seconds
+        
+        TRAINING 
+        Accuracy       :    92.0 %
+        
+        TESTING
+        Accuracy       :    73.4 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : SVM (NATAREE_KAEWPONG) COUNTING GESTURES--finger-between-distance_sigmoid 
+Unseen Subject Data    : (JORELLE_INTERINO) COUNTING GESTURES--finger-between-distance
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    NATAREE_KAEWPONG
+        Unseen Subject :    JORELLE_INTERINO
+        Feature        :    finger-between-distance
+        Gesture Set    :    COUNTING GESTURES
+        Correct        :    250
+        Incorrect      :    50
+        Result         :    250 / 300
+        Avg Time       :    0.0001233359 seconds
+        
+        TRAINING 
+        Accuracy       :    89.286 %
+        
+        TESTING
+        Accuracy       :    83.33 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : SVM (NATAREE_KAEWPONG) STATUS GESTURES--finger-between-distance_sigmoid 
+Unseen Subject Data    : (JORELLE_INTERINO) STATUS GESTURES--finger-between-distance
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    NATAREE_KAEWPONG
+        Unseen Subject :    JORELLE_INTERINO
+        Feature        :    finger-between-distance
+        Gesture Set    :    STATUS GESTURES
+        Correct        :    366
+        Incorrect      :    134
+        Result         :    366 / 500
+        Avg Time       :    0.00015799998 seconds
+        
+        TRAINING 
+        Accuracy       :    92.0 %
+        
+        TESTING
+        Accuracy       :    73.2 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : SVM (NATAREE_KAEWPONG) COUNTING GESTURES--finger-between-distance_sigmoid 
+Unseen Subject Data    : (JOSHUA_POCSIDIO) COUNTING GESTURES--finger-between-distance
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    NATAREE_KAEWPONG
+        Unseen Subject :    JOSHUA_POCSIDIO
+        Feature        :    finger-between-distance
+        Gesture Set    :    COUNTING GESTURES
+        Correct        :    232
+        Incorrect      :    68
+        Result         :    232 / 300
+        Avg Time       :    0.0001633331 seconds
+        
+        TRAINING 
+        Accuracy       :    89.286 %
+        
+        TESTING
+        Accuracy       :    77.33 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : SVM (NATAREE_KAEWPONG) STATUS GESTURES--finger-between-distance_sigmoid 
+Unseen Subject Data    : (JOSHUA_POCSIDIO) STATUS GESTURES--finger-between-distance
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    NATAREE_KAEWPONG
+        Unseen Subject :    JOSHUA_POCSIDIO
+        Feature        :    finger-between-distance
+        Gesture Set    :    STATUS GESTURES
+        Correct        :    412
+        Incorrect      :    88
+        Result         :    412 / 500
+        Avg Time       :    0.00016400004 seconds
+        
+        TRAINING 
+        Accuracy       :    92.0 %
+        
+        TESTING
+        Accuracy       :    82.4 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : SVM (NATAREE_KAEWPONG) COUNTING GESTURES--finger-between-distance_sigmoid 
+Unseen Subject Data    : (MARC_SALONGA) COUNTING GESTURES--finger-between-distance
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    NATAREE_KAEWPONG
+        Unseen Subject :    MARC_SALONGA
+        Feature        :    finger-between-distance
+        Gesture Set    :    COUNTING GESTURES
+        Correct        :    242
+        Incorrect      :    58
+        Result         :    242 / 300
+        Avg Time       :    0.0001399958 seconds
+        
+        TRAINING 
+        Accuracy       :    89.286 %
+        
+        TESTING
+        Accuracy       :    80.67 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : SVM (NATAREE_KAEWPONG) STATUS GESTURES--finger-between-distance_sigmoid 
+Unseen Subject Data    : (MARC_SALONGA) STATUS GESTURES--finger-between-distance
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    NATAREE_KAEWPONG
+        Unseen Subject :    MARC_SALONGA
+        Feature        :    finger-between-distance
+        Gesture Set    :    STATUS GESTURES
+        Correct        :    415
+        Incorrect      :    90
+        Result         :    415 / 505
+        Avg Time       :    0.000164358712871 seconds
+        
+        TRAINING 
+        Accuracy       :    92.0 %
+        
+        TESTING
+        Accuracy       :    82.18 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : SVM (NATAREE_KAEWPONG) COUNTING GESTURES--finger-between-distance_sigmoid 
+Unseen Subject Data    : (NATAREE_KAEWPONG) COUNTING GESTURES--finger-between-distance
+__________________________________________________________________________________________________
+        PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    NATAREE_KAEWPONG
+        Unseen Subject :    NATAREE_KAEWPONG
+        Feature        :    finger-between-distance
+        Gesture Set    :    COUNTING GESTURES
+        Correct        :    246
+        Incorrect      :    54
+        Result         :    246 / 300
+        Avg Time       :    0.0001366683 seconds
+        
+        TRAINING 
+        Accuracy       :    89.286 %
+        
+        TESTING
+        Accuracy       :    82.0 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : SVM (NATAREE_KAEWPONG) STATUS GESTURES--finger-between-distance_sigmoid 
+Unseen Subject Data    : (NATAREE_KAEWPONG) STATUS GESTURES--finger-between-distance
+__________________________________________________________________________________________________
+        PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    NATAREE_KAEWPONG
+        Unseen Subject :    NATAREE_KAEWPONG
+        Feature        :    finger-between-distance
+        Gesture Set    :    STATUS GESTURES
+        Correct        :    439
+        Incorrect      :    61
+        Result         :    439 / 500
+        Avg Time       :    0.00014000028 seconds
+        
+        TRAINING 
+        Accuracy       :    92.0 %
+        
+        TESTING
+        Accuracy       :    87.8 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : SVM (NATAREE_KAEWPONG) COMBINED GESTURES--finger-between-distance_sigmoid 
+Unseen Subject Data    : (ALLAN_TRAN) COMBINED GESTURES--finger-between-distance
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    NATAREE_KAEWPONG
+        Unseen Subject :    ALLAN_TRAN
+        Feature        :    finger-between-distance
+        Gesture Set    :    COMBINED GESTURES
+        Correct        :    363
+        Incorrect      :    137
+        Result         :    363 / 500
+        Avg Time       :    0.00015400122 seconds
+        
+        TRAINING 
+        Accuracy       :    92.643 %
+        
+        TESTING
+        Accuracy       :    72.6 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : SVM (NATAREE_KAEWPONG) COMBINED GESTURES--finger-between-distance_sigmoid 
+Unseen Subject Data    : (COMBINED SUBJECTS) COMBINED GESTURES--finger-between-distance
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    NATAREE_KAEWPONG
+        Unseen Subject :    COMBINED SUBJECTS
+        Feature        :    finger-between-distance
+        Gesture Set    :    COMBINED GESTURES
+        Correct        :    1992
+        Incorrect      :    1713
+        Result         :    1992 / 3705
+        Avg Time       :    0.000162214110661 seconds
+        
+        TRAINING 
+        Accuracy       :    92.643 %
+        
+        TESTING
+        Accuracy       :    53.77 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : SVM (NATAREE_KAEWPONG) COUNTING GESTURES--finger-between-distance_sigmoid 
+Unseen Subject Data    : (COMBINED SUBJECTS) COUNTING GESTURES--finger-between-distance
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    NATAREE_KAEWPONG
+        Unseen Subject :    COMBINED SUBJECTS
+        Feature        :    finger-between-distance
+        Gesture Set    :    COUNTING GESTURES
+        Correct        :    3837
+        Incorrect      :    963
+        Result         :    3837 / 4800
+        Avg Time       :    0.00014520821875 seconds
+        
+        TRAINING 
+        Accuracy       :    89.286 %
+        
+        TESTING
+        Accuracy       :    79.94 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : SVM (NATAREE_KAEWPONG) STATUS GESTURES--finger-between-distance_sigmoid 
+Unseen Subject Data    : (COMBINED SUBJECTS) STATUS GESTURES--finger-between-distance
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    NATAREE_KAEWPONG
+        Unseen Subject :    COMBINED SUBJECTS
+        Feature        :    finger-between-distance
+        Gesture Set    :    STATUS GESTURES
+        Correct        :    6663
+        Incorrect      :    1337
+        Result         :    6663 / 8000
+        Avg Time       :    0.000151500225 seconds
+        
+        TRAINING 
+        Accuracy       :    92.0 %
+        
+        TESTING
+        Accuracy       :    83.29 %
+        
+        
+

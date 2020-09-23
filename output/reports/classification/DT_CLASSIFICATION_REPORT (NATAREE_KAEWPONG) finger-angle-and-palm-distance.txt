@@ -1,0 +1,350 @@
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : DT (NATAREE_KAEWPONG) COUNTING GESTURES--finger-angle-and-palm-distance_entropy 
+Unseen Subject Data    : (ALLAN_TRAN) COUNTING GESTURES--finger-angle-and-palm-distance
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    NATAREE_KAEWPONG
+        Unseen Subject :    ALLAN_TRAN
+        Feature        :    finger-angle-and-palm-distance
+        Gesture Set    :    COUNTING GESTURES
+        Correct        :    277
+        Incorrect      :    23
+        Result         :    277 / 300
+        Avg Time       :    9.00017e-05 seconds
+        
+        TRAINING 
+        Accuracy       :    100.0 %
+        
+        TESTING
+        Accuracy       :    92.33 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : DT (NATAREE_KAEWPONG) STATUS GESTURES--finger-angle-and-palm-distance_entropy 
+Unseen Subject Data    : (ALLAN_TRAN) STATUS GESTURES--finger-angle-and-palm-distance
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    NATAREE_KAEWPONG
+        Unseen Subject :    ALLAN_TRAN
+        Feature        :    finger-angle-and-palm-distance
+        Gesture Set    :    STATUS GESTURES
+        Correct        :    306
+        Incorrect      :    194
+        Result         :    306 / 500
+        Avg Time       :    9.800034e-05 seconds
+        
+        TRAINING 
+        Accuracy       :    99.0 %
+        
+        TESTING
+        Accuracy       :    61.2 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : DT (NATAREE_KAEWPONG) COUNTING GESTURES--finger-angle-and-palm-distance_entropy 
+Unseen Subject Data    : (JORELLE_INTERINO) COUNTING GESTURES--finger-angle-and-palm-distance
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    NATAREE_KAEWPONG
+        Unseen Subject :    JORELLE_INTERINO
+        Feature        :    finger-angle-and-palm-distance
+        Gesture Set    :    COUNTING GESTURES
+        Correct        :    289
+        Incorrect      :    11
+        Result         :    289 / 300
+        Avg Time       :    6.66684e-05 seconds
+        
+        TRAINING 
+        Accuracy       :    100.0 %
+        
+        TESTING
+        Accuracy       :    96.33 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : DT (NATAREE_KAEWPONG) STATUS GESTURES--finger-angle-and-palm-distance_entropy 
+Unseen Subject Data    : (JORELLE_INTERINO) STATUS GESTURES--finger-angle-and-palm-distance
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    NATAREE_KAEWPONG
+        Unseen Subject :    JORELLE_INTERINO
+        Feature        :    finger-angle-and-palm-distance
+        Gesture Set    :    STATUS GESTURES
+        Correct        :    283
+        Incorrect      :    217
+        Result         :    283 / 500
+        Avg Time       :    0.0001019991 seconds
+        
+        TRAINING 
+        Accuracy       :    99.0 %
+        
+        TESTING
+        Accuracy       :    56.6 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : DT (NATAREE_KAEWPONG) COUNTING GESTURES--finger-angle-and-palm-distance_entropy 
+Unseen Subject Data    : (JOSHUA_POCSIDIO) COUNTING GESTURES--finger-angle-and-palm-distance
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    NATAREE_KAEWPONG
+        Unseen Subject :    JOSHUA_POCSIDIO
+        Feature        :    finger-angle-and-palm-distance
+        Gesture Set    :    COUNTING GESTURES
+        Correct        :    229
+        Incorrect      :    71
+        Result         :    229 / 300
+        Avg Time       :    9.66695e-05 seconds
+        
+        TRAINING 
+        Accuracy       :    100.0 %
+        
+        TESTING
+        Accuracy       :    76.33 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : DT (NATAREE_KAEWPONG) STATUS GESTURES--finger-angle-and-palm-distance_entropy 
+Unseen Subject Data    : (JOSHUA_POCSIDIO) STATUS GESTURES--finger-angle-and-palm-distance
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    NATAREE_KAEWPONG
+        Unseen Subject :    JOSHUA_POCSIDIO
+        Feature        :    finger-angle-and-palm-distance
+        Gesture Set    :    STATUS GESTURES
+        Correct        :    358
+        Incorrect      :    142
+        Result         :    358 / 500
+        Avg Time       :    8.999994e-05 seconds
+        
+        TRAINING 
+        Accuracy       :    99.0 %
+        
+        TESTING
+        Accuracy       :    71.6 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : DT (NATAREE_KAEWPONG) COUNTING GESTURES--finger-angle-and-palm-distance_entropy 
+Unseen Subject Data    : (MARC_SALONGA) COUNTING GESTURES--finger-angle-and-palm-distance
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    NATAREE_KAEWPONG
+        Unseen Subject :    MARC_SALONGA
+        Feature        :    finger-angle-and-palm-distance
+        Gesture Set    :    COUNTING GESTURES
+        Correct        :    274
+        Incorrect      :    26
+        Result         :    274 / 300
+        Avg Time       :    6.33329e-05 seconds
+        
+        TRAINING 
+        Accuracy       :    100.0 %
+        
+        TESTING
+        Accuracy       :    91.33 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : DT (NATAREE_KAEWPONG) STATUS GESTURES--finger-angle-and-palm-distance_entropy 
+Unseen Subject Data    : (MARC_SALONGA) STATUS GESTURES--finger-angle-and-palm-distance
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    NATAREE_KAEWPONG
+        Unseen Subject :    MARC_SALONGA
+        Feature        :    finger-angle-and-palm-distance
+        Gesture Set    :    STATUS GESTURES
+        Correct        :    354
+        Incorrect      :    151
+        Result         :    354 / 505
+        Avg Time       :    8.51487326733e-05 seconds
+        
+        TRAINING 
+        Accuracy       :    99.0 %
+        
+        TESTING
+        Accuracy       :    70.1 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : DT (NATAREE_KAEWPONG) COUNTING GESTURES--finger-angle-and-palm-distance_entropy 
+Unseen Subject Data    : (NATAREE_KAEWPONG) COUNTING GESTURES--finger-angle-and-palm-distance
+__________________________________________________________________________________________________
+        PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    NATAREE_KAEWPONG
+        Unseen Subject :    NATAREE_KAEWPONG
+        Feature        :    finger-angle-and-palm-distance
+        Gesture Set    :    COUNTING GESTURES
+        Correct        :    260
+        Incorrect      :    40
+        Result         :    260 / 300
+        Avg Time       :    8.99993e-05 seconds
+        
+        TRAINING 
+        Accuracy       :    100.0 %
+        
+        TESTING
+        Accuracy       :    86.67 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : DT (NATAREE_KAEWPONG) STATUS GESTURES--finger-angle-and-palm-distance_entropy 
+Unseen Subject Data    : (NATAREE_KAEWPONG) STATUS GESTURES--finger-angle-and-palm-distance
+__________________________________________________________________________________________________
+        PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    NATAREE_KAEWPONG
+        Unseen Subject :    NATAREE_KAEWPONG
+        Feature        :    finger-angle-and-palm-distance
+        Gesture Set    :    STATUS GESTURES
+        Correct        :    357
+        Incorrect      :    143
+        Result         :    357 / 500
+        Avg Time       :    8.39994e-05 seconds
+        
+        TRAINING 
+        Accuracy       :    99.0 %
+        
+        TESTING
+        Accuracy       :    71.4 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : DT (NATAREE_KAEWPONG) COMBINED GESTURES--finger-angle-and-palm-distance_entropy 
+Unseen Subject Data    : (ALLAN_TRAN) COMBINED GESTURES--finger-angle-and-palm-distance
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    NATAREE_KAEWPONG
+        Unseen Subject :    ALLAN_TRAN
+        Feature        :    finger-angle-and-palm-distance
+        Gesture Set    :    COMBINED GESTURES
+        Correct        :    332
+        Incorrect      :    168
+        Result         :    332 / 500
+        Avg Time       :    6.200142e-05 seconds
+        
+        TRAINING 
+        Accuracy       :    98.714 %
+        
+        TESTING
+        Accuracy       :    66.4 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : DT (NATAREE_KAEWPONG) COMBINED GESTURES--finger-angle-and-palm-distance_entropy 
+Unseen Subject Data    : (COMBINED SUBJECTS) COMBINED GESTURES--finger-angle-and-palm-distance
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    NATAREE_KAEWPONG
+        Unseen Subject :    COMBINED SUBJECTS
+        Feature        :    finger-angle-and-palm-distance
+        Gesture Set    :    COMBINED GESTURES
+        Correct        :    1804
+        Incorrect      :    1901
+        Result         :    1804 / 3705
+        Avg Time       :    9.1768194332e-05 seconds
+        
+        TRAINING 
+        Accuracy       :    98.714 %
+        
+        TESTING
+        Accuracy       :    48.69 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : DT (NATAREE_KAEWPONG) COUNTING GESTURES--finger-angle-and-palm-distance_entropy 
+Unseen Subject Data    : (COMBINED SUBJECTS) COUNTING GESTURES--finger-angle-and-palm-distance
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    NATAREE_KAEWPONG
+        Unseen Subject :    COMBINED SUBJECTS
+        Feature        :    finger-angle-and-palm-distance
+        Gesture Set    :    COUNTING GESTURES
+        Correct        :    4300
+        Incorrect      :    500
+        Result         :    4300 / 4800
+        Avg Time       :    8.5833775e-05 seconds
+        
+        TRAINING 
+        Accuracy       :    100.0 %
+        
+        TESTING
+        Accuracy       :    89.58 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : DT (NATAREE_KAEWPONG) STATUS GESTURES--finger-angle-and-palm-distance_entropy 
+Unseen Subject Data    : (COMBINED SUBJECTS) STATUS GESTURES--finger-angle-and-palm-distance
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    NATAREE_KAEWPONG
+        Unseen Subject :    COMBINED SUBJECTS
+        Feature        :    finger-angle-and-palm-distance
+        Gesture Set    :    STATUS GESTURES
+        Correct        :    6061
+        Incorrect      :    1939
+        Result         :    6061 / 8000
+        Avg Time       :    8.937498375e-05 seconds
+        
+        TRAINING 
+        Accuracy       :    99.0 %
+        
+        TESTING
+        Accuracy       :    75.76 %
+        
+        
+

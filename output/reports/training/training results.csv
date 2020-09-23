@@ -2159,15 +2159,3 @@ NATAREE_KAEWPONG,dt,COMBINED GESTURES,finger-to-palm-distance,99.333,3.427,-0.31
 NATAREE_KAEWPONG,dt,COMBINED GESTURES,finger-to-palm-distance,99.0,3.401,-0.857
 NATAREE_KAEWPONG,dt,COMBINED GESTURES,finger-to-palm-distance,99.5,3.355,-0.143
 NATAREE_KAEWPONG,dt,COMBINED GESTURES,finger-to-palm-distance,99.5,3.541,-0.214
-ALLAN_TRAN,svm,COUNTING GESTURES,finger-angle-and-palm-distance,97.5,3.632,-0.476
-ALLAN_TRAN,svm,COUNTING GESTURES,finger-angle-and-palm-distance,97.222,1.773,-0.873
-ALLAN_TRAN,svm,COUNTING GESTURES,finger-angle-and-palm-distance,97.222,1.763,-0.873
-ALLAN_TRAN,svm,COUNTING GESTURES,finger-angle-and-palm-distance,95.833,1.652,-2.977
-ALLAN_TRAN,svm,COUNTING GESTURES,finger-angle-and-palm-distance,98.889,1.748,1.151
-ALLAN_TRAN,svm,COUNTING GESTURES,finger-angle-and-palm-distance,97.778,1.75,-0.079
-ALLAN_TRAN,svm,COUNTING GESTURES,finger-angle-and-palm-distance,97.778,1.762,-0.079
-ALLAN_TRAN,svm,COUNTING GESTURES,finger-angle-and-palm-distance,98.056,1.766,0.318
-ALLAN_TRAN,svm,COUNTING GESTURES,finger-angle-and-palm-distance,98.333,1.911,0.714
-ALLAN_TRAN,svm,COUNTING GESTURES,finger-angle-and-palm-distance,97.5,1.779,-0.476
-ALLAN_TRAN,nn,COUNTING GESTURES,finger-angle-and-palm-distance,97.222,29.947,-1.826
-ALLAN_TRAN,nn,COUNTING GESTURES,finger-angle-and-palm-distance,98.889,30.703,0.079

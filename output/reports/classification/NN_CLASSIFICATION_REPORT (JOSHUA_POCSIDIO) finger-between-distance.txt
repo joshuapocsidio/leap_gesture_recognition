@@ -1,0 +1,1125 @@
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : NN (JOSHUA_POCSIDIO) COUNTING GESTURES--finger-between-distance_logistic 
+Unseen Subject Data    : (ALLAN_TRAN) COUNTING GESTURES--finger-between-distance
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    ALLAN_TRAN
+        Feature        :    finger-between-distance
+        Gesture Set    :    COUNTING GESTURES
+        Correct        :    239
+        Incorrect      :    61
+        Result         :    239 / 300
+        Avg Time       :    0.0002300023 seconds
+        
+        TRAINING 
+        Accuracy       :    95.357 %
+        
+        TESTING
+        Accuracy       :    79.67 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : NN (JOSHUA_POCSIDIO) STATUS GESTURES--finger-between-distance_logistic 
+Unseen Subject Data    : (ALLAN_TRAN) STATUS GESTURES--finger-between-distance
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    ALLAN_TRAN
+        Feature        :    finger-between-distance
+        Gesture Set    :    STATUS GESTURES
+        Correct        :    308
+        Incorrect      :    192
+        Result         :    308 / 500
+        Avg Time       :    0.00020800032 seconds
+        
+        TRAINING 
+        Accuracy       :    96.643 %
+        
+        TESTING
+        Accuracy       :    61.6 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : NN (JOSHUA_POCSIDIO) COUNTING GESTURES--finger-between-distance_logistic 
+Unseen Subject Data    : (JORELLE_INTERINO) COUNTING GESTURES--finger-between-distance
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    JORELLE_INTERINO
+        Feature        :    finger-between-distance
+        Gesture Set    :    COUNTING GESTURES
+        Correct        :    269
+        Incorrect      :    31
+        Result         :    269 / 300
+        Avg Time       :    0.0002033327 seconds
+        
+        TRAINING 
+        Accuracy       :    95.357 %
+        
+        TESTING
+        Accuracy       :    89.67 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : NN (JOSHUA_POCSIDIO) STATUS GESTURES--finger-between-distance_logistic 
+Unseen Subject Data    : (JORELLE_INTERINO) STATUS GESTURES--finger-between-distance
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    JORELLE_INTERINO
+        Feature        :    finger-between-distance
+        Gesture Set    :    STATUS GESTURES
+        Correct        :    352
+        Incorrect      :    148
+        Result         :    352 / 500
+        Avg Time       :    0.00021000114 seconds
+        
+        TRAINING 
+        Accuracy       :    96.643 %
+        
+        TESTING
+        Accuracy       :    70.4 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : NN (JOSHUA_POCSIDIO) COUNTING GESTURES--finger-between-distance_logistic 
+Unseen Subject Data    : (JOSHUA_POCSIDIO) COUNTING GESTURES--finger-between-distance
+__________________________________________________________________________________________________
+        PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    JOSHUA_POCSIDIO
+        Feature        :    finger-between-distance
+        Gesture Set    :    COUNTING GESTURES
+        Correct        :    259
+        Incorrect      :    41
+        Result         :    259 / 300
+        Avg Time       :    0.000193335 seconds
+        
+        TRAINING 
+        Accuracy       :    95.357 %
+        
+        TESTING
+        Accuracy       :    86.33 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : NN (JOSHUA_POCSIDIO) STATUS GESTURES--finger-between-distance_logistic 
+Unseen Subject Data    : (JOSHUA_POCSIDIO) STATUS GESTURES--finger-between-distance
+__________________________________________________________________________________________________
+        PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    JOSHUA_POCSIDIO
+        Feature        :    finger-between-distance
+        Gesture Set    :    STATUS GESTURES
+        Correct        :    415
+        Incorrect      :    85
+        Result         :    415 / 500
+        Avg Time       :    0.0001820007 seconds
+        
+        TRAINING 
+        Accuracy       :    96.643 %
+        
+        TESTING
+        Accuracy       :    83.0 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : NN (JOSHUA_POCSIDIO) COUNTING GESTURES--finger-between-distance_logistic 
+Unseen Subject Data    : (MARC_SALONGA) COUNTING GESTURES--finger-between-distance
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    MARC_SALONGA
+        Feature        :    finger-between-distance
+        Gesture Set    :    COUNTING GESTURES
+        Correct        :    247
+        Incorrect      :    53
+        Result         :    247 / 300
+        Avg Time       :    0.0002366677 seconds
+        
+        TRAINING 
+        Accuracy       :    95.357 %
+        
+        TESTING
+        Accuracy       :    82.33 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : NN (JOSHUA_POCSIDIO) STATUS GESTURES--finger-between-distance_logistic 
+Unseen Subject Data    : (MARC_SALONGA) STATUS GESTURES--finger-between-distance
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    MARC_SALONGA
+        Feature        :    finger-between-distance
+        Gesture Set    :    STATUS GESTURES
+        Correct        :    401
+        Incorrect      :    104
+        Result         :    401 / 505
+        Avg Time       :    0.000217823643564 seconds
+        
+        TRAINING 
+        Accuracy       :    96.643 %
+        
+        TESTING
+        Accuracy       :    79.41 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : NN (JOSHUA_POCSIDIO) COUNTING GESTURES--finger-between-distance_logistic 
+Unseen Subject Data    : (NATAREE_KAEWPONG) COUNTING GESTURES--finger-between-distance
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    NATAREE_KAEWPONG
+        Feature        :    finger-between-distance
+        Gesture Set    :    COUNTING GESTURES
+        Correct        :    229
+        Incorrect      :    71
+        Result         :    229 / 300
+        Avg Time       :    0.0002100029 seconds
+        
+        TRAINING 
+        Accuracy       :    95.357 %
+        
+        TESTING
+        Accuracy       :    76.33 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : NN (JOSHUA_POCSIDIO) STATUS GESTURES--finger-between-distance_logistic 
+Unseen Subject Data    : (NATAREE_KAEWPONG) STATUS GESTURES--finger-between-distance
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    NATAREE_KAEWPONG
+        Feature        :    finger-between-distance
+        Gesture Set    :    STATUS GESTURES
+        Correct        :    369
+        Incorrect      :    131
+        Result         :    369 / 500
+        Avg Time       :    0.0002020017 seconds
+        
+        TRAINING 
+        Accuracy       :    96.643 %
+        
+        TESTING
+        Accuracy       :    73.8 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : NN (JOSHUA_POCSIDIO) COMBINED GESTURES--finger-between-distance_logistic 
+Unseen Subject Data    : (ALLAN_TRAN) COMBINED GESTURES--finger-between-distance
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    ALLAN_TRAN
+        Feature        :    finger-between-distance
+        Gesture Set    :    COMBINED GESTURES
+        Correct        :    315
+        Incorrect      :    185
+        Result         :    315 / 500
+        Avg Time       :    0.0002280018 seconds
+        
+        TRAINING 
+        Accuracy       :    96.571 %
+        
+        TESTING
+        Accuracy       :    63.0 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : NN (JOSHUA_POCSIDIO) COMBINED GESTURES--finger-between-distance_logistic 
+Unseen Subject Data    : (COMBINED SUBJECTS) COMBINED GESTURES--finger-between-distance
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    COMBINED SUBJECTS
+        Feature        :    finger-between-distance
+        Gesture Set    :    COMBINED GESTURES
+        Correct        :    1883
+        Incorrect      :    1822
+        Result         :    1883 / 3705
+        Avg Time       :    0.000222942364372 seconds
+        
+        TRAINING 
+        Accuracy       :    96.571 %
+        
+        TESTING
+        Accuracy       :    50.82 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : NN (JOSHUA_POCSIDIO) COUNTING GESTURES--finger-between-distance_logistic 
+Unseen Subject Data    : (COMBINED SUBJECTS) COUNTING GESTURES--finger-between-distance
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    COMBINED SUBJECTS
+        Feature        :    finger-between-distance
+        Gesture Set    :    COUNTING GESTURES
+        Correct        :    3931
+        Incorrect      :    869
+        Result         :    3931 / 4800
+        Avg Time       :    0.00023270934375 seconds
+        
+        TRAINING 
+        Accuracy       :    95.357 %
+        
+        TESTING
+        Accuracy       :    81.9 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : NN (JOSHUA_POCSIDIO) STATUS GESTURES--finger-between-distance_logistic 
+Unseen Subject Data    : (COMBINED SUBJECTS) STATUS GESTURES--finger-between-distance
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    COMBINED SUBJECTS
+        Feature        :    finger-between-distance
+        Gesture Set    :    STATUS GESTURES
+        Correct        :    6557
+        Incorrect      :    1443
+        Result         :    6557 / 8000
+        Avg Time       :    0.00021737526375 seconds
+        
+        TRAINING 
+        Accuracy       :    96.643 %
+        
+        TESTING
+        Accuracy       :    81.96 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : NN (JOSHUA_POCSIDIO) COMBINED GESTURES--finger-between-distance_logistic 
+Unseen Subject Data    : (JORELLE_INTERINO) COMBINED GESTURES--finger-between-distance
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    JORELLE_INTERINO
+        Feature        :    finger-between-distance
+        Gesture Set    :    COMBINED GESTURES
+        Correct        :    330
+        Incorrect      :    170
+        Result         :    330 / 500
+        Avg Time       :    0.00022400496 seconds
+        
+        TRAINING 
+        Accuracy       :    96.571 %
+        
+        TESTING
+        Accuracy       :    66.0 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : NN (JOSHUA_POCSIDIO) COMBINED GESTURES--finger-between-distance_logistic 
+Unseen Subject Data    : (JOSHUA_POCSIDIO) COMBINED GESTURES--finger-between-distance
+__________________________________________________________________________________________________
+        PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    JOSHUA_POCSIDIO
+        Feature        :    finger-between-distance
+        Gesture Set    :    COMBINED GESTURES
+        Correct        :    428
+        Incorrect      :    72
+        Result         :    428 / 500
+        Avg Time       :    0.00017000106 seconds
+        
+        TRAINING 
+        Accuracy       :    96.571 %
+        
+        TESTING
+        Accuracy       :    85.6 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : NN (JOSHUA_POCSIDIO) COMBINED GESTURES--finger-between-distance_logistic 
+Unseen Subject Data    : (MARC_SALONGA) COMBINED GESTURES--finger-between-distance
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    MARC_SALONGA
+        Feature        :    finger-between-distance
+        Gesture Set    :    COMBINED GESTURES
+        Correct        :    407
+        Incorrect      :    98
+        Result         :    407 / 505
+        Avg Time       :    0.000235643227723 seconds
+        
+        TRAINING 
+        Accuracy       :    96.571 %
+        
+        TESTING
+        Accuracy       :    80.59 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : NN (JOSHUA_POCSIDIO) COMBINED GESTURES--finger-between-distance_logistic 
+Unseen Subject Data    : (NATAREE_KAEWPONG) COMBINED GESTURES--finger-between-distance
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    NATAREE_KAEWPONG
+        Feature        :    finger-between-distance
+        Gesture Set    :    COMBINED GESTURES
+        Correct        :    403
+        Incorrect      :    97
+        Result         :    403 / 500
+        Avg Time       :    0.00022800228 seconds
+        
+        TRAINING 
+        Accuracy       :    96.571 %
+        
+        TESTING
+        Accuracy       :    80.6 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : NN (JOSHUA_POCSIDIO) COUNTING GESTURES--finger-between-distance_logistic 
+Unseen Subject Data    : (ALLAN_TRAN) COUNTING GESTURES--finger-between-distance
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    ALLAN_TRAN
+        Feature        :    finger-between-distance
+        Gesture Set    :    COUNTING GESTURES
+        Correct        :    239
+        Incorrect      :    61
+        Result         :    239 / 300
+        Avg Time       :    0.0002700035 seconds
+        
+        TRAINING 
+        Accuracy       :    95.357 %
+        
+        TESTING
+        Accuracy       :    79.67 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : NN (JOSHUA_POCSIDIO) STATUS GESTURES--finger-between-distance_logistic 
+Unseen Subject Data    : (ALLAN_TRAN) STATUS GESTURES--finger-between-distance
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    ALLAN_TRAN
+        Feature        :    finger-between-distance
+        Gesture Set    :    STATUS GESTURES
+        Correct        :    308
+        Incorrect      :    192
+        Result         :    308 / 500
+        Avg Time       :    0.0002660001 seconds
+        
+        TRAINING 
+        Accuracy       :    96.643 %
+        
+        TESTING
+        Accuracy       :    61.6 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : NN (JOSHUA_POCSIDIO) COUNTING GESTURES--finger-between-distance_logistic 
+Unseen Subject Data    : (JORELLE_INTERINO) COUNTING GESTURES--finger-between-distance
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    JORELLE_INTERINO
+        Feature        :    finger-between-distance
+        Gesture Set    :    COUNTING GESTURES
+        Correct        :    269
+        Incorrect      :    31
+        Result         :    269 / 300
+        Avg Time       :    0.000236670066667 seconds
+        
+        TRAINING 
+        Accuracy       :    95.357 %
+        
+        TESTING
+        Accuracy       :    89.67 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : NN (JOSHUA_POCSIDIO) STATUS GESTURES--finger-between-distance_logistic 
+Unseen Subject Data    : (JORELLE_INTERINO) STATUS GESTURES--finger-between-distance
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    JORELLE_INTERINO
+        Feature        :    finger-between-distance
+        Gesture Set    :    STATUS GESTURES
+        Correct        :    352
+        Incorrect      :    148
+        Result         :    352 / 500
+        Avg Time       :    0.00017999844 seconds
+        
+        TRAINING 
+        Accuracy       :    96.643 %
+        
+        TESTING
+        Accuracy       :    70.4 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : NN (JOSHUA_POCSIDIO) COUNTING GESTURES--finger-between-distance_logistic 
+Unseen Subject Data    : (JOSHUA_POCSIDIO) COUNTING GESTURES--finger-between-distance
+__________________________________________________________________________________________________
+        PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    JOSHUA_POCSIDIO
+        Feature        :    finger-between-distance
+        Gesture Set    :    COUNTING GESTURES
+        Correct        :    259
+        Incorrect      :    41
+        Result         :    259 / 300
+        Avg Time       :    0.0002333354 seconds
+        
+        TRAINING 
+        Accuracy       :    95.357 %
+        
+        TESTING
+        Accuracy       :    86.33 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : NN (JOSHUA_POCSIDIO) STATUS GESTURES--finger-between-distance_logistic 
+Unseen Subject Data    : (JOSHUA_POCSIDIO) STATUS GESTURES--finger-between-distance
+__________________________________________________________________________________________________
+        PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    JOSHUA_POCSIDIO
+        Feature        :    finger-between-distance
+        Gesture Set    :    STATUS GESTURES
+        Correct        :    415
+        Incorrect      :    85
+        Result         :    415 / 500
+        Avg Time       :    0.0002260029 seconds
+        
+        TRAINING 
+        Accuracy       :    96.643 %
+        
+        TESTING
+        Accuracy       :    83.0 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : NN (JOSHUA_POCSIDIO) COUNTING GESTURES--finger-between-distance_logistic 
+Unseen Subject Data    : (MARC_SALONGA) COUNTING GESTURES--finger-between-distance
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    MARC_SALONGA
+        Feature        :    finger-between-distance
+        Gesture Set    :    COUNTING GESTURES
+        Correct        :    247
+        Incorrect      :    53
+        Result         :    247 / 300
+        Avg Time       :    0.0002633341 seconds
+        
+        TRAINING 
+        Accuracy       :    95.357 %
+        
+        TESTING
+        Accuracy       :    82.33 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : NN (JOSHUA_POCSIDIO) STATUS GESTURES--finger-between-distance_logistic 
+Unseen Subject Data    : (MARC_SALONGA) STATUS GESTURES--finger-between-distance
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    MARC_SALONGA
+        Feature        :    finger-between-distance
+        Gesture Set    :    STATUS GESTURES
+        Correct        :    401
+        Incorrect      :    104
+        Result         :    401 / 505
+        Avg Time       :    0.000219801326733 seconds
+        
+        TRAINING 
+        Accuracy       :    96.643 %
+        
+        TESTING
+        Accuracy       :    79.41 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : NN (JOSHUA_POCSIDIO) COUNTING GESTURES--finger-between-distance_logistic 
+Unseen Subject Data    : (NATAREE_KAEWPONG) COUNTING GESTURES--finger-between-distance
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    NATAREE_KAEWPONG
+        Feature        :    finger-between-distance
+        Gesture Set    :    COUNTING GESTURES
+        Correct        :    229
+        Incorrect      :    71
+        Result         :    229 / 300
+        Avg Time       :    0.0002666664 seconds
+        
+        TRAINING 
+        Accuracy       :    95.357 %
+        
+        TESTING
+        Accuracy       :    76.33 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : NN (JOSHUA_POCSIDIO) STATUS GESTURES--finger-between-distance_logistic 
+Unseen Subject Data    : (NATAREE_KAEWPONG) STATUS GESTURES--finger-between-distance
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    NATAREE_KAEWPONG
+        Feature        :    finger-between-distance
+        Gesture Set    :    STATUS GESTURES
+        Correct        :    369
+        Incorrect      :    131
+        Result         :    369 / 500
+        Avg Time       :    0.000192 seconds
+        
+        TRAINING 
+        Accuracy       :    96.643 %
+        
+        TESTING
+        Accuracy       :    73.8 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : NN (JOSHUA_POCSIDIO) COMBINED GESTURES--finger-between-distance_logistic 
+Unseen Subject Data    : (ALLAN_TRAN) COMBINED GESTURES--finger-between-distance
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    ALLAN_TRAN
+        Feature        :    finger-between-distance
+        Gesture Set    :    COMBINED GESTURES
+        Correct        :    315
+        Incorrect      :    185
+        Result         :    315 / 500
+        Avg Time       :    0.00020399868 seconds
+        
+        TRAINING 
+        Accuracy       :    96.571 %
+        
+        TESTING
+        Accuracy       :    63.0 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : NN (JOSHUA_POCSIDIO) COMBINED GESTURES--finger-between-distance_logistic 
+Unseen Subject Data    : (COMBINED SUBJECTS) COMBINED GESTURES--finger-between-distance
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    COMBINED SUBJECTS
+        Feature        :    finger-between-distance
+        Gesture Set    :    COMBINED GESTURES
+        Correct        :    1883
+        Incorrect      :    1822
+        Result         :    1883 / 3705
+        Avg Time       :    0.00022267254251 seconds
+        
+        TRAINING 
+        Accuracy       :    96.571 %
+        
+        TESTING
+        Accuracy       :    50.82 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : NN (JOSHUA_POCSIDIO) COUNTING GESTURES--finger-between-distance_logistic 
+Unseen Subject Data    : (COMBINED SUBJECTS) COUNTING GESTURES--finger-between-distance
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    COMBINED SUBJECTS
+        Feature        :    finger-between-distance
+        Gesture Set    :    COUNTING GESTURES
+        Correct        :    3931
+        Incorrect      :    869
+        Result         :    3931 / 4800
+        Avg Time       :    0.00021500005 seconds
+        
+        TRAINING 
+        Accuracy       :    95.357 %
+        
+        TESTING
+        Accuracy       :    81.9 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : NN (JOSHUA_POCSIDIO) STATUS GESTURES--finger-between-distance_logistic 
+Unseen Subject Data    : (COMBINED SUBJECTS) STATUS GESTURES--finger-between-distance
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    COMBINED SUBJECTS
+        Feature        :    finger-between-distance
+        Gesture Set    :    STATUS GESTURES
+        Correct        :    6557
+        Incorrect      :    1443
+        Result         :    6557 / 8000
+        Avg Time       :    0.00021662546625 seconds
+        
+        TRAINING 
+        Accuracy       :    96.643 %
+        
+        TESTING
+        Accuracy       :    81.96 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : NN (JOSHUA_POCSIDIO) COUNTING GESTURES--finger-between-distance_logistic 
+Unseen Subject Data    : (ALLAN_TRAN) COUNTING GESTURES--finger-between-distance
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    ALLAN_TRAN
+        Feature        :    finger-between-distance
+        Gesture Set    :    COUNTING GESTURES
+        Correct        :    239
+        Incorrect      :    61
+        Result         :    239 / 300
+        Avg Time       :    0.000219999 seconds
+        
+        TRAINING 
+        Accuracy       :    95.357 %
+        
+        TESTING
+        Accuracy       :    79.67 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : NN (JOSHUA_POCSIDIO) STATUS GESTURES--finger-between-distance_logistic 
+Unseen Subject Data    : (ALLAN_TRAN) STATUS GESTURES--finger-between-distance
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    ALLAN_TRAN
+        Feature        :    finger-between-distance
+        Gesture Set    :    STATUS GESTURES
+        Correct        :    308
+        Incorrect      :    192
+        Result         :    308 / 500
+        Avg Time       :    0.0001879998 seconds
+        
+        TRAINING 
+        Accuracy       :    96.643 %
+        
+        TESTING
+        Accuracy       :    61.6 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : NN (JOSHUA_POCSIDIO) COUNTING GESTURES--finger-between-distance_logistic 
+Unseen Subject Data    : (JORELLE_INTERINO) COUNTING GESTURES--finger-between-distance
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    JORELLE_INTERINO
+        Feature        :    finger-between-distance
+        Gesture Set    :    COUNTING GESTURES
+        Correct        :    269
+        Incorrect      :    31
+        Result         :    269 / 300
+        Avg Time       :    0.0002033319 seconds
+        
+        TRAINING 
+        Accuracy       :    95.357 %
+        
+        TESTING
+        Accuracy       :    89.67 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : NN (JOSHUA_POCSIDIO) STATUS GESTURES--finger-between-distance_logistic 
+Unseen Subject Data    : (JORELLE_INTERINO) STATUS GESTURES--finger-between-distance
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    JORELLE_INTERINO
+        Feature        :    finger-between-distance
+        Gesture Set    :    STATUS GESTURES
+        Correct        :    352
+        Incorrect      :    148
+        Result         :    352 / 500
+        Avg Time       :    0.00021599976 seconds
+        
+        TRAINING 
+        Accuracy       :    96.643 %
+        
+        TESTING
+        Accuracy       :    70.4 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : NN (JOSHUA_POCSIDIO) COUNTING GESTURES--finger-between-distance_logistic 
+Unseen Subject Data    : (JOSHUA_POCSIDIO) COUNTING GESTURES--finger-between-distance
+__________________________________________________________________________________________________
+        PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    JOSHUA_POCSIDIO
+        Feature        :    finger-between-distance
+        Gesture Set    :    COUNTING GESTURES
+        Correct        :    259
+        Incorrect      :    41
+        Result         :    259 / 300
+        Avg Time       :    0.0002100029 seconds
+        
+        TRAINING 
+        Accuracy       :    95.357 %
+        
+        TESTING
+        Accuracy       :    86.33 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : NN (JOSHUA_POCSIDIO) STATUS GESTURES--finger-between-distance_logistic 
+Unseen Subject Data    : (JOSHUA_POCSIDIO) STATUS GESTURES--finger-between-distance
+__________________________________________________________________________________________________
+        PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    JOSHUA_POCSIDIO
+        Feature        :    finger-between-distance
+        Gesture Set    :    STATUS GESTURES
+        Correct        :    415
+        Incorrect      :    85
+        Result         :    415 / 500
+        Avg Time       :    0.0002120034 seconds
+        
+        TRAINING 
+        Accuracy       :    96.643 %
+        
+        TESTING
+        Accuracy       :    83.0 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : NN (JOSHUA_POCSIDIO) COUNTING GESTURES--finger-between-distance_logistic 
+Unseen Subject Data    : (MARC_SALONGA) COUNTING GESTURES--finger-between-distance
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    MARC_SALONGA
+        Feature        :    finger-between-distance
+        Gesture Set    :    COUNTING GESTURES
+        Correct        :    247
+        Incorrect      :    53
+        Result         :    247 / 300
+        Avg Time       :    0.0002400048 seconds
+        
+        TRAINING 
+        Accuracy       :    95.357 %
+        
+        TESTING
+        Accuracy       :    82.33 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : NN (JOSHUA_POCSIDIO) STATUS GESTURES--finger-between-distance_logistic 
+Unseen Subject Data    : (MARC_SALONGA) STATUS GESTURES--finger-between-distance
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    MARC_SALONGA
+        Feature        :    finger-between-distance
+        Gesture Set    :    STATUS GESTURES
+        Correct        :    401
+        Incorrect      :    104
+        Result         :    401 / 505
+        Avg Time       :    0.00029505380198 seconds
+        
+        TRAINING 
+        Accuracy       :    96.643 %
+        
+        TESTING
+        Accuracy       :    79.41 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : NN (JOSHUA_POCSIDIO) COUNTING GESTURES--finger-between-distance_logistic 
+Unseen Subject Data    : (ALLAN_TRAN) COUNTING GESTURES--finger-between-distance
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    ALLAN_TRAN
+        Feature        :    finger-between-distance
+        Gesture Set    :    COUNTING GESTURES
+        Correct        :    239
+        Incorrect      :    61
+        Result         :    239 / 300
+        Avg Time       :    0.0002300007 seconds
+        
+        TRAINING 
+        Accuracy       :    95.357 %
+        
+        TESTING
+        Accuracy       :    79.67 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : NN (JOSHUA_POCSIDIO) STATUS GESTURES--finger-between-distance_logistic 
+Unseen Subject Data    : (ALLAN_TRAN) STATUS GESTURES--finger-between-distance
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    ALLAN_TRAN
+        Feature        :    finger-between-distance
+        Gesture Set    :    STATUS GESTURES
+        Correct        :    308
+        Incorrect      :    192
+        Result         :    308 / 500
+        Avg Time       :    0.0002359998 seconds
+        
+        TRAINING 
+        Accuracy       :    96.643 %
+        
+        TESTING
+        Accuracy       :    61.6 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : NN (JOSHUA_POCSIDIO) COUNTING GESTURES--finger-between-distance_logistic 
+Unseen Subject Data    : (JORELLE_INTERINO) COUNTING GESTURES--finger-between-distance
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    JORELLE_INTERINO
+        Feature        :    finger-between-distance
+        Gesture Set    :    COUNTING GESTURES
+        Correct        :    269
+        Incorrect      :    31
+        Result         :    269 / 300
+        Avg Time       :    0.0002166651 seconds
+        
+        TRAINING 
+        Accuracy       :    95.357 %
+        
+        TESTING
+        Accuracy       :    89.67 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : NN (JOSHUA_POCSIDIO) STATUS GESTURES--finger-between-distance_logistic 
+Unseen Subject Data    : (JORELLE_INTERINO) STATUS GESTURES--finger-between-distance
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    JORELLE_INTERINO
+        Feature        :    finger-between-distance
+        Gesture Set    :    STATUS GESTURES
+        Correct        :    352
+        Incorrect      :    148
+        Result         :    352 / 500
+        Avg Time       :    0.00023800062 seconds
+        
+        TRAINING 
+        Accuracy       :    96.643 %
+        
+        TESTING
+        Accuracy       :    70.4 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : NN (JOSHUA_POCSIDIO) COUNTING GESTURES--finger-between-distance_logistic 
+Unseen Subject Data    : (JOSHUA_POCSIDIO) COUNTING GESTURES--finger-between-distance
+__________________________________________________________________________________________________
+        PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    JOSHUA_POCSIDIO
+        Feature        :    finger-between-distance
+        Gesture Set    :    COUNTING GESTURES
+        Correct        :    259
+        Incorrect      :    41
+        Result         :    259 / 300
+        Avg Time       :    0.0002600002 seconds
+        
+        TRAINING 
+        Accuracy       :    95.357 %
+        
+        TESTING
+        Accuracy       :    86.33 %
+        
+        
+

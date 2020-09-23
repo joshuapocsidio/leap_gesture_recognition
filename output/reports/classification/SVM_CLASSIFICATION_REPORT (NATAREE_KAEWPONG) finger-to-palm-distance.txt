@@ -1,0 +1,325 @@
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : SVM (NATAREE_KAEWPONG) COUNTING GESTURES--finger-to-palm-distance_sigmoid 
+Unseen Subject Data    : (ALLAN_TRAN) COUNTING GESTURES--finger-to-palm-distance
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    NATAREE_KAEWPONG
+        Unseen Subject :    ALLAN_TRAN
+        Feature        :    finger-to-palm-distance
+        Gesture Set    :    COUNTING GESTURES
+        Correct        :    297
+        Incorrect      :    3
+        Result         :    297 / 300
+        Avg Time       :    0.0001399982 seconds
+        
+        TRAINING 
+        Accuracy       :    96.905 %
+        
+        TESTING
+        Accuracy       :    99.0 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : SVM (NATAREE_KAEWPONG) STATUS GESTURES--finger-to-palm-distance_sigmoid 
+Unseen Subject Data    : (ALLAN_TRAN) STATUS GESTURES--finger-to-palm-distance
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    NATAREE_KAEWPONG
+        Unseen Subject :    ALLAN_TRAN
+        Feature        :    finger-to-palm-distance
+        Gesture Set    :    STATUS GESTURES
+        Correct        :    364
+        Incorrect      :    136
+        Result         :    364 / 500
+        Avg Time       :    0.00019799718 seconds
+        
+        TRAINING 
+        Accuracy       :    92.214 %
+        
+        TESTING
+        Accuracy       :    72.8 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : SVM (NATAREE_KAEWPONG) COUNTING GESTURES--finger-to-palm-distance_sigmoid 
+Unseen Subject Data    : (JORELLE_INTERINO) COUNTING GESTURES--finger-to-palm-distance
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    NATAREE_KAEWPONG
+        Unseen Subject :    JORELLE_INTERINO
+        Feature        :    finger-to-palm-distance
+        Gesture Set    :    COUNTING GESTURES
+        Correct        :    295
+        Incorrect      :    5
+        Result         :    295 / 300
+        Avg Time       :    0.0001266682 seconds
+        
+        TRAINING 
+        Accuracy       :    96.905 %
+        
+        TESTING
+        Accuracy       :    98.33 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : SVM (NATAREE_KAEWPONG) STATUS GESTURES--finger-to-palm-distance_sigmoid 
+Unseen Subject Data    : (JORELLE_INTERINO) STATUS GESTURES--finger-to-palm-distance
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    NATAREE_KAEWPONG
+        Unseen Subject :    JORELLE_INTERINO
+        Feature        :    finger-to-palm-distance
+        Gesture Set    :    STATUS GESTURES
+        Correct        :    397
+        Incorrect      :    103
+        Result         :    397 / 500
+        Avg Time       :    0.00019600212 seconds
+        
+        TRAINING 
+        Accuracy       :    92.214 %
+        
+        TESTING
+        Accuracy       :    79.4 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : SVM (NATAREE_KAEWPONG) COUNTING GESTURES--finger-to-palm-distance_sigmoid 
+Unseen Subject Data    : (JOSHUA_POCSIDIO) COUNTING GESTURES--finger-to-palm-distance
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    NATAREE_KAEWPONG
+        Unseen Subject :    JOSHUA_POCSIDIO
+        Feature        :    finger-to-palm-distance
+        Gesture Set    :    COUNTING GESTURES
+        Correct        :    295
+        Incorrect      :    5
+        Result         :    295 / 300
+        Avg Time       :    0.0001233399 seconds
+        
+        TRAINING 
+        Accuracy       :    96.905 %
+        
+        TESTING
+        Accuracy       :    98.33 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : SVM (NATAREE_KAEWPONG) STATUS GESTURES--finger-to-palm-distance_sigmoid 
+Unseen Subject Data    : (JOSHUA_POCSIDIO) STATUS GESTURES--finger-to-palm-distance
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    NATAREE_KAEWPONG
+        Unseen Subject :    JOSHUA_POCSIDIO
+        Feature        :    finger-to-palm-distance
+        Gesture Set    :    STATUS GESTURES
+        Correct        :    380
+        Incorrect      :    120
+        Result         :    380 / 500
+        Avg Time       :    0.00018999678 seconds
+        
+        TRAINING 
+        Accuracy       :    92.214 %
+        
+        TESTING
+        Accuracy       :    76.0 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : SVM (NATAREE_KAEWPONG) COUNTING GESTURES--finger-to-palm-distance_sigmoid 
+Unseen Subject Data    : (MARC_SALONGA) COUNTING GESTURES--finger-to-palm-distance
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    NATAREE_KAEWPONG
+        Unseen Subject :    MARC_SALONGA
+        Feature        :    finger-to-palm-distance
+        Gesture Set    :    COUNTING GESTURES
+        Correct        :    282
+        Incorrect      :    18
+        Result         :    282 / 300
+        Avg Time       :    0.0001400038 seconds
+        
+        TRAINING 
+        Accuracy       :    96.905 %
+        
+        TESTING
+        Accuracy       :    94.0 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : SVM (NATAREE_KAEWPONG) STATUS GESTURES--finger-to-palm-distance_sigmoid 
+Unseen Subject Data    : (MARC_SALONGA) STATUS GESTURES--finger-to-palm-distance
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    NATAREE_KAEWPONG
+        Unseen Subject :    MARC_SALONGA
+        Feature        :    finger-to-palm-distance
+        Gesture Set    :    STATUS GESTURES
+        Correct        :    368
+        Incorrect      :    137
+        Result         :    368 / 505
+        Avg Time       :    0.000194061029703 seconds
+        
+        TRAINING 
+        Accuracy       :    92.214 %
+        
+        TESTING
+        Accuracy       :    72.87 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : SVM (NATAREE_KAEWPONG) COUNTING GESTURES--finger-to-palm-distance_sigmoid 
+Unseen Subject Data    : (NATAREE_KAEWPONG) COUNTING GESTURES--finger-to-palm-distance
+__________________________________________________________________________________________________
+        PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    NATAREE_KAEWPONG
+        Unseen Subject :    NATAREE_KAEWPONG
+        Feature        :    finger-to-palm-distance
+        Gesture Set    :    COUNTING GESTURES
+        Correct        :    284
+        Incorrect      :    16
+        Result         :    284 / 300
+        Avg Time       :    0.000133336 seconds
+        
+        TRAINING 
+        Accuracy       :    96.905 %
+        
+        TESTING
+        Accuracy       :    94.67 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : SVM (NATAREE_KAEWPONG) STATUS GESTURES--finger-to-palm-distance_sigmoid 
+Unseen Subject Data    : (NATAREE_KAEWPONG) STATUS GESTURES--finger-to-palm-distance
+__________________________________________________________________________________________________
+        PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    NATAREE_KAEWPONG
+        Unseen Subject :    NATAREE_KAEWPONG
+        Feature        :    finger-to-palm-distance
+        Gesture Set    :    STATUS GESTURES
+        Correct        :    442
+        Incorrect      :    58
+        Result         :    442 / 500
+        Avg Time       :    0.0001900011 seconds
+        
+        TRAINING 
+        Accuracy       :    92.214 %
+        
+        TESTING
+        Accuracy       :    88.4 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : SVM (NATAREE_KAEWPONG) COMBINED GESTURES--finger-to-palm-distance_sigmoid 
+Unseen Subject Data    : (ALLAN_TRAN) COMBINED GESTURES--finger-to-palm-distance
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    NATAREE_KAEWPONG
+        Unseen Subject :    ALLAN_TRAN
+        Feature        :    finger-to-palm-distance
+        Gesture Set    :    COMBINED GESTURES
+        Correct        :    365
+        Incorrect      :    135
+        Result         :    365 / 500
+        Avg Time       :    0.00018000084 seconds
+        
+        TRAINING 
+        Accuracy       :    91.643 %
+        
+        TESTING
+        Accuracy       :    73.0 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : SVM (NATAREE_KAEWPONG) COMBINED GESTURES--finger-to-palm-distance_sigmoid 
+Unseen Subject Data    : (COMBINED SUBJECTS) COMBINED GESTURES--finger-to-palm-distance
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    NATAREE_KAEWPONG
+        Unseen Subject :    COMBINED SUBJECTS
+        Feature        :    finger-to-palm-distance
+        Gesture Set    :    COMBINED GESTURES
+        Correct        :    1959
+        Incorrect      :    1746
+        Result         :    1959 / 3705
+        Avg Time       :    0.000195411659919 seconds
+        
+        TRAINING 
+        Accuracy       :    91.643 %
+        
+        TESTING
+        Accuracy       :    52.87 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : SVM (NATAREE_KAEWPONG) COUNTING GESTURES--finger-to-palm-distance_sigmoid 
+Unseen Subject Data    : (COMBINED SUBJECTS) COUNTING GESTURES--finger-to-palm-distance
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    NATAREE_KAEWPONG
+        Unseen Subject :    COMBINED SUBJECTS
+        Feature        :    finger-to-palm-distance
+        Gesture Set    :    COUNTING GESTURES
+        Correct        :    4552
+        Incorrect      :    248
+        Result         :    4552 / 4800
+        Avg Time       :    0.0001279158125 seconds
+        
+        TRAINING 
+        Accuracy       :    96.905 %
+        
+        TESTING
+        Accuracy       :    94.83 %
+        
+        
+

@@ -1,5 +1,5 @@
 import time
-from string import lower
+from string import lower, upper
 
 from controller import LeapIO as io
 from controller.LeapDataTrainer import NN_Trainer, SVM_Trainer, DT_Trainer
@@ -56,7 +56,7 @@ class LeapDataClassifier:
                 feature_type=feature_set,
                 chosen_gesture=y_data,
                 trainer=trainer,
-                verbose=True
+                verbose=False
             )
 
             time_list.append(time_taken)
@@ -69,6 +69,9 @@ class LeapDataClassifier:
                 personalized = "personalized"
             else:
                 personalized = "non-personalized"
+
+            # Print regardless of verbosity
+            print(upper(personalized) + " : " + upper(classifier_type) + "(" + str(trainer.training_acc) + "%) -- Train Subject :" + test_subject + ", Test Subject : " + comparison_subject + " >> " + gesture_set + " - " + feature_set + " = " + prediction)
 
             # Append to csv results
             io.append_classification_csv_results(personalized=personalized, classifier_type=classifier_type,
@@ -160,9 +163,10 @@ class LeapDataClassifier:
 
     def classify_gesture(self, feature_data_set, feature_type, chosen_gesture, trainer, verbose=True):
         # Recording timing of classification
-        start_time = time.time()
+        start_time = round(time.time(), 8)
         prediction = trainer.classify([feature_data_set])
-        end_time = time.time()
+        end_time = round(time.time(), 8)
+
         time_taken = round(end_time - start_time, 8)
 
         # Output for user
