@@ -29,7 +29,7 @@ class ClassificationMenu:
             choice = raw_input("Your Choice: ")
 
             if choice == '1':
-                # self.repeatability_classification_test()
+                self.repeatability_classification_test()
                 pass
             elif choice == '2':
                 self.unseen_data_classification_test()
@@ -95,8 +95,8 @@ class ClassificationMenu:
                             # Do classification from csv
                             file_name = self.classification_controller.do_classification_from_csv(
                                 pickle_file=matching_pickle,
-                                test_subject=choice_subject_name,
-                                comparison_subject=unseen_subject_name,
+                                train_subject=choice_subject_name,
+                                test_subject=unseen_subject_name,
                                 classifier_type=classifier_type,
                                 gesture_set=gesture_set,
                                 feature_set=feature_set,
@@ -145,8 +145,8 @@ class ClassificationMenu:
                             # Do classification from csv
                             self.classification_controller.do_classification_from_csv(
                                 pickle_file=matching_pickle,
-                                test_subject=choice_subject_name,
-                                comparison_subject=unseen_subject_name,
+                                train_subject=choice_subject_name,
+                                test_subject=unseen_subject_name,
                                 classifier_type=classifier_type,
                                 gesture_set=gesture_set,
                                 feature_set=feature_set,
@@ -194,8 +194,8 @@ class ClassificationMenu:
                                 # Do classification from csv
                                 self.classification_controller.do_classification_from_csv(
                                     pickle_file=matching_pickle,
-                                    test_subject=subject_name,
-                                    comparison_subject=unseen_subject_name,
+                                    train_subject=subject_name,
+                                    test_subject=unseen_subject_name,
                                     classifier_type=classifier_type,
                                     gesture_set=gesture_set,
                                     feature_set=feature_set,
@@ -242,8 +242,8 @@ class ClassificationMenu:
                                 # Do classification from csv
                                 self.classification_controller.do_classification_from_csv(
                                     pickle_file=matching_pickle,
-                                    test_subject=subject_name,
-                                    comparison_subject=unseen_subject_name,
+                                    train_subject=subject_name,
+                                    test_subject=unseen_subject_name,
                                     classifier_type=classifier_type,
                                     gesture_set=gesture_set,
                                     feature_set=feature_set,
@@ -294,8 +294,8 @@ class ClassificationMenu:
                                 # Do classification from csv
                                 self.classification_controller.do_classification_from_csv(
                                     pickle_file=matching_pickle,
-                                    test_subject=subject_name,
-                                    comparison_subject=unseen_subject_name,
+                                    train_subject=subject_name,
+                                    test_subject=unseen_subject_name,
                                     classifier_type=classifier_type,
                                     gesture_set=gesture_set,
                                     feature_set=feature_set,
@@ -390,46 +390,40 @@ class ClassificationMenu:
         # )
 
     def repeatability_classification_test(self):
-        # Shows menu for classifying gesture data
-        done = False
+        iterations = 100
 
-        while done is False:
-            print("------------------------")
-            print("REAL TIME CLASSIFICATION")
-            print("------------------------")
-            print("(1) - Single Feature")
-            print("(2) - All Features")
-            print("(0) - Back")
+        # Obtain relevant gesture information and list
+        gesture_set, gesture_list, gesture_src = prompter.prompt_gesture_set()
+        # Obtain all other relevant data
+        _, trained_data_files, _, _, _, feature_set_list, _, _ = io.get_params()
+        # Prompt for subject name
+        test_subject = prompter.prompt_subject_name()
 
-            choice = raw_input("Your Choice: ")
+        # For each gesture, iteration i times
+        for gesture in gesture_list:
+            print gesture
+            # For each gesture, classify with all pickle files
+            for trained_data in trained_data_files:
+                # Get File Path without folders
+                file_path = trained_data.split("\\")[-1]
+                # Get parameters
+                classifier_type = file_path.split(" ")[0]
+                gesture_set = strip(file_path.split("--")[0].split(")")[1])
+                feature_set = file_path.split("--")[1].split(".pickle")[0].split("_")[0]
+                train_subject = file_path.split("(")[1].split(")")[0]
 
-            if choice != '0' and choice is not None and choice != '':
-                subject_list = io.read_col("subjects.txt")
-                print("------------")
-                print("SUBJECT NAME")
-                print("------------")
-                printer.print_numbered_list(subject_list)
+                # Do classification and obtain results and iterate for 100
+                prediction, result, _ = self.classification_controller.do_classification_from_hand(
+                    pickle_file=trained_data,
+                    train_subject=train_subject,
+                    classifier_type=classifier_type,
+                    feature_set=feature_set,
+                    gesture_set=gesture_set,
+                    chosen_gesture=gesture,
+                    iterations=100
+                )
 
-                subject_choice = raw_input("Choose subject name: ")
-                subject_name = subject_list[int(subject_choice) - 1]
-                print("")
 
-                # Initialise the Acquisitor
-                self.classification_controller.initialize(subject_name=subject_name)
-
-            if choice == '1':
-                self.single_feature_classification()
-                done = True
-                pass
-            elif choice == '2':
-                self.multiple_feature_classification()
-                done = True
-                pass
-            elif choice == '0':
-                done = True
-                pass
-            else:
-                print("Please try again.")
 
 
     def show_current(self, data_file, classifier_type, feature_set, gesture_set):

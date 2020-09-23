@@ -13,7 +13,7 @@ class LeapDataClassifier:
     def __init__(self, acquisitor):
         self.acquisitor = acquisitor
 
-    def do_classification_from_csv(self, pickle_file, test_subject, comparison_subject, classifier_type, gesture_set,
+    def do_classification_from_csv(self, pickle_file, train_subject, test_subject, classifier_type, gesture_set,
                                    feature_set, unseen_data, file_name):
         # Obtain data content of the unseen data file
         X_data_set, y_data_set = io.acquire_data_from_csv(csv_file=unseen_data)
@@ -23,7 +23,7 @@ class LeapDataClassifier:
             # Get set hyper parameters
             activation = pickle_file.split(".")[0].split("--")[1].split("_")[1]
             # Get NN Trainer
-            trainer = NN_Trainer(subject_name=test_subject, feature_type=feature_set, activation=activation,
+            trainer = NN_Trainer(subject_name=train_subject, feature_type=feature_set, activation=activation,
                                  gesture_set=gesture_set)
             trainer.load(pickle_name=pickle_file)
             pass
@@ -31,14 +31,14 @@ class LeapDataClassifier:
             # Get set hyper parameters
             kernel_type = pickle_file.split(".")[0].split("--")[1].split("_")[1]
             # Get SVM Trainer
-            trainer = SVM_Trainer(subject_name=test_subject, feature_type=feature_set, kernel_type=kernel_type,
+            trainer = SVM_Trainer(subject_name=train_subject, feature_type=feature_set, kernel_type=kernel_type,
                                   gesture_set=gesture_set)
             trainer.load(pickle_name=pickle_file)
         elif lower(classifier_type) == 'dt':
             # Get set hyper parameters
             criterion_type = pickle_file.split(".")[0].split("--")[1].split("_")[1]
             # Get NN Trainer
-            trainer = DT_Trainer(subject_name=test_subject, feature_type=feature_set, criterion_type=criterion_type,
+            trainer = DT_Trainer(subject_name=train_subject, feature_type=feature_set, criterion_type=criterion_type,
                                  gesture_set=gesture_set)
             trainer.load(pickle_name=pickle_file)
 
@@ -65,15 +65,15 @@ class LeapDataClassifier:
                 correct_predictions += 1
 
             # Check if personalized
-            if lower(test_subject) == lower(comparison_subject):
+            if lower(train_subject) == lower(test_subject):
                 personalized = "personalized"
             else:
                 personalized = "non-personalized"
 
             # Append to csv results
             io.append_classification_csv_results(personalized=personalized, classifier_type=classifier_type,
-                                                 training_score=trainer.training_acc, train_subject=comparison_subject,
-                                                 test_subject=test_subject, gesture_set=gesture_set,
+                                                 training_score=trainer.training_acc, train_subject=test_subject,
+                                                 test_subject=train_subject, gesture_set=gesture_set,
                                                  feature_set=feature_set, correct=result, time=time_taken,
                                                  gesture=y_data, prediction=prediction)
             i += 1
@@ -81,13 +81,13 @@ class LeapDataClassifier:
         # Process corresponding results
         file_name = self.process_modified_test_results(
             classifier_type=classifier_type,
-            test_subject=test_subject,
+            test_subject=train_subject,
             correct_classification=correct_predictions,
             time_list=time_list,
             gesture_set=gesture_set,
             feature_set=feature_set,
             file_name=file_name,
-            comparison_subject=comparison_subject,
+            comparison_subject=test_subject,
             file_path=pickle_file,
             unseen_data=unseen_data,
             trainer=trainer,
@@ -96,8 +96,8 @@ class LeapDataClassifier:
 
         return file_name
 
-    def do_classification_from_hand(self, pickle_file, test_subject, comparison_subject, classifier_type, gesture_set,
-                                    feature_set, unseen_data, file_name):
+    def do_classification_from_hand(self, pickle_file, train_subject, classifier_type, gesture_set,
+                                    feature_set, chosen_gesture, iterations=100):
         # Initialize variables
         file_name = None
         feature_data_set = None
@@ -108,7 +108,7 @@ class LeapDataClassifier:
             # Get set hyper parameters
             activation = pickle_file.split(".")[0].split("--")[1].split("_")[1]
             # Get NN Trainer
-            trainer = NN_Trainer(subject_name=test_subject, feature_type=feature_set, activation=activation,
+            trainer = NN_Trainer(subject_name=train_subject, feature_type=feature_set, activation=activation,
                                  gesture_set=gesture_set)
             trainer.load(pickle_name=pickle_file)
             pass
@@ -116,20 +116,19 @@ class LeapDataClassifier:
             # Get set hyper parameters
             kernel_type = pickle_file.split(".")[0].split("--")[1].split("_")[1]
             # Get SVM Trainer
-            trainer = SVM_Trainer(subject_name=test_subject, feature_type=feature_set, kernel_type=kernel_type,
+            trainer = SVM_Trainer(subject_name=train_subject, feature_type=feature_set, kernel_type=kernel_type,
                                   gesture_set=gesture_set)
             trainer.load(pickle_name=pickle_file)
         elif lower(classifier_type) == 'dt':
             # Get set hyper parameters
             criterion_type = pickle_file.split(".")[0].split("--")[1].split("_")[1]
             # Get NN Trainer
-            trainer = DT_Trainer(subject_name=test_subject, feature_type=feature_set, criterion_type=criterion_type,
+            trainer = DT_Trainer(subject_name=train_subject, feature_type=feature_set, criterion_type=criterion_type,
                                  gesture_set=gesture_set)
             trainer.load(pickle_name=pickle_file)
 
         # Prompt for what gesture to be recorded
         gesture_set, _, gesture_src = prompter.prompt_gesture_set()
-        chosen_gesture = prompter.prompt_gesture_name(gesture_src)
 
         # Acquire hand
         hand = self.acquisitor.acquire_single_hand_data()
@@ -148,15 +147,31 @@ class LeapDataClassifier:
             feature_name, feature_data_set = extractor.extract_finger_finger_distance(hand=hand)
             pass
 
-        # Classify and return the result of the prediction
-        self.classify_gesture(
-            trainer=trainer,
-            feature_type=feature_set,
-            feature_data_set=feature_data_set,
-            chosen_gesture=chosen_gesture,
-        )
-
         print("")
+
+        num_consecutive = 0
+        list_consecutive = []
+        for i in range(iterations):
+            # Classify and return the result of the prediction
+            prediction, result, _ = self.classify_gesture(
+                trainer=trainer,
+                feature_type=feature_set,
+                feature_data_set=feature_data_set,
+                chosen_gesture=chosen_gesture,
+            )
+
+            if prediction == chosen_gesture:
+                num_consecutive += 1
+            else:
+                # Save number of consecutive nums
+                if num_consecutive > 0:
+                    list_consecutive.append(num_consecutive)
+                    # TODO : Add to classification csv results if more than 0
+                # Reset either ways
+                num_consecutive = 0
+
+            i += 1
+
 
     def classify_gesture(self, feature_data_set, feature_type, chosen_gesture, trainer, verbose=True):
         # Recording timing of classification
