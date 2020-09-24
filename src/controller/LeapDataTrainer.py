@@ -116,7 +116,7 @@ class DT_Trainer(Trainer):
         }
 
         # Initialize hyper parameter tuning grid search
-        grid_classifier = GridSearchCV(classifier, grid_parameters, n_jobs=12, cv=5)
+        grid_classifier = GridSearchCV(classifier, grid_parameters, n_jobs=12, cv=5, verbose=False)
         # Fit the model
         grid_classifier.fit(X_train, y_train)
 
@@ -176,7 +176,7 @@ class NN_Trainer(Trainer):
             'solver': ['adam', 'sgd']
         }
         # Initialize hyper parameter tuning grid search
-        grid_classifier = GridSearchCV(classifier, grid_parameters, n_jobs=12, cv=5)
+        grid_classifier = GridSearchCV(classifier, grid_parameters, n_jobs=12, cv=5, verbose=False)
         # Fit the model
         grid_classifier.fit(X_train, y_train)
 
@@ -229,7 +229,7 @@ class SVM_Trainer(Trainer):
         }
 
         # Initialize hyper parameter tuning grid search
-        grid_classifier = GridSearchCV(classifier, grid_parameters, n_jobs=12, cv=5, verbose=True)
+        grid_classifier = GridSearchCV(classifier, grid_parameters, n_jobs=12, cv=5, verbose=False)
         # Fit the model
         grid_classifier.fit(X_train, y_train)
 
