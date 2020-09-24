@@ -1,0 +1,108 @@
+* * * * * * * * * *
+SUMMARY REPORT
+* * * * * * * * * *
+CLASSIFIER          : Support Vector Machine
+FEATURE TYPE        : finger-angle-and-palm-distance
+GESTURE SET         : COUNTING GESTURES
+
+TIME(TOTAL)         : 20.526 seconds 
+TIME(WORST)         : 3.844 seconds 
+TIME(BEST)          : 1.769 seconds 
+TIME(AVERAGE)       : 2.0526 seconds
+
+ACCURACY(WORST)     : 97.222% with Training = 98.095% and Testing = 97.222% (-0.873%)
+ACCURACY(BEST)      : 98.611% with Training = 97.5% and Testing = 98.611% (+1.111%)
+ACCURACY(AVERAGE)   : 98.0279%
+
+OPTIMAL CLASSIFIER  : Classifier #1
+OPTIMAL SCORE       : 98.611%
+OPTIMAL PENALTY     : +1.111%
+
+ - - - - - - - - HYPER PARAMETERS - - - - - - - - - 
+KERNEL              : sigmoid
+C_PARAM             : 10.0
+GAMMA               : 0.01
+
+* * * * * * * * * *
+
+* * * * * * * * * *
+SUMMARY REPORT
+* * * * * * * * * *
+CLASSIFIER          : Support Vector Machine
+FEATURE TYPE        : finger-angle-and-palm-distance
+GESTURE SET         : STATUS GESTURES
+
+TIME(TOTAL)         : 58.869 seconds 
+TIME(WORST)         : 6.353 seconds 
+TIME(BEST)          : 5.57 seconds 
+TIME(AVERAGE)       : 5.8869 seconds
+
+ACCURACY(WORST)     : 92.167% with Training = 93.5% and Testing = 92.167% (-1.333%)
+ACCURACY(BEST)      : 94.5% with Training = 94.143% and Testing = 94.5% (+0.357%)
+ACCURACY(AVERAGE)   : 93.2667%
+
+OPTIMAL CLASSIFIER  : Classifier #6
+OPTIMAL SCORE       : 94.5%
+OPTIMAL PENALTY     : +0.357%
+
+ - - - - - - - - HYPER PARAMETERS - - - - - - - - - 
+KERNEL              : sigmoid
+C_PARAM             : 10.0
+GAMMA               : 0.01
+
+* * * * * * * * * *
+
+* * * * * * * * * *
+SUMMARY REPORT
+* * * * * * * * * *
+CLASSIFIER          : Support Vector Machine
+FEATURE TYPE        : finger-angle-and-palm-distance
+GESTURE SET         : COMBINED GESTURES
+
+TIME(TOTAL)         : 58.657 seconds 
+TIME(WORST)         : 6.051 seconds 
+TIME(BEST)          : 5.55 seconds 
+TIME(AVERAGE)       : 5.8657 seconds
+
+ACCURACY(WORST)     : 90.5% with Training = 94.143% and Testing = 90.5% (-3.643%)
+ACCURACY(BEST)      : 94.667% with Training = 92.857% and Testing = 94.667% (+1.81%)
+ACCURACY(AVERAGE)   : 92.9667%
+
+OPTIMAL CLASSIFIER  : Classifier #4
+OPTIMAL SCORE       : 94.667%
+OPTIMAL PENALTY     : +1.81%
+
+ - - - - - - - - HYPER PARAMETERS - - - - - - - - - 
+KERNEL              : sigmoid
+C_PARAM             : 10.0
+GAMMA               : 0.01
+
+* * * * * * * * * *
+
+* * * * * * * * * *
+SUMMARY REPORT
+* * * * * * * * * *
+CLASSIFIER          : Support Vector Machine
+FEATURE TYPE        : finger-angle-and-palm-distance
+GESTURE SET         : COUNTING GESTURES
+
+TIME(TOTAL)         : 19.536 seconds 
+TIME(WORST)         : 3.632 seconds 
+TIME(BEST)          : 1.652 seconds 
+TIME(AVERAGE)       : 1.9536 seconds
+
+ACCURACY(WORST)     : 95.833% with Training = 98.81% and Testing = 95.833% (-2.977%)
+ACCURACY(BEST)      : 98.889% with Training = 97.738% and Testing = 98.889% (+1.151%)
+ACCURACY(AVERAGE)   : 97.6111%
+
+OPTIMAL CLASSIFIER  : Classifier #5
+OPTIMAL SCORE       : 98.889%
+OPTIMAL PENALTY     : +1.151%
+
+ - - - - - - - - HYPER PARAMETERS - - - - - - - - - 
+KERNEL              : sigmoid
+C_PARAM             : 10.0
+GAMMA               : 0.01
+
+* * * * * * * * * *
+

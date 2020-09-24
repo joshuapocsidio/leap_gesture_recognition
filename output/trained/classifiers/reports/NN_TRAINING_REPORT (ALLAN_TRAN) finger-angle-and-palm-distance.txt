@@ -1,0 +1,90 @@
+* * * * * * * * * *
+SUMMARY REPORT
+* * * * * * * * * *
+CLASSIFIER          : Multi-Layer Perceptron Neural Network
+FEATURE TYPE        : finger-angle-and-palm-distance
+GESTURE SET         : COUNTING GESTURES
+
+TIME(TOTAL)         : 307.559 seconds 
+TIME(WORST)         : 33.493 seconds 
+TIME(BEST)          : 28.202 seconds 
+TIME(AVERAGE)       : 30.7559 seconds
+
+ACCURACY(WORST)     : 96.389% with Training = 98.929% and Testing = 96.389% (-2.54%)
+ACCURACY(BEST)      : 99.722% with Training = 99.048% and Testing = 99.722% (+0.674%)
+ACCURACY(AVERAGE)   : 98.4722%
+
+OPTIMAL CLASSIFIER  : Classifier #3
+OPTIMAL SCORE       : 99.722%
+OPTIMAL PENALTY     : +0.674%
+
+ - - - - - - - - HYPER PARAMETERS - - - - - - - - - 
+ACTIVATION          : logistic
+OPTIMIZER           : sgd
+BATCH_SIZE          : 6
+HIDDEN_LAYERS       : 1
+HIDDEN_LAYER_NODES  : (128,)
+LEARNING RATE       : 0.05
+
+* * * * * * * * * *
+
+* * * * * * * * * *
+SUMMARY REPORT
+* * * * * * * * * *
+CLASSIFIER          : Multi-Layer Perceptron Neural Network
+FEATURE TYPE        : finger-angle-and-palm-distance
+GESTURE SET         : STATUS GESTURES
+
+TIME(TOTAL)         : 609.723 seconds 
+TIME(WORST)         : 64.816 seconds 
+TIME(BEST)          : 59.01 seconds 
+TIME(AVERAGE)       : 60.9723 seconds
+
+ACCURACY(WORST)     : 96.333% with Training = 97.786% and Testing = 96.333% (-1.453%)
+ACCURACY(BEST)      : 99.333% with Training = 98.071% and Testing = 99.333% (+1.262%)
+ACCURACY(AVERAGE)   : 97.9334%
+
+OPTIMAL CLASSIFIER  : Classifier #10
+OPTIMAL SCORE       : 99.333%
+OPTIMAL PENALTY     : +1.262%
+
+ - - - - - - - - HYPER PARAMETERS - - - - - - - - - 
+ACTIVATION          : logistic
+OPTIMIZER           : adam
+BATCH_SIZE          : 6
+HIDDEN_LAYERS       : 1
+HIDDEN_LAYER_NODES  : (128,)
+LEARNING RATE       : 0.01
+
+* * * * * * * * * *
+
+* * * * * * * * * *
+SUMMARY REPORT
+* * * * * * * * * *
+CLASSIFIER          : Multi-Layer Perceptron Neural Network
+FEATURE TYPE        : finger-angle-and-palm-distance
+GESTURE SET         : COMBINED GESTURES
+
+TIME(TOTAL)         : 606.397 seconds 
+TIME(WORST)         : 66.126 seconds 
+TIME(BEST)          : 57.09 seconds 
+TIME(AVERAGE)       : 60.6397 seconds
+
+ACCURACY(WORST)     : 95.667% with Training = 97.643% and Testing = 95.667% (-1.976%)
+ACCURACY(BEST)      : 98.333% with Training = 97.929% and Testing = 98.333% (+0.404%)
+ACCURACY(AVERAGE)   : 97.2666%
+
+OPTIMAL CLASSIFIER  : Classifier #2
+OPTIMAL SCORE       : 98.333%
+OPTIMAL PENALTY     : +0.404%
+
+ - - - - - - - - HYPER PARAMETERS - - - - - - - - - 
+ACTIVATION          : logistic
+OPTIMIZER           : sgd
+BATCH_SIZE          : 6
+HIDDEN_LAYERS       : 2
+HIDDEN_LAYER_NODES  : (128, 128)
+LEARNING RATE       : 0.05
+
+* * * * * * * * * *
+

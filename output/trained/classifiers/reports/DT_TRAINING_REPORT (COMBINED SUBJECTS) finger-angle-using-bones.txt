@@ -1,0 +1,81 @@
+* * * * * * * * * *
+SUMMARY REPORT
+* * * * * * * * * *
+CLASSIFIER          : Decision Tree
+FEATURE TYPE        : finger-angle-using-bones
+GESTURE SET         : COMBINED GESTURES
+
+TIME(TOTAL)         : 249.596 seconds 
+TIME(WORST)         : 25.188 seconds 
+TIME(BEST)          : 24.637 seconds 
+TIME(AVERAGE)       : 24.9596 seconds
+
+ACCURACY(WORST)     : 87.455% with Training = 88.369% and Testing = 87.455% (-0.914%)
+ACCURACY(BEST)      : 89.099% with Training = 87.799% and Testing = 89.099% (+1.3%)
+ACCURACY(AVERAGE)   : 88.4482%
+
+OPTIMAL CLASSIFIER  : Classifier #8
+OPTIMAL SCORE       : 89.099%
+OPTIMAL PENALTY     : +1.3%
+
+ - - - - - - - - HYPER PARAMETERS - - - - - - - - - 
+SPLITTER            : best
+MAX LEAF NODES      : 99
+MIN SAMPLES SPLIT   : 3
+
+* * * * * * * * * *
+
+* * * * * * * * * *
+SUMMARY REPORT
+* * * * * * * * * *
+CLASSIFIER          : Decision Tree
+FEATURE TYPE        : finger-angle-using-bones
+GESTURE SET         : COUNTING GESTURES
+
+TIME(TOTAL)         : 63.513 seconds 
+TIME(WORST)         : 6.407 seconds 
+TIME(BEST)          : 6.28 seconds 
+TIME(AVERAGE)       : 6.3513 seconds
+
+ACCURACY(WORST)     : 98.056% with Training = 99.107% and Testing = 98.056% (-1.051%)
+ACCURACY(BEST)      : 99.167% with Training = 99.196% and Testing = 99.167% (-0.029%)
+ACCURACY(AVERAGE)   : 98.7501%
+
+OPTIMAL CLASSIFIER  : Classifier #2
+OPTIMAL SCORE       : 99.167%
+OPTIMAL PENALTY     : -0.029%
+
+ - - - - - - - - HYPER PARAMETERS - - - - - - - - - 
+SPLITTER            : random
+MAX LEAF NODES      : 92
+MIN SAMPLES SPLIT   : 4
+
+* * * * * * * * * *
+
+* * * * * * * * * *
+SUMMARY REPORT
+* * * * * * * * * *
+CLASSIFIER          : Decision Tree
+FEATURE TYPE        : finger-angle-using-bones
+GESTURE SET         : STATUS GESTURES
+
+TIME(TOTAL)         : 129.626 seconds 
+TIME(WORST)         : 13.14 seconds 
+TIME(BEST)          : 12.815 seconds 
+TIME(AVERAGE)       : 12.9626 seconds
+
+ACCURACY(WORST)     : 95.708% with Training = 96.411% and Testing = 95.708% (-0.703%)
+ACCURACY(BEST)      : 97.833% with Training = 95.964% and Testing = 97.833% (+1.869%)
+ACCURACY(AVERAGE)   : 96.825%
+
+OPTIMAL CLASSIFIER  : Classifier #5
+OPTIMAL SCORE       : 97.833%
+OPTIMAL PENALTY     : +1.869%
+
+ - - - - - - - - HYPER PARAMETERS - - - - - - - - - 
+SPLITTER            : best
+MAX LEAF NODES      : 97
+MIN SAMPLES SPLIT   : 3
+
+* * * * * * * * * *
+

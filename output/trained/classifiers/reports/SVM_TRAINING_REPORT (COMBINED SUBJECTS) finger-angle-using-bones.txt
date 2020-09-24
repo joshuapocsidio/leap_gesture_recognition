@@ -1,0 +1,81 @@
+* * * * * * * * * *
+SUMMARY REPORT
+* * * * * * * * * *
+CLASSIFIER          : Support Vector Machine
+FEATURE TYPE        : finger-angle-using-bones
+GESTURE SET         : COMBINED GESTURES
+
+TIME(TOTAL)         : 2264.028 seconds 
+TIME(WORST)         : 227.516 seconds 
+TIME(BEST)          : 225.4 seconds 
+TIME(AVERAGE)       : 226.4028 seconds
+
+ACCURACY(WORST)     : 79.302% with Training = 80.309% and Testing = 79.302% (-1.007%)
+ACCURACY(BEST)      : 80.946% with Training = 80.521% and Testing = 80.946% (+0.425%)
+ACCURACY(AVERAGE)   : 80.0113%
+
+OPTIMAL CLASSIFIER  : Classifier #5
+OPTIMAL SCORE       : 80.946%
+OPTIMAL PENALTY     : +0.425%
+
+ - - - - - - - - HYPER PARAMETERS - - - - - - - - - 
+KERNEL              : sigmoid
+C_PARAM             : 10.0
+GAMMA               : 0.01
+
+* * * * * * * * * *
+
+* * * * * * * * * *
+SUMMARY REPORT
+* * * * * * * * * *
+CLASSIFIER          : Support Vector Machine
+FEATURE TYPE        : finger-angle-using-bones
+GESTURE SET         : COUNTING GESTURES
+
+TIME(TOTAL)         : 194.022 seconds 
+TIME(WORST)         : 22.18 seconds 
+TIME(BEST)          : 18.202 seconds 
+TIME(AVERAGE)       : 19.4022 seconds
+
+ACCURACY(WORST)     : 93.194% with Training = 93.899% and Testing = 93.194% (-0.705%)
+ACCURACY(BEST)      : 94.722% with Training = 93.423% and Testing = 94.722% (+1.299%)
+ACCURACY(AVERAGE)   : 94.1179%
+
+OPTIMAL CLASSIFIER  : Classifier #9
+OPTIMAL SCORE       : 94.722%
+OPTIMAL PENALTY     : +1.299%
+
+ - - - - - - - - HYPER PARAMETERS - - - - - - - - - 
+KERNEL              : sigmoid
+C_PARAM             : 10.0
+GAMMA               : 0.01
+
+* * * * * * * * * *
+
+* * * * * * * * * *
+SUMMARY REPORT
+* * * * * * * * * *
+CLASSIFIER          : Support Vector Machine
+FEATURE TYPE        : finger-angle-using-bones
+GESTURE SET         : STATUS GESTURES
+
+TIME(TOTAL)         : 590.291 seconds 
+TIME(WORST)         : 67.107 seconds 
+TIME(BEST)          : 57.37 seconds 
+TIME(AVERAGE)       : 59.0291 seconds
+
+ACCURACY(WORST)     : 86.458% with Training = 86.982% and Testing = 86.458% (-0.524%)
+ACCURACY(BEST)      : 87.75% with Training = 86.375% and Testing = 87.75% (+1.375%)
+ACCURACY(AVERAGE)   : 87.1167%
+
+OPTIMAL CLASSIFIER  : Classifier #2
+OPTIMAL SCORE       : 87.75%
+OPTIMAL PENALTY     : +1.375%
+
+ - - - - - - - - HYPER PARAMETERS - - - - - - - - - 
+KERNEL              : sigmoid
+C_PARAM             : 1.0
+GAMMA               : 0.01
+
+* * * * * * * * * *
+
