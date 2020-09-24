@@ -1,3 +1,5 @@
+import datetime
+import time
 from string import strip
 
 # Controller libraries
@@ -135,9 +137,19 @@ def full_training():
 
     for data in data_files:
         print data
+    # Benchmarking timer
+    initial = time.time()
 
     # Since classifier types not specified - will default to all classifier types
     do_multi_training(data_files=data_files)
+
+    # Benchmarking timer calculation and output
+    print("* * * BENCHMARK TIMER RESULTS * * * ")
+    final = time.time()
+    elapsed_time = final - initial
+    print(time.strftime("%H:%M:%S", time.gmtime(elapsed_time)))
+    print("* * * * * * * * * * * * * * * * * * ")
+
 
 ''' TRAINING FUNCTIONS '''
 
