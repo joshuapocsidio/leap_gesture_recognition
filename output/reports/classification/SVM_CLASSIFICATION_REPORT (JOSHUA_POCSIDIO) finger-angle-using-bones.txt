@@ -1,0 +1,1125 @@
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : SVM (JOSHUA_POCSIDIO) COUNTING GESTURES--finger-angle-using-bones_sigmoid 
+Unseen Subject Data    : (ALLAN_TRAN) COUNTING GESTURES--finger-angle-using-bones
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    ALLAN_TRAN
+        Feature        :    finger-angle-using-bones
+        Gesture Set    :    COUNTING GESTURES
+        Correct        :    272
+        Incorrect      :    28
+        Result         :    272 / 300
+        Avg Time       :    8.33339e-05 seconds
+        
+        TRAINING 
+        Accuracy       :    98.929 %
+        
+        TESTING
+        Accuracy       :    90.67 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : SVM (JOSHUA_POCSIDIO) STATUS GESTURES--finger-angle-using-bones_sigmoid 
+Unseen Subject Data    : (ALLAN_TRAN) STATUS GESTURES--finger-angle-using-bones
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    ALLAN_TRAN
+        Feature        :    finger-angle-using-bones
+        Gesture Set    :    STATUS GESTURES
+        Correct        :    343
+        Incorrect      :    157
+        Result         :    343 / 500
+        Avg Time       :    0.0002020017 seconds
+        
+        TRAINING 
+        Accuracy       :    88.786 %
+        
+        TESTING
+        Accuracy       :    68.6 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : SVM (JOSHUA_POCSIDIO) COUNTING GESTURES--finger-angle-using-bones_sigmoid 
+Unseen Subject Data    : (JORELLE_INTERINO) COUNTING GESTURES--finger-angle-using-bones
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    JORELLE_INTERINO
+        Feature        :    finger-angle-using-bones
+        Gesture Set    :    COUNTING GESTURES
+        Correct        :    281
+        Incorrect      :    19
+        Result         :    281 / 300
+        Avg Time       :    8.99993e-05 seconds
+        
+        TRAINING 
+        Accuracy       :    98.929 %
+        
+        TESTING
+        Accuracy       :    93.67 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : SVM (JOSHUA_POCSIDIO) STATUS GESTURES--finger-angle-using-bones_sigmoid 
+Unseen Subject Data    : (JORELLE_INTERINO) STATUS GESTURES--finger-angle-using-bones
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    JORELLE_INTERINO
+        Feature        :    finger-angle-using-bones
+        Gesture Set    :    STATUS GESTURES
+        Correct        :    342
+        Incorrect      :    158
+        Result         :    342 / 500
+        Avg Time       :    0.00019600404 seconds
+        
+        TRAINING 
+        Accuracy       :    88.786 %
+        
+        TESTING
+        Accuracy       :    68.4 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : SVM (JOSHUA_POCSIDIO) COUNTING GESTURES--finger-angle-using-bones_sigmoid 
+Unseen Subject Data    : (JOSHUA_POCSIDIO) COUNTING GESTURES--finger-angle-using-bones
+__________________________________________________________________________________________________
+        PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    JOSHUA_POCSIDIO
+        Feature        :    finger-angle-using-bones
+        Gesture Set    :    COUNTING GESTURES
+        Correct        :    293
+        Incorrect      :    7
+        Result         :    293 / 300
+        Avg Time       :    9.00001e-05 seconds
+        
+        TRAINING 
+        Accuracy       :    98.929 %
+        
+        TESTING
+        Accuracy       :    97.67 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : SVM (JOSHUA_POCSIDIO) STATUS GESTURES--finger-angle-using-bones_sigmoid 
+Unseen Subject Data    : (JOSHUA_POCSIDIO) STATUS GESTURES--finger-angle-using-bones
+__________________________________________________________________________________________________
+        PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    JOSHUA_POCSIDIO
+        Feature        :    finger-angle-using-bones
+        Gesture Set    :    STATUS GESTURES
+        Correct        :    421
+        Incorrect      :    79
+        Result         :    421 / 500
+        Avg Time       :    0.00020200074 seconds
+        
+        TRAINING 
+        Accuracy       :    88.786 %
+        
+        TESTING
+        Accuracy       :    84.2 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : SVM (JOSHUA_POCSIDIO) COUNTING GESTURES--finger-angle-using-bones_sigmoid 
+Unseen Subject Data    : (MARC_SALONGA) COUNTING GESTURES--finger-angle-using-bones
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    MARC_SALONGA
+        Feature        :    finger-angle-using-bones
+        Gesture Set    :    COUNTING GESTURES
+        Correct        :    290
+        Incorrect      :    10
+        Result         :    290 / 300
+        Avg Time       :    9.33364e-05 seconds
+        
+        TRAINING 
+        Accuracy       :    98.929 %
+        
+        TESTING
+        Accuracy       :    96.67 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : SVM (JOSHUA_POCSIDIO) STATUS GESTURES--finger-angle-using-bones_sigmoid 
+Unseen Subject Data    : (MARC_SALONGA) STATUS GESTURES--finger-angle-using-bones
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    MARC_SALONGA
+        Feature        :    finger-angle-using-bones
+        Gesture Set    :    STATUS GESTURES
+        Correct        :    428
+        Incorrect      :    77
+        Result         :    428 / 505
+        Avg Time       :    0.000201981267327 seconds
+        
+        TRAINING 
+        Accuracy       :    88.786 %
+        
+        TESTING
+        Accuracy       :    84.75 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : SVM (JOSHUA_POCSIDIO) COUNTING GESTURES--finger-angle-using-bones_sigmoid 
+Unseen Subject Data    : (NATAREE_KAEWPONG) COUNTING GESTURES--finger-angle-using-bones
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    NATAREE_KAEWPONG
+        Feature        :    finger-angle-using-bones
+        Gesture Set    :    COUNTING GESTURES
+        Correct        :    261
+        Incorrect      :    39
+        Result         :    261 / 300
+        Avg Time       :    0.0001133334 seconds
+        
+        TRAINING 
+        Accuracy       :    98.929 %
+        
+        TESTING
+        Accuracy       :    87.0 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : SVM (JOSHUA_POCSIDIO) STATUS GESTURES--finger-angle-using-bones_sigmoid 
+Unseen Subject Data    : (NATAREE_KAEWPONG) STATUS GESTURES--finger-angle-using-bones
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    NATAREE_KAEWPONG
+        Feature        :    finger-angle-using-bones
+        Gesture Set    :    STATUS GESTURES
+        Correct        :    438
+        Incorrect      :    62
+        Result         :    438 / 500
+        Avg Time       :    0.00021400086 seconds
+        
+        TRAINING 
+        Accuracy       :    88.786 %
+        
+        TESTING
+        Accuracy       :    87.6 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : SVM (JOSHUA_POCSIDIO) COMBINED GESTURES--finger-angle-using-bones_sigmoid 
+Unseen Subject Data    : (ALLAN_TRAN) COMBINED GESTURES--finger-angle-using-bones
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    ALLAN_TRAN
+        Feature        :    finger-angle-using-bones
+        Gesture Set    :    COMBINED GESTURES
+        Correct        :    334
+        Incorrect      :    166
+        Result         :    334 / 500
+        Avg Time       :    0.0001960026 seconds
+        
+        TRAINING 
+        Accuracy       :    88.929 %
+        
+        TESTING
+        Accuracy       :    66.8 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : SVM (JOSHUA_POCSIDIO) COMBINED GESTURES--finger-angle-using-bones_sigmoid 
+Unseen Subject Data    : (COMBINED SUBJECTS) COMBINED GESTURES--finger-angle-using-bones
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    COMBINED SUBJECTS
+        Feature        :    finger-angle-using-bones
+        Gesture Set    :    COMBINED GESTURES
+        Correct        :    1992
+        Incorrect      :    1713
+        Result         :    1992 / 3705
+        Avg Time       :    0.000213766477733 seconds
+        
+        TRAINING 
+        Accuracy       :    88.929 %
+        
+        TESTING
+        Accuracy       :    53.77 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : SVM (JOSHUA_POCSIDIO) COUNTING GESTURES--finger-angle-using-bones_sigmoid 
+Unseen Subject Data    : (COMBINED SUBJECTS) COUNTING GESTURES--finger-angle-using-bones
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    COMBINED SUBJECTS
+        Feature        :    finger-angle-using-bones
+        Gesture Set    :    COUNTING GESTURES
+        Correct        :    4294
+        Incorrect      :    506
+        Result         :    4294 / 4800
+        Avg Time       :    0.0001183334 seconds
+        
+        TRAINING 
+        Accuracy       :    98.929 %
+        
+        TESTING
+        Accuracy       :    89.46 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : SVM (JOSHUA_POCSIDIO) STATUS GESTURES--finger-angle-using-bones_sigmoid 
+Unseen Subject Data    : (COMBINED SUBJECTS) STATUS GESTURES--finger-angle-using-bones
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    COMBINED SUBJECTS
+        Feature        :    finger-angle-using-bones
+        Gesture Set    :    STATUS GESTURES
+        Correct        :    6546
+        Incorrect      :    1454
+        Result         :    6546 / 8000
+        Avg Time       :    0.00020937540375 seconds
+        
+        TRAINING 
+        Accuracy       :    88.786 %
+        
+        TESTING
+        Accuracy       :    81.83 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : SVM (JOSHUA_POCSIDIO) COMBINED GESTURES--finger-angle-using-bones_sigmoid 
+Unseen Subject Data    : (JORELLE_INTERINO) COMBINED GESTURES--finger-angle-using-bones
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    JORELLE_INTERINO
+        Feature        :    finger-angle-using-bones
+        Gesture Set    :    COMBINED GESTURES
+        Correct        :    361
+        Incorrect      :    139
+        Result         :    361 / 500
+        Avg Time       :    0.00020199978 seconds
+        
+        TRAINING 
+        Accuracy       :    88.929 %
+        
+        TESTING
+        Accuracy       :    72.2 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : SVM (JOSHUA_POCSIDIO) COMBINED GESTURES--finger-angle-using-bones_sigmoid 
+Unseen Subject Data    : (JOSHUA_POCSIDIO) COMBINED GESTURES--finger-angle-using-bones
+__________________________________________________________________________________________________
+        PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    JOSHUA_POCSIDIO
+        Feature        :    finger-angle-using-bones
+        Gesture Set    :    COMBINED GESTURES
+        Correct        :    419
+        Incorrect      :    81
+        Result         :    419 / 500
+        Avg Time       :    0.0002040006 seconds
+        
+        TRAINING 
+        Accuracy       :    88.929 %
+        
+        TESTING
+        Accuracy       :    83.8 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : SVM (JOSHUA_POCSIDIO) COMBINED GESTURES--finger-angle-using-bones_sigmoid 
+Unseen Subject Data    : (MARC_SALONGA) COMBINED GESTURES--finger-angle-using-bones
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    MARC_SALONGA
+        Feature        :    finger-angle-using-bones
+        Gesture Set    :    COMBINED GESTURES
+        Correct        :    436
+        Incorrect      :    69
+        Result         :    436 / 505
+        Avg Time       :    0.000207920970297 seconds
+        
+        TRAINING 
+        Accuracy       :    88.929 %
+        
+        TESTING
+        Accuracy       :    86.34 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : SVM (JOSHUA_POCSIDIO) COMBINED GESTURES--finger-angle-using-bones_sigmoid 
+Unseen Subject Data    : (NATAREE_KAEWPONG) COMBINED GESTURES--finger-angle-using-bones
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    NATAREE_KAEWPONG
+        Feature        :    finger-angle-using-bones
+        Gesture Set    :    COMBINED GESTURES
+        Correct        :    442
+        Incorrect      :    58
+        Result         :    442 / 500
+        Avg Time       :    0.0002260005 seconds
+        
+        TRAINING 
+        Accuracy       :    88.929 %
+        
+        TESTING
+        Accuracy       :    88.4 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : SVM (JOSHUA_POCSIDIO) COUNTING GESTURES--finger-angle-using-bones_sigmoid 
+Unseen Subject Data    : (ALLAN_TRAN) COUNTING GESTURES--finger-angle-using-bones
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    ALLAN_TRAN
+        Feature        :    finger-angle-using-bones
+        Gesture Set    :    COUNTING GESTURES
+        Correct        :    272
+        Incorrect      :    28
+        Result         :    272 / 300
+        Avg Time       :    9.33372e-05 seconds
+        
+        TRAINING 
+        Accuracy       :    98.929 %
+        
+        TESTING
+        Accuracy       :    90.67 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : SVM (JOSHUA_POCSIDIO) STATUS GESTURES--finger-angle-using-bones_sigmoid 
+Unseen Subject Data    : (ALLAN_TRAN) STATUS GESTURES--finger-angle-using-bones
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    ALLAN_TRAN
+        Feature        :    finger-angle-using-bones
+        Gesture Set    :    STATUS GESTURES
+        Correct        :    343
+        Incorrect      :    157
+        Result         :    343 / 500
+        Avg Time       :    0.00020999922 seconds
+        
+        TRAINING 
+        Accuracy       :    88.786 %
+        
+        TESTING
+        Accuracy       :    68.6 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : SVM (JOSHUA_POCSIDIO) COUNTING GESTURES--finger-angle-using-bones_sigmoid 
+Unseen Subject Data    : (JORELLE_INTERINO) COUNTING GESTURES--finger-angle-using-bones
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    JORELLE_INTERINO
+        Feature        :    finger-angle-using-bones
+        Gesture Set    :    COUNTING GESTURES
+        Correct        :    281
+        Incorrect      :    19
+        Result         :    281 / 300
+        Avg Time       :    0.000113331 seconds
+        
+        TRAINING 
+        Accuracy       :    98.929 %
+        
+        TESTING
+        Accuracy       :    93.67 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : SVM (JOSHUA_POCSIDIO) STATUS GESTURES--finger-angle-using-bones_sigmoid 
+Unseen Subject Data    : (JORELLE_INTERINO) STATUS GESTURES--finger-angle-using-bones
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    JORELLE_INTERINO
+        Feature        :    finger-angle-using-bones
+        Gesture Set    :    STATUS GESTURES
+        Correct        :    342
+        Incorrect      :    158
+        Result         :    342 / 500
+        Avg Time       :    0.00022400016 seconds
+        
+        TRAINING 
+        Accuracy       :    88.786 %
+        
+        TESTING
+        Accuracy       :    68.4 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : SVM (JOSHUA_POCSIDIO) COUNTING GESTURES--finger-angle-using-bones_sigmoid 
+Unseen Subject Data    : (JOSHUA_POCSIDIO) COUNTING GESTURES--finger-angle-using-bones
+__________________________________________________________________________________________________
+        PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    JOSHUA_POCSIDIO
+        Feature        :    finger-angle-using-bones
+        Gesture Set    :    COUNTING GESTURES
+        Correct        :    293
+        Incorrect      :    7
+        Result         :    293 / 300
+        Avg Time       :    0.0001166657 seconds
+        
+        TRAINING 
+        Accuracy       :    98.929 %
+        
+        TESTING
+        Accuracy       :    97.67 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : SVM (JOSHUA_POCSIDIO) STATUS GESTURES--finger-angle-using-bones_sigmoid 
+Unseen Subject Data    : (JOSHUA_POCSIDIO) STATUS GESTURES--finger-angle-using-bones
+__________________________________________________________________________________________________
+        PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    JOSHUA_POCSIDIO
+        Feature        :    finger-angle-using-bones
+        Gesture Set    :    STATUS GESTURES
+        Correct        :    421
+        Incorrect      :    79
+        Result         :    421 / 500
+        Avg Time       :    0.00022800084 seconds
+        
+        TRAINING 
+        Accuracy       :    88.786 %
+        
+        TESTING
+        Accuracy       :    84.2 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : SVM (JOSHUA_POCSIDIO) COUNTING GESTURES--finger-angle-using-bones_sigmoid 
+Unseen Subject Data    : (MARC_SALONGA) COUNTING GESTURES--finger-angle-using-bones
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    MARC_SALONGA
+        Feature        :    finger-angle-using-bones
+        Gesture Set    :    COUNTING GESTURES
+        Correct        :    290
+        Incorrect      :    10
+        Result         :    290 / 300
+        Avg Time       :    0.0001066664 seconds
+        
+        TRAINING 
+        Accuracy       :    98.929 %
+        
+        TESTING
+        Accuracy       :    96.67 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : SVM (JOSHUA_POCSIDIO) STATUS GESTURES--finger-angle-using-bones_sigmoid 
+Unseen Subject Data    : (MARC_SALONGA) STATUS GESTURES--finger-angle-using-bones
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    MARC_SALONGA
+        Feature        :    finger-angle-using-bones
+        Gesture Set    :    STATUS GESTURES
+        Correct        :    428
+        Incorrect      :    77
+        Result         :    428 / 505
+        Avg Time       :    0.000196039663366 seconds
+        
+        TRAINING 
+        Accuracy       :    88.786 %
+        
+        TESTING
+        Accuracy       :    84.75 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : SVM (JOSHUA_POCSIDIO) COUNTING GESTURES--finger-angle-using-bones_sigmoid 
+Unseen Subject Data    : (NATAREE_KAEWPONG) COUNTING GESTURES--finger-angle-using-bones
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    NATAREE_KAEWPONG
+        Feature        :    finger-angle-using-bones
+        Gesture Set    :    COUNTING GESTURES
+        Correct        :    261
+        Incorrect      :    39
+        Result         :    261 / 300
+        Avg Time       :    0.000119998 seconds
+        
+        TRAINING 
+        Accuracy       :    98.929 %
+        
+        TESTING
+        Accuracy       :    87.0 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : SVM (JOSHUA_POCSIDIO) STATUS GESTURES--finger-angle-using-bones_sigmoid 
+Unseen Subject Data    : (NATAREE_KAEWPONG) STATUS GESTURES--finger-angle-using-bones
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    NATAREE_KAEWPONG
+        Feature        :    finger-angle-using-bones
+        Gesture Set    :    STATUS GESTURES
+        Correct        :    438
+        Incorrect      :    62
+        Result         :    438 / 500
+        Avg Time       :    0.00020000088 seconds
+        
+        TRAINING 
+        Accuracy       :    88.786 %
+        
+        TESTING
+        Accuracy       :    87.6 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : SVM (JOSHUA_POCSIDIO) COMBINED GESTURES--finger-angle-using-bones_sigmoid 
+Unseen Subject Data    : (ALLAN_TRAN) COMBINED GESTURES--finger-angle-using-bones
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    ALLAN_TRAN
+        Feature        :    finger-angle-using-bones
+        Gesture Set    :    COMBINED GESTURES
+        Correct        :    334
+        Incorrect      :    166
+        Result         :    334 / 500
+        Avg Time       :    0.00020799984 seconds
+        
+        TRAINING 
+        Accuracy       :    88.929 %
+        
+        TESTING
+        Accuracy       :    66.8 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : SVM (JOSHUA_POCSIDIO) COMBINED GESTURES--finger-angle-using-bones_sigmoid 
+Unseen Subject Data    : (COMBINED SUBJECTS) COMBINED GESTURES--finger-angle-using-bones
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    COMBINED SUBJECTS
+        Feature        :    finger-angle-using-bones
+        Gesture Set    :    COMBINED GESTURES
+        Correct        :    1992
+        Incorrect      :    1713
+        Result         :    1992 / 3705
+        Avg Time       :    0.000206208615385 seconds
+        
+        TRAINING 
+        Accuracy       :    88.929 %
+        
+        TESTING
+        Accuracy       :    53.77 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : SVM (JOSHUA_POCSIDIO) COUNTING GESTURES--finger-angle-using-bones_sigmoid 
+Unseen Subject Data    : (COMBINED SUBJECTS) COUNTING GESTURES--finger-angle-using-bones
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    COMBINED SUBJECTS
+        Feature        :    finger-angle-using-bones
+        Gesture Set    :    COUNTING GESTURES
+        Correct        :    4294
+        Incorrect      :    506
+        Result         :    4294 / 4800
+        Avg Time       :    0.00011395885625 seconds
+        
+        TRAINING 
+        Accuracy       :    98.929 %
+        
+        TESTING
+        Accuracy       :    89.46 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : SVM (JOSHUA_POCSIDIO) STATUS GESTURES--finger-angle-using-bones_sigmoid 
+Unseen Subject Data    : (COMBINED SUBJECTS) STATUS GESTURES--finger-angle-using-bones
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    COMBINED SUBJECTS
+        Feature        :    finger-angle-using-bones
+        Gesture Set    :    STATUS GESTURES
+        Correct        :    6546
+        Incorrect      :    1454
+        Result         :    6546 / 8000
+        Avg Time       :    0.00020912569125 seconds
+        
+        TRAINING 
+        Accuracy       :    88.786 %
+        
+        TESTING
+        Accuracy       :    81.83 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : SVM (JOSHUA_POCSIDIO) COUNTING GESTURES--finger-angle-using-bones_sigmoid 
+Unseen Subject Data    : (ALLAN_TRAN) COUNTING GESTURES--finger-angle-using-bones
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    ALLAN_TRAN
+        Feature        :    finger-angle-using-bones
+        Gesture Set    :    COUNTING GESTURES
+        Correct        :    272
+        Incorrect      :    28
+        Result         :    272 / 300
+        Avg Time       :    0.0001200012 seconds
+        
+        TRAINING 
+        Accuracy       :    98.929 %
+        
+        TESTING
+        Accuracy       :    90.67 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : SVM (JOSHUA_POCSIDIO) STATUS GESTURES--finger-angle-using-bones_sigmoid 
+Unseen Subject Data    : (ALLAN_TRAN) STATUS GESTURES--finger-angle-using-bones
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    ALLAN_TRAN
+        Feature        :    finger-angle-using-bones
+        Gesture Set    :    STATUS GESTURES
+        Correct        :    343
+        Incorrect      :    157
+        Result         :    343 / 500
+        Avg Time       :    0.00020600238 seconds
+        
+        TRAINING 
+        Accuracy       :    88.786 %
+        
+        TESTING
+        Accuracy       :    68.6 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : SVM (JOSHUA_POCSIDIO) COUNTING GESTURES--finger-angle-using-bones_sigmoid 
+Unseen Subject Data    : (JORELLE_INTERINO) COUNTING GESTURES--finger-angle-using-bones
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    JORELLE_INTERINO
+        Feature        :    finger-angle-using-bones
+        Gesture Set    :    COUNTING GESTURES
+        Correct        :    281
+        Incorrect      :    19
+        Result         :    281 / 300
+        Avg Time       :    0.000120002 seconds
+        
+        TRAINING 
+        Accuracy       :    98.929 %
+        
+        TESTING
+        Accuracy       :    93.67 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : SVM (JOSHUA_POCSIDIO) STATUS GESTURES--finger-angle-using-bones_sigmoid 
+Unseen Subject Data    : (JORELLE_INTERINO) STATUS GESTURES--finger-angle-using-bones
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    JORELLE_INTERINO
+        Feature        :    finger-angle-using-bones
+        Gesture Set    :    STATUS GESTURES
+        Correct        :    342
+        Incorrect      :    158
+        Result         :    342 / 500
+        Avg Time       :    0.00020600382 seconds
+        
+        TRAINING 
+        Accuracy       :    88.786 %
+        
+        TESTING
+        Accuracy       :    68.4 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : SVM (JOSHUA_POCSIDIO) COUNTING GESTURES--finger-angle-using-bones_sigmoid 
+Unseen Subject Data    : (JOSHUA_POCSIDIO) COUNTING GESTURES--finger-angle-using-bones
+__________________________________________________________________________________________________
+        PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    JOSHUA_POCSIDIO
+        Feature        :    finger-angle-using-bones
+        Gesture Set    :    COUNTING GESTURES
+        Correct        :    293
+        Incorrect      :    7
+        Result         :    293 / 300
+        Avg Time       :    0.0001066648 seconds
+        
+        TRAINING 
+        Accuracy       :    98.929 %
+        
+        TESTING
+        Accuracy       :    97.67 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : SVM (JOSHUA_POCSIDIO) STATUS GESTURES--finger-angle-using-bones_sigmoid 
+Unseen Subject Data    : (JOSHUA_POCSIDIO) STATUS GESTURES--finger-angle-using-bones
+__________________________________________________________________________________________________
+        PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    JOSHUA_POCSIDIO
+        Feature        :    finger-angle-using-bones
+        Gesture Set    :    STATUS GESTURES
+        Correct        :    421
+        Incorrect      :    79
+        Result         :    421 / 500
+        Avg Time       :    0.00020000088 seconds
+        
+        TRAINING 
+        Accuracy       :    88.786 %
+        
+        TESTING
+        Accuracy       :    84.2 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : SVM (JOSHUA_POCSIDIO) COUNTING GESTURES--finger-angle-using-bones_sigmoid 
+Unseen Subject Data    : (MARC_SALONGA) COUNTING GESTURES--finger-angle-using-bones
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    MARC_SALONGA
+        Feature        :    finger-angle-using-bones
+        Gesture Set    :    COUNTING GESTURES
+        Correct        :    290
+        Incorrect      :    10
+        Result         :    290 / 300
+        Avg Time       :    0.0001066672 seconds
+        
+        TRAINING 
+        Accuracy       :    98.929 %
+        
+        TESTING
+        Accuracy       :    96.67 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : SVM (JOSHUA_POCSIDIO) STATUS GESTURES--finger-angle-using-bones_sigmoid 
+Unseen Subject Data    : (MARC_SALONGA) STATUS GESTURES--finger-angle-using-bones
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    MARC_SALONGA
+        Feature        :    finger-angle-using-bones
+        Gesture Set    :    STATUS GESTURES
+        Correct        :    428
+        Incorrect      :    77
+        Result         :    428 / 505
+        Avg Time       :    0.00021386209901 seconds
+        
+        TRAINING 
+        Accuracy       :    88.786 %
+        
+        TESTING
+        Accuracy       :    84.75 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : SVM (JOSHUA_POCSIDIO) COUNTING GESTURES--finger-angle-using-bones_sigmoid 
+Unseen Subject Data    : (ALLAN_TRAN) COUNTING GESTURES--finger-angle-using-bones
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    ALLAN_TRAN
+        Feature        :    finger-angle-using-bones
+        Gesture Set    :    COUNTING GESTURES
+        Correct        :    272
+        Incorrect      :    28
+        Result         :    272 / 300
+        Avg Time       :    0.0001200012 seconds
+        
+        TRAINING 
+        Accuracy       :    98.929 %
+        
+        TESTING
+        Accuracy       :    90.67 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : SVM (JOSHUA_POCSIDIO) STATUS GESTURES--finger-angle-using-bones_sigmoid 
+Unseen Subject Data    : (ALLAN_TRAN) STATUS GESTURES--finger-angle-using-bones
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    ALLAN_TRAN
+        Feature        :    finger-angle-using-bones
+        Gesture Set    :    STATUS GESTURES
+        Correct        :    343
+        Incorrect      :    157
+        Result         :    343 / 500
+        Avg Time       :    0.0002100021 seconds
+        
+        TRAINING 
+        Accuracy       :    88.786 %
+        
+        TESTING
+        Accuracy       :    68.6 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : SVM (JOSHUA_POCSIDIO) COUNTING GESTURES--finger-angle-using-bones_sigmoid 
+Unseen Subject Data    : (JORELLE_INTERINO) COUNTING GESTURES--finger-angle-using-bones
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    JORELLE_INTERINO
+        Feature        :    finger-angle-using-bones
+        Gesture Set    :    COUNTING GESTURES
+        Correct        :    281
+        Incorrect      :    19
+        Result         :    281 / 300
+        Avg Time       :    7.3333e-05 seconds
+        
+        TRAINING 
+        Accuracy       :    98.929 %
+        
+        TESTING
+        Accuracy       :    93.67 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : SVM (JOSHUA_POCSIDIO) STATUS GESTURES--finger-angle-using-bones_sigmoid 
+Unseen Subject Data    : (JORELLE_INTERINO) STATUS GESTURES--finger-angle-using-bones
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    JORELLE_INTERINO
+        Feature        :    finger-angle-using-bones
+        Gesture Set    :    STATUS GESTURES
+        Correct        :    342
+        Incorrect      :    158
+        Result         :    342 / 500
+        Avg Time       :    0.00023400186 seconds
+        
+        TRAINING 
+        Accuracy       :    88.786 %
+        
+        TESTING
+        Accuracy       :    68.4 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : SVM (JOSHUA_POCSIDIO) COUNTING GESTURES--finger-angle-using-bones_sigmoid 
+Unseen Subject Data    : (JOSHUA_POCSIDIO) COUNTING GESTURES--finger-angle-using-bones
+__________________________________________________________________________________________________
+        PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    JOSHUA_POCSIDIO
+        Feature        :    finger-angle-using-bones
+        Gesture Set    :    COUNTING GESTURES
+        Correct        :    293
+        Incorrect      :    7
+        Result         :    293 / 300
+        Avg Time       :    0.0001066656 seconds
+        
+        TRAINING 
+        Accuracy       :    98.929 %
+        
+        TESTING
+        Accuracy       :    97.67 %
+        
+        
+

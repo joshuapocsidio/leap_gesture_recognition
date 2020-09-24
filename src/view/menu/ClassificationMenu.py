@@ -253,7 +253,7 @@ class ClassificationMenu:
                                     gesture_set=gesture_set,
                                     feature_set=feature_set,
                                     unseen_data=unseen_data,
-                                    file_name=file_name
+                                    file_name=file_name,
                                 )
 
             elif choice == '5':

@@ -1,0 +1,90 @@
+* * * * * * * * * *
+SUMMARY REPORT
+* * * * * * * * * *
+CLASSIFIER          : Multi-Layer Perceptron Neural Network
+FEATURE TYPE        : finger-angle-using-bones
+GESTURE SET         : COUNTING GESTURES
+
+TIME(TOTAL)         : 304.515 seconds 
+TIME(WORST)         : 32.036 seconds 
+TIME(BEST)          : 29.296 seconds 
+TIME(AVERAGE)       : 30.4515 seconds
+
+ACCURACY(WORST)     : 94.167% with Training = 99.048% and Testing = 94.167% (-4.881%)
+ACCURACY(BEST)      : 100.0% with Training = 99.286% and Testing = 100.0% (+0.714%)
+ACCURACY(AVERAGE)   : 97.7501%
+
+OPTIMAL CLASSIFIER  : Classifier #4
+OPTIMAL SCORE       : 100.0%
+OPTIMAL PENALTY     : +0.714%
+
+ - - - - - - - - HYPER PARAMETERS - - - - - - - - - 
+ACTIVATION          : logistic
+OPTIMIZER           : sgd
+BATCH_SIZE          : 6
+HIDDEN_LAYERS       : 1
+HIDDEN_LAYER_NODES  : (128,)
+LEARNING RATE       : 0.1
+
+* * * * * * * * * *
+
+* * * * * * * * * *
+SUMMARY REPORT
+* * * * * * * * * *
+CLASSIFIER          : Multi-Layer Perceptron Neural Network
+FEATURE TYPE        : finger-angle-using-bones
+GESTURE SET         : STATUS GESTURES
+
+TIME(TOTAL)         : 607.39 seconds 
+TIME(WORST)         : 63.461 seconds 
+TIME(BEST)          : 57.927 seconds 
+TIME(AVERAGE)       : 60.739 seconds
+
+ACCURACY(WORST)     : 97.167% with Training = 98.357% and Testing = 97.167% (-1.19%)
+ACCURACY(BEST)      : 99.0% with Training = 98.0% and Testing = 99.0% (+1.0%)
+ACCURACY(AVERAGE)   : 98.4167%
+
+OPTIMAL CLASSIFIER  : Classifier #1
+OPTIMAL SCORE       : 99.0%
+OPTIMAL PENALTY     : +1.0%
+
+ - - - - - - - - HYPER PARAMETERS - - - - - - - - - 
+ACTIVATION          : logistic
+OPTIMIZER           : sgd
+BATCH_SIZE          : 6
+HIDDEN_LAYERS       : 2
+HIDDEN_LAYER_NODES  : (128, 128)
+LEARNING RATE       : 0.01
+
+* * * * * * * * * *
+
+* * * * * * * * * *
+SUMMARY REPORT
+* * * * * * * * * *
+CLASSIFIER          : Multi-Layer Perceptron Neural Network
+FEATURE TYPE        : finger-angle-using-bones
+GESTURE SET         : COMBINED GESTURES
+
+TIME(TOTAL)         : 669.957 seconds 
+TIME(WORST)         : 70.884 seconds 
+TIME(BEST)          : 64.684 seconds 
+TIME(AVERAGE)       : 66.9957 seconds
+
+ACCURACY(WORST)     : 96.833% with Training = 98.714% and Testing = 96.833% (-1.881%)
+ACCURACY(BEST)      : 99.0% with Training = 98.286% and Testing = 99.0% (+0.714%)
+ACCURACY(AVERAGE)   : 98.15%
+
+OPTIMAL CLASSIFIER  : Classifier #7
+OPTIMAL SCORE       : 99.0%
+OPTIMAL PENALTY     : +0.714%
+
+ - - - - - - - - HYPER PARAMETERS - - - - - - - - - 
+ACTIVATION          : logistic
+OPTIMIZER           : sgd
+BATCH_SIZE          : 6
+HIDDEN_LAYERS       : 4
+HIDDEN_LAYER_NODES  : (64, 128, 128, 64)
+LEARNING RATE       : 0.01
+
+* * * * * * * * * *
+

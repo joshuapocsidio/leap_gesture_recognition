@@ -1,0 +1,350 @@
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : DT (NATAREE_KAEWPONG) COUNTING GESTURES--finger-between-distance_entropy 
+Unseen Subject Data    : (ALLAN_TRAN) COUNTING GESTURES--finger-between-distance
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    NATAREE_KAEWPONG
+        Unseen Subject :    ALLAN_TRAN
+        Feature        :    finger-between-distance
+        Gesture Set    :    COUNTING GESTURES
+        Correct        :    211
+        Incorrect      :    89
+        Result         :    211 / 300
+        Avg Time       :    6.66668e-05 seconds
+        
+        TRAINING 
+        Accuracy       :    99.643 %
+        
+        TESTING
+        Accuracy       :    70.33 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : DT (NATAREE_KAEWPONG) STATUS GESTURES--finger-between-distance_entropy 
+Unseen Subject Data    : (ALLAN_TRAN) STATUS GESTURES--finger-between-distance
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    NATAREE_KAEWPONG
+        Unseen Subject :    ALLAN_TRAN
+        Feature        :    finger-between-distance
+        Gesture Set    :    STATUS GESTURES
+        Correct        :    347
+        Incorrect      :    153
+        Result         :    347 / 500
+        Avg Time       :    8.800056e-05 seconds
+        
+        TRAINING 
+        Accuracy       :    99.643 %
+        
+        TESTING
+        Accuracy       :    69.4 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : DT (NATAREE_KAEWPONG) COUNTING GESTURES--finger-between-distance_entropy 
+Unseen Subject Data    : (JORELLE_INTERINO) COUNTING GESTURES--finger-between-distance
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    NATAREE_KAEWPONG
+        Unseen Subject :    JORELLE_INTERINO
+        Feature        :    finger-between-distance
+        Gesture Set    :    COUNTING GESTURES
+        Correct        :    214
+        Incorrect      :    86
+        Result         :    214 / 300
+        Avg Time       :    8.66654e-05 seconds
+        
+        TRAINING 
+        Accuracy       :    99.643 %
+        
+        TESTING
+        Accuracy       :    71.33 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : DT (NATAREE_KAEWPONG) STATUS GESTURES--finger-between-distance_entropy 
+Unseen Subject Data    : (JORELLE_INTERINO) STATUS GESTURES--finger-between-distance
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    NATAREE_KAEWPONG
+        Unseen Subject :    JORELLE_INTERINO
+        Feature        :    finger-between-distance
+        Gesture Set    :    STATUS GESTURES
+        Correct        :    399
+        Incorrect      :    101
+        Result         :    399 / 500
+        Avg Time       :    6.000108e-05 seconds
+        
+        TRAINING 
+        Accuracy       :    99.643 %
+        
+        TESTING
+        Accuracy       :    79.8 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : DT (NATAREE_KAEWPONG) COUNTING GESTURES--finger-between-distance_entropy 
+Unseen Subject Data    : (JOSHUA_POCSIDIO) COUNTING GESTURES--finger-between-distance
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    NATAREE_KAEWPONG
+        Unseen Subject :    JOSHUA_POCSIDIO
+        Feature        :    finger-between-distance
+        Gesture Set    :    COUNTING GESTURES
+        Correct        :    240
+        Incorrect      :    60
+        Result         :    240 / 300
+        Avg Time       :    8e-05 seconds
+        
+        TRAINING 
+        Accuracy       :    99.643 %
+        
+        TESTING
+        Accuracy       :    80.0 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : DT (NATAREE_KAEWPONG) STATUS GESTURES--finger-between-distance_entropy 
+Unseen Subject Data    : (JOSHUA_POCSIDIO) STATUS GESTURES--finger-between-distance
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    NATAREE_KAEWPONG
+        Unseen Subject :    JOSHUA_POCSIDIO
+        Feature        :    finger-between-distance
+        Gesture Set    :    STATUS GESTURES
+        Correct        :    404
+        Incorrect      :    96
+        Result         :    404 / 500
+        Avg Time       :    9.200124e-05 seconds
+        
+        TRAINING 
+        Accuracy       :    99.643 %
+        
+        TESTING
+        Accuracy       :    80.8 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : DT (NATAREE_KAEWPONG) COUNTING GESTURES--finger-between-distance_entropy 
+Unseen Subject Data    : (MARC_SALONGA) COUNTING GESTURES--finger-between-distance
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    NATAREE_KAEWPONG
+        Unseen Subject :    MARC_SALONGA
+        Feature        :    finger-between-distance
+        Gesture Set    :    COUNTING GESTURES
+        Correct        :    211
+        Incorrect      :    89
+        Result         :    211 / 300
+        Avg Time       :    5.3332e-05 seconds
+        
+        TRAINING 
+        Accuracy       :    99.643 %
+        
+        TESTING
+        Accuracy       :    70.33 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : DT (NATAREE_KAEWPONG) STATUS GESTURES--finger-between-distance_entropy 
+Unseen Subject Data    : (MARC_SALONGA) STATUS GESTURES--finger-between-distance
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    NATAREE_KAEWPONG
+        Unseen Subject :    MARC_SALONGA
+        Feature        :    finger-between-distance
+        Gesture Set    :    STATUS GESTURES
+        Correct        :    381
+        Incorrect      :    124
+        Result         :    381 / 505
+        Avg Time       :    0.000118811643564 seconds
+        
+        TRAINING 
+        Accuracy       :    99.643 %
+        
+        TESTING
+        Accuracy       :    75.45 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : DT (NATAREE_KAEWPONG) COUNTING GESTURES--finger-between-distance_entropy 
+Unseen Subject Data    : (NATAREE_KAEWPONG) COUNTING GESTURES--finger-between-distance
+__________________________________________________________________________________________________
+        PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    NATAREE_KAEWPONG
+        Unseen Subject :    NATAREE_KAEWPONG
+        Feature        :    finger-between-distance
+        Gesture Set    :    COUNTING GESTURES
+        Correct        :    253
+        Incorrect      :    47
+        Result         :    253 / 300
+        Avg Time       :    9.33332e-05 seconds
+        
+        TRAINING 
+        Accuracy       :    99.643 %
+        
+        TESTING
+        Accuracy       :    84.33 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : DT (NATAREE_KAEWPONG) STATUS GESTURES--finger-between-distance_entropy 
+Unseen Subject Data    : (NATAREE_KAEWPONG) STATUS GESTURES--finger-between-distance
+__________________________________________________________________________________________________
+        PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    NATAREE_KAEWPONG
+        Unseen Subject :    NATAREE_KAEWPONG
+        Feature        :    finger-between-distance
+        Gesture Set    :    STATUS GESTURES
+        Correct        :    441
+        Incorrect      :    59
+        Result         :    441 / 500
+        Avg Time       :    7.800078e-05 seconds
+        
+        TRAINING 
+        Accuracy       :    99.643 %
+        
+        TESTING
+        Accuracy       :    88.2 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : DT (NATAREE_KAEWPONG) COMBINED GESTURES--finger-between-distance_entropy 
+Unseen Subject Data    : (ALLAN_TRAN) COMBINED GESTURES--finger-between-distance
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    NATAREE_KAEWPONG
+        Unseen Subject :    ALLAN_TRAN
+        Feature        :    finger-between-distance
+        Gesture Set    :    COMBINED GESTURES
+        Correct        :    366
+        Incorrect      :    134
+        Result         :    366 / 500
+        Avg Time       :    8.000112e-05 seconds
+        
+        TRAINING 
+        Accuracy       :    99.5 %
+        
+        TESTING
+        Accuracy       :    73.2 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : DT (NATAREE_KAEWPONG) COMBINED GESTURES--finger-between-distance_entropy 
+Unseen Subject Data    : (COMBINED SUBJECTS) COMBINED GESTURES--finger-between-distance
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    NATAREE_KAEWPONG
+        Unseen Subject :    COMBINED SUBJECTS
+        Feature        :    finger-between-distance
+        Gesture Set    :    COMBINED GESTURES
+        Correct        :    1873
+        Incorrect      :    1832
+        Result         :    1873 / 3705
+        Avg Time       :    8.63701376518e-05 seconds
+        
+        TRAINING 
+        Accuracy       :    99.5 %
+        
+        TESTING
+        Accuracy       :    50.55 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : DT (NATAREE_KAEWPONG) COUNTING GESTURES--finger-between-distance_entropy 
+Unseen Subject Data    : (COMBINED SUBJECTS) COUNTING GESTURES--finger-between-distance
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    NATAREE_KAEWPONG
+        Unseen Subject :    COMBINED SUBJECTS
+        Feature        :    finger-between-distance
+        Gesture Set    :    COUNTING GESTURES
+        Correct        :    3657
+        Incorrect      :    1143
+        Result         :    3657 / 4800
+        Avg Time       :    9.14582291667e-05 seconds
+        
+        TRAINING 
+        Accuracy       :    99.643 %
+        
+        TESTING
+        Accuracy       :    76.19 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : DT (NATAREE_KAEWPONG) STATUS GESTURES--finger-between-distance_entropy 
+Unseen Subject Data    : (COMBINED SUBJECTS) STATUS GESTURES--finger-between-distance
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    NATAREE_KAEWPONG
+        Unseen Subject :    COMBINED SUBJECTS
+        Feature        :    finger-between-distance
+        Gesture Set    :    STATUS GESTURES
+        Correct        :    6549
+        Incorrect      :    1451
+        Result         :    6549 / 8000
+        Avg Time       :    8.100003e-05 seconds
+        
+        TRAINING 
+        Accuracy       :    99.643 %
+        
+        TESTING
+        Accuracy       :    81.86 %
+        
+        
+

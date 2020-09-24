@@ -1,0 +1,1125 @@
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : NN (JOSHUA_POCSIDIO) COUNTING GESTURES--finger-angle-using-bones_logistic 
+Unseen Subject Data    : (ALLAN_TRAN) COUNTING GESTURES--finger-angle-using-bones
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    ALLAN_TRAN
+        Feature        :    finger-angle-using-bones
+        Gesture Set    :    COUNTING GESTURES
+        Correct        :    222
+        Incorrect      :    78
+        Result         :    222 / 300
+        Avg Time       :    0.0001033317 seconds
+        
+        TRAINING 
+        Accuracy       :    99.286 %
+        
+        TESTING
+        Accuracy       :    74.0 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : NN (JOSHUA_POCSIDIO) STATUS GESTURES--finger-angle-using-bones_logistic 
+Unseen Subject Data    : (ALLAN_TRAN) STATUS GESTURES--finger-angle-using-bones
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    ALLAN_TRAN
+        Feature        :    finger-angle-using-bones
+        Gesture Set    :    STATUS GESTURES
+        Correct        :    334
+        Incorrect      :    166
+        Result         :    334 / 500
+        Avg Time       :    0.00022000092 seconds
+        
+        TRAINING 
+        Accuracy       :    95.571 %
+        
+        TESTING
+        Accuracy       :    66.8 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : NN (JOSHUA_POCSIDIO) COUNTING GESTURES--finger-angle-using-bones_logistic 
+Unseen Subject Data    : (JORELLE_INTERINO) COUNTING GESTURES--finger-angle-using-bones
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    JORELLE_INTERINO
+        Feature        :    finger-angle-using-bones
+        Gesture Set    :    COUNTING GESTURES
+        Correct        :    235
+        Incorrect      :    65
+        Result         :    235 / 300
+        Avg Time       :    0.000100001 seconds
+        
+        TRAINING 
+        Accuracy       :    99.286 %
+        
+        TESTING
+        Accuracy       :    78.33 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : NN (JOSHUA_POCSIDIO) STATUS GESTURES--finger-angle-using-bones_logistic 
+Unseen Subject Data    : (JORELLE_INTERINO) STATUS GESTURES--finger-angle-using-bones
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    JORELLE_INTERINO
+        Feature        :    finger-angle-using-bones
+        Gesture Set    :    STATUS GESTURES
+        Correct        :    334
+        Incorrect      :    166
+        Result         :    334 / 500
+        Avg Time       :    0.0002059995 seconds
+        
+        TRAINING 
+        Accuracy       :    95.571 %
+        
+        TESTING
+        Accuracy       :    66.8 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : NN (JOSHUA_POCSIDIO) COUNTING GESTURES--finger-angle-using-bones_logistic 
+Unseen Subject Data    : (JOSHUA_POCSIDIO) COUNTING GESTURES--finger-angle-using-bones
+__________________________________________________________________________________________________
+        PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    JOSHUA_POCSIDIO
+        Feature        :    finger-angle-using-bones
+        Gesture Set    :    COUNTING GESTURES
+        Correct        :    272
+        Incorrect      :    28
+        Result         :    272 / 300
+        Avg Time       :    8.66654e-05 seconds
+        
+        TRAINING 
+        Accuracy       :    99.286 %
+        
+        TESTING
+        Accuracy       :    90.67 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : NN (JOSHUA_POCSIDIO) STATUS GESTURES--finger-angle-using-bones_logistic 
+Unseen Subject Data    : (JOSHUA_POCSIDIO) STATUS GESTURES--finger-angle-using-bones
+__________________________________________________________________________________________________
+        PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    JOSHUA_POCSIDIO
+        Feature        :    finger-angle-using-bones
+        Gesture Set    :    STATUS GESTURES
+        Correct        :    378
+        Incorrect      :    122
+        Result         :    378 / 500
+        Avg Time       :    0.00024200082 seconds
+        
+        TRAINING 
+        Accuracy       :    95.571 %
+        
+        TESTING
+        Accuracy       :    75.6 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : NN (JOSHUA_POCSIDIO) COUNTING GESTURES--finger-angle-using-bones_logistic 
+Unseen Subject Data    : (MARC_SALONGA) COUNTING GESTURES--finger-angle-using-bones
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    MARC_SALONGA
+        Feature        :    finger-angle-using-bones
+        Gesture Set    :    COUNTING GESTURES
+        Correct        :    252
+        Incorrect      :    48
+        Result         :    252 / 300
+        Avg Time       :    0.0001033341 seconds
+        
+        TRAINING 
+        Accuracy       :    99.286 %
+        
+        TESTING
+        Accuracy       :    84.0 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : NN (JOSHUA_POCSIDIO) STATUS GESTURES--finger-angle-using-bones_logistic 
+Unseen Subject Data    : (MARC_SALONGA) STATUS GESTURES--finger-angle-using-bones
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    MARC_SALONGA
+        Feature        :    finger-angle-using-bones
+        Gesture Set    :    STATUS GESTURES
+        Correct        :    384
+        Incorrect      :    121
+        Result         :    384 / 505
+        Avg Time       :    0.000196039663366 seconds
+        
+        TRAINING 
+        Accuracy       :    95.571 %
+        
+        TESTING
+        Accuracy       :    76.04 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : NN (JOSHUA_POCSIDIO) COUNTING GESTURES--finger-angle-using-bones_logistic 
+Unseen Subject Data    : (NATAREE_KAEWPONG) COUNTING GESTURES--finger-angle-using-bones
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    NATAREE_KAEWPONG
+        Feature        :    finger-angle-using-bones
+        Gesture Set    :    COUNTING GESTURES
+        Correct        :    190
+        Incorrect      :    110
+        Result         :    190 / 300
+        Avg Time       :    0.0001266706 seconds
+        
+        TRAINING 
+        Accuracy       :    99.286 %
+        
+        TESTING
+        Accuracy       :    63.33 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : NN (JOSHUA_POCSIDIO) STATUS GESTURES--finger-angle-using-bones_logistic 
+Unseen Subject Data    : (NATAREE_KAEWPONG) STATUS GESTURES--finger-angle-using-bones
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    NATAREE_KAEWPONG
+        Feature        :    finger-angle-using-bones
+        Gesture Set    :    STATUS GESTURES
+        Correct        :    381
+        Incorrect      :    119
+        Result         :    381 / 500
+        Avg Time       :    0.00024399972 seconds
+        
+        TRAINING 
+        Accuracy       :    95.571 %
+        
+        TESTING
+        Accuracy       :    76.2 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : NN (JOSHUA_POCSIDIO) COMBINED GESTURES--finger-angle-using-bones_logistic 
+Unseen Subject Data    : (ALLAN_TRAN) COMBINED GESTURES--finger-angle-using-bones
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    ALLAN_TRAN
+        Feature        :    finger-angle-using-bones
+        Gesture Set    :    COMBINED GESTURES
+        Correct        :    328
+        Incorrect      :    172
+        Result         :    328 / 500
+        Avg Time       :    0.0002060019 seconds
+        
+        TRAINING 
+        Accuracy       :    95.714 %
+        
+        TESTING
+        Accuracy       :    65.6 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : NN (JOSHUA_POCSIDIO) COMBINED GESTURES--finger-angle-using-bones_logistic 
+Unseen Subject Data    : (COMBINED SUBJECTS) COMBINED GESTURES--finger-angle-using-bones
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    COMBINED SUBJECTS
+        Feature        :    finger-angle-using-bones
+        Gesture Set    :    COMBINED GESTURES
+        Correct        :    1823
+        Incorrect      :    1882
+        Result         :    1823 / 3705
+        Avg Time       :    0.000211066315789 seconds
+        
+        TRAINING 
+        Accuracy       :    95.714 %
+        
+        TESTING
+        Accuracy       :    49.2 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : NN (JOSHUA_POCSIDIO) COUNTING GESTURES--finger-angle-using-bones_logistic 
+Unseen Subject Data    : (COMBINED SUBJECTS) COUNTING GESTURES--finger-angle-using-bones
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    COMBINED SUBJECTS
+        Feature        :    finger-angle-using-bones
+        Gesture Set    :    COUNTING GESTURES
+        Correct        :    3950
+        Incorrect      :    850
+        Result         :    3950 / 4800
+        Avg Time       :    0.000115834625 seconds
+        
+        TRAINING 
+        Accuracy       :    99.286 %
+        
+        TESTING
+        Accuracy       :    82.29 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : NN (JOSHUA_POCSIDIO) STATUS GESTURES--finger-angle-using-bones_logistic 
+Unseen Subject Data    : (COMBINED SUBJECTS) STATUS GESTURES--finger-angle-using-bones
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    COMBINED SUBJECTS
+        Feature        :    finger-angle-using-bones
+        Gesture Set    :    STATUS GESTURES
+        Correct        :    6226
+        Incorrect      :    1774
+        Result         :    6226 / 8000
+        Avg Time       :    0.0002207505975 seconds
+        
+        TRAINING 
+        Accuracy       :    95.571 %
+        
+        TESTING
+        Accuracy       :    77.83 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : NN (JOSHUA_POCSIDIO) COMBINED GESTURES--finger-angle-using-bones_logistic 
+Unseen Subject Data    : (JORELLE_INTERINO) COMBINED GESTURES--finger-angle-using-bones
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    JORELLE_INTERINO
+        Feature        :    finger-angle-using-bones
+        Gesture Set    :    COMBINED GESTURES
+        Correct        :    325
+        Incorrect      :    175
+        Result         :    325 / 500
+        Avg Time       :    0.00019000062 seconds
+        
+        TRAINING 
+        Accuracy       :    95.714 %
+        
+        TESTING
+        Accuracy       :    65.0 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : NN (JOSHUA_POCSIDIO) COMBINED GESTURES--finger-angle-using-bones_logistic 
+Unseen Subject Data    : (JOSHUA_POCSIDIO) COMBINED GESTURES--finger-angle-using-bones
+__________________________________________________________________________________________________
+        PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    JOSHUA_POCSIDIO
+        Feature        :    finger-angle-using-bones
+        Gesture Set    :    COMBINED GESTURES
+        Correct        :    398
+        Incorrect      :    102
+        Result         :    398 / 500
+        Avg Time       :    0.00019200288 seconds
+        
+        TRAINING 
+        Accuracy       :    95.714 %
+        
+        TESTING
+        Accuracy       :    79.6 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : NN (JOSHUA_POCSIDIO) COMBINED GESTURES--finger-angle-using-bones_logistic 
+Unseen Subject Data    : (MARC_SALONGA) COMBINED GESTURES--finger-angle-using-bones
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    MARC_SALONGA
+        Feature        :    finger-angle-using-bones
+        Gesture Set    :    COMBINED GESTURES
+        Correct        :    386
+        Incorrect      :    119
+        Result         :    386 / 505
+        Avg Time       :    0.000207918594059 seconds
+        
+        TRAINING 
+        Accuracy       :    95.714 %
+        
+        TESTING
+        Accuracy       :    76.44 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : NN (JOSHUA_POCSIDIO) COMBINED GESTURES--finger-angle-using-bones_logistic 
+Unseen Subject Data    : (NATAREE_KAEWPONG) COMBINED GESTURES--finger-angle-using-bones
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    NATAREE_KAEWPONG
+        Feature        :    finger-angle-using-bones
+        Gesture Set    :    COMBINED GESTURES
+        Correct        :    386
+        Incorrect      :    114
+        Result         :    386 / 500
+        Avg Time       :    0.00027400184 seconds
+        
+        TRAINING 
+        Accuracy       :    95.714 %
+        
+        TESTING
+        Accuracy       :    77.2 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : NN (JOSHUA_POCSIDIO) COUNTING GESTURES--finger-angle-using-bones_logistic 
+Unseen Subject Data    : (ALLAN_TRAN) COUNTING GESTURES--finger-angle-using-bones
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    ALLAN_TRAN
+        Feature        :    finger-angle-using-bones
+        Gesture Set    :    COUNTING GESTURES
+        Correct        :    222
+        Incorrect      :    78
+        Result         :    222 / 300
+        Avg Time       :    0.0001366707 seconds
+        
+        TRAINING 
+        Accuracy       :    99.286 %
+        
+        TESTING
+        Accuracy       :    74.0 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : NN (JOSHUA_POCSIDIO) STATUS GESTURES--finger-angle-using-bones_logistic 
+Unseen Subject Data    : (ALLAN_TRAN) STATUS GESTURES--finger-angle-using-bones
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    ALLAN_TRAN
+        Feature        :    finger-angle-using-bones
+        Gesture Set    :    STATUS GESTURES
+        Correct        :    334
+        Incorrect      :    166
+        Result         :    334 / 500
+        Avg Time       :    0.0001540017 seconds
+        
+        TRAINING 
+        Accuracy       :    95.571 %
+        
+        TESTING
+        Accuracy       :    66.8 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : NN (JOSHUA_POCSIDIO) COUNTING GESTURES--finger-angle-using-bones_logistic 
+Unseen Subject Data    : (JORELLE_INTERINO) COUNTING GESTURES--finger-angle-using-bones
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    JORELLE_INTERINO
+        Feature        :    finger-angle-using-bones
+        Gesture Set    :    COUNTING GESTURES
+        Correct        :    235
+        Incorrect      :    65
+        Result         :    235 / 300
+        Avg Time       :    0.0001166673 seconds
+        
+        TRAINING 
+        Accuracy       :    99.286 %
+        
+        TESTING
+        Accuracy       :    78.33 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : NN (JOSHUA_POCSIDIO) STATUS GESTURES--finger-angle-using-bones_logistic 
+Unseen Subject Data    : (JORELLE_INTERINO) STATUS GESTURES--finger-angle-using-bones
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    JORELLE_INTERINO
+        Feature        :    finger-angle-using-bones
+        Gesture Set    :    STATUS GESTURES
+        Correct        :    334
+        Incorrect      :    166
+        Result         :    334 / 500
+        Avg Time       :    0.00022599906 seconds
+        
+        TRAINING 
+        Accuracy       :    95.571 %
+        
+        TESTING
+        Accuracy       :    66.8 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : NN (JOSHUA_POCSIDIO) COUNTING GESTURES--finger-angle-using-bones_logistic 
+Unseen Subject Data    : (JOSHUA_POCSIDIO) COUNTING GESTURES--finger-angle-using-bones
+__________________________________________________________________________________________________
+        PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    JOSHUA_POCSIDIO
+        Feature        :    finger-angle-using-bones
+        Gesture Set    :    COUNTING GESTURES
+        Correct        :    272
+        Incorrect      :    28
+        Result         :    272 / 300
+        Avg Time       :    0.0001300021 seconds
+        
+        TRAINING 
+        Accuracy       :    99.286 %
+        
+        TESTING
+        Accuracy       :    90.67 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : NN (JOSHUA_POCSIDIO) STATUS GESTURES--finger-angle-using-bones_logistic 
+Unseen Subject Data    : (JOSHUA_POCSIDIO) STATUS GESTURES--finger-angle-using-bones
+__________________________________________________________________________________________________
+        PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    JOSHUA_POCSIDIO
+        Feature        :    finger-angle-using-bones
+        Gesture Set    :    STATUS GESTURES
+        Correct        :    378
+        Incorrect      :    122
+        Result         :    378 / 500
+        Avg Time       :    0.0002260005 seconds
+        
+        TRAINING 
+        Accuracy       :    95.571 %
+        
+        TESTING
+        Accuracy       :    75.6 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : NN (JOSHUA_POCSIDIO) COUNTING GESTURES--finger-angle-using-bones_logistic 
+Unseen Subject Data    : (MARC_SALONGA) COUNTING GESTURES--finger-angle-using-bones
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    MARC_SALONGA
+        Feature        :    finger-angle-using-bones
+        Gesture Set    :    COUNTING GESTURES
+        Correct        :    252
+        Incorrect      :    48
+        Result         :    252 / 300
+        Avg Time       :    0.0001033349 seconds
+        
+        TRAINING 
+        Accuracy       :    99.286 %
+        
+        TESTING
+        Accuracy       :    84.0 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : NN (JOSHUA_POCSIDIO) STATUS GESTURES--finger-angle-using-bones_logistic 
+Unseen Subject Data    : (MARC_SALONGA) STATUS GESTURES--finger-angle-using-bones
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    MARC_SALONGA
+        Feature        :    finger-angle-using-bones
+        Gesture Set    :    STATUS GESTURES
+        Correct        :    384
+        Incorrect      :    121
+        Result         :    384 / 505
+        Avg Time       :    0.000255450475248 seconds
+        
+        TRAINING 
+        Accuracy       :    95.571 %
+        
+        TESTING
+        Accuracy       :    76.04 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : NN (JOSHUA_POCSIDIO) COUNTING GESTURES--finger-angle-using-bones_logistic 
+Unseen Subject Data    : (NATAREE_KAEWPONG) COUNTING GESTURES--finger-angle-using-bones
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    NATAREE_KAEWPONG
+        Feature        :    finger-angle-using-bones
+        Gesture Set    :    COUNTING GESTURES
+        Correct        :    190
+        Incorrect      :    110
+        Result         :    190 / 300
+        Avg Time       :    0.000113335 seconds
+        
+        TRAINING 
+        Accuracy       :    99.286 %
+        
+        TESTING
+        Accuracy       :    63.33 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : NN (JOSHUA_POCSIDIO) STATUS GESTURES--finger-angle-using-bones_logistic 
+Unseen Subject Data    : (NATAREE_KAEWPONG) STATUS GESTURES--finger-angle-using-bones
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    NATAREE_KAEWPONG
+        Feature        :    finger-angle-using-bones
+        Gesture Set    :    STATUS GESTURES
+        Correct        :    381
+        Incorrect      :    119
+        Result         :    381 / 500
+        Avg Time       :    0.00021599976 seconds
+        
+        TRAINING 
+        Accuracy       :    95.571 %
+        
+        TESTING
+        Accuracy       :    76.2 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : NN (JOSHUA_POCSIDIO) COMBINED GESTURES--finger-angle-using-bones_logistic 
+Unseen Subject Data    : (ALLAN_TRAN) COMBINED GESTURES--finger-angle-using-bones
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    ALLAN_TRAN
+        Feature        :    finger-angle-using-bones
+        Gesture Set    :    COMBINED GESTURES
+        Correct        :    328
+        Incorrect      :    172
+        Result         :    328 / 500
+        Avg Time       :    0.00017999892 seconds
+        
+        TRAINING 
+        Accuracy       :    95.714 %
+        
+        TESTING
+        Accuracy       :    65.6 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : NN (JOSHUA_POCSIDIO) COMBINED GESTURES--finger-angle-using-bones_logistic 
+Unseen Subject Data    : (COMBINED SUBJECTS) COMBINED GESTURES--finger-angle-using-bones
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    COMBINED SUBJECTS
+        Feature        :    finger-angle-using-bones
+        Gesture Set    :    COMBINED GESTURES
+        Correct        :    1823
+        Incorrect      :    1882
+        Result         :    1823 / 3705
+        Avg Time       :    0.000214575295547 seconds
+        
+        TRAINING 
+        Accuracy       :    95.714 %
+        
+        TESTING
+        Accuracy       :    49.2 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : NN (JOSHUA_POCSIDIO) COUNTING GESTURES--finger-angle-using-bones_logistic 
+Unseen Subject Data    : (COMBINED SUBJECTS) COUNTING GESTURES--finger-angle-using-bones
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    COMBINED SUBJECTS
+        Feature        :    finger-angle-using-bones
+        Gesture Set    :    COUNTING GESTURES
+        Correct        :    3950
+        Incorrect      :    850
+        Result         :    3950 / 4800
+        Avg Time       :    0.00011666675 seconds
+        
+        TRAINING 
+        Accuracy       :    99.286 %
+        
+        TESTING
+        Accuracy       :    82.29 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : NN (JOSHUA_POCSIDIO) STATUS GESTURES--finger-angle-using-bones_logistic 
+Unseen Subject Data    : (COMBINED SUBJECTS) STATUS GESTURES--finger-angle-using-bones
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    COMBINED SUBJECTS
+        Feature        :    finger-angle-using-bones
+        Gesture Set    :    STATUS GESTURES
+        Correct        :    6226
+        Incorrect      :    1774
+        Result         :    6226 / 8000
+        Avg Time       :    0.000212500395 seconds
+        
+        TRAINING 
+        Accuracy       :    95.571 %
+        
+        TESTING
+        Accuracy       :    77.83 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : NN (JOSHUA_POCSIDIO) COUNTING GESTURES--finger-angle-using-bones_logistic 
+Unseen Subject Data    : (ALLAN_TRAN) COUNTING GESTURES--finger-angle-using-bones
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    ALLAN_TRAN
+        Feature        :    finger-angle-using-bones
+        Gesture Set    :    COUNTING GESTURES
+        Correct        :    222
+        Incorrect      :    78
+        Result         :    222 / 300
+        Avg Time       :    0.0001166697 seconds
+        
+        TRAINING 
+        Accuracy       :    99.286 %
+        
+        TESTING
+        Accuracy       :    74.0 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : NN (JOSHUA_POCSIDIO) STATUS GESTURES--finger-angle-using-bones_logistic 
+Unseen Subject Data    : (ALLAN_TRAN) STATUS GESTURES--finger-angle-using-bones
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    ALLAN_TRAN
+        Feature        :    finger-angle-using-bones
+        Gesture Set    :    STATUS GESTURES
+        Correct        :    334
+        Incorrect      :    166
+        Result         :    334 / 500
+        Avg Time       :    0.00021599976 seconds
+        
+        TRAINING 
+        Accuracy       :    95.571 %
+        
+        TESTING
+        Accuracy       :    66.8 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : NN (JOSHUA_POCSIDIO) COUNTING GESTURES--finger-angle-using-bones_logistic 
+Unseen Subject Data    : (JORELLE_INTERINO) COUNTING GESTURES--finger-angle-using-bones
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    JORELLE_INTERINO
+        Feature        :    finger-angle-using-bones
+        Gesture Set    :    COUNTING GESTURES
+        Correct        :    235
+        Incorrect      :    65
+        Result         :    235 / 300
+        Avg Time       :    9.66655e-05 seconds
+        
+        TRAINING 
+        Accuracy       :    99.286 %
+        
+        TESTING
+        Accuracy       :    78.33 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : NN (JOSHUA_POCSIDIO) STATUS GESTURES--finger-angle-using-bones_logistic 
+Unseen Subject Data    : (JORELLE_INTERINO) STATUS GESTURES--finger-angle-using-bones
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    JORELLE_INTERINO
+        Feature        :    finger-angle-using-bones
+        Gesture Set    :    STATUS GESTURES
+        Correct        :    334
+        Incorrect      :    166
+        Result         :    334 / 500
+        Avg Time       :    0.00021200004 seconds
+        
+        TRAINING 
+        Accuracy       :    95.571 %
+        
+        TESTING
+        Accuracy       :    66.8 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : NN (JOSHUA_POCSIDIO) COUNTING GESTURES--finger-angle-using-bones_logistic 
+Unseen Subject Data    : (JOSHUA_POCSIDIO) COUNTING GESTURES--finger-angle-using-bones
+__________________________________________________________________________________________________
+        PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    JOSHUA_POCSIDIO
+        Feature        :    finger-angle-using-bones
+        Gesture Set    :    COUNTING GESTURES
+        Correct        :    272
+        Incorrect      :    28
+        Result         :    272 / 300
+        Avg Time       :    0.0001100011 seconds
+        
+        TRAINING 
+        Accuracy       :    99.286 %
+        
+        TESTING
+        Accuracy       :    90.67 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : NN (JOSHUA_POCSIDIO) STATUS GESTURES--finger-angle-using-bones_logistic 
+Unseen Subject Data    : (JOSHUA_POCSIDIO) STATUS GESTURES--finger-angle-using-bones
+__________________________________________________________________________________________________
+        PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    JOSHUA_POCSIDIO
+        Feature        :    finger-angle-using-bones
+        Gesture Set    :    STATUS GESTURES
+        Correct        :    378
+        Incorrect      :    122
+        Result         :    378 / 500
+        Avg Time       :    0.00019999944 seconds
+        
+        TRAINING 
+        Accuracy       :    95.571 %
+        
+        TESTING
+        Accuracy       :    75.6 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : NN (JOSHUA_POCSIDIO) COUNTING GESTURES--finger-angle-using-bones_logistic 
+Unseen Subject Data    : (MARC_SALONGA) COUNTING GESTURES--finger-angle-using-bones
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    MARC_SALONGA
+        Feature        :    finger-angle-using-bones
+        Gesture Set    :    COUNTING GESTURES
+        Correct        :    252
+        Incorrect      :    48
+        Result         :    252 / 300
+        Avg Time       :    0.0001100003 seconds
+        
+        TRAINING 
+        Accuracy       :    99.286 %
+        
+        TESTING
+        Accuracy       :    84.0 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : NN (JOSHUA_POCSIDIO) STATUS GESTURES--finger-angle-using-bones_logistic 
+Unseen Subject Data    : (MARC_SALONGA) STATUS GESTURES--finger-angle-using-bones
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    MARC_SALONGA
+        Feature        :    finger-angle-using-bones
+        Gesture Set    :    STATUS GESTURES
+        Correct        :    384
+        Incorrect      :    121
+        Result         :    384 / 505
+        Avg Time       :    0.000237625663366 seconds
+        
+        TRAINING 
+        Accuracy       :    95.571 %
+        
+        TESTING
+        Accuracy       :    76.04 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : NN (JOSHUA_POCSIDIO) COUNTING GESTURES--finger-angle-using-bones_logistic 
+Unseen Subject Data    : (ALLAN_TRAN) COUNTING GESTURES--finger-angle-using-bones
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    ALLAN_TRAN
+        Feature        :    finger-angle-using-bones
+        Gesture Set    :    COUNTING GESTURES
+        Correct        :    222
+        Incorrect      :    78
+        Result         :    222 / 300
+        Avg Time       :    0.000106668 seconds
+        
+        TRAINING 
+        Accuracy       :    99.286 %
+        
+        TESTING
+        Accuracy       :    74.0 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : NN (JOSHUA_POCSIDIO) STATUS GESTURES--finger-angle-using-bones_logistic 
+Unseen Subject Data    : (ALLAN_TRAN) STATUS GESTURES--finger-angle-using-bones
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    ALLAN_TRAN
+        Feature        :    finger-angle-using-bones
+        Gesture Set    :    STATUS GESTURES
+        Correct        :    334
+        Incorrect      :    166
+        Result         :    334 / 500
+        Avg Time       :    0.00020799936 seconds
+        
+        TRAINING 
+        Accuracy       :    95.571 %
+        
+        TESTING
+        Accuracy       :    66.8 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : NN (JOSHUA_POCSIDIO) COUNTING GESTURES--finger-angle-using-bones_logistic 
+Unseen Subject Data    : (JORELLE_INTERINO) COUNTING GESTURES--finger-angle-using-bones
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    JORELLE_INTERINO
+        Feature        :    finger-angle-using-bones
+        Gesture Set    :    COUNTING GESTURES
+        Correct        :    235
+        Incorrect      :    65
+        Result         :    235 / 300
+        Avg Time       :    0.0001233343 seconds
+        
+        TRAINING 
+        Accuracy       :    99.286 %
+        
+        TESTING
+        Accuracy       :    78.33 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : NN (JOSHUA_POCSIDIO) STATUS GESTURES--finger-angle-using-bones_logistic 
+Unseen Subject Data    : (JORELLE_INTERINO) STATUS GESTURES--finger-angle-using-bones
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    JORELLE_INTERINO
+        Feature        :    finger-angle-using-bones
+        Gesture Set    :    STATUS GESTURES
+        Correct        :    334
+        Incorrect      :    166
+        Result         :    334 / 500
+        Avg Time       :    0.00020400252 seconds
+        
+        TRAINING 
+        Accuracy       :    95.571 %
+        
+        TESTING
+        Accuracy       :    66.8 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : NN (JOSHUA_POCSIDIO) COUNTING GESTURES--finger-angle-using-bones_logistic 
+Unseen Subject Data    : (JOSHUA_POCSIDIO) COUNTING GESTURES--finger-angle-using-bones
+__________________________________________________________________________________________________
+        PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    JOSHUA_POCSIDIO
+        Feature        :    finger-angle-using-bones
+        Gesture Set    :    COUNTING GESTURES
+        Correct        :    272
+        Incorrect      :    28
+        Result         :    272 / 300
+        Avg Time       :    0.0001233351 seconds
+        
+        TRAINING 
+        Accuracy       :    99.286 %
+        
+        TESTING
+        Accuracy       :    90.67 %
+        
+        
+

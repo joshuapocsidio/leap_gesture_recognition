@@ -1,0 +1,1125 @@
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : DT (JOSHUA_POCSIDIO) COUNTING GESTURES--finger-angle-using-bones_entropy 
+Unseen Subject Data    : (ALLAN_TRAN) COUNTING GESTURES--finger-angle-using-bones
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    ALLAN_TRAN
+        Feature        :    finger-angle-using-bones
+        Gesture Set    :    COUNTING GESTURES
+        Correct        :    279
+        Incorrect      :    21
+        Result         :    279 / 300
+        Avg Time       :    8.00008e-05 seconds
+        
+        TRAINING 
+        Accuracy       :    100.0 %
+        
+        TESTING
+        Accuracy       :    93.0 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : DT (JOSHUA_POCSIDIO) STATUS GESTURES--finger-angle-using-bones_entropy 
+Unseen Subject Data    : (ALLAN_TRAN) STATUS GESTURES--finger-angle-using-bones
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    ALLAN_TRAN
+        Feature        :    finger-angle-using-bones
+        Gesture Set    :    STATUS GESTURES
+        Correct        :    311
+        Incorrect      :    189
+        Result         :    311 / 500
+        Avg Time       :    7.99992e-05 seconds
+        
+        TRAINING 
+        Accuracy       :    98.357 %
+        
+        TESTING
+        Accuracy       :    62.2 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : DT (JOSHUA_POCSIDIO) COUNTING GESTURES--finger-angle-using-bones_entropy 
+Unseen Subject Data    : (JORELLE_INTERINO) COUNTING GESTURES--finger-angle-using-bones
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    JORELLE_INTERINO
+        Feature        :    finger-angle-using-bones
+        Gesture Set    :    COUNTING GESTURES
+        Correct        :    285
+        Incorrect      :    15
+        Result         :    285 / 300
+        Avg Time       :    8.00008e-05 seconds
+        
+        TRAINING 
+        Accuracy       :    100.0 %
+        
+        TESTING
+        Accuracy       :    95.0 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : DT (JOSHUA_POCSIDIO) STATUS GESTURES--finger-angle-using-bones_entropy 
+Unseen Subject Data    : (JORELLE_INTERINO) STATUS GESTURES--finger-angle-using-bones
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    JORELLE_INTERINO
+        Feature        :    finger-angle-using-bones
+        Gesture Set    :    STATUS GESTURES
+        Correct        :    326
+        Incorrect      :    174
+        Result         :    326 / 500
+        Avg Time       :    7.799934e-05 seconds
+        
+        TRAINING 
+        Accuracy       :    98.357 %
+        
+        TESTING
+        Accuracy       :    65.2 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : DT (JOSHUA_POCSIDIO) COUNTING GESTURES--finger-angle-using-bones_entropy 
+Unseen Subject Data    : (JOSHUA_POCSIDIO) COUNTING GESTURES--finger-angle-using-bones
+__________________________________________________________________________________________________
+        PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    JOSHUA_POCSIDIO
+        Feature        :    finger-angle-using-bones
+        Gesture Set    :    COUNTING GESTURES
+        Correct        :    287
+        Incorrect      :    13
+        Result         :    287 / 300
+        Avg Time       :    8.66654e-05 seconds
+        
+        TRAINING 
+        Accuracy       :    100.0 %
+        
+        TESTING
+        Accuracy       :    95.67 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : DT (JOSHUA_POCSIDIO) STATUS GESTURES--finger-angle-using-bones_entropy 
+Unseen Subject Data    : (JOSHUA_POCSIDIO) STATUS GESTURES--finger-angle-using-bones
+__________________________________________________________________________________________________
+        PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    JOSHUA_POCSIDIO
+        Feature        :    finger-angle-using-bones
+        Gesture Set    :    STATUS GESTURES
+        Correct        :    395
+        Incorrect      :    105
+        Result         :    395 / 500
+        Avg Time       :    7.800126e-05 seconds
+        
+        TRAINING 
+        Accuracy       :    98.357 %
+        
+        TESTING
+        Accuracy       :    79.0 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : DT (JOSHUA_POCSIDIO) COUNTING GESTURES--finger-angle-using-bones_entropy 
+Unseen Subject Data    : (MARC_SALONGA) COUNTING GESTURES--finger-angle-using-bones
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    MARC_SALONGA
+        Feature        :    finger-angle-using-bones
+        Gesture Set    :    COUNTING GESTURES
+        Correct        :    276
+        Incorrect      :    24
+        Result         :    276 / 300
+        Avg Time       :    8.33339e-05 seconds
+        
+        TRAINING 
+        Accuracy       :    100.0 %
+        
+        TESTING
+        Accuracy       :    92.0 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : DT (JOSHUA_POCSIDIO) STATUS GESTURES--finger-angle-using-bones_entropy 
+Unseen Subject Data    : (MARC_SALONGA) STATUS GESTURES--finger-angle-using-bones
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    MARC_SALONGA
+        Feature        :    finger-angle-using-bones
+        Gesture Set    :    STATUS GESTURES
+        Correct        :    402
+        Incorrect      :    103
+        Result         :    402 / 505
+        Avg Time       :    7.72284950495e-05 seconds
+        
+        TRAINING 
+        Accuracy       :    98.357 %
+        
+        TESTING
+        Accuracy       :    79.6 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : DT (JOSHUA_POCSIDIO) COUNTING GESTURES--finger-angle-using-bones_entropy 
+Unseen Subject Data    : (NATAREE_KAEWPONG) COUNTING GESTURES--finger-angle-using-bones
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    NATAREE_KAEWPONG
+        Feature        :    finger-angle-using-bones
+        Gesture Set    :    COUNTING GESTURES
+        Correct        :    277
+        Incorrect      :    23
+        Result         :    277 / 300
+        Avg Time       :    8.33331e-05 seconds
+        
+        TRAINING 
+        Accuracy       :    100.0 %
+        
+        TESTING
+        Accuracy       :    92.33 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : DT (JOSHUA_POCSIDIO) STATUS GESTURES--finger-angle-using-bones_entropy 
+Unseen Subject Data    : (NATAREE_KAEWPONG) STATUS GESTURES--finger-angle-using-bones
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    NATAREE_KAEWPONG
+        Feature        :    finger-angle-using-bones
+        Gesture Set    :    STATUS GESTURES
+        Correct        :    361
+        Incorrect      :    139
+        Result         :    361 / 500
+        Avg Time       :    8.79996e-05 seconds
+        
+        TRAINING 
+        Accuracy       :    98.357 %
+        
+        TESTING
+        Accuracy       :    72.2 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : DT (JOSHUA_POCSIDIO) COMBINED GESTURES--finger-angle-using-bones_entropy 
+Unseen Subject Data    : (ALLAN_TRAN) COMBINED GESTURES--finger-angle-using-bones
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    ALLAN_TRAN
+        Feature        :    finger-angle-using-bones
+        Gesture Set    :    COMBINED GESTURES
+        Correct        :    359
+        Incorrect      :    141
+        Result         :    359 / 500
+        Avg Time       :    9.799938e-05 seconds
+        
+        TRAINING 
+        Accuracy       :    98.643 %
+        
+        TESTING
+        Accuracy       :    71.8 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : DT (JOSHUA_POCSIDIO) COMBINED GESTURES--finger-angle-using-bones_entropy 
+Unseen Subject Data    : (COMBINED SUBJECTS) COMBINED GESTURES--finger-angle-using-bones
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    COMBINED SUBJECTS
+        Feature        :    finger-angle-using-bones
+        Gesture Set    :    COMBINED GESTURES
+        Correct        :    1885
+        Incorrect      :    1820
+        Result         :    1885 / 3705
+        Avg Time       :    8.50212226721e-05 seconds
+        
+        TRAINING 
+        Accuracy       :    98.643 %
+        
+        TESTING
+        Accuracy       :    50.88 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : DT (JOSHUA_POCSIDIO) COUNTING GESTURES--finger-angle-using-bones_entropy 
+Unseen Subject Data    : (COMBINED SUBJECTS) COUNTING GESTURES--finger-angle-using-bones
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    COMBINED SUBJECTS
+        Feature        :    finger-angle-using-bones
+        Gesture Set    :    COUNTING GESTURES
+        Correct        :    4456
+        Incorrect      :    344
+        Result         :    4456 / 4800
+        Avg Time       :    8.979153125e-05 seconds
+        
+        TRAINING 
+        Accuracy       :    100.0 %
+        
+        TESTING
+        Accuracy       :    92.83 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : DT (JOSHUA_POCSIDIO) STATUS GESTURES--finger-angle-using-bones_entropy 
+Unseen Subject Data    : (COMBINED SUBJECTS) STATUS GESTURES--finger-angle-using-bones
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    COMBINED SUBJECTS
+        Feature        :    finger-angle-using-bones
+        Gesture Set    :    STATUS GESTURES
+        Correct        :    6347
+        Incorrect      :    1653
+        Result         :    6347 / 8000
+        Avg Time       :    8.7500145e-05 seconds
+        
+        TRAINING 
+        Accuracy       :    98.357 %
+        
+        TESTING
+        Accuracy       :    79.34 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : DT (JOSHUA_POCSIDIO) COMBINED GESTURES--finger-angle-using-bones_entropy 
+Unseen Subject Data    : (JORELLE_INTERINO) COMBINED GESTURES--finger-angle-using-bones
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    JORELLE_INTERINO
+        Feature        :    finger-angle-using-bones
+        Gesture Set    :    COMBINED GESTURES
+        Correct        :    347
+        Incorrect      :    153
+        Result         :    347 / 500
+        Avg Time       :    7.400202e-05 seconds
+        
+        TRAINING 
+        Accuracy       :    98.643 %
+        
+        TESTING
+        Accuracy       :    69.4 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : DT (JOSHUA_POCSIDIO) COMBINED GESTURES--finger-angle-using-bones_entropy 
+Unseen Subject Data    : (JOSHUA_POCSIDIO) COMBINED GESTURES--finger-angle-using-bones
+__________________________________________________________________________________________________
+        PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    JOSHUA_POCSIDIO
+        Feature        :    finger-angle-using-bones
+        Gesture Set    :    COMBINED GESTURES
+        Correct        :    400
+        Incorrect      :    100
+        Result         :    400 / 500
+        Avg Time       :    9.600096e-05 seconds
+        
+        TRAINING 
+        Accuracy       :    98.643 %
+        
+        TESTING
+        Accuracy       :    80.0 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : DT (JOSHUA_POCSIDIO) COMBINED GESTURES--finger-angle-using-bones_entropy 
+Unseen Subject Data    : (MARC_SALONGA) COMBINED GESTURES--finger-angle-using-bones
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    MARC_SALONGA
+        Feature        :    finger-angle-using-bones
+        Gesture Set    :    COMBINED GESTURES
+        Correct        :    377
+        Incorrect      :    128
+        Result         :    377 / 505
+        Avg Time       :    8.71278415842e-05 seconds
+        
+        TRAINING 
+        Accuracy       :    98.643 %
+        
+        TESTING
+        Accuracy       :    74.65 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : DT (JOSHUA_POCSIDIO) COMBINED GESTURES--finger-angle-using-bones_entropy 
+Unseen Subject Data    : (NATAREE_KAEWPONG) COMBINED GESTURES--finger-angle-using-bones
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    NATAREE_KAEWPONG
+        Feature        :    finger-angle-using-bones
+        Gesture Set    :    COMBINED GESTURES
+        Correct        :    402
+        Incorrect      :    98
+        Result         :    402 / 500
+        Avg Time       :    9.799842e-05 seconds
+        
+        TRAINING 
+        Accuracy       :    98.643 %
+        
+        TESTING
+        Accuracy       :    80.4 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : DT (JOSHUA_POCSIDIO) COUNTING GESTURES--finger-angle-using-bones_entropy 
+Unseen Subject Data    : (ALLAN_TRAN) COUNTING GESTURES--finger-angle-using-bones
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    ALLAN_TRAN
+        Feature        :    finger-angle-using-bones
+        Gesture Set    :    COUNTING GESTURES
+        Correct        :    279
+        Incorrect      :    21
+        Result         :    279 / 300
+        Avg Time       :    7.3333e-05 seconds
+        
+        TRAINING 
+        Accuracy       :    100.0 %
+        
+        TESTING
+        Accuracy       :    93.0 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : DT (JOSHUA_POCSIDIO) STATUS GESTURES--finger-angle-using-bones_entropy 
+Unseen Subject Data    : (ALLAN_TRAN) STATUS GESTURES--finger-angle-using-bones
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    ALLAN_TRAN
+        Feature        :    finger-angle-using-bones
+        Gesture Set    :    STATUS GESTURES
+        Correct        :    311
+        Incorrect      :    189
+        Result         :    311 / 500
+        Avg Time       :    0.00010200054 seconds
+        
+        TRAINING 
+        Accuracy       :    98.357 %
+        
+        TESTING
+        Accuracy       :    62.2 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : DT (JOSHUA_POCSIDIO) COUNTING GESTURES--finger-angle-using-bones_entropy 
+Unseen Subject Data    : (JORELLE_INTERINO) COUNTING GESTURES--finger-angle-using-bones
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    JORELLE_INTERINO
+        Feature        :    finger-angle-using-bones
+        Gesture Set    :    COUNTING GESTURES
+        Correct        :    285
+        Incorrect      :    15
+        Result         :    285 / 300
+        Avg Time       :    7.33306e-05 seconds
+        
+        TRAINING 
+        Accuracy       :    100.0 %
+        
+        TESTING
+        Accuracy       :    95.0 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : DT (JOSHUA_POCSIDIO) STATUS GESTURES--finger-angle-using-bones_entropy 
+Unseen Subject Data    : (JORELLE_INTERINO) STATUS GESTURES--finger-angle-using-bones
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    JORELLE_INTERINO
+        Feature        :    finger-angle-using-bones
+        Gesture Set    :    STATUS GESTURES
+        Correct        :    326
+        Incorrect      :    174
+        Result         :    326 / 500
+        Avg Time       :    8.20005e-05 seconds
+        
+        TRAINING 
+        Accuracy       :    98.357 %
+        
+        TESTING
+        Accuracy       :    65.2 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : DT (JOSHUA_POCSIDIO) COUNTING GESTURES--finger-angle-using-bones_entropy 
+Unseen Subject Data    : (JOSHUA_POCSIDIO) COUNTING GESTURES--finger-angle-using-bones
+__________________________________________________________________________________________________
+        PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    JOSHUA_POCSIDIO
+        Feature        :    finger-angle-using-bones
+        Gesture Set    :    COUNTING GESTURES
+        Correct        :    287
+        Incorrect      :    13
+        Result         :    287 / 300
+        Avg Time       :    6.66652e-05 seconds
+        
+        TRAINING 
+        Accuracy       :    100.0 %
+        
+        TESTING
+        Accuracy       :    95.67 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : DT (JOSHUA_POCSIDIO) STATUS GESTURES--finger-angle-using-bones_entropy 
+Unseen Subject Data    : (JOSHUA_POCSIDIO) STATUS GESTURES--finger-angle-using-bones
+__________________________________________________________________________________________________
+        PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    JOSHUA_POCSIDIO
+        Feature        :    finger-angle-using-bones
+        Gesture Set    :    STATUS GESTURES
+        Correct        :    395
+        Incorrect      :    105
+        Result         :    395 / 500
+        Avg Time       :    0.00010800204 seconds
+        
+        TRAINING 
+        Accuracy       :    98.357 %
+        
+        TESTING
+        Accuracy       :    79.0 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : DT (JOSHUA_POCSIDIO) COUNTING GESTURES--finger-angle-using-bones_entropy 
+Unseen Subject Data    : (MARC_SALONGA) COUNTING GESTURES--finger-angle-using-bones
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    MARC_SALONGA
+        Feature        :    finger-angle-using-bones
+        Gesture Set    :    COUNTING GESTURES
+        Correct        :    276
+        Incorrect      :    24
+        Result         :    276 / 300
+        Avg Time       :    7.66677e-05 seconds
+        
+        TRAINING 
+        Accuracy       :    100.0 %
+        
+        TESTING
+        Accuracy       :    92.0 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : DT (JOSHUA_POCSIDIO) STATUS GESTURES--finger-angle-using-bones_entropy 
+Unseen Subject Data    : (MARC_SALONGA) STATUS GESTURES--finger-angle-using-bones
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    MARC_SALONGA
+        Feature        :    finger-angle-using-bones
+        Gesture Set    :    STATUS GESTURES
+        Correct        :    402
+        Incorrect      :    103
+        Result         :    402 / 505
+        Avg Time       :    7.12868910891e-05 seconds
+        
+        TRAINING 
+        Accuracy       :    98.357 %
+        
+        TESTING
+        Accuracy       :    79.6 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : DT (JOSHUA_POCSIDIO) COUNTING GESTURES--finger-angle-using-bones_entropy 
+Unseen Subject Data    : (NATAREE_KAEWPONG) COUNTING GESTURES--finger-angle-using-bones
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    NATAREE_KAEWPONG
+        Feature        :    finger-angle-using-bones
+        Gesture Set    :    COUNTING GESTURES
+        Correct        :    277
+        Incorrect      :    23
+        Result         :    277 / 300
+        Avg Time       :    9.00025e-05 seconds
+        
+        TRAINING 
+        Accuracy       :    100.0 %
+        
+        TESTING
+        Accuracy       :    92.33 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : DT (JOSHUA_POCSIDIO) STATUS GESTURES--finger-angle-using-bones_entropy 
+Unseen Subject Data    : (NATAREE_KAEWPONG) STATUS GESTURES--finger-angle-using-bones
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    NATAREE_KAEWPONG
+        Feature        :    finger-angle-using-bones
+        Gesture Set    :    STATUS GESTURES
+        Correct        :    361
+        Incorrect      :    139
+        Result         :    361 / 500
+        Avg Time       :    8.999994e-05 seconds
+        
+        TRAINING 
+        Accuracy       :    98.357 %
+        
+        TESTING
+        Accuracy       :    72.2 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : DT (JOSHUA_POCSIDIO) COMBINED GESTURES--finger-angle-using-bones_entropy 
+Unseen Subject Data    : (ALLAN_TRAN) COMBINED GESTURES--finger-angle-using-bones
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    ALLAN_TRAN
+        Feature        :    finger-angle-using-bones
+        Gesture Set    :    COMBINED GESTURES
+        Correct        :    359
+        Incorrect      :    141
+        Result         :    359 / 500
+        Avg Time       :    6.600162e-05 seconds
+        
+        TRAINING 
+        Accuracy       :    98.643 %
+        
+        TESTING
+        Accuracy       :    71.8 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : DT (JOSHUA_POCSIDIO) COMBINED GESTURES--finger-angle-using-bones_entropy 
+Unseen Subject Data    : (COMBINED SUBJECTS) COMBINED GESTURES--finger-angle-using-bones
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    COMBINED SUBJECTS
+        Feature        :    finger-angle-using-bones
+        Gesture Set    :    COMBINED GESTURES
+        Correct        :    1885
+        Incorrect      :    1820
+        Result         :    1885 / 3705
+        Avg Time       :    9.36573360324e-05 seconds
+        
+        TRAINING 
+        Accuracy       :    98.643 %
+        
+        TESTING
+        Accuracy       :    50.88 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : DT (JOSHUA_POCSIDIO) COUNTING GESTURES--finger-angle-using-bones_entropy 
+Unseen Subject Data    : (COMBINED SUBJECTS) COUNTING GESTURES--finger-angle-using-bones
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    COMBINED SUBJECTS
+        Feature        :    finger-angle-using-bones
+        Gesture Set    :    COUNTING GESTURES
+        Correct        :    4456
+        Incorrect      :    344
+        Result         :    4456 / 4800
+        Avg Time       :    9.45836625e-05 seconds
+        
+        TRAINING 
+        Accuracy       :    100.0 %
+        
+        TESTING
+        Accuracy       :    92.83 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : DT (JOSHUA_POCSIDIO) STATUS GESTURES--finger-angle-using-bones_entropy 
+Unseen Subject Data    : (COMBINED SUBJECTS) STATUS GESTURES--finger-angle-using-bones
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    COMBINED SUBJECTS
+        Feature        :    finger-angle-using-bones
+        Gesture Set    :    STATUS GESTURES
+        Correct        :    6347
+        Incorrect      :    1653
+        Result         :    6347 / 8000
+        Avg Time       :    9.1500075e-05 seconds
+        
+        TRAINING 
+        Accuracy       :    98.357 %
+        
+        TESTING
+        Accuracy       :    79.34 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : DT (JOSHUA_POCSIDIO) COUNTING GESTURES--finger-angle-using-bones_entropy 
+Unseen Subject Data    : (ALLAN_TRAN) COUNTING GESTURES--finger-angle-using-bones
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    ALLAN_TRAN
+        Feature        :    finger-angle-using-bones
+        Gesture Set    :    COUNTING GESTURES
+        Correct        :    279
+        Incorrect      :    21
+        Result         :    279 / 300
+        Avg Time       :    8e-05 seconds
+        
+        TRAINING 
+        Accuracy       :    100.0 %
+        
+        TESTING
+        Accuracy       :    93.0 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : DT (JOSHUA_POCSIDIO) STATUS GESTURES--finger-angle-using-bones_entropy 
+Unseen Subject Data    : (ALLAN_TRAN) STATUS GESTURES--finger-angle-using-bones
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    ALLAN_TRAN
+        Feature        :    finger-angle-using-bones
+        Gesture Set    :    STATUS GESTURES
+        Correct        :    311
+        Incorrect      :    189
+        Result         :    311 / 500
+        Avg Time       :    8.000112e-05 seconds
+        
+        TRAINING 
+        Accuracy       :    98.357 %
+        
+        TESTING
+        Accuracy       :    62.2 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : DT (JOSHUA_POCSIDIO) COUNTING GESTURES--finger-angle-using-bones_entropy 
+Unseen Subject Data    : (JORELLE_INTERINO) COUNTING GESTURES--finger-angle-using-bones
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    JORELLE_INTERINO
+        Feature        :    finger-angle-using-bones
+        Gesture Set    :    COUNTING GESTURES
+        Correct        :    285
+        Incorrect      :    15
+        Result         :    285 / 300
+        Avg Time       :    7.66669e-05 seconds
+        
+        TRAINING 
+        Accuracy       :    100.0 %
+        
+        TESTING
+        Accuracy       :    95.0 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : DT (JOSHUA_POCSIDIO) STATUS GESTURES--finger-angle-using-bones_entropy 
+Unseen Subject Data    : (JORELLE_INTERINO) STATUS GESTURES--finger-angle-using-bones
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    JORELLE_INTERINO
+        Feature        :    finger-angle-using-bones
+        Gesture Set    :    STATUS GESTURES
+        Correct        :    326
+        Incorrect      :    174
+        Result         :    326 / 500
+        Avg Time       :    8.599926e-05 seconds
+        
+        TRAINING 
+        Accuracy       :    98.357 %
+        
+        TESTING
+        Accuracy       :    65.2 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : DT (JOSHUA_POCSIDIO) COUNTING GESTURES--finger-angle-using-bones_entropy 
+Unseen Subject Data    : (JOSHUA_POCSIDIO) COUNTING GESTURES--finger-angle-using-bones
+__________________________________________________________________________________________________
+        PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    JOSHUA_POCSIDIO
+        Feature        :    finger-angle-using-bones
+        Gesture Set    :    COUNTING GESTURES
+        Correct        :    287
+        Incorrect      :    13
+        Result         :    287 / 300
+        Avg Time       :    7.33338e-05 seconds
+        
+        TRAINING 
+        Accuracy       :    100.0 %
+        
+        TESTING
+        Accuracy       :    95.67 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : DT (JOSHUA_POCSIDIO) STATUS GESTURES--finger-angle-using-bones_entropy 
+Unseen Subject Data    : (JOSHUA_POCSIDIO) STATUS GESTURES--finger-angle-using-bones
+__________________________________________________________________________________________________
+        PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    JOSHUA_POCSIDIO
+        Feature        :    finger-angle-using-bones
+        Gesture Set    :    STATUS GESTURES
+        Correct        :    395
+        Incorrect      :    105
+        Result         :    395 / 500
+        Avg Time       :    9.000042e-05 seconds
+        
+        TRAINING 
+        Accuracy       :    98.357 %
+        
+        TESTING
+        Accuracy       :    79.0 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : DT (JOSHUA_POCSIDIO) COUNTING GESTURES--finger-angle-using-bones_entropy 
+Unseen Subject Data    : (MARC_SALONGA) COUNTING GESTURES--finger-angle-using-bones
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    MARC_SALONGA
+        Feature        :    finger-angle-using-bones
+        Gesture Set    :    COUNTING GESTURES
+        Correct        :    276
+        Incorrect      :    24
+        Result         :    276 / 300
+        Avg Time       :    8.33347e-05 seconds
+        
+        TRAINING 
+        Accuracy       :    100.0 %
+        
+        TESTING
+        Accuracy       :    92.0 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : DT (JOSHUA_POCSIDIO) STATUS GESTURES--finger-angle-using-bones_entropy 
+Unseen Subject Data    : (MARC_SALONGA) STATUS GESTURES--finger-angle-using-bones
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    MARC_SALONGA
+        Feature        :    finger-angle-using-bones
+        Gesture Set    :    STATUS GESTURES
+        Correct        :    402
+        Incorrect      :    103
+        Result         :    402 / 505
+        Avg Time       :    8.11876633663e-05 seconds
+        
+        TRAINING 
+        Accuracy       :    98.357 %
+        
+        TESTING
+        Accuracy       :    79.6 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : DT (JOSHUA_POCSIDIO) COUNTING GESTURES--finger-angle-using-bones_entropy 
+Unseen Subject Data    : (ALLAN_TRAN) COUNTING GESTURES--finger-angle-using-bones
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    ALLAN_TRAN
+        Feature        :    finger-angle-using-bones
+        Gesture Set    :    COUNTING GESTURES
+        Correct        :    279
+        Incorrect      :    21
+        Result         :    279 / 300
+        Avg Time       :    7.99984e-05 seconds
+        
+        TRAINING 
+        Accuracy       :    100.0 %
+        
+        TESTING
+        Accuracy       :    93.0 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : DT (JOSHUA_POCSIDIO) STATUS GESTURES--finger-angle-using-bones_entropy 
+Unseen Subject Data    : (ALLAN_TRAN) STATUS GESTURES--finger-angle-using-bones
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    ALLAN_TRAN
+        Feature        :    finger-angle-using-bones
+        Gesture Set    :    STATUS GESTURES
+        Correct        :    311
+        Incorrect      :    189
+        Result         :    311 / 500
+        Avg Time       :    8.399988e-05 seconds
+        
+        TRAINING 
+        Accuracy       :    98.357 %
+        
+        TESTING
+        Accuracy       :    62.2 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : DT (JOSHUA_POCSIDIO) COUNTING GESTURES--finger-angle-using-bones_entropy 
+Unseen Subject Data    : (JORELLE_INTERINO) COUNTING GESTURES--finger-angle-using-bones
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    JORELLE_INTERINO
+        Feature        :    finger-angle-using-bones
+        Gesture Set    :    COUNTING GESTURES
+        Correct        :    285
+        Incorrect      :    15
+        Result         :    285 / 300
+        Avg Time       :    6.99983e-05 seconds
+        
+        TRAINING 
+        Accuracy       :    100.0 %
+        
+        TESTING
+        Accuracy       :    95.0 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : DT (JOSHUA_POCSIDIO) STATUS GESTURES--finger-angle-using-bones_entropy 
+Unseen Subject Data    : (JORELLE_INTERINO) STATUS GESTURES--finger-angle-using-bones
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    JORELLE_INTERINO
+        Feature        :    finger-angle-using-bones
+        Gesture Set    :    STATUS GESTURES
+        Correct        :    326
+        Incorrect      :    174
+        Result         :    326 / 500
+        Avg Time       :    7.60014e-05 seconds
+        
+        TRAINING 
+        Accuracy       :    98.357 %
+        
+        TESTING
+        Accuracy       :    65.2 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : DT (JOSHUA_POCSIDIO) COUNTING GESTURES--finger-angle-using-bones_entropy 
+Unseen Subject Data    : (JOSHUA_POCSIDIO) COUNTING GESTURES--finger-angle-using-bones
+__________________________________________________________________________________________________
+        PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    JOSHUA_POCSIDIO
+        Unseen Subject :    JOSHUA_POCSIDIO
+        Feature        :    finger-angle-using-bones
+        Gesture Set    :    COUNTING GESTURES
+        Correct        :    287
+        Incorrect      :    13
+        Result         :    287 / 300
+        Avg Time       :    8.00008e-05 seconds
+        
+        TRAINING 
+        Accuracy       :    100.0 %
+        
+        TESTING
+        Accuracy       :    95.67 %
+        
+        
+

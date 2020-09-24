@@ -1,0 +1,325 @@
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : DT (NATAREE_KAEWPONG) COUNTING GESTURES--finger-to-palm-distance_entropy 
+Unseen Subject Data    : (ALLAN_TRAN) COUNTING GESTURES--finger-to-palm-distance
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    NATAREE_KAEWPONG
+        Unseen Subject :    ALLAN_TRAN
+        Feature        :    finger-to-palm-distance
+        Gesture Set    :    COUNTING GESTURES
+        Correct        :    291
+        Incorrect      :    9
+        Result         :    291 / 300
+        Avg Time       :    8.66662e-05 seconds
+        
+        TRAINING 
+        Accuracy       :    100.0 %
+        
+        TESTING
+        Accuracy       :    97.0 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : DT (NATAREE_KAEWPONG) STATUS GESTURES--finger-to-palm-distance_entropy 
+Unseen Subject Data    : (ALLAN_TRAN) STATUS GESTURES--finger-to-palm-distance
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    NATAREE_KAEWPONG
+        Unseen Subject :    ALLAN_TRAN
+        Feature        :    finger-to-palm-distance
+        Gesture Set    :    STATUS GESTURES
+        Correct        :    344
+        Incorrect      :    156
+        Result         :    344 / 500
+        Avg Time       :    8.800104e-05 seconds
+        
+        TRAINING 
+        Accuracy       :    99.571 %
+        
+        TESTING
+        Accuracy       :    68.8 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : DT (NATAREE_KAEWPONG) COUNTING GESTURES--finger-to-palm-distance_entropy 
+Unseen Subject Data    : (JORELLE_INTERINO) COUNTING GESTURES--finger-to-palm-distance
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    NATAREE_KAEWPONG
+        Unseen Subject :    JORELLE_INTERINO
+        Feature        :    finger-to-palm-distance
+        Gesture Set    :    COUNTING GESTURES
+        Correct        :    292
+        Incorrect      :    8
+        Result         :    292 / 300
+        Avg Time       :    8.33331e-05 seconds
+        
+        TRAINING 
+        Accuracy       :    100.0 %
+        
+        TESTING
+        Accuracy       :    97.33 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : DT (NATAREE_KAEWPONG) STATUS GESTURES--finger-to-palm-distance_entropy 
+Unseen Subject Data    : (JORELLE_INTERINO) STATUS GESTURES--finger-to-palm-distance
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    NATAREE_KAEWPONG
+        Unseen Subject :    JORELLE_INTERINO
+        Feature        :    finger-to-palm-distance
+        Gesture Set    :    STATUS GESTURES
+        Correct        :    379
+        Incorrect      :    121
+        Result         :    379 / 500
+        Avg Time       :    8.600118e-05 seconds
+        
+        TRAINING 
+        Accuracy       :    99.571 %
+        
+        TESTING
+        Accuracy       :    75.8 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : DT (NATAREE_KAEWPONG) COUNTING GESTURES--finger-to-palm-distance_entropy 
+Unseen Subject Data    : (JOSHUA_POCSIDIO) COUNTING GESTURES--finger-to-palm-distance
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    NATAREE_KAEWPONG
+        Unseen Subject :    JOSHUA_POCSIDIO
+        Feature        :    finger-to-palm-distance
+        Gesture Set    :    COUNTING GESTURES
+        Correct        :    290
+        Incorrect      :    10
+        Result         :    290 / 300
+        Avg Time       :    9.33356e-05 seconds
+        
+        TRAINING 
+        Accuracy       :    100.0 %
+        
+        TESTING
+        Accuracy       :    96.67 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : DT (NATAREE_KAEWPONG) STATUS GESTURES--finger-to-palm-distance_entropy 
+Unseen Subject Data    : (JOSHUA_POCSIDIO) STATUS GESTURES--finger-to-palm-distance
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    NATAREE_KAEWPONG
+        Unseen Subject :    JOSHUA_POCSIDIO
+        Feature        :    finger-to-palm-distance
+        Gesture Set    :    STATUS GESTURES
+        Correct        :    309
+        Incorrect      :    191
+        Result         :    309 / 500
+        Avg Time       :    0.00010200054 seconds
+        
+        TRAINING 
+        Accuracy       :    99.571 %
+        
+        TESTING
+        Accuracy       :    61.8 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : DT (NATAREE_KAEWPONG) COUNTING GESTURES--finger-to-palm-distance_entropy 
+Unseen Subject Data    : (MARC_SALONGA) COUNTING GESTURES--finger-to-palm-distance
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    NATAREE_KAEWPONG
+        Unseen Subject :    MARC_SALONGA
+        Feature        :    finger-to-palm-distance
+        Gesture Set    :    COUNTING GESTURES
+        Correct        :    278
+        Incorrect      :    22
+        Result         :    278 / 300
+        Avg Time       :    0.000100001 seconds
+        
+        TRAINING 
+        Accuracy       :    100.0 %
+        
+        TESTING
+        Accuracy       :    92.67 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : DT (NATAREE_KAEWPONG) STATUS GESTURES--finger-to-palm-distance_entropy 
+Unseen Subject Data    : (MARC_SALONGA) STATUS GESTURES--finger-to-palm-distance
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    NATAREE_KAEWPONG
+        Unseen Subject :    MARC_SALONGA
+        Feature        :    finger-to-palm-distance
+        Gesture Set    :    STATUS GESTURES
+        Correct        :    338
+        Incorrect      :    167
+        Result         :    338 / 505
+        Avg Time       :    9.90081980198e-05 seconds
+        
+        TRAINING 
+        Accuracy       :    99.571 %
+        
+        TESTING
+        Accuracy       :    66.93 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : DT (NATAREE_KAEWPONG) COUNTING GESTURES--finger-to-palm-distance_entropy 
+Unseen Subject Data    : (NATAREE_KAEWPONG) COUNTING GESTURES--finger-to-palm-distance
+__________________________________________________________________________________________________
+        PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    NATAREE_KAEWPONG
+        Unseen Subject :    NATAREE_KAEWPONG
+        Feature        :    finger-to-palm-distance
+        Gesture Set    :    COUNTING GESTURES
+        Correct        :    282
+        Incorrect      :    18
+        Result         :    282 / 300
+        Avg Time       :    7.66677e-05 seconds
+        
+        TRAINING 
+        Accuracy       :    100.0 %
+        
+        TESTING
+        Accuracy       :    94.0 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : DT (NATAREE_KAEWPONG) STATUS GESTURES--finger-to-palm-distance_entropy 
+Unseen Subject Data    : (NATAREE_KAEWPONG) STATUS GESTURES--finger-to-palm-distance
+__________________________________________________________________________________________________
+        PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    NATAREE_KAEWPONG
+        Unseen Subject :    NATAREE_KAEWPONG
+        Feature        :    finger-to-palm-distance
+        Gesture Set    :    STATUS GESTURES
+        Correct        :    396
+        Incorrect      :    104
+        Result         :    396 / 500
+        Avg Time       :    6.400032e-05 seconds
+        
+        TRAINING 
+        Accuracy       :    99.571 %
+        
+        TESTING
+        Accuracy       :    79.2 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : DT (NATAREE_KAEWPONG) COMBINED GESTURES--finger-to-palm-distance_entropy 
+Unseen Subject Data    : (ALLAN_TRAN) COMBINED GESTURES--finger-to-palm-distance
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    NATAREE_KAEWPONG
+        Unseen Subject :    ALLAN_TRAN
+        Feature        :    finger-to-palm-distance
+        Gesture Set    :    COMBINED GESTURES
+        Correct        :    310
+        Incorrect      :    190
+        Result         :    310 / 500
+        Avg Time       :    0.00011200032 seconds
+        
+        TRAINING 
+        Accuracy       :    99.786 %
+        
+        TESTING
+        Accuracy       :    62.0 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : DT (NATAREE_KAEWPONG) COMBINED GESTURES--finger-to-palm-distance_entropy 
+Unseen Subject Data    : (COMBINED SUBJECTS) COMBINED GESTURES--finger-to-palm-distance
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    NATAREE_KAEWPONG
+        Unseen Subject :    COMBINED SUBJECTS
+        Feature        :    finger-to-palm-distance
+        Gesture Set    :    COMBINED GESTURES
+        Correct        :    1689
+        Incorrect      :    2016
+        Result         :    1689 / 3705
+        Avg Time       :    8.69103643725e-05 seconds
+        
+        TRAINING 
+        Accuracy       :    99.786 %
+        
+        TESTING
+        Accuracy       :    45.59 %
+        
+        
+
+
+
+__________________________________________________________________________________________________
+Test Subject Pickle    : DT (NATAREE_KAEWPONG) COUNTING GESTURES--finger-to-palm-distance_entropy 
+Unseen Subject Data    : (COMBINED SUBJECTS) COUNTING GESTURES--finger-to-palm-distance
+__________________________________________________________________________________________________
+        NON-PERSONALIZED TEST 
+--------------------------------------------------------------------------------------------------
+        Subject        :    NATAREE_KAEWPONG
+        Unseen Subject :    COMBINED SUBJECTS
+        Feature        :    finger-to-palm-distance
+        Gesture Set    :    COUNTING GESTURES
+        Correct        :    4419
+        Incorrect      :    381
+        Result         :    4419 / 4800
+        Avg Time       :    8.62499125e-05 seconds
+        
+        TRAINING 
+        Accuracy       :    100.0 %
+        
+        TESTING
+        Accuracy       :    92.06 %
+        
+        
+
