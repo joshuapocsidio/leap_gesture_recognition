@@ -1,0 +1,2161 @@
+subject,classifier,gesture set,feature set,accuracy,time,time penalty
+ALLAN_TRAN,svm,COUNTING GESTURES,finger-angle-and-palm-distance,98.611,3.844,1.111
+ALLAN_TRAN,svm,COUNTING GESTURES,finger-angle-and-palm-distance,97.778,1.912,-0.079
+ALLAN_TRAN,svm,COUNTING GESTURES,finger-angle-and-palm-distance,98.333,1.883,0.714
+ALLAN_TRAN,svm,COUNTING GESTURES,finger-angle-and-palm-distance,97.222,1.82,-0.873
+ALLAN_TRAN,svm,COUNTING GESTURES,finger-angle-and-palm-distance,98.611,1.847,0.992
+ALLAN_TRAN,svm,COUNTING GESTURES,finger-angle-and-palm-distance,98.056,1.848,0.199
+ALLAN_TRAN,svm,COUNTING GESTURES,finger-angle-and-palm-distance,97.778,1.769,-0.317
+ALLAN_TRAN,svm,COUNTING GESTURES,finger-angle-and-palm-distance,97.778,1.865,-0.079
+ALLAN_TRAN,svm,COUNTING GESTURES,finger-angle-and-palm-distance,98.056,1.87,0.437
+ALLAN_TRAN,svm,COUNTING GESTURES,finger-angle-and-palm-distance,98.056,1.868,0.318
+ALLAN_TRAN,nn,COUNTING GESTURES,finger-angle-and-palm-distance,97.778,32.765,-1.508
+ALLAN_TRAN,nn,COUNTING GESTURES,finger-angle-and-palm-distance,96.389,32.401,-2.54
+ALLAN_TRAN,nn,COUNTING GESTURES,finger-angle-and-palm-distance,99.722,33.493,0.674
+ALLAN_TRAN,nn,COUNTING GESTURES,finger-angle-and-palm-distance,96.667,32.339,-2.738
+ALLAN_TRAN,nn,COUNTING GESTURES,finger-angle-and-palm-distance,98.611,31.032,-0.079
+ALLAN_TRAN,nn,COUNTING GESTURES,finger-angle-and-palm-distance,98.333,28.929,-0.834
+ALLAN_TRAN,nn,COUNTING GESTURES,finger-angle-and-palm-distance,99.722,29.618,1.151
+ALLAN_TRAN,nn,COUNTING GESTURES,finger-angle-and-palm-distance,98.889,28.596,-0.159
+ALLAN_TRAN,nn,COUNTING GESTURES,finger-angle-and-palm-distance,99.722,30.184,0.912
+ALLAN_TRAN,nn,COUNTING GESTURES,finger-angle-and-palm-distance,98.889,28.202,0.079
+ALLAN_TRAN,dt,COUNTING GESTURES,finger-angle-and-palm-distance,99.444,2.625,-0.556
+ALLAN_TRAN,dt,COUNTING GESTURES,finger-angle-and-palm-distance,98.611,2.928,-1.151
+ALLAN_TRAN,dt,COUNTING GESTURES,finger-angle-and-palm-distance,99.444,2.713,-0.437
+ALLAN_TRAN,dt,COUNTING GESTURES,finger-angle-and-palm-distance,99.722,2.748,-0.04
+ALLAN_TRAN,dt,COUNTING GESTURES,finger-angle-and-palm-distance,99.722,2.956,-0.04
+ALLAN_TRAN,dt,COUNTING GESTURES,finger-angle-and-palm-distance,99.444,2.677,-0.318
+ALLAN_TRAN,dt,COUNTING GESTURES,finger-angle-and-palm-distance,100.0,2.673,0.119
+ALLAN_TRAN,dt,COUNTING GESTURES,finger-angle-and-palm-distance,99.444,2.613,-0.199
+ALLAN_TRAN,dt,COUNTING GESTURES,finger-angle-and-palm-distance,99.722,2.741,-0.04
+ALLAN_TRAN,dt,COUNTING GESTURES,finger-angle-and-palm-distance,98.611,2.637,-1.032
+ALLAN_TRAN,svm,COUNTING GESTURES,finger-angle-using-bones,99.444,2.502,0.992
+ALLAN_TRAN,svm,COUNTING GESTURES,finger-angle-using-bones,98.056,1.686,-0.873
+ALLAN_TRAN,svm,COUNTING GESTURES,finger-angle-using-bones,98.611,1.622,-0.199
+ALLAN_TRAN,svm,COUNTING GESTURES,finger-angle-using-bones,97.778,1.682,-1.032
+ALLAN_TRAN,svm,COUNTING GESTURES,finger-angle-using-bones,98.333,1.681,-0.238
+ALLAN_TRAN,svm,COUNTING GESTURES,finger-angle-using-bones,99.444,1.611,1.111
+ALLAN_TRAN,svm,COUNTING GESTURES,finger-angle-using-bones,97.778,1.613,-1.032
+ALLAN_TRAN,svm,COUNTING GESTURES,finger-angle-using-bones,98.611,1.704,-0.199
+ALLAN_TRAN,svm,COUNTING GESTURES,finger-angle-using-bones,99.167,1.61,0.715
+ALLAN_TRAN,svm,COUNTING GESTURES,finger-angle-using-bones,98.889,1.619,0.079
+ALLAN_TRAN,nn,COUNTING GESTURES,finger-angle-using-bones,98.889,27.27,-0.397
+ALLAN_TRAN,nn,COUNTING GESTURES,finger-angle-using-bones,100.0,26.964,0.833
+ALLAN_TRAN,nn,COUNTING GESTURES,finger-angle-using-bones,99.167,28.368,-0.357
+ALLAN_TRAN,nn,COUNTING GESTURES,finger-angle-using-bones,98.056,27.59,-1.349
+ALLAN_TRAN,nn,COUNTING GESTURES,finger-angle-using-bones,99.444,26.895,0.158
+ALLAN_TRAN,nn,COUNTING GESTURES,finger-angle-using-bones,98.611,27.828,-1.032
+ALLAN_TRAN,nn,COUNTING GESTURES,finger-angle-using-bones,98.611,26.969,-0.913
+ALLAN_TRAN,nn,COUNTING GESTURES,finger-angle-using-bones,99.722,26.59,0.436
+ALLAN_TRAN,nn,COUNTING GESTURES,finger-angle-using-bones,99.444,27.83,0.039
+ALLAN_TRAN,nn,COUNTING GESTURES,finger-angle-using-bones,98.889,27.015,-0.278
+ALLAN_TRAN,dt,COUNTING GESTURES,finger-angle-using-bones,99.444,2.672,-0.556
+ALLAN_TRAN,dt,COUNTING GESTURES,finger-angle-using-bones,100.0,2.659,0.119
+ALLAN_TRAN,dt,COUNTING GESTURES,finger-angle-using-bones,100.0,2.704,0.119
+ALLAN_TRAN,dt,COUNTING GESTURES,finger-angle-using-bones,100.0,2.981,0.119
+ALLAN_TRAN,dt,COUNTING GESTURES,finger-angle-using-bones,100.0,2.967,0.119
+ALLAN_TRAN,dt,COUNTING GESTURES,finger-angle-using-bones,100.0,2.779,0.0
+ALLAN_TRAN,dt,COUNTING GESTURES,finger-angle-using-bones,100.0,2.744,0.0
+ALLAN_TRAN,dt,COUNTING GESTURES,finger-angle-using-bones,99.722,2.645,-0.278
+ALLAN_TRAN,dt,COUNTING GESTURES,finger-angle-using-bones,99.722,2.604,-0.159
+ALLAN_TRAN,dt,COUNTING GESTURES,finger-angle-using-bones,99.444,2.571,-0.437
+ALLAN_TRAN,svm,COUNTING GESTURES,finger-between-distance,98.333,2.313,1.666
+ALLAN_TRAN,svm,COUNTING GESTURES,finger-between-distance,99.167,1.546,2.381
+ALLAN_TRAN,svm,COUNTING GESTURES,finger-between-distance,96.944,1.552,0.754
+ALLAN_TRAN,svm,COUNTING GESTURES,finger-between-distance,97.222,1.571,0.317
+ALLAN_TRAN,svm,COUNTING GESTURES,finger-between-distance,97.222,1.519,-0.278
+ALLAN_TRAN,svm,COUNTING GESTURES,finger-between-distance,96.944,1.538,-0.08
+ALLAN_TRAN,svm,COUNTING GESTURES,finger-between-distance,97.5,1.521,0.952
+ALLAN_TRAN,svm,COUNTING GESTURES,finger-between-distance,97.5,1.561,1.071
+ALLAN_TRAN,svm,COUNTING GESTURES,finger-between-distance,96.667,1.531,-0.357
+ALLAN_TRAN,svm,COUNTING GESTURES,finger-between-distance,96.389,1.547,-0.159
+ALLAN_TRAN,nn,COUNTING GESTURES,finger-between-distance,94.444,37.999,-4.366
+ALLAN_TRAN,nn,COUNTING GESTURES,finger-between-distance,99.167,40.793,0.0
+ALLAN_TRAN,nn,COUNTING GESTURES,finger-between-distance,96.944,37.613,-2.104
+ALLAN_TRAN,nn,COUNTING GESTURES,finger-between-distance,99.167,39.701,0.119
+ALLAN_TRAN,nn,COUNTING GESTURES,finger-between-distance,99.444,39.786,0.396
+ALLAN_TRAN,nn,COUNTING GESTURES,finger-between-distance,99.167,39.443,0.0
+ALLAN_TRAN,nn,COUNTING GESTURES,finger-between-distance,98.889,39.897,-0.159
+ALLAN_TRAN,nn,COUNTING GESTURES,finger-between-distance,98.333,38.75,-0.477
+ALLAN_TRAN,nn,COUNTING GESTURES,finger-between-distance,98.056,38.583,-0.992
+ALLAN_TRAN,nn,COUNTING GESTURES,finger-between-distance,97.222,38.865,-1.111
+ALLAN_TRAN,dt,COUNTING GESTURES,finger-between-distance,100.0,2.573,0.0
+ALLAN_TRAN,dt,COUNTING GESTURES,finger-between-distance,99.722,2.65,-0.159
+ALLAN_TRAN,dt,COUNTING GESTURES,finger-between-distance,99.444,2.635,-0.437
+ALLAN_TRAN,dt,COUNTING GESTURES,finger-between-distance,98.889,2.675,-1.111
+ALLAN_TRAN,dt,COUNTING GESTURES,finger-between-distance,100.0,2.962,0.0
+ALLAN_TRAN,dt,COUNTING GESTURES,finger-between-distance,99.167,2.667,-0.833
+ALLAN_TRAN,dt,COUNTING GESTURES,finger-between-distance,99.167,2.72,-0.595
+ALLAN_TRAN,dt,COUNTING GESTURES,finger-between-distance,99.722,2.748,-0.159
+ALLAN_TRAN,dt,COUNTING GESTURES,finger-between-distance,99.722,2.669,-0.159
+ALLAN_TRAN,dt,COUNTING GESTURES,finger-between-distance,99.722,2.644,-0.159
+ALLAN_TRAN,svm,COUNTING GESTURES,finger-to-palm-distance,97.778,2.846,-1.508
+ALLAN_TRAN,svm,COUNTING GESTURES,finger-to-palm-distance,99.167,1.567,0.357
+ALLAN_TRAN,svm,COUNTING GESTURES,finger-to-palm-distance,98.889,2.07,0.079
+ALLAN_TRAN,svm,COUNTING GESTURES,finger-to-palm-distance,99.444,1.583,0.754
+ALLAN_TRAN,svm,COUNTING GESTURES,finger-to-palm-distance,98.889,2.075,0.079
+ALLAN_TRAN,svm,COUNTING GESTURES,finger-to-palm-distance,98.889,1.509,-0.04
+ALLAN_TRAN,svm,COUNTING GESTURES,finger-to-palm-distance,98.889,2.08,0.079
+ALLAN_TRAN,svm,COUNTING GESTURES,finger-to-palm-distance,99.444,1.507,0.634
+ALLAN_TRAN,svm,COUNTING GESTURES,finger-to-palm-distance,98.889,1.516,-0.04
+ALLAN_TRAN,svm,COUNTING GESTURES,finger-to-palm-distance,98.333,2.052,-0.715
+ALLAN_TRAN,nn,COUNTING GESTURES,finger-to-palm-distance,99.722,26.099,-0.278
+ALLAN_TRAN,nn,COUNTING GESTURES,finger-to-palm-distance,100.0,25.831,0.0
+ALLAN_TRAN,nn,COUNTING GESTURES,finger-to-palm-distance,100.0,25.702,0.357
+ALLAN_TRAN,nn,COUNTING GESTURES,finger-to-palm-distance,100.0,25.838,0.238
+ALLAN_TRAN,nn,COUNTING GESTURES,finger-to-palm-distance,99.722,25.195,-0.159
+ALLAN_TRAN,nn,COUNTING GESTURES,finger-to-palm-distance,99.722,25.503,-0.159
+ALLAN_TRAN,nn,COUNTING GESTURES,finger-to-palm-distance,100.0,25.617,0.0
+ALLAN_TRAN,nn,COUNTING GESTURES,finger-to-palm-distance,100.0,25.36,0.119
+ALLAN_TRAN,nn,COUNTING GESTURES,finger-to-palm-distance,99.722,25.112,-0.159
+ALLAN_TRAN,nn,COUNTING GESTURES,finger-to-palm-distance,99.444,25.702,-0.437
+ALLAN_TRAN,dt,COUNTING GESTURES,finger-to-palm-distance,100.0,2.754,0.0
+ALLAN_TRAN,dt,COUNTING GESTURES,finger-to-palm-distance,99.722,2.695,-0.278
+ALLAN_TRAN,dt,COUNTING GESTURES,finger-to-palm-distance,100.0,2.62,0.0
+ALLAN_TRAN,dt,COUNTING GESTURES,finger-to-palm-distance,100.0,2.687,0.0
+ALLAN_TRAN,dt,COUNTING GESTURES,finger-to-palm-distance,100.0,2.637,0.0
+ALLAN_TRAN,dt,COUNTING GESTURES,finger-to-palm-distance,100.0,2.829,0.0
+ALLAN_TRAN,dt,COUNTING GESTURES,finger-to-palm-distance,99.167,2.99,-0.833
+ALLAN_TRAN,dt,COUNTING GESTURES,finger-to-palm-distance,98.889,2.964,-1.111
+ALLAN_TRAN,dt,COUNTING GESTURES,finger-to-palm-distance,100.0,2.801,0.0
+ALLAN_TRAN,dt,COUNTING GESTURES,finger-to-palm-distance,100.0,2.907,0.0
+ALLAN_TRAN,svm,STATUS GESTURES,finger-angle-and-palm-distance,93.333,6.353,-0.453
+ALLAN_TRAN,svm,STATUS GESTURES,finger-angle-and-palm-distance,93.667,5.61,0.596
+ALLAN_TRAN,svm,STATUS GESTURES,finger-angle-and-palm-distance,93.667,5.93,0.596
+ALLAN_TRAN,svm,STATUS GESTURES,finger-angle-and-palm-distance,92.333,5.57,-1.238
+ALLAN_TRAN,svm,STATUS GESTURES,finger-angle-and-palm-distance,93.667,5.978,0.953
+ALLAN_TRAN,svm,STATUS GESTURES,finger-angle-and-palm-distance,94.5,5.985,0.357
+ALLAN_TRAN,svm,STATUS GESTURES,finger-angle-and-palm-distance,92.5,5.956,-0.929
+ALLAN_TRAN,svm,STATUS GESTURES,finger-angle-and-palm-distance,93.5,5.949,0.214
+ALLAN_TRAN,svm,STATUS GESTURES,finger-angle-and-palm-distance,92.167,5.611,-1.333
+ALLAN_TRAN,svm,STATUS GESTURES,finger-angle-and-palm-distance,93.333,5.927,0.119
+ALLAN_TRAN,nn,STATUS GESTURES,finger-angle-and-palm-distance,99.0,61.32,0.5
+ALLAN_TRAN,nn,STATUS GESTURES,finger-angle-and-palm-distance,97.167,64.816,-1.404
+ALLAN_TRAN,nn,STATUS GESTURES,finger-angle-and-palm-distance,96.667,60.527,-1.19
+ALLAN_TRAN,nn,STATUS GESTURES,finger-angle-and-palm-distance,98.167,60.989,0.453
+ALLAN_TRAN,nn,STATUS GESTURES,finger-angle-and-palm-distance,96.333,59.583,-1.453
+ALLAN_TRAN,nn,STATUS GESTURES,finger-angle-and-palm-distance,98.5,60.269,0.357
+ALLAN_TRAN,nn,STATUS GESTURES,finger-angle-and-palm-distance,98.667,63.322,0.881
+ALLAN_TRAN,nn,STATUS GESTURES,finger-angle-and-palm-distance,97.167,60.369,-0.976
+ALLAN_TRAN,nn,STATUS GESTURES,finger-angle-and-palm-distance,98.333,59.01,0.262
+ALLAN_TRAN,nn,STATUS GESTURES,finger-angle-and-palm-distance,99.333,59.518,1.262
+ALLAN_TRAN,dt,STATUS GESTURES,finger-angle-and-palm-distance,98.0,3.264,-0.786
+ALLAN_TRAN,dt,STATUS GESTURES,finger-angle-and-palm-distance,98.333,3.426,-0.524
+ALLAN_TRAN,dt,STATUS GESTURES,finger-angle-and-palm-distance,98.833,3.226,0.262
+ALLAN_TRAN,dt,STATUS GESTURES,finger-angle-and-palm-distance,98.667,3.474,-0.19
+ALLAN_TRAN,dt,STATUS GESTURES,finger-angle-and-palm-distance,98.5,3.45,-0.071
+ALLAN_TRAN,dt,STATUS GESTURES,finger-angle-and-palm-distance,98.333,3.204,-0.453
+ALLAN_TRAN,dt,STATUS GESTURES,finger-angle-and-palm-distance,98.167,3.285,-0.619
+ALLAN_TRAN,dt,STATUS GESTURES,finger-angle-and-palm-distance,98.667,3.28,-0.19
+ALLAN_TRAN,dt,STATUS GESTURES,finger-angle-and-palm-distance,97.333,3.282,-1.31
+ALLAN_TRAN,dt,STATUS GESTURES,finger-angle-and-palm-distance,98.0,3.381,-0.571
+ALLAN_TRAN,svm,STATUS GESTURES,finger-angle-using-bones,95.667,5.883,0.096
+ALLAN_TRAN,svm,STATUS GESTURES,finger-angle-using-bones,96.667,5.42,1.667
+ALLAN_TRAN,svm,STATUS GESTURES,finger-angle-using-bones,96.0,5.323,0.929
+ALLAN_TRAN,svm,STATUS GESTURES,finger-angle-using-bones,95.167,5.119,0.167
+ALLAN_TRAN,svm,STATUS GESTURES,finger-angle-using-bones,95.667,5.371,0.524
+ALLAN_TRAN,svm,STATUS GESTURES,finger-angle-using-bones,96.333,5.358,1.047
+ALLAN_TRAN,svm,STATUS GESTURES,finger-angle-using-bones,96.167,5.362,0.953
+ALLAN_TRAN,svm,STATUS GESTURES,finger-angle-using-bones,94.5,5.345,-0.429
+ALLAN_TRAN,svm,STATUS GESTURES,finger-angle-using-bones,96.0,5.379,1.143
+ALLAN_TRAN,svm,STATUS GESTURES,finger-angle-using-bones,96.0,5.357,1.214
+ALLAN_TRAN,nn,STATUS GESTURES,finger-angle-using-bones,98.0,63.836,-1.0
+ALLAN_TRAN,nn,STATUS GESTURES,finger-angle-using-bones,98.5,60.873,0.071
+ALLAN_TRAN,nn,STATUS GESTURES,finger-angle-using-bones,98.833,56.287,0.69
+ALLAN_TRAN,nn,STATUS GESTURES,finger-angle-using-bones,97.667,55.619,-1.047
+ALLAN_TRAN,nn,STATUS GESTURES,finger-angle-using-bones,97.5,58.525,-1.286
+ALLAN_TRAN,nn,STATUS GESTURES,finger-angle-using-bones,99.167,65.704,0.596
+ALLAN_TRAN,nn,STATUS GESTURES,finger-angle-using-bones,97.167,60.263,-1.404
+ALLAN_TRAN,nn,STATUS GESTURES,finger-angle-using-bones,99.833,58.106,1.262
+ALLAN_TRAN,nn,STATUS GESTURES,finger-angle-using-bones,97.0,56.986,-1.643
+ALLAN_TRAN,nn,STATUS GESTURES,finger-angle-using-bones,98.333,57.044,-0.096
+ALLAN_TRAN,dt,STATUS GESTURES,finger-angle-using-bones,99.5,3.218,0.143
+ALLAN_TRAN,dt,STATUS GESTURES,finger-angle-using-bones,98.833,3.285,-0.667
+ALLAN_TRAN,dt,STATUS GESTURES,finger-angle-using-bones,99.167,3.195,-0.333
+ALLAN_TRAN,dt,STATUS GESTURES,finger-angle-using-bones,99.333,3.264,-0.096
+ALLAN_TRAN,dt,STATUS GESTURES,finger-angle-using-bones,99.0,3.229,-0.643
+ALLAN_TRAN,dt,STATUS GESTURES,finger-angle-using-bones,98.0,3.279,-1.357
+ALLAN_TRAN,dt,STATUS GESTURES,finger-angle-using-bones,99.667,3.284,0.167
+ALLAN_TRAN,dt,STATUS GESTURES,finger-angle-using-bones,99.5,3.155,-0.071
+ALLAN_TRAN,dt,STATUS GESTURES,finger-angle-using-bones,99.0,3.232,-0.357
+ALLAN_TRAN,dt,STATUS GESTURES,finger-angle-using-bones,99.0,3.306,-0.429
+ALLAN_TRAN,svm,STATUS GESTURES,finger-between-distance,91.833,6.027,0.619
+ALLAN_TRAN,svm,STATUS GESTURES,finger-between-distance,91.5,5.582,-0.929
+ALLAN_TRAN,svm,STATUS GESTURES,finger-between-distance,92.667,5.523,1.024
+ALLAN_TRAN,svm,STATUS GESTURES,finger-between-distance,92.667,5.635,1.024
+ALLAN_TRAN,svm,STATUS GESTURES,finger-between-distance,89.667,5.196,-2.833
+ALLAN_TRAN,svm,STATUS GESTURES,finger-between-distance,91.667,5.559,-0.976
+ALLAN_TRAN,svm,STATUS GESTURES,finger-between-distance,91.333,5.585,-0.31
+ALLAN_TRAN,svm,STATUS GESTURES,finger-between-distance,93.167,5.601,1.738
+ALLAN_TRAN,svm,STATUS GESTURES,finger-between-distance,90.667,5.515,-1.904
+ALLAN_TRAN,svm,STATUS GESTURES,finger-between-distance,92.167,5.579,0.453
+ALLAN_TRAN,nn,STATUS GESTURES,finger-between-distance,95.167,71.069,-1.69
+ALLAN_TRAN,nn,STATUS GESTURES,finger-between-distance,96.5,69.194,-1.0
+ALLAN_TRAN,nn,STATUS GESTURES,finger-between-distance,96.167,69.279,-0.904
+ALLAN_TRAN,nn,STATUS GESTURES,finger-between-distance,96.167,70.337,-1.262
+ALLAN_TRAN,nn,STATUS GESTURES,finger-between-distance,96.5,67.103,-0.5
+ALLAN_TRAN,nn,STATUS GESTURES,finger-between-distance,96.0,70.798,-1.214
+ALLAN_TRAN,nn,STATUS GESTURES,finger-between-distance,97.333,72.0,0.047
+ALLAN_TRAN,nn,STATUS GESTURES,finger-between-distance,94.333,70.262,-2.881
+ALLAN_TRAN,nn,STATUS GESTURES,finger-between-distance,96.167,69.606,-1.047
+ALLAN_TRAN,nn,STATUS GESTURES,finger-between-distance,93.667,69.984,-3.833
+ALLAN_TRAN,dt,STATUS GESTURES,finger-between-distance,96.833,3.069,-2.024
+ALLAN_TRAN,dt,STATUS GESTURES,finger-between-distance,98.667,3.051,-0.19
+ALLAN_TRAN,dt,STATUS GESTURES,finger-between-distance,98.0,3.085,-0.786
+ALLAN_TRAN,dt,STATUS GESTURES,finger-between-distance,98.833,3.159,-0.024
+ALLAN_TRAN,dt,STATUS GESTURES,finger-between-distance,98.0,3.199,-0.929
+ALLAN_TRAN,dt,STATUS GESTURES,finger-between-distance,99.167,3.121,0.524
+ALLAN_TRAN,dt,STATUS GESTURES,finger-between-distance,97.333,3.173,-1.524
+ALLAN_TRAN,dt,STATUS GESTURES,finger-between-distance,99.167,3.135,0.096
+ALLAN_TRAN,dt,STATUS GESTURES,finger-between-distance,98.167,3.061,-0.619
+ALLAN_TRAN,dt,STATUS GESTURES,finger-between-distance,98.167,3.151,-0.619
+ALLAN_TRAN,svm,STATUS GESTURES,finger-to-palm-distance,97.333,5.483,0.404
+ALLAN_TRAN,svm,STATUS GESTURES,finger-to-palm-distance,96.667,4.94,-0.047
+ALLAN_TRAN,svm,STATUS GESTURES,finger-to-palm-distance,97.833,5.026,1.333
+ALLAN_TRAN,svm,STATUS GESTURES,finger-to-palm-distance,98.167,5.007,1.953
+ALLAN_TRAN,svm,STATUS GESTURES,finger-to-palm-distance,97.0,5.007,-0.286
+ALLAN_TRAN,svm,STATUS GESTURES,finger-to-palm-distance,97.0,4.988,-0.714
+ALLAN_TRAN,svm,STATUS GESTURES,finger-to-palm-distance,98.167,5.014,1.167
+ALLAN_TRAN,svm,STATUS GESTURES,finger-to-palm-distance,97.167,5.002,0.31
+ALLAN_TRAN,svm,STATUS GESTURES,finger-to-palm-distance,95.667,4.982,-1.047
+ALLAN_TRAN,svm,STATUS GESTURES,finger-to-palm-distance,98.0,5.01,0.929
+ALLAN_TRAN,nn,STATUS GESTURES,finger-to-palm-distance,98.833,58.12,-0.453
+ALLAN_TRAN,nn,STATUS GESTURES,finger-to-palm-distance,99.0,56.676,-0.214
+ALLAN_TRAN,nn,STATUS GESTURES,finger-to-palm-distance,99.333,58.965,0.047
+ALLAN_TRAN,nn,STATUS GESTURES,finger-to-palm-distance,98.167,56.392,-1.119
+ALLAN_TRAN,nn,STATUS GESTURES,finger-to-palm-distance,99.833,60.04,0.619
+ALLAN_TRAN,nn,STATUS GESTURES,finger-to-palm-distance,98.667,56.546,-0.404
+ALLAN_TRAN,nn,STATUS GESTURES,finger-to-palm-distance,99.5,62.427,0.0
+ALLAN_TRAN,nn,STATUS GESTURES,finger-to-palm-distance,99.667,58.669,0.738
+ALLAN_TRAN,nn,STATUS GESTURES,finger-to-palm-distance,99.0,59.554,-0.429
+ALLAN_TRAN,nn,STATUS GESTURES,finger-to-palm-distance,98.333,59.374,-0.596
+ALLAN_TRAN,dt,STATUS GESTURES,finger-to-palm-distance,99.0,3.227,-0.643
+ALLAN_TRAN,dt,STATUS GESTURES,finger-to-palm-distance,98.167,3.16,-1.333
+ALLAN_TRAN,dt,STATUS GESTURES,finger-to-palm-distance,99.333,3.232,-0.238
+ALLAN_TRAN,dt,STATUS GESTURES,finger-to-palm-distance,99.333,3.293,-0.167
+ALLAN_TRAN,dt,STATUS GESTURES,finger-to-palm-distance,98.167,3.192,-1.476
+ALLAN_TRAN,dt,STATUS GESTURES,finger-to-palm-distance,99.167,3.284,-0.547
+ALLAN_TRAN,dt,STATUS GESTURES,finger-to-palm-distance,98.833,3.179,-0.596
+ALLAN_TRAN,dt,STATUS GESTURES,finger-to-palm-distance,99.0,3.31,-0.571
+ALLAN_TRAN,dt,STATUS GESTURES,finger-to-palm-distance,99.167,3.271,-0.262
+ALLAN_TRAN,dt,STATUS GESTURES,finger-to-palm-distance,99.5,3.277,0.0
+JORELLE_INTERINO,svm,COUNTING GESTURES,finger-angle-and-palm-distance,97.5,2.447,-0.595
+JORELLE_INTERINO,svm,COUNTING GESTURES,finger-angle-and-palm-distance,96.944,1.73,-0.794
+JORELLE_INTERINO,svm,COUNTING GESTURES,finger-angle-and-palm-distance,98.056,1.682,0.199
+JORELLE_INTERINO,svm,COUNTING GESTURES,finger-angle-and-palm-distance,98.333,1.687,0.595
+JORELLE_INTERINO,svm,COUNTING GESTURES,finger-angle-and-palm-distance,98.611,1.692,1.23
+JORELLE_INTERINO,svm,COUNTING GESTURES,finger-angle-and-palm-distance,97.5,1.664,-0.476
+JORELLE_INTERINO,svm,COUNTING GESTURES,finger-angle-and-palm-distance,97.222,1.711,-0.635
+JORELLE_INTERINO,svm,COUNTING GESTURES,finger-angle-and-palm-distance,98.611,1.683,0.992
+JORELLE_INTERINO,svm,COUNTING GESTURES,finger-angle-and-palm-distance,97.5,1.651,-0.357
+JORELLE_INTERINO,svm,COUNTING GESTURES,finger-angle-and-palm-distance,98.056,1.637,0.318
+JORELLE_INTERINO,nn,COUNTING GESTURES,finger-angle-and-palm-distance,96.667,28.193,-1.428
+JORELLE_INTERINO,nn,COUNTING GESTURES,finger-angle-and-palm-distance,97.5,27.382,-0.119
+JORELLE_INTERINO,nn,COUNTING GESTURES,finger-angle-and-palm-distance,98.333,27.437,0.238
+JORELLE_INTERINO,nn,COUNTING GESTURES,finger-angle-and-palm-distance,98.611,27.487,0.635
+JORELLE_INTERINO,nn,COUNTING GESTURES,finger-angle-and-palm-distance,95.833,28.125,-2.381
+JORELLE_INTERINO,nn,COUNTING GESTURES,finger-angle-and-palm-distance,97.5,28.271,-0.357
+JORELLE_INTERINO,nn,COUNTING GESTURES,finger-angle-and-palm-distance,96.944,27.295,-0.675
+JORELLE_INTERINO,nn,COUNTING GESTURES,finger-angle-and-palm-distance,97.778,27.43,-0.079
+JORELLE_INTERINO,nn,COUNTING GESTURES,finger-angle-and-palm-distance,95.278,27.211,-2.698
+JORELLE_INTERINO,nn,COUNTING GESTURES,finger-angle-and-palm-distance,96.944,27.595,-1.389
+JORELLE_INTERINO,dt,COUNTING GESTURES,finger-angle-and-palm-distance,98.333,2.672,-0.834
+JORELLE_INTERINO,dt,COUNTING GESTURES,finger-angle-and-palm-distance,98.611,2.612,-0.675
+JORELLE_INTERINO,dt,COUNTING GESTURES,finger-angle-and-palm-distance,98.611,2.617,-0.437
+JORELLE_INTERINO,dt,COUNTING GESTURES,finger-angle-and-palm-distance,98.056,2.661,-0.873
+JORELLE_INTERINO,dt,COUNTING GESTURES,finger-angle-and-palm-distance,98.056,2.692,-0.873
+JORELLE_INTERINO,dt,COUNTING GESTURES,finger-angle-and-palm-distance,98.056,2.728,-0.754
+JORELLE_INTERINO,dt,COUNTING GESTURES,finger-angle-and-palm-distance,98.056,2.891,-1.111
+JORELLE_INTERINO,dt,COUNTING GESTURES,finger-angle-and-palm-distance,97.222,2.716,-1.945
+JORELLE_INTERINO,dt,COUNTING GESTURES,finger-angle-and-palm-distance,98.333,2.663,-0.834
+JORELLE_INTERINO,dt,COUNTING GESTURES,finger-angle-and-palm-distance,98.333,2.645,-0.715
+JORELLE_INTERINO,svm,COUNTING GESTURES,finger-angle-using-bones,98.889,2.4,0.079
+JORELLE_INTERINO,svm,COUNTING GESTURES,finger-angle-using-bones,97.5,1.686,-1.548
+JORELLE_INTERINO,svm,COUNTING GESTURES,finger-angle-using-bones,98.333,1.593,-0.477
+JORELLE_INTERINO,svm,COUNTING GESTURES,finger-angle-using-bones,98.611,1.597,-0.437
+JORELLE_INTERINO,svm,COUNTING GESTURES,finger-angle-using-bones,98.333,1.599,-0.834
+JORELLE_INTERINO,svm,COUNTING GESTURES,finger-angle-using-bones,97.778,2.15,-1.27
+JORELLE_INTERINO,svm,COUNTING GESTURES,finger-angle-using-bones,99.167,1.592,0.357
+JORELLE_INTERINO,svm,COUNTING GESTURES,finger-angle-using-bones,98.056,1.681,-0.754
+JORELLE_INTERINO,svm,COUNTING GESTURES,finger-angle-using-bones,98.611,2.116,-0.079
+JORELLE_INTERINO,svm,COUNTING GESTURES,finger-angle-using-bones,97.778,1.575,-1.389
+JORELLE_INTERINO,nn,COUNTING GESTURES,finger-angle-using-bones,99.167,27.389,-0.357
+JORELLE_INTERINO,nn,COUNTING GESTURES,finger-angle-using-bones,98.889,30.026,-0.516
+JORELLE_INTERINO,nn,COUNTING GESTURES,finger-angle-using-bones,99.444,27.051,0.515
+JORELLE_INTERINO,nn,COUNTING GESTURES,finger-angle-using-bones,99.167,27.432,0.0
+JORELLE_INTERINO,nn,COUNTING GESTURES,finger-angle-using-bones,99.444,27.431,0.039
+JORELLE_INTERINO,nn,COUNTING GESTURES,finger-angle-using-bones,99.444,29.869,0.039
+JORELLE_INTERINO,nn,COUNTING GESTURES,finger-angle-using-bones,98.056,27.337,-0.992
+JORELLE_INTERINO,nn,COUNTING GESTURES,finger-angle-using-bones,99.444,28.032,0.277
+JORELLE_INTERINO,nn,COUNTING GESTURES,finger-angle-using-bones,99.167,27.567,0.119
+JORELLE_INTERINO,nn,COUNTING GESTURES,finger-angle-using-bones,99.444,28.586,0.396
+JORELLE_INTERINO,dt,COUNTING GESTURES,finger-angle-using-bones,98.889,2.636,-0.754
+JORELLE_INTERINO,dt,COUNTING GESTURES,finger-angle-using-bones,100.0,2.642,0.595
+JORELLE_INTERINO,dt,COUNTING GESTURES,finger-angle-using-bones,99.444,2.645,-0.437
+JORELLE_INTERINO,dt,COUNTING GESTURES,finger-angle-using-bones,99.722,2.761,-0.04
+JORELLE_INTERINO,dt,COUNTING GESTURES,finger-angle-using-bones,98.889,2.667,-0.635
+JORELLE_INTERINO,dt,COUNTING GESTURES,finger-angle-using-bones,99.444,2.711,-0.08
+JORELLE_INTERINO,dt,COUNTING GESTURES,finger-angle-using-bones,98.889,2.772,-0.992
+JORELLE_INTERINO,dt,COUNTING GESTURES,finger-angle-using-bones,98.889,2.756,-0.754
+JORELLE_INTERINO,dt,COUNTING GESTURES,finger-angle-using-bones,99.722,2.774,-0.04
+JORELLE_INTERINO,dt,COUNTING GESTURES,finger-angle-using-bones,99.167,2.703,-0.595
+JORELLE_INTERINO,svm,COUNTING GESTURES,finger-between-distance,91.667,2.397,-0.238
+JORELLE_INTERINO,svm,COUNTING GESTURES,finger-between-distance,92.222,1.712,0.317
+JORELLE_INTERINO,svm,COUNTING GESTURES,finger-between-distance,91.667,1.607,0.238
+JORELLE_INTERINO,svm,COUNTING GESTURES,finger-between-distance,91.389,1.603,-0.635
+JORELLE_INTERINO,svm,COUNTING GESTURES,finger-between-distance,91.944,1.599,0.515
+JORELLE_INTERINO,svm,COUNTING GESTURES,finger-between-distance,90.833,1.678,-0.834
+JORELLE_INTERINO,svm,COUNTING GESTURES,finger-between-distance,90.833,1.615,-1.905
+JORELLE_INTERINO,svm,COUNTING GESTURES,finger-between-distance,90.833,1.719,-0.715
+JORELLE_INTERINO,svm,COUNTING GESTURES,finger-between-distance,92.778,1.623,1.23
+JORELLE_INTERINO,svm,COUNTING GESTURES,finger-between-distance,92.5,1.611,0.238
+JORELLE_INTERINO,nn,COUNTING GESTURES,finger-between-distance,91.667,37.268,-1.666
+JORELLE_INTERINO,nn,COUNTING GESTURES,finger-between-distance,92.778,38.511,0.516
+JORELLE_INTERINO,nn,COUNTING GESTURES,finger-between-distance,93.056,37.937,-0.158
+JORELLE_INTERINO,nn,COUNTING GESTURES,finger-between-distance,90.833,38.193,-2.857
+JORELLE_INTERINO,nn,COUNTING GESTURES,finger-between-distance,91.667,37.227,-0.238
+JORELLE_INTERINO,nn,COUNTING GESTURES,finger-between-distance,91.944,38.462,-1.27
+JORELLE_INTERINO,nn,COUNTING GESTURES,finger-between-distance,91.944,39.077,-0.556
+JORELLE_INTERINO,nn,COUNTING GESTURES,finger-between-distance,92.222,37.174,-0.397
+JORELLE_INTERINO,nn,COUNTING GESTURES,finger-between-distance,89.722,38.649,-3.135
+JORELLE_INTERINO,nn,COUNTING GESTURES,finger-between-distance,93.333,36.141,1.309
+JORELLE_INTERINO,dt,COUNTING GESTURES,finger-between-distance,97.778,2.634,-0.793
+JORELLE_INTERINO,dt,COUNTING GESTURES,finger-between-distance,96.389,2.642,-2.182
+JORELLE_INTERINO,dt,COUNTING GESTURES,finger-between-distance,98.889,2.655,0.794
+JORELLE_INTERINO,dt,COUNTING GESTURES,finger-between-distance,98.611,2.761,0.159
+JORELLE_INTERINO,dt,COUNTING GESTURES,finger-between-distance,98.611,2.663,-0.079
+JORELLE_INTERINO,dt,COUNTING GESTURES,finger-between-distance,97.778,2.657,-0.674
+JORELLE_INTERINO,dt,COUNTING GESTURES,finger-between-distance,97.5,2.733,-1.071
+JORELLE_INTERINO,dt,COUNTING GESTURES,finger-between-distance,96.944,2.703,-1.508
+JORELLE_INTERINO,dt,COUNTING GESTURES,finger-between-distance,98.333,2.941,-0.477
+JORELLE_INTERINO,dt,COUNTING GESTURES,finger-between-distance,98.056,2.67,-0.277
+JORELLE_INTERINO,svm,COUNTING GESTURES,finger-to-palm-distance,99.722,2.345,0.198
+JORELLE_INTERINO,svm,COUNTING GESTURES,finger-to-palm-distance,99.444,1.609,-0.199
+JORELLE_INTERINO,svm,COUNTING GESTURES,finger-to-palm-distance,99.167,1.524,-0.595
+JORELLE_INTERINO,svm,COUNTING GESTURES,finger-to-palm-distance,99.722,1.561,0.198
+JORELLE_INTERINO,svm,COUNTING GESTURES,finger-to-palm-distance,100.0,1.558,0.595
+JORELLE_INTERINO,svm,COUNTING GESTURES,finger-to-palm-distance,99.722,1.541,0.198
+JORELLE_INTERINO,svm,COUNTING GESTURES,finger-to-palm-distance,99.167,1.538,-0.595
+JORELLE_INTERINO,svm,COUNTING GESTURES,finger-to-palm-distance,99.167,1.627,-0.595
+JORELLE_INTERINO,svm,COUNTING GESTURES,finger-to-palm-distance,99.444,1.539,-0.199
+JORELLE_INTERINO,svm,COUNTING GESTURES,finger-to-palm-distance,99.444,1.545,-0.199
+JORELLE_INTERINO,nn,COUNTING GESTURES,finger-to-palm-distance,99.167,26.414,-0.476
+JORELLE_INTERINO,nn,COUNTING GESTURES,finger-to-palm-distance,99.444,25.258,-0.199
+JORELLE_INTERINO,nn,COUNTING GESTURES,finger-to-palm-distance,97.5,25.461,-2.143
+JORELLE_INTERINO,nn,COUNTING GESTURES,finger-to-palm-distance,99.444,25.667,-0.318
+JORELLE_INTERINO,nn,COUNTING GESTURES,finger-to-palm-distance,99.167,26.055,-0.357
+JORELLE_INTERINO,nn,COUNTING GESTURES,finger-to-palm-distance,99.444,25.125,-0.199
+JORELLE_INTERINO,nn,COUNTING GESTURES,finger-to-palm-distance,100.0,26.155,0.476
+JORELLE_INTERINO,nn,COUNTING GESTURES,finger-to-palm-distance,99.722,25.766,0.079
+JORELLE_INTERINO,nn,COUNTING GESTURES,finger-to-palm-distance,99.722,25.582,0.198
+JORELLE_INTERINO,nn,COUNTING GESTURES,finger-to-palm-distance,100.0,25.418,0.595
+JORELLE_INTERINO,dt,COUNTING GESTURES,finger-to-palm-distance,100.0,2.634,0.119
+JORELLE_INTERINO,dt,COUNTING GESTURES,finger-to-palm-distance,99.444,2.637,-0.199
+JORELLE_INTERINO,dt,COUNTING GESTURES,finger-to-palm-distance,99.722,2.648,-0.159
+JORELLE_INTERINO,dt,COUNTING GESTURES,finger-to-palm-distance,98.611,2.584,-1.27
+JORELLE_INTERINO,dt,COUNTING GESTURES,finger-to-palm-distance,100.0,2.598,0.119
+JORELLE_INTERINO,dt,COUNTING GESTURES,finger-to-palm-distance,100.0,2.752,0.119
+JORELLE_INTERINO,dt,COUNTING GESTURES,finger-to-palm-distance,99.167,2.642,-0.833
+JORELLE_INTERINO,dt,COUNTING GESTURES,finger-to-palm-distance,98.611,2.666,-1.27
+JORELLE_INTERINO,dt,COUNTING GESTURES,finger-to-palm-distance,99.444,2.776,-0.437
+JORELLE_INTERINO,dt,COUNTING GESTURES,finger-to-palm-distance,99.722,2.782,-0.159
+JORELLE_INTERINO,svm,STATUS GESTURES,finger-angle-and-palm-distance,90.167,6.327,0.667
+JORELLE_INTERINO,svm,STATUS GESTURES,finger-angle-and-palm-distance,87.5,5.528,-1.357
+JORELLE_INTERINO,svm,STATUS GESTURES,finger-angle-and-palm-distance,90.667,5.824,1.524
+JORELLE_INTERINO,svm,STATUS GESTURES,finger-angle-and-palm-distance,88.0,5.784,-1.5
+JORELLE_INTERINO,svm,STATUS GESTURES,finger-angle-and-palm-distance,91.0,5.856,1.786
+JORELLE_INTERINO,svm,STATUS GESTURES,finger-angle-and-palm-distance,91.5,5.828,1.429
+JORELLE_INTERINO,svm,STATUS GESTURES,finger-angle-and-palm-distance,90.167,5.777,-0.262
+JORELLE_INTERINO,svm,STATUS GESTURES,finger-angle-and-palm-distance,91.0,5.872,1.929
+JORELLE_INTERINO,svm,STATUS GESTURES,finger-angle-and-palm-distance,88.833,5.826,-0.524
+JORELLE_INTERINO,svm,STATUS GESTURES,finger-angle-and-palm-distance,91.5,5.847,1.5
+JORELLE_INTERINO,nn,STATUS GESTURES,finger-angle-and-palm-distance,97.0,63.722,-2.0
+JORELLE_INTERINO,nn,STATUS GESTURES,finger-angle-and-palm-distance,97.5,59.45,-2.0
+JORELLE_INTERINO,nn,STATUS GESTURES,finger-angle-and-palm-distance,98.167,60.961,-0.476
+JORELLE_INTERINO,nn,STATUS GESTURES,finger-angle-and-palm-distance,96.333,59.68,-2.596
+JORELLE_INTERINO,nn,STATUS GESTURES,finger-angle-and-palm-distance,95.333,64.559,-3.667
+JORELLE_INTERINO,nn,STATUS GESTURES,finger-angle-and-palm-distance,99.167,60.865,0.024
+JORELLE_INTERINO,nn,STATUS GESTURES,finger-angle-and-palm-distance,98.833,60.125,0.047
+JORELLE_INTERINO,nn,STATUS GESTURES,finger-angle-and-palm-distance,98.667,60.362,-0.047
+JORELLE_INTERINO,nn,STATUS GESTURES,finger-angle-and-palm-distance,99.333,59.546,-0.096
+JORELLE_INTERINO,nn,STATUS GESTURES,finger-angle-and-palm-distance,96.667,62.841,-2.262
+JORELLE_INTERINO,dt,STATUS GESTURES,finger-angle-and-palm-distance,98.667,3.427,-0.476
+JORELLE_INTERINO,dt,STATUS GESTURES,finger-angle-and-palm-distance,99.0,3.423,-0.357
+JORELLE_INTERINO,dt,STATUS GESTURES,finger-angle-and-palm-distance,97.667,3.404,-1.404
+JORELLE_INTERINO,dt,STATUS GESTURES,finger-angle-and-palm-distance,99.167,3.369,0.024
+JORELLE_INTERINO,dt,STATUS GESTURES,finger-angle-and-palm-distance,99.0,3.415,0.0
+JORELLE_INTERINO,dt,STATUS GESTURES,finger-angle-and-palm-distance,96.833,3.313,-2.238
+JORELLE_INTERINO,dt,STATUS GESTURES,finger-angle-and-palm-distance,99.333,3.313,0.547
+JORELLE_INTERINO,dt,STATUS GESTURES,finger-angle-and-palm-distance,98.667,3.398,-0.619
+JORELLE_INTERINO,dt,STATUS GESTURES,finger-angle-and-palm-distance,98.667,3.355,-0.476
+JORELLE_INTERINO,dt,STATUS GESTURES,finger-angle-and-palm-distance,98.0,3.235,-1.071
+JORELLE_INTERINO,svm,STATUS GESTURES,finger-angle-using-bones,92.167,5.693,1.596
+JORELLE_INTERINO,svm,STATUS GESTURES,finger-angle-using-bones,92.167,5.149,1.024
+JORELLE_INTERINO,svm,STATUS GESTURES,finger-angle-using-bones,90.667,5.172,-0.047
+JORELLE_INTERINO,svm,STATUS GESTURES,finger-angle-using-bones,91.0,5.156,-0.286
+JORELLE_INTERINO,svm,STATUS GESTURES,finger-angle-using-bones,91.0,5.183,-0.786
+JORELLE_INTERINO,svm,STATUS GESTURES,finger-angle-using-bones,92.0,5.144,0.643
+JORELLE_INTERINO,svm,STATUS GESTURES,finger-angle-using-bones,92.0,5.143,0.357
+JORELLE_INTERINO,svm,STATUS GESTURES,finger-angle-using-bones,89.167,5.032,-2.762
+JORELLE_INTERINO,svm,STATUS GESTURES,finger-angle-using-bones,91.0,5.147,0.286
+JORELLE_INTERINO,svm,STATUS GESTURES,finger-angle-using-bones,92.667,5.098,1.881
+JORELLE_INTERINO,nn,STATUS GESTURES,finger-angle-using-bones,98.333,63.633,0.404
+JORELLE_INTERINO,nn,STATUS GESTURES,finger-angle-using-bones,97.833,60.385,-0.81
+JORELLE_INTERINO,nn,STATUS GESTURES,finger-angle-using-bones,98.0,62.189,0.0
+JORELLE_INTERINO,nn,STATUS GESTURES,finger-angle-using-bones,98.167,69.891,-0.333
+JORELLE_INTERINO,nn,STATUS GESTURES,finger-angle-using-bones,99.0,63.195,1.143
+JORELLE_INTERINO,nn,STATUS GESTURES,finger-angle-using-bones,98.0,63.785,-0.357
+JORELLE_INTERINO,nn,STATUS GESTURES,finger-angle-using-bones,99.167,63.17,1.238
+JORELLE_INTERINO,nn,STATUS GESTURES,finger-angle-using-bones,98.5,62.62,0.571
+JORELLE_INTERINO,nn,STATUS GESTURES,finger-angle-using-bones,94.167,60.806,-3.619
+JORELLE_INTERINO,nn,STATUS GESTURES,finger-angle-using-bones,98.167,61.304,0.096
+JORELLE_INTERINO,dt,STATUS GESTURES,finger-angle-using-bones,99.333,3.358,0.19
+JORELLE_INTERINO,dt,STATUS GESTURES,finger-angle-using-bones,99.333,3.23,0.047
+JORELLE_INTERINO,dt,STATUS GESTURES,finger-angle-using-bones,99.0,3.304,-0.143
+JORELLE_INTERINO,dt,STATUS GESTURES,finger-angle-using-bones,99.5,3.274,0.143
+JORELLE_INTERINO,dt,STATUS GESTURES,finger-angle-using-bones,99.5,3.283,0.357
+JORELLE_INTERINO,dt,STATUS GESTURES,finger-angle-using-bones,98.833,3.375,-0.667
+JORELLE_INTERINO,dt,STATUS GESTURES,finger-angle-using-bones,99.0,3.279,-0.429
+JORELLE_INTERINO,dt,STATUS GESTURES,finger-angle-using-bones,98.833,3.313,-0.453
+JORELLE_INTERINO,dt,STATUS GESTURES,finger-angle-using-bones,96.667,3.304,-2.762
+JORELLE_INTERINO,dt,STATUS GESTURES,finger-angle-using-bones,99.167,3.252,-0.404
+JORELLE_INTERINO,svm,STATUS GESTURES,finger-between-distance,92.667,5.71,-2.976
+JORELLE_INTERINO,svm,STATUS GESTURES,finger-between-distance,95.333,4.919,0.69
+JORELLE_INTERINO,svm,STATUS GESTURES,finger-between-distance,94.833,5.216,0.404
+JORELLE_INTERINO,svm,STATUS GESTURES,finger-between-distance,93.167,4.859,-2.619
+JORELLE_INTERINO,svm,STATUS GESTURES,finger-between-distance,94.333,5.133,-0.381
+JORELLE_INTERINO,svm,STATUS GESTURES,finger-between-distance,95.667,4.934,0.738
+JORELLE_INTERINO,svm,STATUS GESTURES,finger-between-distance,95.667,5.253,1.524
+JORELLE_INTERINO,svm,STATUS GESTURES,finger-between-distance,95.667,5.192,1.096
+JORELLE_INTERINO,svm,STATUS GESTURES,finger-between-distance,95.0,4.912,-0.571
+JORELLE_INTERINO,svm,STATUS GESTURES,finger-between-distance,94.833,4.898,-0.024
+JORELLE_INTERINO,nn,STATUS GESTURES,finger-between-distance,96.5,64.935,-0.929
+JORELLE_INTERINO,nn,STATUS GESTURES,finger-between-distance,96.167,66.397,-1.476
+JORELLE_INTERINO,nn,STATUS GESTURES,finger-between-distance,97.167,66.035,-0.119
+JORELLE_INTERINO,nn,STATUS GESTURES,finger-between-distance,98.333,72.398,0.762
+JORELLE_INTERINO,nn,STATUS GESTURES,finger-between-distance,97.333,69.556,0.262
+JORELLE_INTERINO,nn,STATUS GESTURES,finger-between-distance,95.833,65.009,-1.024
+JORELLE_INTERINO,nn,STATUS GESTURES,finger-between-distance,97.667,72.993,0.881
+JORELLE_INTERINO,nn,STATUS GESTURES,finger-between-distance,98.333,64.857,1.619
+JORELLE_INTERINO,nn,STATUS GESTURES,finger-between-distance,97.833,70.905,0.547
+JORELLE_INTERINO,nn,STATUS GESTURES,finger-between-distance,97.5,68.541,0.429
+JORELLE_INTERINO,dt,STATUS GESTURES,finger-between-distance,99.833,3.128,0.047
+JORELLE_INTERINO,dt,STATUS GESTURES,finger-between-distance,99.167,3.044,-0.476
+JORELLE_INTERINO,dt,STATUS GESTURES,finger-between-distance,99.333,3.077,-0.381
+JORELLE_INTERINO,dt,STATUS GESTURES,finger-between-distance,98.333,3.046,-1.453
+JORELLE_INTERINO,dt,STATUS GESTURES,finger-between-distance,99.667,2.998,-0.119
+JORELLE_INTERINO,dt,STATUS GESTURES,finger-between-distance,99.0,3.093,-0.786
+JORELLE_INTERINO,dt,STATUS GESTURES,finger-between-distance,99.667,3.121,0.024
+JORELLE_INTERINO,dt,STATUS GESTURES,finger-between-distance,99.5,3.126,-0.286
+JORELLE_INTERINO,dt,STATUS GESTURES,finger-between-distance,99.667,3.181,0.096
+JORELLE_INTERINO,dt,STATUS GESTURES,finger-between-distance,99.5,3.088,-0.143
+JORELLE_INTERINO,svm,STATUS GESTURES,finger-to-palm-distance,97.5,8.582,1.571
+JORELLE_INTERINO,svm,STATUS GESTURES,finger-to-palm-distance,97.5,4.982,1.929
+JORELLE_INTERINO,svm,STATUS GESTURES,finger-to-palm-distance,95.333,4.928,0.476
+JORELLE_INTERINO,svm,STATUS GESTURES,finger-to-palm-distance,95.5,4.949,0.857
+JORELLE_INTERINO,svm,STATUS GESTURES,finger-to-palm-distance,96.333,4.972,1.047
+JORELLE_INTERINO,svm,STATUS GESTURES,finger-to-palm-distance,94.833,4.924,0.262
+JORELLE_INTERINO,svm,STATUS GESTURES,finger-to-palm-distance,95.833,4.94,0.333
+JORELLE_INTERINO,svm,STATUS GESTURES,finger-to-palm-distance,96.833,4.933,1.833
+JORELLE_INTERINO,svm,STATUS GESTURES,finger-to-palm-distance,94.333,4.912,-0.596
+JORELLE_INTERINO,svm,STATUS GESTURES,finger-to-palm-distance,95.667,4.967,-0.69
+JORELLE_INTERINO,nn,STATUS GESTURES,finger-to-palm-distance,98.5,63.014,-1.071
+JORELLE_INTERINO,nn,STATUS GESTURES,finger-to-palm-distance,98.833,61.141,-0.667
+JORELLE_INTERINO,nn,STATUS GESTURES,finger-to-palm-distance,98.0,62.41,-1.214
+JORELLE_INTERINO,nn,STATUS GESTURES,finger-to-palm-distance,98.833,61.389,-0.167
+JORELLE_INTERINO,nn,STATUS GESTURES,finger-to-palm-distance,98.667,59.578,-0.762
+JORELLE_INTERINO,nn,STATUS GESTURES,finger-to-palm-distance,98.667,63.031,-0.762
+JORELLE_INTERINO,nn,STATUS GESTURES,finger-to-palm-distance,97.833,59.107,-1.453
+JORELLE_INTERINO,nn,STATUS GESTURES,finger-to-palm-distance,98.333,65.119,-0.953
+JORELLE_INTERINO,nn,STATUS GESTURES,finger-to-palm-distance,98.833,62.594,-0.381
+JORELLE_INTERINO,nn,STATUS GESTURES,finger-to-palm-distance,99.333,62.661,-0.096
+JORELLE_INTERINO,dt,STATUS GESTURES,finger-to-palm-distance,99.167,3.233,-0.69
+JORELLE_INTERINO,dt,STATUS GESTURES,finger-to-palm-distance,99.5,3.15,-0.143
+JORELLE_INTERINO,dt,STATUS GESTURES,finger-to-palm-distance,99.167,3.154,-0.547
+JORELLE_INTERINO,dt,STATUS GESTURES,finger-to-palm-distance,99.333,3.137,-0.524
+JORELLE_INTERINO,dt,STATUS GESTURES,finger-to-palm-distance,99.0,3.265,-0.714
+JORELLE_INTERINO,dt,STATUS GESTURES,finger-to-palm-distance,99.333,3.144,-0.31
+JORELLE_INTERINO,dt,STATUS GESTURES,finger-to-palm-distance,99.167,3.142,-0.476
+JORELLE_INTERINO,dt,STATUS GESTURES,finger-to-palm-distance,99.333,3.302,-0.453
+JORELLE_INTERINO,dt,STATUS GESTURES,finger-to-palm-distance,99.0,3.208,-0.714
+JORELLE_INTERINO,dt,STATUS GESTURES,finger-to-palm-distance,99.667,3.126,-0.119
+JOSHUA_POCSIDIO,svm,COUNTING GESTURES,finger-angle-and-palm-distance,96.667,2.56,-0.119
+JOSHUA_POCSIDIO,svm,COUNTING GESTURES,finger-angle-and-palm-distance,96.944,1.603,-0.437
+JOSHUA_POCSIDIO,svm,COUNTING GESTURES,finger-angle-and-palm-distance,97.222,1.682,-0.278
+JOSHUA_POCSIDIO,svm,COUNTING GESTURES,finger-angle-and-palm-distance,96.944,1.601,-0.318
+JOSHUA_POCSIDIO,svm,COUNTING GESTURES,finger-angle-and-palm-distance,96.944,1.684,-0.437
+JOSHUA_POCSIDIO,svm,COUNTING GESTURES,finger-angle-and-palm-distance,96.667,1.687,-0.595
+JOSHUA_POCSIDIO,svm,COUNTING GESTURES,finger-angle-and-palm-distance,96.944,1.677,-0.318
+JOSHUA_POCSIDIO,svm,COUNTING GESTURES,finger-angle-and-palm-distance,97.778,1.599,0.992
+JOSHUA_POCSIDIO,svm,COUNTING GESTURES,finger-angle-and-palm-distance,97.222,1.607,0.436
+JOSHUA_POCSIDIO,svm,COUNTING GESTURES,finger-angle-and-palm-distance,97.5,2.172,0.476
+JOSHUA_POCSIDIO,nn,COUNTING GESTURES,finger-angle-and-palm-distance,99.444,32.226,0.039
+JOSHUA_POCSIDIO,nn,COUNTING GESTURES,finger-angle-and-palm-distance,99.167,29.657,0.0
+JOSHUA_POCSIDIO,nn,COUNTING GESTURES,finger-angle-and-palm-distance,98.889,30.858,-0.159
+JOSHUA_POCSIDIO,nn,COUNTING GESTURES,finger-angle-and-palm-distance,95.278,30.123,-3.412
+JOSHUA_POCSIDIO,nn,COUNTING GESTURES,finger-angle-and-palm-distance,98.333,31.487,-0.715
+JOSHUA_POCSIDIO,nn,COUNTING GESTURES,finger-angle-and-palm-distance,98.333,29.174,-0.357
+JOSHUA_POCSIDIO,nn,COUNTING GESTURES,finger-angle-and-palm-distance,97.222,29.461,-2.183
+JOSHUA_POCSIDIO,nn,COUNTING GESTURES,finger-angle-and-palm-distance,99.167,30.651,-0.238
+JOSHUA_POCSIDIO,nn,COUNTING GESTURES,finger-angle-and-palm-distance,99.444,30.389,0.634
+JOSHUA_POCSIDIO,nn,COUNTING GESTURES,finger-angle-and-palm-distance,96.389,30.288,-2.778
+JOSHUA_POCSIDIO,dt,COUNTING GESTURES,finger-angle-and-palm-distance,99.167,2.656,-0.714
+JOSHUA_POCSIDIO,dt,COUNTING GESTURES,finger-angle-and-palm-distance,100.0,2.595,0.119
+JOSHUA_POCSIDIO,dt,COUNTING GESTURES,finger-angle-and-palm-distance,99.722,2.681,-0.278
+JOSHUA_POCSIDIO,dt,COUNTING GESTURES,finger-angle-and-palm-distance,100.0,2.686,0.0
+JOSHUA_POCSIDIO,dt,COUNTING GESTURES,finger-angle-and-palm-distance,99.444,2.786,-0.556
+JOSHUA_POCSIDIO,dt,COUNTING GESTURES,finger-angle-and-palm-distance,99.722,2.917,-0.278
+JOSHUA_POCSIDIO,dt,COUNTING GESTURES,finger-angle-and-palm-distance,98.611,2.661,-1.27
+JOSHUA_POCSIDIO,dt,COUNTING GESTURES,finger-angle-and-palm-distance,99.167,2.958,-0.595
+JOSHUA_POCSIDIO,dt,COUNTING GESTURES,finger-angle-and-palm-distance,98.889,2.71,-0.992
+JOSHUA_POCSIDIO,dt,COUNTING GESTURES,finger-angle-and-palm-distance,98.611,2.707,-1.27
+JOSHUA_POCSIDIO,svm,COUNTING GESTURES,finger-angle-using-bones,98.889,2.483,-0.397
+JOSHUA_POCSIDIO,svm,COUNTING GESTURES,finger-angle-using-bones,98.056,1.597,-0.754
+JOSHUA_POCSIDIO,svm,COUNTING GESTURES,finger-angle-using-bones,98.889,1.589,-0.397
+JOSHUA_POCSIDIO,svm,COUNTING GESTURES,finger-angle-using-bones,99.167,1.594,0.357
+JOSHUA_POCSIDIO,svm,COUNTING GESTURES,finger-angle-using-bones,99.167,1.59,0.0
+JOSHUA_POCSIDIO,svm,COUNTING GESTURES,finger-angle-using-bones,99.722,1.588,0.793
+JOSHUA_POCSIDIO,svm,COUNTING GESTURES,finger-angle-using-bones,98.889,1.6,-0.278
+JOSHUA_POCSIDIO,svm,COUNTING GESTURES,finger-angle-using-bones,99.444,1.601,0.396
+JOSHUA_POCSIDIO,svm,COUNTING GESTURES,finger-angle-using-bones,99.722,1.61,0.912
+JOSHUA_POCSIDIO,svm,COUNTING GESTURES,finger-angle-using-bones,99.722,1.589,0.793
+JOSHUA_POCSIDIO,nn,COUNTING GESTURES,finger-angle-using-bones,97.222,27.561,-2.183
+JOSHUA_POCSIDIO,nn,COUNTING GESTURES,finger-angle-using-bones,100.0,27.54,0.714
+JOSHUA_POCSIDIO,nn,COUNTING GESTURES,finger-angle-using-bones,99.722,27.97,0.436
+JOSHUA_POCSIDIO,nn,COUNTING GESTURES,finger-angle-using-bones,99.167,27.118,-0.595
+JOSHUA_POCSIDIO,nn,COUNTING GESTURES,finger-angle-using-bones,98.611,26.271,-1.032
+JOSHUA_POCSIDIO,nn,COUNTING GESTURES,finger-angle-using-bones,99.722,28.475,0.436
+JOSHUA_POCSIDIO,nn,COUNTING GESTURES,finger-angle-using-bones,99.167,26.091,-0.238
+JOSHUA_POCSIDIO,nn,COUNTING GESTURES,finger-angle-using-bones,99.167,27.005,-0.238
+JOSHUA_POCSIDIO,nn,COUNTING GESTURES,finger-angle-using-bones,99.167,28.56,-0.119
+JOSHUA_POCSIDIO,nn,COUNTING GESTURES,finger-angle-using-bones,97.778,27.682,-1.508
+JOSHUA_POCSIDIO,dt,COUNTING GESTURES,finger-angle-using-bones,99.722,2.631,-0.278
+JOSHUA_POCSIDIO,dt,COUNTING GESTURES,finger-angle-using-bones,99.444,2.68,-0.556
+JOSHUA_POCSIDIO,dt,COUNTING GESTURES,finger-angle-using-bones,100.0,2.604,0.0
+JOSHUA_POCSIDIO,dt,COUNTING GESTURES,finger-angle-using-bones,100.0,2.621,0.0
+JOSHUA_POCSIDIO,dt,COUNTING GESTURES,finger-angle-using-bones,100.0,2.619,0.0
+JOSHUA_POCSIDIO,dt,COUNTING GESTURES,finger-angle-using-bones,100.0,2.63,0.0
+JOSHUA_POCSIDIO,dt,COUNTING GESTURES,finger-angle-using-bones,100.0,2.866,0.0
+JOSHUA_POCSIDIO,dt,COUNTING GESTURES,finger-angle-using-bones,100.0,2.819,0.0
+JOSHUA_POCSIDIO,dt,COUNTING GESTURES,finger-angle-using-bones,99.444,2.849,-0.556
+JOSHUA_POCSIDIO,dt,COUNTING GESTURES,finger-angle-using-bones,100.0,2.788,0.0
+JOSHUA_POCSIDIO,svm,COUNTING GESTURES,finger-between-distance,92.778,2.593,0.397
+JOSHUA_POCSIDIO,svm,COUNTING GESTURES,finger-between-distance,93.056,1.654,1.627
+JOSHUA_POCSIDIO,svm,COUNTING GESTURES,finger-between-distance,92.5,1.675,-0.238
+JOSHUA_POCSIDIO,svm,COUNTING GESTURES,finger-between-distance,91.111,1.581,-0.675
+JOSHUA_POCSIDIO,svm,COUNTING GESTURES,finger-between-distance,91.111,1.588,-1.032
+JOSHUA_POCSIDIO,svm,COUNTING GESTURES,finger-between-distance,94.444,1.676,2.539
+JOSHUA_POCSIDIO,svm,COUNTING GESTURES,finger-between-distance,92.5,1.632,0.476
+JOSHUA_POCSIDIO,svm,COUNTING GESTURES,finger-between-distance,91.944,1.64,-0.675
+JOSHUA_POCSIDIO,svm,COUNTING GESTURES,finger-between-distance,92.5,1.648,0.0
+JOSHUA_POCSIDIO,svm,COUNTING GESTURES,finger-between-distance,90.0,1.543,-2.143
+JOSHUA_POCSIDIO,nn,COUNTING GESTURES,finger-between-distance,93.889,41.667,-1.111
+JOSHUA_POCSIDIO,nn,COUNTING GESTURES,finger-between-distance,96.389,46.708,0.318
+JOSHUA_POCSIDIO,nn,COUNTING GESTURES,finger-between-distance,92.222,44.165,-3.968
+JOSHUA_POCSIDIO,nn,COUNTING GESTURES,finger-between-distance,95.833,45.549,0.476
+JOSHUA_POCSIDIO,nn,COUNTING GESTURES,finger-between-distance,89.444,40.395,-5.794
+JOSHUA_POCSIDIO,nn,COUNTING GESTURES,finger-between-distance,94.444,43.798,-1.746
+JOSHUA_POCSIDIO,nn,COUNTING GESTURES,finger-between-distance,93.056,45.16,-2.658
+JOSHUA_POCSIDIO,nn,COUNTING GESTURES,finger-between-distance,96.111,42.748,1.944
+JOSHUA_POCSIDIO,nn,COUNTING GESTURES,finger-between-distance,96.944,43.364,1.825
+JOSHUA_POCSIDIO,nn,COUNTING GESTURES,finger-between-distance,98.889,44.846,3.532
+JOSHUA_POCSIDIO,dt,COUNTING GESTURES,finger-between-distance,99.444,2.694,0.039
+JOSHUA_POCSIDIO,dt,COUNTING GESTURES,finger-between-distance,99.722,2.661,0.198
+JOSHUA_POCSIDIO,dt,COUNTING GESTURES,finger-between-distance,99.444,2.639,-0.08
+JOSHUA_POCSIDIO,dt,COUNTING GESTURES,finger-between-distance,98.889,2.751,-0.992
+JOSHUA_POCSIDIO,dt,COUNTING GESTURES,finger-between-distance,99.167,2.667,-0.357
+JOSHUA_POCSIDIO,dt,COUNTING GESTURES,finger-between-distance,98.333,2.69,-1.191
+JOSHUA_POCSIDIO,dt,COUNTING GESTURES,finger-between-distance,97.778,2.764,-2.103
+JOSHUA_POCSIDIO,dt,COUNTING GESTURES,finger-between-distance,99.444,2.712,-0.199
+JOSHUA_POCSIDIO,dt,COUNTING GESTURES,finger-between-distance,98.333,2.699,-1.191
+JOSHUA_POCSIDIO,dt,COUNTING GESTURES,finger-between-distance,97.778,2.929,-1.746
+JOSHUA_POCSIDIO,svm,COUNTING GESTURES,finger-to-palm-distance,100.0,2.422,0.0
+JOSHUA_POCSIDIO,svm,COUNTING GESTURES,finger-to-palm-distance,100.0,1.527,0.0
+JOSHUA_POCSIDIO,svm,COUNTING GESTURES,finger-to-palm-distance,100.0,1.542,0.0
+JOSHUA_POCSIDIO,svm,COUNTING GESTURES,finger-to-palm-distance,100.0,1.542,0.0
+JOSHUA_POCSIDIO,svm,COUNTING GESTURES,finger-to-palm-distance,100.0,1.549,0.0
+JOSHUA_POCSIDIO,svm,COUNTING GESTURES,finger-to-palm-distance,100.0,1.559,0.0
+JOSHUA_POCSIDIO,svm,COUNTING GESTURES,finger-to-palm-distance,100.0,1.524,0.0
+JOSHUA_POCSIDIO,svm,COUNTING GESTURES,finger-to-palm-distance,100.0,1.534,0.0
+JOSHUA_POCSIDIO,svm,COUNTING GESTURES,finger-to-palm-distance,100.0,1.526,0.0
+JOSHUA_POCSIDIO,svm,COUNTING GESTURES,finger-to-palm-distance,100.0,1.525,0.0
+JOSHUA_POCSIDIO,nn,COUNTING GESTURES,finger-to-palm-distance,100.0,25.226,0.0
+JOSHUA_POCSIDIO,nn,COUNTING GESTURES,finger-to-palm-distance,100.0,25.16,0.0
+JOSHUA_POCSIDIO,nn,COUNTING GESTURES,finger-to-palm-distance,99.722,25.356,-0.278
+JOSHUA_POCSIDIO,nn,COUNTING GESTURES,finger-to-palm-distance,99.722,24.985,-0.278
+JOSHUA_POCSIDIO,nn,COUNTING GESTURES,finger-to-palm-distance,100.0,25.908,0.0
+JOSHUA_POCSIDIO,nn,COUNTING GESTURES,finger-to-palm-distance,100.0,25.042,0.0
+JOSHUA_POCSIDIO,nn,COUNTING GESTURES,finger-to-palm-distance,100.0,25.104,0.0
+JOSHUA_POCSIDIO,nn,COUNTING GESTURES,finger-to-palm-distance,100.0,25.073,0.0
+JOSHUA_POCSIDIO,nn,COUNTING GESTURES,finger-to-palm-distance,100.0,24.844,0.0
+JOSHUA_POCSIDIO,nn,COUNTING GESTURES,finger-to-palm-distance,99.722,25.087,-0.278
+JOSHUA_POCSIDIO,dt,COUNTING GESTURES,finger-to-palm-distance,100.0,2.635,0.0
+JOSHUA_POCSIDIO,dt,COUNTING GESTURES,finger-to-palm-distance,100.0,2.616,0.0
+JOSHUA_POCSIDIO,dt,COUNTING GESTURES,finger-to-palm-distance,99.722,2.637,-0.278
+JOSHUA_POCSIDIO,dt,COUNTING GESTURES,finger-to-palm-distance,99.722,2.775,-0.278
+JOSHUA_POCSIDIO,dt,COUNTING GESTURES,finger-to-palm-distance,100.0,2.675,0.0
+JOSHUA_POCSIDIO,dt,COUNTING GESTURES,finger-to-palm-distance,100.0,2.711,0.0
+JOSHUA_POCSIDIO,dt,COUNTING GESTURES,finger-to-palm-distance,100.0,2.715,0.0
+JOSHUA_POCSIDIO,dt,COUNTING GESTURES,finger-to-palm-distance,100.0,2.579,0.0
+JOSHUA_POCSIDIO,dt,COUNTING GESTURES,finger-to-palm-distance,100.0,2.658,0.0
+JOSHUA_POCSIDIO,dt,COUNTING GESTURES,finger-to-palm-distance,100.0,2.808,0.0
+JOSHUA_POCSIDIO,svm,STATUS GESTURES,finger-angle-and-palm-distance,87.333,6.94,2.904
+JOSHUA_POCSIDIO,svm,STATUS GESTURES,finger-angle-and-palm-distance,84.333,6.378,-2.096
+JOSHUA_POCSIDIO,svm,STATUS GESTURES,finger-angle-and-palm-distance,86.167,6.339,0.953
+JOSHUA_POCSIDIO,svm,STATUS GESTURES,finger-angle-and-palm-distance,86.333,6.344,1.619
+JOSHUA_POCSIDIO,svm,STATUS GESTURES,finger-angle-and-palm-distance,84.833,6.392,-0.096
+JOSHUA_POCSIDIO,svm,STATUS GESTURES,finger-angle-and-palm-distance,84.667,6.345,-0.262
+JOSHUA_POCSIDIO,svm,STATUS GESTURES,finger-angle-and-palm-distance,86.0,6.262,1.429
+JOSHUA_POCSIDIO,svm,STATUS GESTURES,finger-angle-and-palm-distance,83.833,6.27,-2.024
+JOSHUA_POCSIDIO,svm,STATUS GESTURES,finger-angle-and-palm-distance,87.0,6.352,2.286
+JOSHUA_POCSIDIO,svm,STATUS GESTURES,finger-angle-and-palm-distance,85.5,6.311,0.143
+JOSHUA_POCSIDIO,nn,STATUS GESTURES,finger-angle-and-palm-distance,97.667,66.392,-0.619
+JOSHUA_POCSIDIO,nn,STATUS GESTURES,finger-angle-and-palm-distance,95.833,68.885,-2.238
+JOSHUA_POCSIDIO,nn,STATUS GESTURES,finger-angle-and-palm-distance,98.833,69.568,0.904
+JOSHUA_POCSIDIO,nn,STATUS GESTURES,finger-angle-and-palm-distance,95.333,75.044,-3.024
+JOSHUA_POCSIDIO,nn,STATUS GESTURES,finger-angle-and-palm-distance,97.833,69.828,-0.953
+JOSHUA_POCSIDIO,nn,STATUS GESTURES,finger-angle-and-palm-distance,98.167,69.612,0.096
+JOSHUA_POCSIDIO,nn,STATUS GESTURES,finger-angle-and-palm-distance,98.833,66.893,0.833
+JOSHUA_POCSIDIO,nn,STATUS GESTURES,finger-angle-and-palm-distance,97.167,65.435,-0.976
+JOSHUA_POCSIDIO,nn,STATUS GESTURES,finger-angle-and-palm-distance,97.333,69.893,-0.524
+JOSHUA_POCSIDIO,nn,STATUS GESTURES,finger-angle-and-palm-distance,99.167,67.432,0.953
+JOSHUA_POCSIDIO,dt,STATUS GESTURES,finger-angle-and-palm-distance,98.0,3.532,0.357
+JOSHUA_POCSIDIO,dt,STATUS GESTURES,finger-angle-and-palm-distance,97.5,3.437,-0.929
+JOSHUA_POCSIDIO,dt,STATUS GESTURES,finger-angle-and-palm-distance,98.667,3.389,0.667
+JOSHUA_POCSIDIO,dt,STATUS GESTURES,finger-angle-and-palm-distance,98.167,3.57,0.167
+JOSHUA_POCSIDIO,dt,STATUS GESTURES,finger-angle-and-palm-distance,97.0,3.419,-1.214
+JOSHUA_POCSIDIO,dt,STATUS GESTURES,finger-angle-and-palm-distance,95.333,3.582,-2.667
+JOSHUA_POCSIDIO,dt,STATUS GESTURES,finger-angle-and-palm-distance,97.167,3.582,-1.047
+JOSHUA_POCSIDIO,dt,STATUS GESTURES,finger-angle-and-palm-distance,97.667,3.512,-0.762
+JOSHUA_POCSIDIO,dt,STATUS GESTURES,finger-angle-and-palm-distance,99.0,3.519,1.071
+JOSHUA_POCSIDIO,dt,STATUS GESTURES,finger-angle-and-palm-distance,97.833,3.591,-0.31
+JOSHUA_POCSIDIO,svm,STATUS GESTURES,finger-angle-using-bones,91.0,6.171,1.643
+JOSHUA_POCSIDIO,svm,STATUS GESTURES,finger-angle-using-bones,90.5,5.571,2.071
+JOSHUA_POCSIDIO,svm,STATUS GESTURES,finger-angle-using-bones,89.833,5.575,0.404
+JOSHUA_POCSIDIO,svm,STATUS GESTURES,finger-angle-using-bones,91.833,5.535,3.047
+JOSHUA_POCSIDIO,svm,STATUS GESTURES,finger-angle-using-bones,90.167,5.59,1.738
+JOSHUA_POCSIDIO,svm,STATUS GESTURES,finger-angle-using-bones,87.167,5.498,-2.833
+JOSHUA_POCSIDIO,svm,STATUS GESTURES,finger-angle-using-bones,88.667,5.51,-1.547
+JOSHUA_POCSIDIO,svm,STATUS GESTURES,finger-angle-using-bones,87.5,5.555,-1.429
+JOSHUA_POCSIDIO,svm,STATUS GESTURES,finger-angle-using-bones,87.833,5.462,-2.596
+JOSHUA_POCSIDIO,svm,STATUS GESTURES,finger-angle-using-bones,89.333,5.571,-0.024
+JOSHUA_POCSIDIO,nn,STATUS GESTURES,finger-angle-using-bones,96.667,60.858,1.167
+JOSHUA_POCSIDIO,nn,STATUS GESTURES,finger-angle-using-bones,93.667,56.332,-2.69
+JOSHUA_POCSIDIO,nn,STATUS GESTURES,finger-angle-using-bones,93.833,60.597,-1.881
+JOSHUA_POCSIDIO,nn,STATUS GESTURES,finger-angle-using-bones,95.5,58.444,-0.357
+JOSHUA_POCSIDIO,nn,STATUS GESTURES,finger-angle-using-bones,95.333,57.418,-0.524
+JOSHUA_POCSIDIO,nn,STATUS GESTURES,finger-angle-using-bones,93.333,58.668,-1.881
+JOSHUA_POCSIDIO,nn,STATUS GESTURES,finger-angle-using-bones,97.0,61.572,1.429
+JOSHUA_POCSIDIO,nn,STATUS GESTURES,finger-angle-using-bones,94.167,59.575,-1.476
+JOSHUA_POCSIDIO,nn,STATUS GESTURES,finger-angle-using-bones,94.0,58.524,-1.857
+JOSHUA_POCSIDIO,nn,STATUS GESTURES,finger-angle-using-bones,95.667,60.422,0.31
+JOSHUA_POCSIDIO,dt,STATUS GESTURES,finger-angle-using-bones,97.333,3.497,-1.524
+JOSHUA_POCSIDIO,dt,STATUS GESTURES,finger-angle-using-bones,98.667,3.492,-0.262
+JOSHUA_POCSIDIO,dt,STATUS GESTURES,finger-angle-using-bones,99.0,3.446,0.643
+JOSHUA_POCSIDIO,dt,STATUS GESTURES,finger-angle-using-bones,98.833,3.388,0.333
+JOSHUA_POCSIDIO,dt,STATUS GESTURES,finger-angle-using-bones,98.167,3.354,-0.19
+JOSHUA_POCSIDIO,dt,STATUS GESTURES,finger-angle-using-bones,98.5,3.491,-0.143
+JOSHUA_POCSIDIO,dt,STATUS GESTURES,finger-angle-using-bones,98.667,3.433,0.096
+JOSHUA_POCSIDIO,dt,STATUS GESTURES,finger-angle-using-bones,98.333,3.468,-0.381
+JOSHUA_POCSIDIO,dt,STATUS GESTURES,finger-angle-using-bones,98.667,3.52,0.096
+JOSHUA_POCSIDIO,dt,STATUS GESTURES,finger-angle-using-bones,98.667,3.372,-0.19
+JOSHUA_POCSIDIO,svm,STATUS GESTURES,finger-between-distance,94.667,6.071,0.81
+JOSHUA_POCSIDIO,svm,STATUS GESTURES,finger-between-distance,94.333,5.547,0.476
+JOSHUA_POCSIDIO,svm,STATUS GESTURES,finger-between-distance,92.0,5.466,-2.143
+JOSHUA_POCSIDIO,svm,STATUS GESTURES,finger-between-distance,92.667,5.511,-2.047
+JOSHUA_POCSIDIO,svm,STATUS GESTURES,finger-between-distance,93.167,5.566,0.31
+JOSHUA_POCSIDIO,svm,STATUS GESTURES,finger-between-distance,95.0,5.575,1.286
+JOSHUA_POCSIDIO,svm,STATUS GESTURES,finger-between-distance,93.5,5.502,-0.214
+JOSHUA_POCSIDIO,svm,STATUS GESTURES,finger-between-distance,94.0,5.535,0.071
+JOSHUA_POCSIDIO,svm,STATUS GESTURES,finger-between-distance,93.833,5.503,0.69
+JOSHUA_POCSIDIO,svm,STATUS GESTURES,finger-between-distance,94.667,5.549,1.667
+JOSHUA_POCSIDIO,nn,STATUS GESTURES,finger-between-distance,97.167,67.717,0.381
+JOSHUA_POCSIDIO,nn,STATUS GESTURES,finger-between-distance,98.833,70.676,1.69
+JOSHUA_POCSIDIO,nn,STATUS GESTURES,finger-between-distance,96.167,71.115,-0.619
+JOSHUA_POCSIDIO,nn,STATUS GESTURES,finger-between-distance,97.833,68.766,1.119
+JOSHUA_POCSIDIO,nn,STATUS GESTURES,finger-between-distance,96.5,72.719,-0.857
+JOSHUA_POCSIDIO,nn,STATUS GESTURES,finger-between-distance,96.167,67.996,-1.547
+JOSHUA_POCSIDIO,nn,STATUS GESTURES,finger-between-distance,96.0,69.685,-1.214
+JOSHUA_POCSIDIO,nn,STATUS GESTURES,finger-between-distance,98.333,69.267,2.19
+JOSHUA_POCSIDIO,nn,STATUS GESTURES,finger-between-distance,96.5,69.033,-0.929
+JOSHUA_POCSIDIO,nn,STATUS GESTURES,finger-between-distance,99.167,76.236,2.524
+JOSHUA_POCSIDIO,dt,STATUS GESTURES,finger-between-distance,99.667,2.953,0.524
+JOSHUA_POCSIDIO,dt,STATUS GESTURES,finger-between-distance,98.167,3.039,-1.262
+JOSHUA_POCSIDIO,dt,STATUS GESTURES,finger-between-distance,98.833,3.071,-0.667
+JOSHUA_POCSIDIO,dt,STATUS GESTURES,finger-between-distance,99.0,3.096,0.071
+JOSHUA_POCSIDIO,dt,STATUS GESTURES,finger-between-distance,99.5,3.176,0.214
+JOSHUA_POCSIDIO,dt,STATUS GESTURES,finger-between-distance,98.0,3.111,-1.357
+JOSHUA_POCSIDIO,dt,STATUS GESTURES,finger-between-distance,98.833,3.137,-0.453
+JOSHUA_POCSIDIO,dt,STATUS GESTURES,finger-between-distance,99.0,3.063,-0.429
+JOSHUA_POCSIDIO,dt,STATUS GESTURES,finger-between-distance,99.0,3.137,-0.429
+JOSHUA_POCSIDIO,dt,STATUS GESTURES,finger-between-distance,98.833,3.138,-0.31
+JOSHUA_POCSIDIO,svm,STATUS GESTURES,finger-to-palm-distance,93.333,5.939,1.119
+JOSHUA_POCSIDIO,svm,STATUS GESTURES,finger-to-palm-distance,93.333,5.304,0.476
+JOSHUA_POCSIDIO,svm,STATUS GESTURES,finger-to-palm-distance,92.167,5.293,-0.119
+JOSHUA_POCSIDIO,svm,STATUS GESTURES,finger-to-palm-distance,93.0,5.393,0.143
+JOSHUA_POCSIDIO,svm,STATUS GESTURES,finger-to-palm-distance,92.5,5.343,-0.5
+JOSHUA_POCSIDIO,svm,STATUS GESTURES,finger-to-palm-distance,94.167,5.329,2.381
+JOSHUA_POCSIDIO,svm,STATUS GESTURES,finger-to-palm-distance,92.833,5.365,0.333
+JOSHUA_POCSIDIO,svm,STATUS GESTURES,finger-to-palm-distance,94.5,5.365,2.714
+JOSHUA_POCSIDIO,svm,STATUS GESTURES,finger-to-palm-distance,94.0,5.29,2.214
+JOSHUA_POCSIDIO,svm,STATUS GESTURES,finger-to-palm-distance,92.333,5.304,-1.31
+JOSHUA_POCSIDIO,nn,STATUS GESTURES,finger-to-palm-distance,96.833,58.958,-0.738
+JOSHUA_POCSIDIO,nn,STATUS GESTURES,finger-to-palm-distance,95.167,58.068,-1.19
+JOSHUA_POCSIDIO,nn,STATUS GESTURES,finger-to-palm-distance,96.167,63.534,-0.404
+JOSHUA_POCSIDIO,nn,STATUS GESTURES,finger-to-palm-distance,98.667,58.298,2.596
+JOSHUA_POCSIDIO,nn,STATUS GESTURES,finger-to-palm-distance,97.167,58.541,0.381
+JOSHUA_POCSIDIO,nn,STATUS GESTURES,finger-to-palm-distance,95.0,59.72,-1.214
+JOSHUA_POCSIDIO,nn,STATUS GESTURES,finger-to-palm-distance,96.167,55.194,0.31
+JOSHUA_POCSIDIO,nn,STATUS GESTURES,finger-to-palm-distance,97.333,57.247,1.19
+JOSHUA_POCSIDIO,nn,STATUS GESTURES,finger-to-palm-distance,94.5,61.808,-2.571
+JOSHUA_POCSIDIO,nn,STATUS GESTURES,finger-to-palm-distance,94.5,58.538,-1.5
+JOSHUA_POCSIDIO,dt,STATUS GESTURES,finger-to-palm-distance,99.0,3.343,-0.143
+JOSHUA_POCSIDIO,dt,STATUS GESTURES,finger-to-palm-distance,99.0,3.354,-0.214
+JOSHUA_POCSIDIO,dt,STATUS GESTURES,finger-to-palm-distance,99.0,3.371,-0.214
+JOSHUA_POCSIDIO,dt,STATUS GESTURES,finger-to-palm-distance,98.667,3.431,-0.476
+JOSHUA_POCSIDIO,dt,STATUS GESTURES,finger-to-palm-distance,98.667,3.298,-0.476
+JOSHUA_POCSIDIO,dt,STATUS GESTURES,finger-to-palm-distance,99.5,3.396,0.214
+JOSHUA_POCSIDIO,dt,STATUS GESTURES,finger-to-palm-distance,98.0,3.398,-1.143
+JOSHUA_POCSIDIO,dt,STATUS GESTURES,finger-to-palm-distance,98.167,3.387,-1.047
+JOSHUA_POCSIDIO,dt,STATUS GESTURES,finger-to-palm-distance,98.5,3.388,-0.857
+JOSHUA_POCSIDIO,dt,STATUS GESTURES,finger-to-palm-distance,98.5,3.381,-0.714
+MARC_SALONGA,svm,COUNTING GESTURES,finger-angle-and-palm-distance,98.333,3.022,-0.834
+MARC_SALONGA,svm,COUNTING GESTURES,finger-angle-and-palm-distance,98.611,2.083,-0.556
+MARC_SALONGA,svm,COUNTING GESTURES,finger-angle-and-palm-distance,98.889,2.033,-0.159
+MARC_SALONGA,svm,COUNTING GESTURES,finger-angle-and-palm-distance,99.444,2.047,0.634
+MARC_SALONGA,svm,COUNTING GESTURES,finger-angle-and-palm-distance,99.444,2.037,0.634
+MARC_SALONGA,svm,COUNTING GESTURES,finger-angle-and-palm-distance,98.333,2.082,-0.953
+MARC_SALONGA,svm,COUNTING GESTURES,finger-angle-and-palm-distance,98.056,2.098,-1.349
+MARC_SALONGA,svm,COUNTING GESTURES,finger-angle-and-palm-distance,99.167,2.013,0.238
+MARC_SALONGA,svm,COUNTING GESTURES,finger-angle-and-palm-distance,99.444,2.02,0.634
+MARC_SALONGA,svm,COUNTING GESTURES,finger-angle-and-palm-distance,99.167,2.056,0.357
+MARC_SALONGA,nn,COUNTING GESTURES,finger-angle-and-palm-distance,100.0,26.312,0.238
+MARC_SALONGA,nn,COUNTING GESTURES,finger-angle-and-palm-distance,100.0,26.165,0.238
+MARC_SALONGA,nn,COUNTING GESTURES,finger-angle-and-palm-distance,99.722,25.952,-0.04
+MARC_SALONGA,nn,COUNTING GESTURES,finger-angle-and-palm-distance,99.722,26.318,-0.159
+MARC_SALONGA,nn,COUNTING GESTURES,finger-angle-and-palm-distance,99.722,25.602,-0.159
+MARC_SALONGA,nn,COUNTING GESTURES,finger-angle-and-palm-distance,100.0,26.066,0.238
+MARC_SALONGA,nn,COUNTING GESTURES,finger-angle-and-palm-distance,99.722,26.455,-0.159
+MARC_SALONGA,nn,COUNTING GESTURES,finger-angle-and-palm-distance,99.167,25.747,-0.833
+MARC_SALONGA,nn,COUNTING GESTURES,finger-angle-and-palm-distance,99.444,27.181,-0.318
+MARC_SALONGA,nn,COUNTING GESTURES,finger-angle-and-palm-distance,99.722,25.328,-0.159
+MARC_SALONGA,dt,COUNTING GESTURES,finger-angle-and-palm-distance,98.889,2.625,-1.111
+MARC_SALONGA,dt,COUNTING GESTURES,finger-angle-and-palm-distance,99.722,2.639,-0.278
+MARC_SALONGA,dt,COUNTING GESTURES,finger-angle-and-palm-distance,99.722,2.678,-0.278
+MARC_SALONGA,dt,COUNTING GESTURES,finger-angle-and-palm-distance,99.722,2.643,-0.278
+MARC_SALONGA,dt,COUNTING GESTURES,finger-angle-and-palm-distance,99.444,2.765,-0.556
+MARC_SALONGA,dt,COUNTING GESTURES,finger-angle-and-palm-distance,100.0,2.797,0.0
+MARC_SALONGA,dt,COUNTING GESTURES,finger-angle-and-palm-distance,99.722,2.721,-0.278
+MARC_SALONGA,dt,COUNTING GESTURES,finger-angle-and-palm-distance,99.722,2.698,-0.278
+MARC_SALONGA,dt,COUNTING GESTURES,finger-angle-and-palm-distance,99.722,2.74,-0.278
+MARC_SALONGA,dt,COUNTING GESTURES,finger-angle-and-palm-distance,99.722,2.941,-0.278
+MARC_SALONGA,svm,COUNTING GESTURES,finger-angle-using-bones,99.722,2.934,-0.159
+MARC_SALONGA,svm,COUNTING GESTURES,finger-angle-using-bones,100.0,2.046,0.238
+MARC_SALONGA,svm,COUNTING GESTURES,finger-angle-using-bones,100.0,2.049,0.238
+MARC_SALONGA,svm,COUNTING GESTURES,finger-angle-using-bones,100.0,2.053,0.238
+MARC_SALONGA,svm,COUNTING GESTURES,finger-angle-using-bones,99.722,2.059,-0.159
+MARC_SALONGA,svm,COUNTING GESTURES,finger-angle-using-bones,100.0,2.054,0.238
+MARC_SALONGA,svm,COUNTING GESTURES,finger-angle-using-bones,99.722,2.06,-0.159
+MARC_SALONGA,svm,COUNTING GESTURES,finger-angle-using-bones,99.444,2.053,-0.556
+MARC_SALONGA,svm,COUNTING GESTURES,finger-angle-using-bones,100.0,2.077,0.238
+MARC_SALONGA,svm,COUNTING GESTURES,finger-angle-using-bones,99.444,2.072,-0.556
+MARC_SALONGA,nn,COUNTING GESTURES,finger-angle-using-bones,99.722,25.858,-0.278
+MARC_SALONGA,nn,COUNTING GESTURES,finger-angle-using-bones,99.444,25.049,-0.556
+MARC_SALONGA,nn,COUNTING GESTURES,finger-angle-using-bones,100.0,25.697,0.0
+MARC_SALONGA,nn,COUNTING GESTURES,finger-angle-using-bones,100.0,27.688,0.119
+MARC_SALONGA,nn,COUNTING GESTURES,finger-angle-using-bones,100.0,25.419,0.119
+MARC_SALONGA,nn,COUNTING GESTURES,finger-angle-using-bones,99.722,25.524,-0.159
+MARC_SALONGA,nn,COUNTING GESTURES,finger-angle-using-bones,100.0,25.13,0.119
+MARC_SALONGA,nn,COUNTING GESTURES,finger-angle-using-bones,100.0,26.223,0.0
+MARC_SALONGA,nn,COUNTING GESTURES,finger-angle-using-bones,100.0,25.875,0.119
+MARC_SALONGA,nn,COUNTING GESTURES,finger-angle-using-bones,99.722,25.775,-0.159
+MARC_SALONGA,dt,COUNTING GESTURES,finger-angle-using-bones,99.444,2.691,-0.556
+MARC_SALONGA,dt,COUNTING GESTURES,finger-angle-using-bones,100.0,2.656,0.0
+MARC_SALONGA,dt,COUNTING GESTURES,finger-angle-using-bones,100.0,2.792,0.0
+MARC_SALONGA,dt,COUNTING GESTURES,finger-angle-using-bones,99.722,2.696,-0.278
+MARC_SALONGA,dt,COUNTING GESTURES,finger-angle-using-bones,100.0,2.638,0.0
+MARC_SALONGA,dt,COUNTING GESTURES,finger-angle-using-bones,99.722,2.622,-0.278
+MARC_SALONGA,dt,COUNTING GESTURES,finger-angle-using-bones,100.0,2.677,0.0
+MARC_SALONGA,dt,COUNTING GESTURES,finger-angle-using-bones,100.0,2.658,0.0
+MARC_SALONGA,dt,COUNTING GESTURES,finger-angle-using-bones,99.722,2.917,-0.278
+MARC_SALONGA,dt,COUNTING GESTURES,finger-angle-using-bones,99.444,2.736,-0.556
+MARC_SALONGA,svm,COUNTING GESTURES,finger-between-distance,87.5,2.477,-0.595
+MARC_SALONGA,svm,COUNTING GESTURES,finger-between-distance,90.278,1.628,1.349
+MARC_SALONGA,svm,COUNTING GESTURES,finger-between-distance,91.111,1.62,1.944
+MARC_SALONGA,svm,COUNTING GESTURES,finger-between-distance,89.167,1.594,1.905
+MARC_SALONGA,svm,COUNTING GESTURES,finger-between-distance,87.5,1.583,-1.071
+MARC_SALONGA,svm,COUNTING GESTURES,finger-between-distance,89.444,1.574,1.23
+MARC_SALONGA,svm,COUNTING GESTURES,finger-between-distance,90.0,1.603,0.952
+MARC_SALONGA,svm,COUNTING GESTURES,finger-between-distance,91.389,1.612,3.413
+MARC_SALONGA,svm,COUNTING GESTURES,finger-between-distance,89.722,1.577,0.793
+MARC_SALONGA,svm,COUNTING GESTURES,finger-between-distance,92.5,1.645,5.0
+MARC_SALONGA,nn,COUNTING GESTURES,finger-between-distance,98.611,43.527,3.849
+MARC_SALONGA,nn,COUNTING GESTURES,finger-between-distance,98.889,45.577,2.579
+MARC_SALONGA,nn,COUNTING GESTURES,finger-between-distance,97.778,43.803,3.968
+MARC_SALONGA,nn,COUNTING GESTURES,finger-between-distance,95.278,42.032,-0.079
+MARC_SALONGA,nn,COUNTING GESTURES,finger-between-distance,97.222,44.33,2.222
+MARC_SALONGA,nn,COUNTING GESTURES,finger-between-distance,86.389,43.035,-11.111
+MARC_SALONGA,nn,COUNTING GESTURES,finger-between-distance,97.5,44.698,2.262
+MARC_SALONGA,nn,COUNTING GESTURES,finger-between-distance,98.611,43.984,3.254
+MARC_SALONGA,nn,COUNTING GESTURES,finger-between-distance,98.611,47.548,2.54
+MARC_SALONGA,nn,COUNTING GESTURES,finger-between-distance,96.667,45.958,0.834
+MARC_SALONGA,dt,COUNTING GESTURES,finger-between-distance,99.167,2.654,0.238
+MARC_SALONGA,dt,COUNTING GESTURES,finger-between-distance,97.778,2.76,-1.151
+MARC_SALONGA,dt,COUNTING GESTURES,finger-between-distance,98.056,2.768,-1.468
+MARC_SALONGA,dt,COUNTING GESTURES,finger-between-distance,98.611,2.665,-0.675
+MARC_SALONGA,dt,COUNTING GESTURES,finger-between-distance,98.889,2.595,0.079
+MARC_SALONGA,dt,COUNTING GESTURES,finger-between-distance,98.333,2.746,-0.953
+MARC_SALONGA,dt,COUNTING GESTURES,finger-between-distance,97.778,2.71,-1.27
+MARC_SALONGA,dt,COUNTING GESTURES,finger-between-distance,97.222,2.622,-1.707
+MARC_SALONGA,dt,COUNTING GESTURES,finger-between-distance,98.333,2.698,-0.715
+MARC_SALONGA,dt,COUNTING GESTURES,finger-between-distance,98.333,2.661,-0.834
+MARC_SALONGA,svm,COUNTING GESTURES,finger-to-palm-distance,100.0,2.867,0.0
+MARC_SALONGA,svm,COUNTING GESTURES,finger-to-palm-distance,100.0,1.991,0.0
+MARC_SALONGA,svm,COUNTING GESTURES,finger-to-palm-distance,100.0,1.987,0.0
+MARC_SALONGA,svm,COUNTING GESTURES,finger-to-palm-distance,100.0,1.981,0.0
+MARC_SALONGA,svm,COUNTING GESTURES,finger-to-palm-distance,100.0,1.988,0.0
+MARC_SALONGA,svm,COUNTING GESTURES,finger-to-palm-distance,100.0,1.976,0.0
+MARC_SALONGA,svm,COUNTING GESTURES,finger-to-palm-distance,100.0,1.993,0.0
+MARC_SALONGA,svm,COUNTING GESTURES,finger-to-palm-distance,100.0,1.968,0.0
+MARC_SALONGA,svm,COUNTING GESTURES,finger-to-palm-distance,100.0,1.982,0.0
+MARC_SALONGA,svm,COUNTING GESTURES,finger-to-palm-distance,100.0,1.966,0.0
+MARC_SALONGA,nn,COUNTING GESTURES,finger-to-palm-distance,100.0,25.034,0.0
+MARC_SALONGA,nn,COUNTING GESTURES,finger-to-palm-distance,100.0,24.805,0.0
+MARC_SALONGA,nn,COUNTING GESTURES,finger-to-palm-distance,100.0,24.697,0.0
+MARC_SALONGA,nn,COUNTING GESTURES,finger-to-palm-distance,100.0,24.762,0.0
+MARC_SALONGA,nn,COUNTING GESTURES,finger-to-palm-distance,100.0,25.389,0.0
+MARC_SALONGA,nn,COUNTING GESTURES,finger-to-palm-distance,100.0,24.697,0.0
+MARC_SALONGA,nn,COUNTING GESTURES,finger-to-palm-distance,100.0,24.429,0.0
+MARC_SALONGA,nn,COUNTING GESTURES,finger-to-palm-distance,100.0,24.803,0.0
+MARC_SALONGA,nn,COUNTING GESTURES,finger-to-palm-distance,100.0,25.614,0.0
+MARC_SALONGA,nn,COUNTING GESTURES,finger-to-palm-distance,100.0,24.76,0.0
+MARC_SALONGA,dt,COUNTING GESTURES,finger-to-palm-distance,100.0,2.615,0.0
+MARC_SALONGA,dt,COUNTING GESTURES,finger-to-palm-distance,100.0,2.609,0.0
+MARC_SALONGA,dt,COUNTING GESTURES,finger-to-palm-distance,100.0,2.636,0.0
+MARC_SALONGA,dt,COUNTING GESTURES,finger-to-palm-distance,100.0,2.63,0.0
+MARC_SALONGA,dt,COUNTING GESTURES,finger-to-palm-distance,100.0,2.67,0.0
+MARC_SALONGA,dt,COUNTING GESTURES,finger-to-palm-distance,100.0,2.628,0.0
+MARC_SALONGA,dt,COUNTING GESTURES,finger-to-palm-distance,100.0,2.696,0.0
+MARC_SALONGA,dt,COUNTING GESTURES,finger-to-palm-distance,93.056,2.62,-6.944
+MARC_SALONGA,dt,COUNTING GESTURES,finger-to-palm-distance,99.444,2.602,-0.556
+MARC_SALONGA,dt,COUNTING GESTURES,finger-to-palm-distance,100.0,2.637,0.0
+MARC_SALONGA,svm,STATUS GESTURES,finger-angle-and-palm-distance,92.167,5.964,-2.047
+MARC_SALONGA,svm,STATUS GESTURES,finger-angle-and-palm-distance,93.5,5.777,-0.571
+MARC_SALONGA,svm,STATUS GESTURES,finger-angle-and-palm-distance,93.167,5.762,-0.69
+MARC_SALONGA,svm,STATUS GESTURES,finger-angle-and-palm-distance,94.667,5.764,1.524
+MARC_SALONGA,svm,STATUS GESTURES,finger-angle-and-palm-distance,95.833,5.869,2.833
+MARC_SALONGA,svm,STATUS GESTURES,finger-angle-and-palm-distance,92.0,5.377,-2.857
+MARC_SALONGA,svm,STATUS GESTURES,finger-angle-and-palm-distance,94.0,5.407,0.0
+MARC_SALONGA,svm,STATUS GESTURES,finger-angle-and-palm-distance,95.167,5.848,1.738
+MARC_SALONGA,svm,STATUS GESTURES,finger-angle-and-palm-distance,93.833,5.798,-0.024
+MARC_SALONGA,svm,STATUS GESTURES,finger-angle-and-palm-distance,93.0,5.727,-1.286
+MARC_SALONGA,nn,STATUS GESTURES,finger-angle-and-palm-distance,98.833,63.708,0.047
+MARC_SALONGA,nn,STATUS GESTURES,finger-angle-and-palm-distance,98.333,60.69,-0.238
+MARC_SALONGA,nn,STATUS GESTURES,finger-angle-and-palm-distance,97.0,61.663,-1.286
+MARC_SALONGA,nn,STATUS GESTURES,finger-angle-and-palm-distance,97.833,58.29,-0.31
+MARC_SALONGA,nn,STATUS GESTURES,finger-angle-and-palm-distance,97.167,60.223,-1.404
+MARC_SALONGA,nn,STATUS GESTURES,finger-angle-and-palm-distance,99.667,61.721,1.167
+MARC_SALONGA,nn,STATUS GESTURES,finger-angle-and-palm-distance,99.667,60.562,0.881
+MARC_SALONGA,nn,STATUS GESTURES,finger-angle-and-palm-distance,97.167,62.62,-0.762
+MARC_SALONGA,nn,STATUS GESTURES,finger-angle-and-palm-distance,98.167,57.988,-0.119
+MARC_SALONGA,nn,STATUS GESTURES,finger-angle-and-palm-distance,99.333,59.794,1.19
+MARC_SALONGA,dt,STATUS GESTURES,finger-angle-and-palm-distance,98.833,3.308,-0.024
+MARC_SALONGA,dt,STATUS GESTURES,finger-angle-and-palm-distance,99.5,3.211,0.286
+MARC_SALONGA,dt,STATUS GESTURES,finger-angle-and-palm-distance,98.667,3.206,-0.619
+MARC_SALONGA,dt,STATUS GESTURES,finger-angle-and-palm-distance,99.0,3.21,-0.143
+MARC_SALONGA,dt,STATUS GESTURES,finger-angle-and-palm-distance,99.167,3.163,-0.19
+MARC_SALONGA,dt,STATUS GESTURES,finger-angle-and-palm-distance,99.167,3.365,0.024
+MARC_SALONGA,dt,STATUS GESTURES,finger-angle-and-palm-distance,97.333,3.272,-1.953
+MARC_SALONGA,dt,STATUS GESTURES,finger-angle-and-palm-distance,98.833,3.259,-0.096
+MARC_SALONGA,dt,STATUS GESTURES,finger-angle-and-palm-distance,99.167,3.262,-0.047
+MARC_SALONGA,dt,STATUS GESTURES,finger-angle-and-palm-distance,98.5,3.401,-0.929
+MARC_SALONGA,svm,STATUS GESTURES,finger-angle-using-bones,95.667,5.499,0.024
+MARC_SALONGA,svm,STATUS GESTURES,finger-angle-using-bones,94.833,5.16,-0.881
+MARC_SALONGA,svm,STATUS GESTURES,finger-angle-using-bones,95.833,4.851,0.119
+MARC_SALONGA,svm,STATUS GESTURES,finger-angle-using-bones,96.5,4.899,0.929
+MARC_SALONGA,svm,STATUS GESTURES,finger-angle-using-bones,96.833,4.872,1.262
+MARC_SALONGA,svm,STATUS GESTURES,finger-angle-using-bones,94.833,5.129,-1.096
+MARC_SALONGA,svm,STATUS GESTURES,finger-angle-using-bones,94.167,5.17,-1.976
+MARC_SALONGA,svm,STATUS GESTURES,finger-angle-using-bones,95.667,4.914,-0.047
+MARC_SALONGA,svm,STATUS GESTURES,finger-angle-using-bones,95.5,4.89,-0.643
+MARC_SALONGA,svm,STATUS GESTURES,finger-angle-using-bones,96.0,4.887,0.286
+MARC_SALONGA,nn,STATUS GESTURES,finger-angle-using-bones,98.833,57.353,0.119
+MARC_SALONGA,nn,STATUS GESTURES,finger-angle-using-bones,98.333,54.832,-0.453
+MARC_SALONGA,nn,STATUS GESTURES,finger-angle-using-bones,97.167,56.011,-1.619
+MARC_SALONGA,nn,STATUS GESTURES,finger-angle-using-bones,98.167,57.004,-0.619
+MARC_SALONGA,nn,STATUS GESTURES,finger-angle-using-bones,98.0,56.588,-0.5
+MARC_SALONGA,nn,STATUS GESTURES,finger-angle-using-bones,99.0,55.917,0.286
+MARC_SALONGA,nn,STATUS GESTURES,finger-angle-using-bones,98.0,57.122,-1.071
+MARC_SALONGA,nn,STATUS GESTURES,finger-angle-using-bones,97.0,60.3,-1.071
+MARC_SALONGA,nn,STATUS GESTURES,finger-angle-using-bones,98.0,56.019,-0.786
+MARC_SALONGA,nn,STATUS GESTURES,finger-angle-using-bones,99.167,55.647,0.381
+MARC_SALONGA,dt,STATUS GESTURES,finger-angle-using-bones,99.5,3.284,0.071
+MARC_SALONGA,dt,STATUS GESTURES,finger-angle-using-bones,98.5,3.205,-1.0
+MARC_SALONGA,dt,STATUS GESTURES,finger-angle-using-bones,97.833,3.311,-1.596
+MARC_SALONGA,dt,STATUS GESTURES,finger-angle-using-bones,99.0,3.17,-0.571
+MARC_SALONGA,dt,STATUS GESTURES,finger-angle-using-bones,98.5,3.286,-0.929
+MARC_SALONGA,dt,STATUS GESTURES,finger-angle-using-bones,99.833,3.164,0.262
+MARC_SALONGA,dt,STATUS GESTURES,finger-angle-using-bones,98.5,3.314,-1.0
+MARC_SALONGA,dt,STATUS GESTURES,finger-angle-using-bones,98.833,3.29,-0.738
+MARC_SALONGA,dt,STATUS GESTURES,finger-angle-using-bones,99.333,3.341,-0.381
+MARC_SALONGA,dt,STATUS GESTURES,finger-angle-using-bones,99.167,3.117,-0.476
+MARC_SALONGA,svm,STATUS GESTURES,finger-between-distance,93.333,5.88,-1.167
+MARC_SALONGA,svm,STATUS GESTURES,finger-between-distance,96.333,5.263,2.047
+MARC_SALONGA,svm,STATUS GESTURES,finger-between-distance,95.333,5.302,0.833
+MARC_SALONGA,svm,STATUS GESTURES,finger-between-distance,91.333,5.285,-3.381
+MARC_SALONGA,svm,STATUS GESTURES,finger-between-distance,95.667,5.286,1.31
+MARC_SALONGA,svm,STATUS GESTURES,finger-between-distance,94.0,5.253,-0.571
+MARC_SALONGA,svm,STATUS GESTURES,finger-between-distance,92.833,5.204,-2.238
+MARC_SALONGA,svm,STATUS GESTURES,finger-between-distance,95.0,5.281,1.071
+MARC_SALONGA,svm,STATUS GESTURES,finger-between-distance,94.667,5.293,-0.476
+MARC_SALONGA,svm,STATUS GESTURES,finger-between-distance,95.333,5.274,0.904
+MARC_SALONGA,nn,STATUS GESTURES,finger-between-distance,94.0,69.774,-3.143
+MARC_SALONGA,nn,STATUS GESTURES,finger-between-distance,95.0,71.423,-2.214
+MARC_SALONGA,nn,STATUS GESTURES,finger-between-distance,93.667,65.414,-3.904
+MARC_SALONGA,nn,STATUS GESTURES,finger-between-distance,96.833,64.772,-0.381
+MARC_SALONGA,nn,STATUS GESTURES,finger-between-distance,96.5,70.46,-1.0
+MARC_SALONGA,nn,STATUS GESTURES,finger-between-distance,97.167,69.421,-0.19
+MARC_SALONGA,nn,STATUS GESTURES,finger-between-distance,99.0,71.081,2.571
+MARC_SALONGA,nn,STATUS GESTURES,finger-between-distance,97.667,65.403,0.881
+MARC_SALONGA,nn,STATUS GESTURES,finger-between-distance,97.667,68.955,0.381
+MARC_SALONGA,nn,STATUS GESTURES,finger-between-distance,95.833,70.196,-1.453
+MARC_SALONGA,dt,STATUS GESTURES,finger-between-distance,98.833,3.087,-0.81
+MARC_SALONGA,dt,STATUS GESTURES,finger-between-distance,98.333,3.042,-1.024
+MARC_SALONGA,dt,STATUS GESTURES,finger-between-distance,98.5,3.03,-0.857
+MARC_SALONGA,dt,STATUS GESTURES,finger-between-distance,99.167,2.959,-0.404
+MARC_SALONGA,dt,STATUS GESTURES,finger-between-distance,98.333,3.018,-1.167
+MARC_SALONGA,dt,STATUS GESTURES,finger-between-distance,99.833,2.967,0.19
+MARC_SALONGA,dt,STATUS GESTURES,finger-between-distance,99.667,3.025,0.31
+MARC_SALONGA,dt,STATUS GESTURES,finger-between-distance,97.667,3.071,-1.762
+MARC_SALONGA,dt,STATUS GESTURES,finger-between-distance,98.833,3.019,-0.667
+MARC_SALONGA,dt,STATUS GESTURES,finger-between-distance,98.333,3.07,-1.096
+MARC_SALONGA,svm,STATUS GESTURES,finger-to-palm-distance,95.833,5.744,0.262
+MARC_SALONGA,svm,STATUS GESTURES,finger-to-palm-distance,94.167,5.116,-2.119
+MARC_SALONGA,svm,STATUS GESTURES,finger-to-palm-distance,96.667,5.164,1.524
+MARC_SALONGA,svm,STATUS GESTURES,finger-to-palm-distance,95.667,5.103,-0.047
+MARC_SALONGA,svm,STATUS GESTURES,finger-to-palm-distance,96.167,5.122,0.524
+MARC_SALONGA,svm,STATUS GESTURES,finger-to-palm-distance,95.833,5.15,0.333
+MARC_SALONGA,svm,STATUS GESTURES,finger-to-palm-distance,94.333,5.097,-1.81
+MARC_SALONGA,svm,STATUS GESTURES,finger-to-palm-distance,95.833,4.896,0.762
+MARC_SALONGA,svm,STATUS GESTURES,finger-to-palm-distance,95.333,4.886,-0.096
+MARC_SALONGA,svm,STATUS GESTURES,finger-to-palm-distance,95.5,5.131,-0.214
+MARC_SALONGA,nn,STATUS GESTURES,finger-to-palm-distance,95.833,56.792,-2.167
+MARC_SALONGA,nn,STATUS GESTURES,finger-to-palm-distance,97.333,54.567,-0.524
+MARC_SALONGA,nn,STATUS GESTURES,finger-to-palm-distance,96.5,54.847,-1.214
+MARC_SALONGA,nn,STATUS GESTURES,finger-to-palm-distance,98.167,57.477,0.524
+MARC_SALONGA,nn,STATUS GESTURES,finger-to-palm-distance,97.667,56.942,-0.047
+MARC_SALONGA,nn,STATUS GESTURES,finger-to-palm-distance,95.0,51.386,-3.214
+MARC_SALONGA,nn,STATUS GESTURES,finger-to-palm-distance,97.5,56.126,-0.786
+MARC_SALONGA,nn,STATUS GESTURES,finger-to-palm-distance,96.833,54.76,-0.881
+MARC_SALONGA,nn,STATUS GESTURES,finger-to-palm-distance,98.667,57.561,0.381
+MARC_SALONGA,nn,STATUS GESTURES,finger-to-palm-distance,97.667,59.972,-0.762
+MARC_SALONGA,dt,STATUS GESTURES,finger-to-palm-distance,99.667,3.231,0.096
+MARC_SALONGA,dt,STATUS GESTURES,finger-to-palm-distance,98.667,3.175,-1.119
+MARC_SALONGA,dt,STATUS GESTURES,finger-to-palm-distance,99.333,3.17,-0.238
+MARC_SALONGA,dt,STATUS GESTURES,finger-to-palm-distance,99.333,3.161,-0.31
+MARC_SALONGA,dt,STATUS GESTURES,finger-to-palm-distance,98.5,3.224,-1.143
+MARC_SALONGA,dt,STATUS GESTURES,finger-to-palm-distance,98.667,3.198,-1.047
+MARC_SALONGA,dt,STATUS GESTURES,finger-to-palm-distance,98.833,3.238,-1.024
+MARC_SALONGA,dt,STATUS GESTURES,finger-to-palm-distance,99.5,3.222,0.0
+MARC_SALONGA,dt,STATUS GESTURES,finger-to-palm-distance,99.833,3.203,0.119
+MARC_SALONGA,dt,STATUS GESTURES,finger-to-palm-distance,99.5,3.207,-0.143
+NATAREE_KAEWPONG,svm,COUNTING GESTURES,finger-angle-and-palm-distance,92.5,2.976,-0.952
+NATAREE_KAEWPONG,svm,COUNTING GESTURES,finger-angle-and-palm-distance,92.5,2.1,-1.19
+NATAREE_KAEWPONG,svm,COUNTING GESTURES,finger-angle-and-palm-distance,92.778,2.045,-2.222
+NATAREE_KAEWPONG,svm,COUNTING GESTURES,finger-angle-and-palm-distance,94.444,2.084,-0.675
+NATAREE_KAEWPONG,svm,COUNTING GESTURES,finger-angle-and-palm-distance,94.444,2.102,1.23
+NATAREE_KAEWPONG,svm,COUNTING GESTURES,finger-angle-and-palm-distance,95.556,2.084,2.342
+NATAREE_KAEWPONG,svm,COUNTING GESTURES,finger-angle-and-palm-distance,95.278,2.091,1.826
+NATAREE_KAEWPONG,svm,COUNTING GESTURES,finger-angle-and-palm-distance,93.333,2.07,-1.429
+NATAREE_KAEWPONG,svm,COUNTING GESTURES,finger-angle-and-palm-distance,94.722,2.083,1.389
+NATAREE_KAEWPONG,svm,COUNTING GESTURES,finger-angle-and-palm-distance,92.778,2.076,-1.865
+NATAREE_KAEWPONG,nn,COUNTING GESTURES,finger-angle-and-palm-distance,96.944,30.558,-1.746
+NATAREE_KAEWPONG,nn,COUNTING GESTURES,finger-angle-and-palm-distance,96.944,31.124,-1.985
+NATAREE_KAEWPONG,nn,COUNTING GESTURES,finger-angle-and-palm-distance,98.333,32.236,-0.715
+NATAREE_KAEWPONG,nn,COUNTING GESTURES,finger-angle-and-palm-distance,98.611,30.022,-0.079
+NATAREE_KAEWPONG,nn,COUNTING GESTURES,finger-angle-and-palm-distance,98.056,29.281,-0.992
+NATAREE_KAEWPONG,nn,COUNTING GESTURES,finger-angle-and-palm-distance,95.278,30.569,-3.889
+NATAREE_KAEWPONG,nn,COUNTING GESTURES,finger-angle-and-palm-distance,97.5,31.943,-1.31
+NATAREE_KAEWPONG,nn,COUNTING GESTURES,finger-angle-and-palm-distance,98.889,33.593,-0.04
+NATAREE_KAEWPONG,nn,COUNTING GESTURES,finger-angle-and-palm-distance,96.667,31.042,-2.5
+NATAREE_KAEWPONG,nn,COUNTING GESTURES,finger-angle-and-palm-distance,99.722,30.538,1.151
+NATAREE_KAEWPONG,dt,COUNTING GESTURES,finger-angle-and-palm-distance,98.889,2.629,-0.873
+NATAREE_KAEWPONG,dt,COUNTING GESTURES,finger-angle-and-palm-distance,100.0,2.729,0.0
+NATAREE_KAEWPONG,dt,COUNTING GESTURES,finger-angle-and-palm-distance,100.0,2.687,0.119
+NATAREE_KAEWPONG,dt,COUNTING GESTURES,finger-angle-and-palm-distance,99.167,2.637,-0.476
+NATAREE_KAEWPONG,dt,COUNTING GESTURES,finger-angle-and-palm-distance,98.889,2.645,-0.873
+NATAREE_KAEWPONG,dt,COUNTING GESTURES,finger-angle-and-palm-distance,98.889,2.646,-0.754
+NATAREE_KAEWPONG,dt,COUNTING GESTURES,finger-angle-and-palm-distance,96.389,2.666,-3.254
+NATAREE_KAEWPONG,dt,COUNTING GESTURES,finger-angle-and-palm-distance,99.722,2.673,-0.04
+NATAREE_KAEWPONG,dt,COUNTING GESTURES,finger-angle-and-palm-distance,98.889,2.659,-1.111
+NATAREE_KAEWPONG,dt,COUNTING GESTURES,finger-angle-and-palm-distance,100.0,2.704,0.238
+NATAREE_KAEWPONG,svm,COUNTING GESTURES,finger-angle-using-bones,95.278,2.772,-1.508
+NATAREE_KAEWPONG,svm,COUNTING GESTURES,finger-angle-using-bones,95.556,1.872,1.032
+NATAREE_KAEWPONG,svm,COUNTING GESTURES,finger-angle-using-bones,94.722,1.871,-0.516
+NATAREE_KAEWPONG,svm,COUNTING GESTURES,finger-angle-using-bones,95.0,1.839,-0.952
+NATAREE_KAEWPONG,svm,COUNTING GESTURES,finger-angle-using-bones,93.056,1.77,-2.182
+NATAREE_KAEWPONG,svm,COUNTING GESTURES,finger-angle-using-bones,93.889,1.859,-2.301
+NATAREE_KAEWPONG,svm,COUNTING GESTURES,finger-angle-using-bones,95.0,1.758,-0.952
+NATAREE_KAEWPONG,svm,COUNTING GESTURES,finger-angle-using-bones,96.667,1.882,1.548
+NATAREE_KAEWPONG,svm,COUNTING GESTURES,finger-angle-using-bones,95.0,1.831,-0.595
+NATAREE_KAEWPONG,svm,COUNTING GESTURES,finger-angle-using-bones,94.167,1.872,-1.19
+NATAREE_KAEWPONG,nn,COUNTING GESTURES,finger-angle-using-bones,97.778,31.09,-1.627
+NATAREE_KAEWPONG,nn,COUNTING GESTURES,finger-angle-using-bones,95.556,31.1,-3.968
+NATAREE_KAEWPONG,nn,COUNTING GESTURES,finger-angle-using-bones,97.222,29.296,-2.064
+NATAREE_KAEWPONG,nn,COUNTING GESTURES,finger-angle-using-bones,100.0,30.147,0.714
+NATAREE_KAEWPONG,nn,COUNTING GESTURES,finger-angle-using-bones,94.167,29.827,-4.881
+NATAREE_KAEWPONG,nn,COUNTING GESTURES,finger-angle-using-bones,98.611,31.165,-0.794
+NATAREE_KAEWPONG,nn,COUNTING GESTURES,finger-angle-using-bones,100.0,30.711,0.595
+NATAREE_KAEWPONG,nn,COUNTING GESTURES,finger-angle-using-bones,99.167,32.036,-0.238
+NATAREE_KAEWPONG,nn,COUNTING GESTURES,finger-angle-using-bones,98.333,29.447,-0.953
+NATAREE_KAEWPONG,nn,COUNTING GESTURES,finger-angle-using-bones,96.667,29.696,-2.619
+NATAREE_KAEWPONG,dt,COUNTING GESTURES,finger-angle-using-bones,98.889,2.632,-0.992
+NATAREE_KAEWPONG,dt,COUNTING GESTURES,finger-angle-using-bones,99.722,2.677,-0.159
+NATAREE_KAEWPONG,dt,COUNTING GESTURES,finger-angle-using-bones,99.722,2.65,-0.159
+NATAREE_KAEWPONG,dt,COUNTING GESTURES,finger-angle-using-bones,99.722,2.792,-0.278
+NATAREE_KAEWPONG,dt,COUNTING GESTURES,finger-angle-using-bones,98.889,2.717,-0.992
+NATAREE_KAEWPONG,dt,COUNTING GESTURES,finger-angle-using-bones,99.722,2.635,-0.159
+NATAREE_KAEWPONG,dt,COUNTING GESTURES,finger-angle-using-bones,99.722,2.689,-0.159
+NATAREE_KAEWPONG,dt,COUNTING GESTURES,finger-angle-using-bones,100.0,2.623,0.0
+NATAREE_KAEWPONG,dt,COUNTING GESTURES,finger-angle-using-bones,99.722,2.637,-0.159
+NATAREE_KAEWPONG,dt,COUNTING GESTURES,finger-angle-using-bones,99.167,2.644,-0.833
+NATAREE_KAEWPONG,svm,COUNTING GESTURES,finger-between-distance,89.167,3.048,0.357
+NATAREE_KAEWPONG,svm,COUNTING GESTURES,finger-between-distance,87.222,2.121,0.198
+NATAREE_KAEWPONG,svm,COUNTING GESTURES,finger-between-distance,88.056,1.742,0.08
+NATAREE_KAEWPONG,svm,COUNTING GESTURES,finger-between-distance,89.444,1.712,0.634
+NATAREE_KAEWPONG,svm,COUNTING GESTURES,finger-between-distance,88.611,1.704,0.754
+NATAREE_KAEWPONG,svm,COUNTING GESTURES,finger-between-distance,88.056,1.655,0.794
+NATAREE_KAEWPONG,svm,COUNTING GESTURES,finger-between-distance,84.444,2.136,-3.532
+NATAREE_KAEWPONG,svm,COUNTING GESTURES,finger-between-distance,88.056,1.702,-2.063
+NATAREE_KAEWPONG,svm,COUNTING GESTURES,finger-between-distance,90.556,1.724,1.27
+NATAREE_KAEWPONG,svm,COUNTING GESTURES,finger-between-distance,88.333,1.722,1.071
+NATAREE_KAEWPONG,nn,COUNTING GESTURES,finger-between-distance,96.389,41.041,1.27
+NATAREE_KAEWPONG,nn,COUNTING GESTURES,finger-between-distance,94.444,43.149,-0.913
+NATAREE_KAEWPONG,nn,COUNTING GESTURES,finger-between-distance,95.278,42.426,-0.555
+NATAREE_KAEWPONG,nn,COUNTING GESTURES,finger-between-distance,99.444,39.076,4.206
+NATAREE_KAEWPONG,nn,COUNTING GESTURES,finger-between-distance,94.444,39.143,-0.913
+NATAREE_KAEWPONG,nn,COUNTING GESTURES,finger-between-distance,98.889,43.34,3.056
+NATAREE_KAEWPONG,nn,COUNTING GESTURES,finger-between-distance,94.167,40.786,-0.714
+NATAREE_KAEWPONG,nn,COUNTING GESTURES,finger-between-distance,93.333,37.774,-2.5
+NATAREE_KAEWPONG,nn,COUNTING GESTURES,finger-between-distance,94.722,41.307,-0.873
+NATAREE_KAEWPONG,nn,COUNTING GESTURES,finger-between-distance,95.833,42.846,0.238
+NATAREE_KAEWPONG,dt,COUNTING GESTURES,finger-between-distance,99.722,2.711,0.198
+NATAREE_KAEWPONG,dt,COUNTING GESTURES,finger-between-distance,99.444,2.612,-0.08
+NATAREE_KAEWPONG,dt,COUNTING GESTURES,finger-between-distance,99.167,2.572,-0.595
+NATAREE_KAEWPONG,dt,COUNTING GESTURES,finger-between-distance,98.333,2.675,-1.072
+NATAREE_KAEWPONG,dt,COUNTING GESTURES,finger-between-distance,98.333,2.625,-1.31
+NATAREE_KAEWPONG,dt,COUNTING GESTURES,finger-between-distance,99.722,2.643,0.079
+NATAREE_KAEWPONG,dt,COUNTING GESTURES,finger-between-distance,98.333,2.603,-1.191
+NATAREE_KAEWPONG,dt,COUNTING GESTURES,finger-between-distance,98.889,2.643,-0.873
+NATAREE_KAEWPONG,dt,COUNTING GESTURES,finger-between-distance,100.0,2.64,0.357
+NATAREE_KAEWPONG,dt,COUNTING GESTURES,finger-between-distance,99.722,2.654,0.079
+NATAREE_KAEWPONG,svm,COUNTING GESTURES,finger-to-palm-distance,96.944,2.677,-0.556
+NATAREE_KAEWPONG,svm,COUNTING GESTURES,finger-to-palm-distance,97.222,1.814,0.198
+NATAREE_KAEWPONG,svm,COUNTING GESTURES,finger-to-palm-distance,98.333,1.81,1.428
+NATAREE_KAEWPONG,svm,COUNTING GESTURES,finger-to-palm-distance,95.556,1.67,-2.182
+NATAREE_KAEWPONG,svm,COUNTING GESTURES,finger-to-palm-distance,96.389,1.779,-0.754
+NATAREE_KAEWPONG,svm,COUNTING GESTURES,finger-to-palm-distance,96.944,1.789,-0.318
+NATAREE_KAEWPONG,svm,COUNTING GESTURES,finger-to-palm-distance,96.389,1.792,-1.349
+NATAREE_KAEWPONG,svm,COUNTING GESTURES,finger-to-palm-distance,97.778,1.782,0.516
+NATAREE_KAEWPONG,svm,COUNTING GESTURES,finger-to-palm-distance,98.889,1.827,1.984
+NATAREE_KAEWPONG,svm,COUNTING GESTURES,finger-to-palm-distance,96.667,2.276,-0.357
+NATAREE_KAEWPONG,nn,COUNTING GESTURES,finger-to-palm-distance,99.444,29.995,0.158
+NATAREE_KAEWPONG,nn,COUNTING GESTURES,finger-to-palm-distance,97.222,29.274,-1.468
+NATAREE_KAEWPONG,nn,COUNTING GESTURES,finger-to-palm-distance,99.722,30.694,0.436
+NATAREE_KAEWPONG,nn,COUNTING GESTURES,finger-to-palm-distance,98.889,32.748,-0.397
+NATAREE_KAEWPONG,nn,COUNTING GESTURES,finger-to-palm-distance,98.333,30.098,-0.953
+NATAREE_KAEWPONG,nn,COUNTING GESTURES,finger-to-palm-distance,98.056,29.784,-0.873
+NATAREE_KAEWPONG,nn,COUNTING GESTURES,finger-to-palm-distance,99.722,30.313,0.674
+NATAREE_KAEWPONG,nn,COUNTING GESTURES,finger-to-palm-distance,98.056,30.989,-1.111
+NATAREE_KAEWPONG,nn,COUNTING GESTURES,finger-to-palm-distance,98.889,29.632,0.318
+NATAREE_KAEWPONG,nn,COUNTING GESTURES,finger-to-palm-distance,98.056,29.502,-0.754
+NATAREE_KAEWPONG,dt,COUNTING GESTURES,finger-to-palm-distance,100.0,2.696,0.0
+NATAREE_KAEWPONG,dt,COUNTING GESTURES,finger-to-palm-distance,100.0,2.944,0.0
+NATAREE_KAEWPONG,dt,COUNTING GESTURES,finger-to-palm-distance,99.722,2.748,-0.278
+NATAREE_KAEWPONG,dt,COUNTING GESTURES,finger-to-palm-distance,98.611,2.6,-1.389
+NATAREE_KAEWPONG,dt,COUNTING GESTURES,finger-to-palm-distance,99.722,2.625,-0.278
+NATAREE_KAEWPONG,dt,COUNTING GESTURES,finger-to-palm-distance,99.722,2.653,-0.278
+NATAREE_KAEWPONG,dt,COUNTING GESTURES,finger-to-palm-distance,100.0,2.802,0.0
+NATAREE_KAEWPONG,dt,COUNTING GESTURES,finger-to-palm-distance,100.0,2.61,0.0
+NATAREE_KAEWPONG,dt,COUNTING GESTURES,finger-to-palm-distance,100.0,2.702,0.0
+NATAREE_KAEWPONG,dt,COUNTING GESTURES,finger-to-palm-distance,99.444,2.558,-0.556
+NATAREE_KAEWPONG,svm,STATUS GESTURES,finger-angle-and-palm-distance,88.5,6.482,0.643
+NATAREE_KAEWPONG,svm,STATUS GESTURES,finger-angle-and-palm-distance,85.667,5.808,-3.833
+NATAREE_KAEWPONG,svm,STATUS GESTURES,finger-angle-and-palm-distance,91.167,6.278,4.024
+NATAREE_KAEWPONG,svm,STATUS GESTURES,finger-angle-and-palm-distance,88.0,6.27,-0.143
+NATAREE_KAEWPONG,svm,STATUS GESTURES,finger-angle-and-palm-distance,88.0,5.879,0.143
+NATAREE_KAEWPONG,svm,STATUS GESTURES,finger-angle-and-palm-distance,89.667,6.284,2.096
+NATAREE_KAEWPONG,svm,STATUS GESTURES,finger-angle-and-palm-distance,87.333,6.218,-1.31
+NATAREE_KAEWPONG,svm,STATUS GESTURES,finger-angle-and-palm-distance,88.333,6.252,-0.238
+NATAREE_KAEWPONG,svm,STATUS GESTURES,finger-angle-and-palm-distance,89.0,5.843,0.571
+NATAREE_KAEWPONG,svm,STATUS GESTURES,finger-angle-and-palm-distance,87.333,6.193,-0.81
+NATAREE_KAEWPONG,nn,STATUS GESTURES,finger-angle-and-palm-distance,98.167,60.746,0.167
+NATAREE_KAEWPONG,nn,STATUS GESTURES,finger-angle-and-palm-distance,98.833,60.903,0.333
+NATAREE_KAEWPONG,nn,STATUS GESTURES,finger-angle-and-palm-distance,99.0,64.02,0.857
+NATAREE_KAEWPONG,nn,STATUS GESTURES,finger-angle-and-palm-distance,96.667,62.721,-1.119
+NATAREE_KAEWPONG,nn,STATUS GESTURES,finger-angle-and-palm-distance,96.0,60.566,-2.071
+NATAREE_KAEWPONG,nn,STATUS GESTURES,finger-angle-and-palm-distance,96.833,61.92,-1.596
+NATAREE_KAEWPONG,nn,STATUS GESTURES,finger-angle-and-palm-distance,98.667,60.17,0.31
+NATAREE_KAEWPONG,nn,STATUS GESTURES,finger-angle-and-palm-distance,96.833,58.969,-1.381
+NATAREE_KAEWPONG,nn,STATUS GESTURES,finger-angle-and-palm-distance,99.333,60.382,1.262
+NATAREE_KAEWPONG,nn,STATUS GESTURES,finger-angle-and-palm-distance,97.667,61.569,-0.333
+NATAREE_KAEWPONG,dt,STATUS GESTURES,finger-angle-and-palm-distance,99.167,3.487,0.238
+NATAREE_KAEWPONG,dt,STATUS GESTURES,finger-angle-and-palm-distance,98.833,3.31,0.047
+NATAREE_KAEWPONG,dt,STATUS GESTURES,finger-angle-and-palm-distance,98.667,3.344,-0.047
+NATAREE_KAEWPONG,dt,STATUS GESTURES,finger-angle-and-palm-distance,99.0,3.459,-0.143
+NATAREE_KAEWPONG,dt,STATUS GESTURES,finger-angle-and-palm-distance,98.833,3.233,-0.167
+NATAREE_KAEWPONG,dt,STATUS GESTURES,finger-angle-and-palm-distance,99.333,3.474,0.333
+NATAREE_KAEWPONG,dt,STATUS GESTURES,finger-angle-and-palm-distance,99.0,3.37,0.0
+NATAREE_KAEWPONG,dt,STATUS GESTURES,finger-angle-and-palm-distance,98.833,3.449,0.119
+NATAREE_KAEWPONG,dt,STATUS GESTURES,finger-angle-and-palm-distance,98.667,3.217,-0.047
+NATAREE_KAEWPONG,dt,STATUS GESTURES,finger-angle-and-palm-distance,98.5,3.261,-0.286
+NATAREE_KAEWPONG,svm,STATUS GESTURES,finger-angle-using-bones,89.833,5.977,-3.024
+NATAREE_KAEWPONG,svm,STATUS GESTURES,finger-angle-using-bones,93.667,5.457,1.953
+NATAREE_KAEWPONG,svm,STATUS GESTURES,finger-angle-using-bones,92.0,5.405,-0.5
+NATAREE_KAEWPONG,svm,STATUS GESTURES,finger-angle-using-bones,91.833,5.452,0.047
+NATAREE_KAEWPONG,svm,STATUS GESTURES,finger-angle-using-bones,91.5,5.447,-0.429
+NATAREE_KAEWPONG,svm,STATUS GESTURES,finger-angle-using-bones,92.5,5.389,1.071
+NATAREE_KAEWPONG,svm,STATUS GESTURES,finger-angle-using-bones,91.5,5.455,0.0
+NATAREE_KAEWPONG,svm,STATUS GESTURES,finger-angle-using-bones,93.333,5.482,2.047
+NATAREE_KAEWPONG,svm,STATUS GESTURES,finger-angle-using-bones,93.0,5.449,2.0
+NATAREE_KAEWPONG,svm,STATUS GESTURES,finger-angle-using-bones,92.167,5.481,0.096
+NATAREE_KAEWPONG,nn,STATUS GESTURES,finger-angle-using-bones,99.0,61.738,1.0
+NATAREE_KAEWPONG,nn,STATUS GESTURES,finger-angle-using-bones,98.0,62.263,-0.071
+NATAREE_KAEWPONG,nn,STATUS GESTURES,finger-angle-using-bones,98.5,59.304,0.143
+NATAREE_KAEWPONG,nn,STATUS GESTURES,finger-angle-using-bones,99.0,59.747,0.286
+NATAREE_KAEWPONG,nn,STATUS GESTURES,finger-angle-using-bones,98.833,62.166,0.262
+NATAREE_KAEWPONG,nn,STATUS GESTURES,finger-angle-using-bones,97.167,61.025,-1.19
+NATAREE_KAEWPONG,nn,STATUS GESTURES,finger-angle-using-bones,98.167,59.09,-0.047
+NATAREE_KAEWPONG,nn,STATUS GESTURES,finger-angle-using-bones,98.0,63.461,-0.5
+NATAREE_KAEWPONG,nn,STATUS GESTURES,finger-angle-using-bones,98.5,60.669,0.5
+NATAREE_KAEWPONG,nn,STATUS GESTURES,finger-angle-using-bones,99.0,57.927,0.5
+NATAREE_KAEWPONG,dt,STATUS GESTURES,finger-angle-using-bones,99.5,3.413,0.0
+NATAREE_KAEWPONG,dt,STATUS GESTURES,finger-angle-using-bones,98.667,3.146,-0.976
+NATAREE_KAEWPONG,dt,STATUS GESTURES,finger-angle-using-bones,99.5,3.319,-0.071
+NATAREE_KAEWPONG,dt,STATUS GESTURES,finger-angle-using-bones,99.5,3.195,-0.143
+NATAREE_KAEWPONG,dt,STATUS GESTURES,finger-angle-using-bones,99.667,3.293,0.238
+NATAREE_KAEWPONG,dt,STATUS GESTURES,finger-angle-using-bones,99.167,3.341,-0.333
+NATAREE_KAEWPONG,dt,STATUS GESTURES,finger-angle-using-bones,98.833,3.447,-0.596
+NATAREE_KAEWPONG,dt,STATUS GESTURES,finger-angle-using-bones,99.833,3.214,0.404
+NATAREE_KAEWPONG,dt,STATUS GESTURES,finger-angle-using-bones,99.333,3.381,-0.024
+NATAREE_KAEWPONG,dt,STATUS GESTURES,finger-angle-using-bones,98.0,3.203,-1.5
+NATAREE_KAEWPONG,svm,STATUS GESTURES,finger-between-distance,92.333,5.609,-0.381
+NATAREE_KAEWPONG,svm,STATUS GESTURES,finger-between-distance,91.667,5.083,-0.904
+NATAREE_KAEWPONG,svm,STATUS GESTURES,finger-between-distance,92.167,5.097,-0.404
+NATAREE_KAEWPONG,svm,STATUS GESTURES,finger-between-distance,91.0,5.076,-2.071
+NATAREE_KAEWPONG,svm,STATUS GESTURES,finger-between-distance,92.667,5.081,0.596
+NATAREE_KAEWPONG,svm,STATUS GESTURES,finger-between-distance,92.833,5.098,0.404
+NATAREE_KAEWPONG,svm,STATUS GESTURES,finger-between-distance,91.833,5.437,-0.738
+NATAREE_KAEWPONG,svm,STATUS GESTURES,finger-between-distance,94.333,5.099,2.333
+NATAREE_KAEWPONG,svm,STATUS GESTURES,finger-between-distance,91.333,5.047,-2.167
+NATAREE_KAEWPONG,svm,STATUS GESTURES,finger-between-distance,92.667,5.077,-0.333
+NATAREE_KAEWPONG,nn,STATUS GESTURES,finger-between-distance,97.0,72.86,-0.286
+NATAREE_KAEWPONG,nn,STATUS GESTURES,finger-between-distance,96.0,68.504,-1.357
+NATAREE_KAEWPONG,nn,STATUS GESTURES,finger-between-distance,95.833,68.057,-1.167
+NATAREE_KAEWPONG,nn,STATUS GESTURES,finger-between-distance,97.833,69.331,0.119
+NATAREE_KAEWPONG,nn,STATUS GESTURES,finger-between-distance,97.0,66.021,-0.643
+NATAREE_KAEWPONG,nn,STATUS GESTURES,finger-between-distance,97.5,68.76,1.071
+NATAREE_KAEWPONG,nn,STATUS GESTURES,finger-between-distance,97.0,69.351,0.357
+NATAREE_KAEWPONG,nn,STATUS GESTURES,finger-between-distance,95.0,71.433,-2.5
+NATAREE_KAEWPONG,nn,STATUS GESTURES,finger-between-distance,96.5,69.134,-0.643
+NATAREE_KAEWPONG,nn,STATUS GESTURES,finger-between-distance,97.333,69.094,-0.31
+NATAREE_KAEWPONG,dt,STATUS GESTURES,finger-between-distance,99.0,3.099,-0.643
+NATAREE_KAEWPONG,dt,STATUS GESTURES,finger-between-distance,98.5,3.079,-1.143
+NATAREE_KAEWPONG,dt,STATUS GESTURES,finger-between-distance,99.5,3.07,0.143
+NATAREE_KAEWPONG,dt,STATUS GESTURES,finger-between-distance,99.167,3.096,-0.476
+NATAREE_KAEWPONG,dt,STATUS GESTURES,finger-between-distance,99.167,3.112,-0.404
+NATAREE_KAEWPONG,dt,STATUS GESTURES,finger-between-distance,99.833,3.15,0.19
+NATAREE_KAEWPONG,dt,STATUS GESTURES,finger-between-distance,99.0,3.049,-0.714
+NATAREE_KAEWPONG,dt,STATUS GESTURES,finger-between-distance,99.167,3.068,-0.404
+NATAREE_KAEWPONG,dt,STATUS GESTURES,finger-between-distance,98.5,3.118,-1.071
+NATAREE_KAEWPONG,dt,STATUS GESTURES,finger-between-distance,99.167,3.024,-0.333
+NATAREE_KAEWPONG,svm,STATUS GESTURES,finger-to-palm-distance,93.0,5.889,0.857
+NATAREE_KAEWPONG,svm,STATUS GESTURES,finger-to-palm-distance,89.333,5.001,-3.167
+NATAREE_KAEWPONG,svm,STATUS GESTURES,finger-to-palm-distance,90.5,5.028,-2.0
+NATAREE_KAEWPONG,svm,STATUS GESTURES,finger-to-palm-distance,92.333,5.334,0.69
+NATAREE_KAEWPONG,svm,STATUS GESTURES,finger-to-palm-distance,92.667,5.289,1.381
+NATAREE_KAEWPONG,svm,STATUS GESTURES,finger-to-palm-distance,93.167,5.278,0.953
+NATAREE_KAEWPONG,svm,STATUS GESTURES,finger-to-palm-distance,92.5,5.355,1.357
+NATAREE_KAEWPONG,svm,STATUS GESTURES,finger-to-palm-distance,92.167,5.077,1.024
+NATAREE_KAEWPONG,svm,STATUS GESTURES,finger-to-palm-distance,90.667,5.278,-0.476
+NATAREE_KAEWPONG,svm,STATUS GESTURES,finger-to-palm-distance,89.5,5.026,-2.643
+NATAREE_KAEWPONG,nn,STATUS GESTURES,finger-to-palm-distance,99.5,63.884,1.429
+NATAREE_KAEWPONG,nn,STATUS GESTURES,finger-to-palm-distance,98.5,61.925,0.5
+NATAREE_KAEWPONG,nn,STATUS GESTURES,finger-to-palm-distance,98.167,61.604,0.024
+NATAREE_KAEWPONG,nn,STATUS GESTURES,finger-to-palm-distance,98.0,62.437,-0.429
+NATAREE_KAEWPONG,nn,STATUS GESTURES,finger-to-palm-distance,99.5,64.256,1.429
+NATAREE_KAEWPONG,nn,STATUS GESTURES,finger-to-palm-distance,98.167,60.489,-0.119
+NATAREE_KAEWPONG,nn,STATUS GESTURES,finger-to-palm-distance,97.833,61.448,-0.81
+NATAREE_KAEWPONG,nn,STATUS GESTURES,finger-to-palm-distance,96.833,62.813,-1.738
+NATAREE_KAEWPONG,nn,STATUS GESTURES,finger-to-palm-distance,97.833,61.084,0.047
+NATAREE_KAEWPONG,nn,STATUS GESTURES,finger-to-palm-distance,98.167,64.123,-0.262
+NATAREE_KAEWPONG,dt,STATUS GESTURES,finger-to-palm-distance,99.167,3.245,-0.333
+NATAREE_KAEWPONG,dt,STATUS GESTURES,finger-to-palm-distance,98.667,3.332,-1.119
+NATAREE_KAEWPONG,dt,STATUS GESTURES,finger-to-palm-distance,99.333,3.217,-0.453
+NATAREE_KAEWPONG,dt,STATUS GESTURES,finger-to-palm-distance,98.833,3.362,-0.667
+NATAREE_KAEWPONG,dt,STATUS GESTURES,finger-to-palm-distance,98.667,3.421,-1.047
+NATAREE_KAEWPONG,dt,STATUS GESTURES,finger-to-palm-distance,99.167,3.446,-0.619
+NATAREE_KAEWPONG,dt,STATUS GESTURES,finger-to-palm-distance,99.5,3.183,-0.214
+NATAREE_KAEWPONG,dt,STATUS GESTURES,finger-to-palm-distance,99.833,3.372,0.262
+NATAREE_KAEWPONG,dt,STATUS GESTURES,finger-to-palm-distance,98.833,3.272,-0.738
+NATAREE_KAEWPONG,dt,STATUS GESTURES,finger-to-palm-distance,98.667,3.409,-1.047
+ALLAN_TRAN,svm,COMBINED GESTURES,finger-angle-and-palm-distance,91.5,6.051,-3.0
+ALLAN_TRAN,svm,COMBINED GESTURES,finger-angle-and-palm-distance,93.0,5.907,-0.143
+ALLAN_TRAN,svm,COMBINED GESTURES,finger-angle-and-palm-distance,93.667,5.931,-0.047
+ALLAN_TRAN,svm,COMBINED GESTURES,finger-angle-and-palm-distance,94.667,5.958,1.81
+ALLAN_TRAN,svm,COMBINED GESTURES,finger-angle-and-palm-distance,93.5,5.885,0.5
+ALLAN_TRAN,svm,COMBINED GESTURES,finger-angle-and-palm-distance,93.333,5.948,0.047
+ALLAN_TRAN,svm,COMBINED GESTURES,finger-angle-and-palm-distance,91.0,5.55,-2.429
+ALLAN_TRAN,svm,COMBINED GESTURES,finger-angle-and-palm-distance,93.833,5.859,0.547
+ALLAN_TRAN,svm,COMBINED GESTURES,finger-angle-and-palm-distance,94.667,5.985,1.953
+ALLAN_TRAN,svm,COMBINED GESTURES,finger-angle-and-palm-distance,90.5,5.583,-3.643
+ALLAN_TRAN,nn,COMBINED GESTURES,finger-angle-and-palm-distance,96.167,58.008,-1.976
+ALLAN_TRAN,nn,COMBINED GESTURES,finger-angle-and-palm-distance,98.333,61.612,0.404
+ALLAN_TRAN,nn,COMBINED GESTURES,finger-angle-and-palm-distance,97.667,60.885,-0.047
+ALLAN_TRAN,nn,COMBINED GESTURES,finger-angle-and-palm-distance,97.333,61.616,-0.667
+ALLAN_TRAN,nn,COMBINED GESTURES,finger-angle-and-palm-distance,97.0,66.126,-1.286
+ALLAN_TRAN,nn,COMBINED GESTURES,finger-angle-and-palm-distance,98.333,57.09,0.69
+ALLAN_TRAN,nn,COMBINED GESTURES,finger-angle-and-palm-distance,97.833,58.475,0.119
+ALLAN_TRAN,nn,COMBINED GESTURES,finger-angle-and-palm-distance,96.833,62.642,-1.381
+ALLAN_TRAN,nn,COMBINED GESTURES,finger-angle-and-palm-distance,97.5,62.337,-0.429
+ALLAN_TRAN,nn,COMBINED GESTURES,finger-angle-and-palm-distance,95.667,57.606,-1.976
+ALLAN_TRAN,dt,COMBINED GESTURES,finger-angle-and-palm-distance,98.667,3.259,-0.19
+ALLAN_TRAN,dt,COMBINED GESTURES,finger-angle-and-palm-distance,99.0,3.393,0.143
+ALLAN_TRAN,dt,COMBINED GESTURES,finger-angle-and-palm-distance,98.333,3.194,-0.596
+ALLAN_TRAN,dt,COMBINED GESTURES,finger-angle-and-palm-distance,98.833,3.245,-0.167
+ALLAN_TRAN,dt,COMBINED GESTURES,finger-angle-and-palm-distance,98.5,3.336,-0.429
+ALLAN_TRAN,dt,COMBINED GESTURES,finger-angle-and-palm-distance,98.667,3.392,0.024
+ALLAN_TRAN,dt,COMBINED GESTURES,finger-angle-and-palm-distance,97.833,3.392,-0.667
+ALLAN_TRAN,dt,COMBINED GESTURES,finger-angle-and-palm-distance,98.833,3.372,0.262
+ALLAN_TRAN,dt,COMBINED GESTURES,finger-angle-and-palm-distance,98.0,3.227,-0.643
+ALLAN_TRAN,dt,COMBINED GESTURES,finger-angle-and-palm-distance,98.0,3.174,-0.571
+ALLAN_TRAN,svm,COMBINED GESTURES,finger-angle-using-bones,94.833,5.981,-0.238
+ALLAN_TRAN,svm,COMBINED GESTURES,finger-angle-using-bones,95.5,5.301,-0.286
+ALLAN_TRAN,svm,COMBINED GESTURES,finger-angle-using-bones,97.167,5.4,2.31
+ALLAN_TRAN,svm,COMBINED GESTURES,finger-angle-using-bones,95.333,5.331,-0.31
+ALLAN_TRAN,svm,COMBINED GESTURES,finger-angle-using-bones,94.833,5.33,0.262
+ALLAN_TRAN,svm,COMBINED GESTURES,finger-angle-using-bones,93.833,4.983,-1.953
+ALLAN_TRAN,svm,COMBINED GESTURES,finger-angle-using-bones,94.833,5.296,-0.81
+ALLAN_TRAN,svm,COMBINED GESTURES,finger-angle-using-bones,95.167,5.076,-0.262
+ALLAN_TRAN,svm,COMBINED GESTURES,finger-angle-using-bones,94.667,5.314,-0.833
+ALLAN_TRAN,svm,COMBINED GESTURES,finger-angle-using-bones,96.333,5.34,1.333
+ALLAN_TRAN,nn,COMBINED GESTURES,finger-angle-using-bones,98.833,58.347,-0.024
+ALLAN_TRAN,nn,COMBINED GESTURES,finger-angle-using-bones,99.5,57.601,0.929
+ALLAN_TRAN,nn,COMBINED GESTURES,finger-angle-using-bones,99.5,58.48,0.571
+ALLAN_TRAN,nn,COMBINED GESTURES,finger-angle-using-bones,98.333,60.267,-0.453
+ALLAN_TRAN,nn,COMBINED GESTURES,finger-angle-using-bones,99.5,59.694,0.857
+ALLAN_TRAN,nn,COMBINED GESTURES,finger-angle-using-bones,98.667,59.02,-0.119
+ALLAN_TRAN,nn,COMBINED GESTURES,finger-angle-using-bones,99.167,60.555,0.453
+ALLAN_TRAN,nn,COMBINED GESTURES,finger-angle-using-bones,99.833,57.48,1.047
+ALLAN_TRAN,nn,COMBINED GESTURES,finger-angle-using-bones,98.5,59.564,0.143
+ALLAN_TRAN,nn,COMBINED GESTURES,finger-angle-using-bones,98.833,60.536,-0.167
+ALLAN_TRAN,dt,COMBINED GESTURES,finger-angle-using-bones,98.5,3.242,-0.857
+ALLAN_TRAN,dt,COMBINED GESTURES,finger-angle-using-bones,99.0,3.207,-0.357
+ALLAN_TRAN,dt,COMBINED GESTURES,finger-angle-using-bones,98.833,3.301,-0.81
+ALLAN_TRAN,dt,COMBINED GESTURES,finger-angle-using-bones,99.333,3.363,-0.167
+ALLAN_TRAN,dt,COMBINED GESTURES,finger-angle-using-bones,98.5,3.241,-0.857
+ALLAN_TRAN,dt,COMBINED GESTURES,finger-angle-using-bones,99.333,3.167,-0.167
+ALLAN_TRAN,dt,COMBINED GESTURES,finger-angle-using-bones,98.5,3.228,-1.0
+ALLAN_TRAN,dt,COMBINED GESTURES,finger-angle-using-bones,99.167,3.197,-0.19
+ALLAN_TRAN,dt,COMBINED GESTURES,finger-angle-using-bones,98.333,3.203,-1.238
+ALLAN_TRAN,dt,COMBINED GESTURES,finger-angle-using-bones,99.167,3.274,-0.404
+ALLAN_TRAN,svm,COMBINED GESTURES,finger-between-distance,92.167,6.122,0.81
+ALLAN_TRAN,svm,COMBINED GESTURES,finger-between-distance,91.333,5.557,-1.024
+ALLAN_TRAN,svm,COMBINED GESTURES,finger-between-distance,91.333,5.486,-0.453
+ALLAN_TRAN,svm,COMBINED GESTURES,finger-between-distance,92.167,5.61,-0.047
+ALLAN_TRAN,svm,COMBINED GESTURES,finger-between-distance,91.333,5.552,-0.738
+ALLAN_TRAN,svm,COMBINED GESTURES,finger-between-distance,92.0,5.537,-0.214
+ALLAN_TRAN,svm,COMBINED GESTURES,finger-between-distance,92.5,5.602,0.857
+ALLAN_TRAN,svm,COMBINED GESTURES,finger-between-distance,92.333,5.517,-0.096
+ALLAN_TRAN,svm,COMBINED GESTURES,finger-between-distance,92.5,5.52,1.071
+ALLAN_TRAN,svm,COMBINED GESTURES,finger-between-distance,92.5,5.556,1.429
+ALLAN_TRAN,nn,COMBINED GESTURES,finger-between-distance,97.167,69.698,0.024
+ALLAN_TRAN,nn,COMBINED GESTURES,finger-between-distance,95.5,70.137,-1.143
+ALLAN_TRAN,nn,COMBINED GESTURES,finger-between-distance,93.0,69.671,-4.143
+ALLAN_TRAN,nn,COMBINED GESTURES,finger-between-distance,95.167,71.566,-1.547
+ALLAN_TRAN,nn,COMBINED GESTURES,finger-between-distance,96.833,69.249,0.333
+ALLAN_TRAN,nn,COMBINED GESTURES,finger-between-distance,97.833,72.814,1.262
+ALLAN_TRAN,nn,COMBINED GESTURES,finger-between-distance,93.833,72.361,-3.667
+ALLAN_TRAN,nn,COMBINED GESTURES,finger-between-distance,97.5,67.635,0.929
+ALLAN_TRAN,nn,COMBINED GESTURES,finger-between-distance,96.167,76.242,-0.833
+ALLAN_TRAN,nn,COMBINED GESTURES,finger-between-distance,95.0,70.874,-2.286
+ALLAN_TRAN,dt,COMBINED GESTURES,finger-between-distance,99.333,3.118,0.547
+ALLAN_TRAN,dt,COMBINED GESTURES,finger-between-distance,99.0,3.153,0.214
+ALLAN_TRAN,dt,COMBINED GESTURES,finger-between-distance,98.333,3.167,-0.453
+ALLAN_TRAN,dt,COMBINED GESTURES,finger-between-distance,98.667,3.147,-0.119
+ALLAN_TRAN,dt,COMBINED GESTURES,finger-between-distance,98.333,3.187,-0.596
+ALLAN_TRAN,dt,COMBINED GESTURES,finger-between-distance,98.167,3.2,-0.476
+ALLAN_TRAN,dt,COMBINED GESTURES,finger-between-distance,98.167,3.15,-0.547
+ALLAN_TRAN,dt,COMBINED GESTURES,finger-between-distance,98.833,3.097,-0.31
+ALLAN_TRAN,dt,COMBINED GESTURES,finger-between-distance,98.0,3.157,-0.857
+ALLAN_TRAN,dt,COMBINED GESTURES,finger-between-distance,98.833,3.186,0.119
+ALLAN_TRAN,svm,COMBINED GESTURES,finger-to-palm-distance,96.833,5.564,0.333
+ALLAN_TRAN,svm,COMBINED GESTURES,finger-to-palm-distance,97.333,4.959,0.476
+ALLAN_TRAN,svm,COMBINED GESTURES,finger-to-palm-distance,97.5,5.005,-0.357
+ALLAN_TRAN,svm,COMBINED GESTURES,finger-to-palm-distance,97.0,4.988,0.857
+ALLAN_TRAN,svm,COMBINED GESTURES,finger-to-palm-distance,96.833,4.992,-0.738
+ALLAN_TRAN,svm,COMBINED GESTURES,finger-to-palm-distance,96.833,4.963,-0.167
+ALLAN_TRAN,svm,COMBINED GESTURES,finger-to-palm-distance,98.0,4.994,1.429
+ALLAN_TRAN,svm,COMBINED GESTURES,finger-to-palm-distance,96.0,4.922,-1.286
+ALLAN_TRAN,svm,COMBINED GESTURES,finger-to-palm-distance,96.5,4.945,-0.143
+ALLAN_TRAN,svm,COMBINED GESTURES,finger-to-palm-distance,96.833,4.912,-0.453
+ALLAN_TRAN,nn,COMBINED GESTURES,finger-to-palm-distance,98.5,60.893,-0.786
+ALLAN_TRAN,nn,COMBINED GESTURES,finger-to-palm-distance,100.0,56.573,1.143
+ALLAN_TRAN,nn,COMBINED GESTURES,finger-to-palm-distance,99.833,58.488,0.262
+ALLAN_TRAN,nn,COMBINED GESTURES,finger-to-palm-distance,99.333,57.024,0.262
+ALLAN_TRAN,nn,COMBINED GESTURES,finger-to-palm-distance,99.5,62.203,0.143
+ALLAN_TRAN,nn,COMBINED GESTURES,finger-to-palm-distance,97.333,59.765,-1.953
+ALLAN_TRAN,nn,COMBINED GESTURES,finger-to-palm-distance,100.0,59.323,0.929
+ALLAN_TRAN,nn,COMBINED GESTURES,finger-to-palm-distance,99.0,56.343,0.0
+ALLAN_TRAN,nn,COMBINED GESTURES,finger-to-palm-distance,99.0,57.539,-0.143
+ALLAN_TRAN,nn,COMBINED GESTURES,finger-to-palm-distance,95.667,56.498,-3.262
+ALLAN_TRAN,dt,COMBINED GESTURES,finger-to-palm-distance,98.833,3.2,-0.667
+ALLAN_TRAN,dt,COMBINED GESTURES,finger-to-palm-distance,99.333,3.182,0.047
+ALLAN_TRAN,dt,COMBINED GESTURES,finger-to-palm-distance,99.667,3.259,0.238
+ALLAN_TRAN,dt,COMBINED GESTURES,finger-to-palm-distance,97.667,3.14,-1.762
+ALLAN_TRAN,dt,COMBINED GESTURES,finger-to-palm-distance,98.833,3.225,-0.81
+ALLAN_TRAN,dt,COMBINED GESTURES,finger-to-palm-distance,99.167,3.206,-0.333
+ALLAN_TRAN,dt,COMBINED GESTURES,finger-to-palm-distance,99.167,3.231,-0.262
+ALLAN_TRAN,dt,COMBINED GESTURES,finger-to-palm-distance,99.5,3.249,-0.071
+ALLAN_TRAN,dt,COMBINED GESTURES,finger-to-palm-distance,99.0,3.226,-0.5
+ALLAN_TRAN,dt,COMBINED GESTURES,finger-to-palm-distance,99.0,3.211,-0.571
+COMBINED SUBJECTS,svm,COMBINED GESTURES,finger-angle-and-palm-distance,74.572,261.444,-0.611
+COMBINED SUBJECTS,svm,COMBINED GESTURES,finger-angle-and-palm-distance,74.955,265.628,0.795
+COMBINED SUBJECTS,svm,COMBINED GESTURES,finger-angle-and-palm-distance,74.82,261.482,0.293
+COMBINED SUBJECTS,svm,COMBINED GESTURES,finger-angle-and-palm-distance,74.459,262.819,0.376
+COMBINED SUBJECTS,svm,COMBINED GESTURES,finger-angle-and-palm-distance,74.482,261.821,-0.277
+COMBINED SUBJECTS,svm,COMBINED GESTURES,finger-angle-and-palm-distance,75.158,262.859,0.94
+COMBINED SUBJECTS,svm,COMBINED GESTURES,finger-angle-and-palm-distance,74.865,262.299,0.483
+COMBINED SUBJECTS,svm,COMBINED GESTURES,finger-angle-and-palm-distance,73.761,261.743,-0.592
+COMBINED SUBJECTS,svm,COMBINED GESTURES,finger-angle-and-palm-distance,74.865,260.936,0.579
+COMBINED SUBJECTS,svm,COMBINED GESTURES,finger-angle-and-palm-distance,74.572,261.547,0.055
+COMBINED SUBJECTS,nn,COMBINED GESTURES,finger-angle-and-palm-distance,94.527,664.295,1.062
+COMBINED SUBJECTS,nn,COMBINED GESTURES,finger-angle-and-palm-distance,93.739,656.586,-0.325
+COMBINED SUBJECTS,nn,COMBINED GESTURES,finger-angle-and-palm-distance,92.05,677.532,-2.207
+COMBINED SUBJECTS,nn,COMBINED GESTURES,finger-angle-and-palm-distance,95.518,660.977,1.261
+COMBINED SUBJECTS,nn,COMBINED GESTURES,finger-angle-and-palm-distance,93.288,649.849,-0.312
+COMBINED SUBJECTS,nn,COMBINED GESTURES,finger-angle-and-palm-distance,90.586,652.919,-2.175
+COMBINED SUBJECTS,nn,COMBINED GESTURES,finger-angle-and-palm-distance,93.446,620.986,-0.357
+COMBINED SUBJECTS,nn,COMBINED GESTURES,finger-angle-and-palm-distance,96.014,632.326,3.987
+COMBINED SUBJECTS,nn,COMBINED GESTURES,finger-angle-and-palm-distance,93.851,634.27,0.115
+COMBINED SUBJECTS,nn,COMBINED GESTURES,finger-angle-and-palm-distance,97.568,676.622,3.427
+COMBINED SUBJECTS,dt,COMBINED GESTURES,finger-angle-and-palm-distance,83.986,25.043,0.347
+COMBINED SUBJECTS,dt,COMBINED GESTURES,finger-angle-and-palm-distance,84.167,25.309,0.875
+COMBINED SUBJECTS,dt,COMBINED GESTURES,finger-angle-and-palm-distance,83.784,25.288,-0.009
+COMBINED SUBJECTS,dt,COMBINED GESTURES,finger-angle-and-palm-distance,83.604,25.252,-0.508
+COMBINED SUBJECTS,dt,COMBINED GESTURES,finger-angle-and-palm-distance,83.941,25.132,-0.161
+COMBINED SUBJECTS,dt,COMBINED GESTURES,finger-angle-and-palm-distance,83.559,25.115,0.036
+COMBINED SUBJECTS,dt,COMBINED GESTURES,finger-angle-and-palm-distance,85.135,25.225,1.554
+COMBINED SUBJECTS,dt,COMBINED GESTURES,finger-angle-and-palm-distance,84.077,25.1,0.216
+COMBINED SUBJECTS,dt,COMBINED GESTURES,finger-angle-and-palm-distance,83.468,25.163,0.408
+COMBINED SUBJECTS,dt,COMBINED GESTURES,finger-angle-and-palm-distance,84.189,25.21,0.154
+COMBINED SUBJECTS,svm,COMBINED GESTURES,finger-angle-using-bones,79.302,225.927,-1.007
+COMBINED SUBJECTS,svm,COMBINED GESTURES,finger-angle-using-bones,79.797,225.656,-1.477
+COMBINED SUBJECTS,svm,COMBINED GESTURES,finger-angle-using-bones,80.586,226.805,0.325
+COMBINED SUBJECTS,svm,COMBINED GESTURES,finger-angle-using-bones,79.707,225.4,-1.249
+COMBINED SUBJECTS,svm,COMBINED GESTURES,finger-angle-using-bones,80.946,226.405,0.425
+COMBINED SUBJECTS,svm,COMBINED GESTURES,finger-angle-using-bones,79.797,226.684,-0.193
+COMBINED SUBJECTS,svm,COMBINED GESTURES,finger-angle-using-bones,80.631,227.329,0.805
+COMBINED SUBJECTS,svm,COMBINED GESTURES,finger-angle-using-bones,79.685,225.909,-0.585
+COMBINED SUBJECTS,svm,COMBINED GESTURES,finger-angle-using-bones,79.977,226.397,-0.602
+COMBINED SUBJECTS,svm,COMBINED GESTURES,finger-angle-using-bones,79.685,227.516,-0.72
+COMBINED SUBJECTS,nn,COMBINED GESTURES,finger-angle-using-bones,90.495,630.211,0.022
+COMBINED SUBJECTS,nn,COMBINED GESTURES,finger-angle-using-bones,90.676,607.127,-1.641
+COMBINED SUBJECTS,nn,COMBINED GESTURES,finger-angle-using-bones,95.541,657.316,3.166
+COMBINED SUBJECTS,nn,COMBINED GESTURES,finger-angle-using-bones,93.874,636.927,2.619
+COMBINED SUBJECTS,nn,COMBINED GESTURES,finger-angle-using-bones,93.446,622.927,2.317
+COMBINED SUBJECTS,nn,COMBINED GESTURES,finger-angle-using-bones,95.068,648.379,3.591
+COMBINED SUBJECTS,nn,COMBINED GESTURES,finger-angle-using-bones,90.023,622.888,-3.124
+COMBINED SUBJECTS,nn,COMBINED GESTURES,finger-angle-using-bones,90.113,635.066,-1.789
+COMBINED SUBJECTS,nn,COMBINED GESTURES,finger-angle-using-bones,91.802,582.942,1.223
+COMBINED SUBJECTS,nn,COMBINED GESTURES,finger-angle-using-bones,92.95,601.602,1.782
+COMBINED SUBJECTS,dt,COMBINED GESTURES,finger-angle-using-bones,88.446,24.949,0.473
+COMBINED SUBJECTS,dt,COMBINED GESTURES,finger-angle-using-bones,87.455,25.082,-0.914
+COMBINED SUBJECTS,dt,COMBINED GESTURES,finger-angle-using-bones,88.041,25.14,0.194
+COMBINED SUBJECTS,dt,COMBINED GESTURES,finger-angle-using-bones,88.694,25.188,1.001
+COMBINED SUBJECTS,dt,COMBINED GESTURES,finger-angle-using-bones,88.784,24.801,0.628
+COMBINED SUBJECTS,dt,COMBINED GESTURES,finger-angle-using-bones,88.288,24.697,0.402
+COMBINED SUBJECTS,dt,COMBINED GESTURES,finger-angle-using-bones,88.423,25.094,0.46
+COMBINED SUBJECTS,dt,COMBINED GESTURES,finger-angle-using-bones,89.099,25.095,1.3
+COMBINED SUBJECTS,dt,COMBINED GESTURES,finger-angle-using-bones,88.198,24.637,-0.267
+COMBINED SUBJECTS,dt,COMBINED GESTURES,finger-angle-using-bones,89.054,24.913,0.569
+COMBINED SUBJECTS,svm,COMBINED GESTURES,finger-between-distance,77.748,240.495,0.219
+COMBINED SUBJECTS,svm,COMBINED GESTURES,finger-between-distance,77.725,241.513,0.601
+COMBINED SUBJECTS,svm,COMBINED GESTURES,finger-between-distance,77.387,240.348,-0.132
+COMBINED SUBJECTS,svm,COMBINED GESTURES,finger-between-distance,78.198,240.307,1.045
+COMBINED SUBJECTS,svm,COMBINED GESTURES,finger-between-distance,77.41,240.822,0.238
+COMBINED SUBJECTS,svm,COMBINED GESTURES,finger-between-distance,77.635,240.256,0.299
+COMBINED SUBJECTS,svm,COMBINED GESTURES,finger-between-distance,78.604,240.873,1.307
+COMBINED SUBJECTS,svm,COMBINED GESTURES,finger-between-distance,77.815,239.404,0.218
+COMBINED SUBJECTS,svm,COMBINED GESTURES,finger-between-distance,77.5,241.708,-0.019
+COMBINED SUBJECTS,svm,COMBINED GESTURES,finger-between-distance,77.793,242.293,1.104
+COMBINED SUBJECTS,nn,COMBINED GESTURES,finger-between-distance,95.383,782.69,3.568
+COMBINED SUBJECTS,nn,COMBINED GESTURES,finger-between-distance,86.757,714.887,-4.575
+COMBINED SUBJECTS,nn,COMBINED GESTURES,finger-between-distance,91.036,766.849,-1.252
+COMBINED SUBJECTS,nn,COMBINED GESTURES,finger-between-distance,91.194,692.163,0.962
+COMBINED SUBJECTS,nn,COMBINED GESTURES,finger-between-distance,94.64,774.507,2.613
+COMBINED SUBJECTS,nn,COMBINED GESTURES,finger-between-distance,88.941,740.876,-3.491
+COMBINED SUBJECTS,nn,COMBINED GESTURES,finger-between-distance,93.559,683.772,3.878
+COMBINED SUBJECTS,nn,COMBINED GESTURES,finger-between-distance,91.036,714.856,-0.701
+COMBINED SUBJECTS,nn,COMBINED GESTURES,finger-between-distance,91.532,750.608,1.127
+COMBINED SUBJECTS,nn,COMBINED GESTURES,finger-between-distance,90.0,688.949,-0.135
+COMBINED SUBJECTS,dt,COMBINED GESTURES,finger-between-distance,85.586,23.6,-0.08
+COMBINED SUBJECTS,dt,COMBINED GESTURES,finger-between-distance,86.937,23.848,1.271
+COMBINED SUBJECTS,dt,COMBINED GESTURES,finger-between-distance,86.306,23.887,0.476
+COMBINED SUBJECTS,dt,COMBINED GESTURES,finger-between-distance,86.036,23.479,0.804
+COMBINED SUBJECTS,dt,COMBINED GESTURES,finger-between-distance,85.721,23.706,-0.37
+COMBINED SUBJECTS,dt,COMBINED GESTURES,finger-between-distance,85.878,23.72,-0.637
+COMBINED SUBJECTS,dt,COMBINED GESTURES,finger-between-distance,84.572,23.926,-1.287
+COMBINED SUBJECTS,dt,COMBINED GESTURES,finger-between-distance,85.045,23.646,-0.312
+COMBINED SUBJECTS,dt,COMBINED GESTURES,finger-between-distance,85.676,23.702,-0.299
+COMBINED SUBJECTS,dt,COMBINED GESTURES,finger-between-distance,86.374,23.375,0.264
+COMBINED SUBJECTS,svm,COMBINED GESTURES,finger-to-palm-distance,80.653,229.682,-0.283
+COMBINED SUBJECTS,svm,COMBINED GESTURES,finger-to-palm-distance,80.811,227.258,0.821
+COMBINED SUBJECTS,svm,COMBINED GESTURES,finger-to-palm-distance,80.991,228.092,0.557
+COMBINED SUBJECTS,svm,COMBINED GESTURES,finger-to-palm-distance,80.158,227.679,-0.083
+COMBINED SUBJECTS,svm,COMBINED GESTURES,finger-to-palm-distance,80.338,227.316,0.019
+COMBINED SUBJECTS,svm,COMBINED GESTURES,finger-to-palm-distance,80.698,228.387,0.177
+COMBINED SUBJECTS,svm,COMBINED GESTURES,finger-to-palm-distance,81.036,228.254,0.592
+COMBINED SUBJECTS,svm,COMBINED GESTURES,finger-to-palm-distance,80.518,227.734,0.373
+COMBINED SUBJECTS,svm,COMBINED GESTURES,finger-to-palm-distance,81.171,228.171,0.63
+COMBINED SUBJECTS,svm,COMBINED GESTURES,finger-to-palm-distance,80.586,227.948,0.113
+COMBINED SUBJECTS,nn,COMBINED GESTURES,finger-to-palm-distance,93.716,590.044,-0.406
+COMBINED SUBJECTS,nn,COMBINED GESTURES,finger-to-palm-distance,97.23,634.059,2.645
+COMBINED SUBJECTS,nn,COMBINED GESTURES,finger-to-palm-distance,95.946,606.703,0.821
+COMBINED SUBJECTS,nn,COMBINED GESTURES,finger-to-palm-distance,95.991,657.047,0.373
+COMBINED SUBJECTS,nn,COMBINED GESTURES,finger-to-palm-distance,96.396,605.66,2.216
+COMBINED SUBJECTS,nn,COMBINED GESTURES,finger-to-palm-distance,96.532,645.544,1.87
+COMBINED SUBJECTS,nn,COMBINED GESTURES,finger-to-palm-distance,94.842,657.503,0.913
+COMBINED SUBJECTS,nn,COMBINED GESTURES,finger-to-palm-distance,98.108,664.64,3.832
+COMBINED SUBJECTS,nn,COMBINED GESTURES,finger-to-palm-distance,93.086,665.678,-1.682
+COMBINED SUBJECTS,nn,COMBINED GESTURES,finger-to-palm-distance,98.401,666.614,4.231
+COMBINED SUBJECTS,dt,COMBINED GESTURES,finger-to-palm-distance,89.324,24.849,-0.329
+COMBINED SUBJECTS,dt,COMBINED GESTURES,finger-to-palm-distance,89.167,24.936,-0.225
+COMBINED SUBJECTS,dt,COMBINED GESTURES,finger-to-palm-distance,89.414,25.159,-0.19
+COMBINED SUBJECTS,dt,COMBINED GESTURES,finger-to-palm-distance,88.874,24.928,-0.643
+COMBINED SUBJECTS,dt,COMBINED GESTURES,finger-to-palm-distance,88.581,25.08,-0.936
+COMBINED SUBJECTS,dt,COMBINED GESTURES,finger-to-palm-distance,89.257,24.83,-0.357
+COMBINED SUBJECTS,dt,COMBINED GESTURES,finger-to-palm-distance,89.122,24.958,-0.492
+COMBINED SUBJECTS,dt,COMBINED GESTURES,finger-to-palm-distance,89.977,25.195,1.01
+COMBINED SUBJECTS,dt,COMBINED GESTURES,finger-to-palm-distance,88.986,25.021,-0.367
+COMBINED SUBJECTS,dt,COMBINED GESTURES,finger-to-palm-distance,88.649,25.002,-1.486
+COMBINED SUBJECTS,svm,COUNTING GESTURES,finger-angle-and-palm-distance,92.986,20.924,0.278
+COMBINED SUBJECTS,svm,COUNTING GESTURES,finger-angle-and-palm-distance,91.458,20.541,-1.31
+COMBINED SUBJECTS,svm,COUNTING GESTURES,finger-angle-and-palm-distance,93.125,20.664,0.357
+COMBINED SUBJECTS,svm,COUNTING GESTURES,finger-angle-and-palm-distance,92.917,20.606,0.179
+COMBINED SUBJECTS,svm,COUNTING GESTURES,finger-angle-and-palm-distance,92.708,20.575,0.387
+COMBINED SUBJECTS,svm,COUNTING GESTURES,finger-angle-and-palm-distance,93.056,20.396,0.437
+COMBINED SUBJECTS,svm,COUNTING GESTURES,finger-angle-and-palm-distance,91.597,20.435,-0.695
+COMBINED SUBJECTS,svm,COUNTING GESTURES,finger-angle-and-palm-distance,92.639,20.501,0.169
+COMBINED SUBJECTS,svm,COUNTING GESTURES,finger-angle-and-palm-distance,92.361,20.471,-0.079
+COMBINED SUBJECTS,svm,COUNTING GESTURES,finger-angle-and-palm-distance,93.403,20.371,1.171
+COMBINED SUBJECTS,nn,COUNTING GESTURES,finger-angle-and-palm-distance,98.889,164.488,0.943
+COMBINED SUBJECTS,nn,COUNTING GESTURES,finger-angle-and-palm-distance,98.403,153.804,0.576
+COMBINED SUBJECTS,nn,COUNTING GESTURES,finger-angle-and-palm-distance,99.167,167.895,1.191
+COMBINED SUBJECTS,nn,COUNTING GESTURES,finger-angle-and-palm-distance,98.472,167.384,0.793
+COMBINED SUBJECTS,nn,COUNTING GESTURES,finger-angle-and-palm-distance,95.833,155.484,-2.024
+COMBINED SUBJECTS,nn,COUNTING GESTURES,finger-angle-and-palm-distance,98.264,152.144,0.377
+COMBINED SUBJECTS,nn,COUNTING GESTURES,finger-angle-and-palm-distance,99.444,173.049,1.289
+COMBINED SUBJECTS,nn,COUNTING GESTURES,finger-angle-and-palm-distance,97.917,161.814,0.328
+COMBINED SUBJECTS,nn,COUNTING GESTURES,finger-angle-and-palm-distance,96.806,159.87,-1.23
+COMBINED SUBJECTS,nn,COUNTING GESTURES,finger-angle-and-palm-distance,98.264,174.257,0.199
+COMBINED SUBJECTS,dt,COUNTING GESTURES,finger-angle-and-palm-distance,97.5,6.694,-1.042
+COMBINED SUBJECTS,dt,COUNTING GESTURES,finger-angle-and-palm-distance,98.611,6.793,0.159
+COMBINED SUBJECTS,dt,COUNTING GESTURES,finger-angle-and-palm-distance,97.431,6.802,-1.021
+COMBINED SUBJECTS,dt,COUNTING GESTURES,finger-angle-and-palm-distance,97.569,6.683,-0.824
+COMBINED SUBJECTS,dt,COUNTING GESTURES,finger-angle-and-palm-distance,98.611,6.583,0.069
+COMBINED SUBJECTS,dt,COUNTING GESTURES,finger-angle-and-palm-distance,97.5,6.665,-0.774
+COMBINED SUBJECTS,dt,COUNTING GESTURES,finger-angle-and-palm-distance,98.681,6.724,0.258
+COMBINED SUBJECTS,dt,COUNTING GESTURES,finger-angle-and-palm-distance,98.056,6.839,-0.277
+COMBINED SUBJECTS,dt,COUNTING GESTURES,finger-angle-and-palm-distance,98.542,6.75,-0.238
+COMBINED SUBJECTS,dt,COUNTING GESTURES,finger-angle-and-palm-distance,96.736,6.801,-1.746
+COMBINED SUBJECTS,svm,COUNTING GESTURES,finger-angle-using-bones,93.958,22.18,0.476
+COMBINED SUBJECTS,svm,COUNTING GESTURES,finger-angle-using-bones,93.75,18.44,0.0
+COMBINED SUBJECTS,svm,COUNTING GESTURES,finger-angle-using-bones,94.375,18.378,0.774
+COMBINED SUBJECTS,svm,COUNTING GESTURES,finger-angle-using-bones,93.194,21.164,-0.705
+COMBINED SUBJECTS,svm,COUNTING GESTURES,finger-angle-using-bones,94.583,18.434,1.25
+COMBINED SUBJECTS,svm,COUNTING GESTURES,finger-angle-using-bones,94.514,18.202,1.032
+COMBINED SUBJECTS,svm,COUNTING GESTURES,finger-angle-using-bones,93.958,18.255,0.357
+COMBINED SUBJECTS,svm,COUNTING GESTURES,finger-angle-using-bones,94.167,21.933,0.774
+COMBINED SUBJECTS,svm,COUNTING GESTURES,finger-angle-using-bones,94.722,18.653,1.299
+COMBINED SUBJECTS,svm,COUNTING GESTURES,finger-angle-using-bones,93.958,18.383,0.119
+COMBINED SUBJECTS,nn,COUNTING GESTURES,finger-angle-using-bones,97.431,145.156,-0.069
+COMBINED SUBJECTS,nn,COUNTING GESTURES,finger-angle-using-bones,96.042,149.565,-1.369
+COMBINED SUBJECTS,nn,COUNTING GESTURES,finger-angle-using-bones,97.917,143.594,0.863
+COMBINED SUBJECTS,nn,COUNTING GESTURES,finger-angle-using-bones,98.681,157.046,1.27
+COMBINED SUBJECTS,nn,COUNTING GESTURES,finger-angle-using-bones,98.125,148.109,0.714
+COMBINED SUBJECTS,nn,COUNTING GESTURES,finger-angle-using-bones,97.153,148.199,-0.228
+COMBINED SUBJECTS,nn,COUNTING GESTURES,finger-angle-using-bones,97.5,142.165,0.268
+COMBINED SUBJECTS,nn,COUNTING GESTURES,finger-angle-using-bones,98.403,146.286,0.814
+COMBINED SUBJECTS,nn,COUNTING GESTURES,finger-angle-using-bones,97.222,154.142,0.436
+COMBINED SUBJECTS,nn,COUNTING GESTURES,finger-angle-using-bones,98.056,159.523,1.151
+COMBINED SUBJECTS,dt,COUNTING GESTURES,finger-angle-using-bones,98.681,6.301,-0.605
+COMBINED SUBJECTS,dt,COUNTING GESTURES,finger-angle-using-bones,99.167,6.28,-0.029
+COMBINED SUBJECTS,dt,COUNTING GESTURES,finger-angle-using-bones,98.056,6.407,-1.051
+COMBINED SUBJECTS,dt,COUNTING GESTURES,finger-angle-using-bones,98.472,6.393,-0.576
+COMBINED SUBJECTS,dt,COUNTING GESTURES,finger-angle-using-bones,99.028,6.3,-0.139
+COMBINED SUBJECTS,dt,COUNTING GESTURES,finger-angle-using-bones,98.958,6.377,-0.119
+COMBINED SUBJECTS,dt,COUNTING GESTURES,finger-angle-using-bones,98.75,6.367,-0.238
+COMBINED SUBJECTS,dt,COUNTING GESTURES,finger-angle-using-bones,98.681,6.366,-0.426
+COMBINED SUBJECTS,dt,COUNTING GESTURES,finger-angle-using-bones,99.097,6.371,0.049
+COMBINED SUBJECTS,dt,COUNTING GESTURES,finger-angle-using-bones,98.611,6.351,-0.556
+COMBINED SUBJECTS,svm,COUNTING GESTURES,finger-between-distance,83.819,21.912,0.486
+COMBINED SUBJECTS,svm,COUNTING GESTURES,finger-between-distance,83.75,21.039,0.476
+COMBINED SUBJECTS,svm,COUNTING GESTURES,finger-between-distance,83.611,20.79,-0.318
+COMBINED SUBJECTS,svm,COUNTING GESTURES,finger-between-distance,84.583,21.617,1.577
+COMBINED SUBJECTS,svm,COUNTING GESTURES,finger-between-distance,84.306,21.277,0.467
+COMBINED SUBJECTS,svm,COUNTING GESTURES,finger-between-distance,85.486,21.451,2.361
+COMBINED SUBJECTS,svm,COUNTING GESTURES,finger-between-distance,83.056,21.09,-0.634
+COMBINED SUBJECTS,svm,COUNTING GESTURES,finger-between-distance,81.875,21.08,-2.083
+COMBINED SUBJECTS,svm,COUNTING GESTURES,finger-between-distance,83.958,21.222,-0.209
+COMBINED SUBJECTS,svm,COUNTING GESTURES,finger-between-distance,81.181,20.609,-3.134
+COMBINED SUBJECTS,nn,COUNTING GESTURES,finger-between-distance,95.347,198.98,2.222
+COMBINED SUBJECTS,nn,COUNTING GESTURES,finger-between-distance,89.583,196.251,-1.727
+COMBINED SUBJECTS,nn,COUNTING GESTURES,finger-between-distance,94.653,196.531,2.123
+COMBINED SUBJECTS,nn,COUNTING GESTURES,finger-between-distance,94.792,198.461,2.828
+COMBINED SUBJECTS,nn,COUNTING GESTURES,finger-between-distance,94.167,200.188,2.471
+COMBINED SUBJECTS,nn,COUNTING GESTURES,finger-between-distance,85.347,186.626,-6.379
+COMBINED SUBJECTS,nn,COUNTING GESTURES,finger-between-distance,92.778,194.163,0.278
+COMBINED SUBJECTS,nn,COUNTING GESTURES,finger-between-distance,94.375,197.41,1.637
+COMBINED SUBJECTS,nn,COUNTING GESTURES,finger-between-distance,93.681,212.642,1.568
+COMBINED SUBJECTS,nn,COUNTING GESTURES,finger-between-distance,86.667,186.878,-4.643
+COMBINED SUBJECTS,dt,COUNTING GESTURES,finger-between-distance,97.5,6.48,0.417
+COMBINED SUBJECTS,dt,COUNTING GESTURES,finger-between-distance,97.292,6.589,0.744
+COMBINED SUBJECTS,dt,COUNTING GESTURES,finger-between-distance,97.153,6.51,0.754
+COMBINED SUBJECTS,dt,COUNTING GESTURES,finger-between-distance,96.25,6.394,-0.595
+COMBINED SUBJECTS,dt,COUNTING GESTURES,finger-between-distance,96.181,6.359,-0.456
+COMBINED SUBJECTS,dt,COUNTING GESTURES,finger-between-distance,97.083,6.669,0.297
+COMBINED SUBJECTS,dt,COUNTING GESTURES,finger-between-distance,97.222,6.451,0.139
+COMBINED SUBJECTS,dt,COUNTING GESTURES,finger-between-distance,95.417,6.521,-1.279
+COMBINED SUBJECTS,dt,COUNTING GESTURES,finger-between-distance,97.292,6.621,0.834
+COMBINED SUBJECTS,dt,COUNTING GESTURES,finger-between-distance,97.431,6.641,1.151
+COMBINED SUBJECTS,svm,COUNTING GESTURES,finger-to-palm-distance,94.167,19.252,-0.387
+COMBINED SUBJECTS,svm,COUNTING GESTURES,finger-to-palm-distance,94.722,19.06,0.168
+COMBINED SUBJECTS,svm,COUNTING GESTURES,finger-to-palm-distance,94.375,19.076,-0.298
+COMBINED SUBJECTS,svm,COUNTING GESTURES,finger-to-palm-distance,94.861,19.264,0.516
+COMBINED SUBJECTS,svm,COUNTING GESTURES,finger-to-palm-distance,93.958,19.124,-0.804
+COMBINED SUBJECTS,svm,COUNTING GESTURES,finger-to-palm-distance,93.681,18.955,-1.23
+COMBINED SUBJECTS,svm,COUNTING GESTURES,finger-to-palm-distance,95.278,19.044,0.814
+COMBINED SUBJECTS,svm,COUNTING GESTURES,finger-to-palm-distance,94.444,19.196,-0.139
+COMBINED SUBJECTS,svm,COUNTING GESTURES,finger-to-palm-distance,94.931,19.136,0.437
+COMBINED SUBJECTS,svm,COUNTING GESTURES,finger-to-palm-distance,95.0,19.117,0.655
+COMBINED SUBJECTS,nn,COUNTING GESTURES,finger-to-palm-distance,96.319,142.031,-0.883
+COMBINED SUBJECTS,nn,COUNTING GESTURES,finger-to-palm-distance,97.917,148.26,-0.089
+COMBINED SUBJECTS,nn,COUNTING GESTURES,finger-to-palm-distance,95.278,138.586,-2.579
+COMBINED SUBJECTS,nn,COUNTING GESTURES,finger-to-palm-distance,98.333,163.021,0.178
+COMBINED SUBJECTS,nn,COUNTING GESTURES,finger-to-palm-distance,98.194,144.486,0.426
+COMBINED SUBJECTS,nn,COUNTING GESTURES,finger-to-palm-distance,98.194,157.967,-0.05
+COMBINED SUBJECTS,nn,COUNTING GESTURES,finger-to-palm-distance,98.472,149.072,-0.01
+COMBINED SUBJECTS,nn,COUNTING GESTURES,finger-to-palm-distance,97.847,150.466,-0.546
+COMBINED SUBJECTS,nn,COUNTING GESTURES,finger-to-palm-distance,98.819,148.308,1.021
+COMBINED SUBJECTS,nn,COUNTING GESTURES,finger-to-palm-distance,99.028,157.027,1.32
+COMBINED SUBJECTS,dt,COUNTING GESTURES,finger-to-palm-distance,99.444,6.284,-0.11
+COMBINED SUBJECTS,dt,COUNTING GESTURES,finger-to-palm-distance,99.236,6.114,-0.347
+COMBINED SUBJECTS,dt,COUNTING GESTURES,finger-to-palm-distance,99.514,6.284,-0.069
+COMBINED SUBJECTS,dt,COUNTING GESTURES,finger-to-palm-distance,99.653,6.28,0.099
+COMBINED SUBJECTS,dt,COUNTING GESTURES,finger-to-palm-distance,98.542,6.051,-1.16
+COMBINED SUBJECTS,dt,COUNTING GESTURES,finger-to-palm-distance,98.472,6.207,-1.082
+COMBINED SUBJECTS,dt,COUNTING GESTURES,finger-to-palm-distance,99.375,6.223,-0.208
+COMBINED SUBJECTS,dt,COUNTING GESTURES,finger-to-palm-distance,99.375,6.256,-0.179
+COMBINED SUBJECTS,dt,COUNTING GESTURES,finger-to-palm-distance,99.306,6.198,-0.248
+COMBINED SUBJECTS,dt,COUNTING GESTURES,finger-to-palm-distance,99.306,6.091,-0.248
+COMBINED SUBJECTS,svm,STATUS GESTURES,finger-angle-and-palm-distance,85.333,71.728,-0.792
+COMBINED SUBJECTS,svm,STATUS GESTURES,finger-angle-and-palm-distance,85.75,71.015,-0.054
+COMBINED SUBJECTS,svm,STATUS GESTURES,finger-angle-and-palm-distance,85.958,71.099,0.047
+COMBINED SUBJECTS,svm,STATUS GESTURES,finger-angle-and-palm-distance,85.542,70.527,-0.315
+COMBINED SUBJECTS,svm,STATUS GESTURES,finger-angle-and-palm-distance,86.583,71.163,0.833
+COMBINED SUBJECTS,svm,STATUS GESTURES,finger-angle-and-palm-distance,86.333,70.999,0.958
+COMBINED SUBJECTS,svm,STATUS GESTURES,finger-angle-and-palm-distance,85.333,70.366,-0.56
+COMBINED SUBJECTS,svm,STATUS GESTURES,finger-angle-and-palm-distance,85.417,70.893,-0.69
+COMBINED SUBJECTS,svm,STATUS GESTURES,finger-angle-and-palm-distance,84.5,71.202,-1.732
+COMBINED SUBJECTS,svm,STATUS GESTURES,finger-angle-and-palm-distance,86.0,71.044,-0.054
+COMBINED SUBJECTS,nn,STATUS GESTURES,finger-angle-and-palm-distance,96.875,318.66,0.036
+COMBINED SUBJECTS,nn,STATUS GESTURES,finger-angle-and-palm-distance,96.417,285.327,-0.154
+COMBINED SUBJECTS,nn,STATUS GESTURES,finger-angle-and-palm-distance,98.667,311.641,2.06
+COMBINED SUBJECTS,nn,STATUS GESTURES,finger-angle-and-palm-distance,98.167,299.047,1.113
+COMBINED SUBJECTS,nn,STATUS GESTURES,finger-angle-and-palm-distance,97.417,304.812,0.185
+COMBINED SUBJECTS,nn,STATUS GESTURES,finger-angle-and-palm-distance,96.75,334.881,0.0
+COMBINED SUBJECTS,nn,STATUS GESTURES,finger-angle-and-palm-distance,95.417,285.127,-1.422
+COMBINED SUBJECTS,nn,STATUS GESTURES,finger-angle-and-palm-distance,98.333,309.123,1.154
+COMBINED SUBJECTS,nn,STATUS GESTURES,finger-angle-and-palm-distance,97.333,312.448,-0.024
+COMBINED SUBJECTS,nn,STATUS GESTURES,finger-angle-and-palm-distance,95.958,292.945,-0.06
+COMBINED SUBJECTS,dt,STATUS GESTURES,finger-angle-and-palm-distance,96.083,12.834,0.154
+COMBINED SUBJECTS,dt,STATUS GESTURES,finger-angle-and-palm-distance,96.208,12.541,0.779
+COMBINED SUBJECTS,dt,STATUS GESTURES,finger-angle-and-palm-distance,96.417,12.876,0.56
+COMBINED SUBJECTS,dt,STATUS GESTURES,finger-angle-and-palm-distance,95.875,12.7,0.018
+COMBINED SUBJECTS,dt,STATUS GESTURES,finger-angle-and-palm-distance,96.792,12.82,0.774
+COMBINED SUBJECTS,dt,STATUS GESTURES,finger-angle-and-palm-distance,96.292,13.147,0.328
+COMBINED SUBJECTS,dt,STATUS GESTURES,finger-angle-and-palm-distance,95.75,13.079,0.25
+COMBINED SUBJECTS,dt,STATUS GESTURES,finger-angle-and-palm-distance,96.042,12.927,0.024
+COMBINED SUBJECTS,dt,STATUS GESTURES,finger-angle-and-palm-distance,96.417,12.816,0.631
+COMBINED SUBJECTS,dt,STATUS GESTURES,finger-angle-and-palm-distance,95.583,12.738,-0.792
+COMBINED SUBJECTS,svm,STATUS GESTURES,finger-angle-using-bones,87.25,59.046,0.714
+COMBINED SUBJECTS,svm,STATUS GESTURES,finger-angle-using-bones,87.75,67.107,1.375
+COMBINED SUBJECTS,svm,STATUS GESTURES,finger-angle-using-bones,87.125,58.398,0.25
+COMBINED SUBJECTS,svm,STATUS GESTURES,finger-angle-using-bones,87.167,57.37,-0.494
+COMBINED SUBJECTS,svm,STATUS GESTURES,finger-angle-using-bones,86.958,58.115,-0.292
+COMBINED SUBJECTS,svm,STATUS GESTURES,finger-angle-using-bones,87.25,58.694,0.75
+COMBINED SUBJECTS,svm,STATUS GESTURES,finger-angle-using-bones,87.417,58.131,0.738
+COMBINED SUBJECTS,svm,STATUS GESTURES,finger-angle-using-bones,86.458,57.796,-0.524
+COMBINED SUBJECTS,svm,STATUS GESTURES,finger-angle-using-bones,86.792,58.035,-0.083
+COMBINED SUBJECTS,svm,STATUS GESTURES,finger-angle-using-bones,87.0,57.599,-0.429
+COMBINED SUBJECTS,nn,STATUS GESTURES,finger-angle-using-bones,93.917,292.237,-0.922
+COMBINED SUBJECTS,nn,STATUS GESTURES,finger-angle-using-bones,96.042,283.957,2.006
+COMBINED SUBJECTS,nn,STATUS GESTURES,finger-angle-using-bones,96.125,314.266,1.607
+COMBINED SUBJECTS,nn,STATUS GESTURES,finger-angle-using-bones,96.208,287.145,1.958
+COMBINED SUBJECTS,nn,STATUS GESTURES,finger-angle-using-bones,97.083,329.088,4.137
+COMBINED SUBJECTS,nn,STATUS GESTURES,finger-angle-using-bones,95.042,301.935,-0.422
+COMBINED SUBJECTS,nn,STATUS GESTURES,finger-angle-using-bones,96.167,290.358,3.042
+COMBINED SUBJECTS,nn,STATUS GESTURES,finger-angle-using-bones,94.625,293.129,0.589
+COMBINED SUBJECTS,nn,STATUS GESTURES,finger-angle-using-bones,96.333,297.889,1.029
+COMBINED SUBJECTS,nn,STATUS GESTURES,finger-angle-using-bones,87.625,286.796,-6.464
+COMBINED SUBJECTS,dt,STATUS GESTURES,finger-angle-using-bones,96.5,12.914,0.429
+COMBINED SUBJECTS,dt,STATUS GESTURES,finger-angle-using-bones,96.833,13.036,0.529
+COMBINED SUBJECTS,dt,STATUS GESTURES,finger-angle-using-bones,96.542,12.841,0.292
+COMBINED SUBJECTS,dt,STATUS GESTURES,finger-angle-using-bones,96.5,12.952,-0.071
+COMBINED SUBJECTS,dt,STATUS GESTURES,finger-angle-using-bones,97.833,12.913,1.869
+COMBINED SUBJECTS,dt,STATUS GESTURES,finger-angle-using-bones,96.792,13.072,0.256
+COMBINED SUBJECTS,dt,STATUS GESTURES,finger-angle-using-bones,95.708,12.948,-0.703
+COMBINED SUBJECTS,dt,STATUS GESTURES,finger-angle-using-bones,96.917,12.995,0.846
+COMBINED SUBJECTS,dt,STATUS GESTURES,finger-angle-using-bones,97.458,13.14,1.369
+COMBINED SUBJECTS,dt,STATUS GESTURES,finger-angle-using-bones,97.167,12.815,0.471
+COMBINED SUBJECTS,svm,STATUS GESTURES,finger-between-distance,89.458,60.534,1.226
+COMBINED SUBJECTS,svm,STATUS GESTURES,finger-between-distance,89.375,59.944,1.089
+COMBINED SUBJECTS,svm,STATUS GESTURES,finger-between-distance,88.208,59.993,-0.399
+COMBINED SUBJECTS,svm,STATUS GESTURES,finger-between-distance,89.042,60.477,0.578
+COMBINED SUBJECTS,svm,STATUS GESTURES,finger-between-distance,88.792,60.007,-0.047
+COMBINED SUBJECTS,svm,STATUS GESTURES,finger-between-distance,88.5,59.555,-0.429
+COMBINED SUBJECTS,svm,STATUS GESTURES,finger-between-distance,88.0,60.225,-0.804
+COMBINED SUBJECTS,svm,STATUS GESTURES,finger-between-distance,89.5,60.447,0.929
+COMBINED SUBJECTS,svm,STATUS GESTURES,finger-between-distance,88.625,59.872,-0.071
+COMBINED SUBJECTS,svm,STATUS GESTURES,finger-between-distance,88.792,60.391,0.506
+COMBINED SUBJECTS,nn,STATUS GESTURES,finger-between-distance,97.542,375.781,1.756
+COMBINED SUBJECTS,nn,STATUS GESTURES,finger-between-distance,96.125,378.856,0.161
+COMBINED SUBJECTS,nn,STATUS GESTURES,finger-between-distance,94.458,408.156,-1.381
+COMBINED SUBJECTS,nn,STATUS GESTURES,finger-between-distance,94.792,385.973,-0.637
+COMBINED SUBJECTS,nn,STATUS GESTURES,finger-between-distance,94.542,394.254,-0.994
+COMBINED SUBJECTS,nn,STATUS GESTURES,finger-between-distance,95.125,401.114,-1.107
+COMBINED SUBJECTS,nn,STATUS GESTURES,finger-between-distance,97.25,412.027,1.857
+COMBINED SUBJECTS,nn,STATUS GESTURES,finger-between-distance,94.458,416.074,-1.024
+COMBINED SUBJECTS,nn,STATUS GESTURES,finger-between-distance,97.417,430.34,1.06
+COMBINED SUBJECTS,nn,STATUS GESTURES,finger-between-distance,96.417,420.854,0.917
+COMBINED SUBJECTS,dt,STATUS GESTURES,finger-between-distance,97.625,13.205,0.929
+COMBINED SUBJECTS,dt,STATUS GESTURES,finger-between-distance,96.75,12.849,0.036
+COMBINED SUBJECTS,dt,STATUS GESTURES,finger-between-distance,96.833,13.08,0.154
+COMBINED SUBJECTS,dt,STATUS GESTURES,finger-between-distance,97.208,12.919,0.458
+COMBINED SUBJECTS,dt,STATUS GESTURES,finger-between-distance,96.458,12.977,-0.703
+COMBINED SUBJECTS,dt,STATUS GESTURES,finger-between-distance,97.0,12.885,0.054
+COMBINED SUBJECTS,dt,STATUS GESTURES,finger-between-distance,96.708,13.028,0.119
+COMBINED SUBJECTS,dt,STATUS GESTURES,finger-between-distance,96.417,12.969,-0.512
+COMBINED SUBJECTS,dt,STATUS GESTURES,finger-between-distance,96.5,13.036,-0.268
+COMBINED SUBJECTS,dt,STATUS GESTURES,finger-between-distance,97.208,12.779,0.494
+COMBINED SUBJECTS,svm,STATUS GESTURES,finger-to-palm-distance,88.292,62.372,-0.279
+COMBINED SUBJECTS,svm,STATUS GESTURES,finger-to-palm-distance,88.75,61.036,0.071
+COMBINED SUBJECTS,svm,STATUS GESTURES,finger-to-palm-distance,87.875,61.619,-0.875
+COMBINED SUBJECTS,svm,STATUS GESTURES,finger-to-palm-distance,89.083,61.857,1.208
+COMBINED SUBJECTS,svm,STATUS GESTURES,finger-to-palm-distance,88.833,61.874,0.458
+COMBINED SUBJECTS,svm,STATUS GESTURES,finger-to-palm-distance,88.292,61.934,0.024
+COMBINED SUBJECTS,svm,STATUS GESTURES,finger-to-palm-distance,89.125,61.608,0.875
+COMBINED SUBJECTS,svm,STATUS GESTURES,finger-to-palm-distance,88.417,60.932,-0.119
+COMBINED SUBJECTS,svm,STATUS GESTURES,finger-to-palm-distance,87.708,60.7,-0.988
+COMBINED SUBJECTS,svm,STATUS GESTURES,finger-to-palm-distance,88.917,61.246,0.488
+COMBINED SUBJECTS,nn,STATUS GESTURES,finger-to-palm-distance,98.208,346.47,0.494
+COMBINED SUBJECTS,nn,STATUS GESTURES,finger-to-palm-distance,97.792,344.402,0.024
+COMBINED SUBJECTS,nn,STATUS GESTURES,finger-to-palm-distance,95.75,364.156,-1.982
+COMBINED SUBJECTS,nn,STATUS GESTURES,finger-to-palm-distance,97.167,340.344,-0.172
+COMBINED SUBJECTS,nn,STATUS GESTURES,finger-to-palm-distance,98.25,338.543,0.571
+COMBINED SUBJECTS,nn,STATUS GESTURES,finger-to-palm-distance,96.75,327.314,-0.393
+COMBINED SUBJECTS,nn,STATUS GESTURES,finger-to-palm-distance,97.458,309.431,0.083
+COMBINED SUBJECTS,nn,STATUS GESTURES,finger-to-palm-distance,97.917,326.788,0.774
+COMBINED SUBJECTS,nn,STATUS GESTURES,finger-to-palm-distance,95.958,336.722,-1.792
+COMBINED SUBJECTS,nn,STATUS GESTURES,finger-to-palm-distance,96.292,331.373,-0.94
+COMBINED SUBJECTS,dt,STATUS GESTURES,finger-to-palm-distance,97.75,13.353,0.75
+COMBINED SUBJECTS,dt,STATUS GESTURES,finger-to-palm-distance,97.333,13.53,0.172
+COMBINED SUBJECTS,dt,STATUS GESTURES,finger-to-palm-distance,97.458,13.431,-0.06
+COMBINED SUBJECTS,dt,STATUS GESTURES,finger-to-palm-distance,97.417,13.368,0.238
+COMBINED SUBJECTS,dt,STATUS GESTURES,finger-to-palm-distance,97.167,13.349,-0.279
+COMBINED SUBJECTS,dt,STATUS GESTURES,finger-to-palm-distance,97.833,13.203,0.619
+COMBINED SUBJECTS,dt,STATUS GESTURES,finger-to-palm-distance,97.667,13.581,0.381
+COMBINED SUBJECTS,dt,STATUS GESTURES,finger-to-palm-distance,97.375,13.53,0.179
+COMBINED SUBJECTS,dt,STATUS GESTURES,finger-to-palm-distance,97.458,13.606,0.172
+COMBINED SUBJECTS,dt,STATUS GESTURES,finger-to-palm-distance,97.25,13.497,0.089
+JORELLE_INTERINO,svm,COMBINED GESTURES,finger-angle-and-palm-distance,89.333,6.65,1.047
+JORELLE_INTERINO,svm,COMBINED GESTURES,finger-angle-and-palm-distance,89.167,5.878,-0.976
+JORELLE_INTERINO,svm,COMBINED GESTURES,finger-angle-and-palm-distance,88.5,5.809,-1.857
+JORELLE_INTERINO,svm,COMBINED GESTURES,finger-angle-and-palm-distance,92.167,5.975,3.238
+JORELLE_INTERINO,svm,COMBINED GESTURES,finger-angle-and-palm-distance,89.0,5.889,-1.429
+JORELLE_INTERINO,svm,COMBINED GESTURES,finger-angle-and-palm-distance,90.167,5.923,0.096
+JORELLE_INTERINO,svm,COMBINED GESTURES,finger-angle-and-palm-distance,90.5,5.918,1.286
+JORELLE_INTERINO,svm,COMBINED GESTURES,finger-angle-and-palm-distance,90.667,5.969,2.238
+JORELLE_INTERINO,svm,COMBINED GESTURES,finger-angle-and-palm-distance,91.0,5.827,1.786
+JORELLE_INTERINO,svm,COMBINED GESTURES,finger-angle-and-palm-distance,90.333,5.957,1.404
+JORELLE_INTERINO,nn,COMBINED GESTURES,finger-angle-and-palm-distance,99.667,63.561,0.953
+JORELLE_INTERINO,nn,COMBINED GESTURES,finger-angle-and-palm-distance,99.5,66.514,0.714
+JORELLE_INTERINO,nn,COMBINED GESTURES,finger-angle-and-palm-distance,98.5,64.646,-0.214
+JORELLE_INTERINO,nn,COMBINED GESTURES,finger-angle-and-palm-distance,99.333,73.386,0.833
+JORELLE_INTERINO,nn,COMBINED GESTURES,finger-angle-and-palm-distance,99.0,69.351,-0.143
+JORELLE_INTERINO,nn,COMBINED GESTURES,finger-angle-and-palm-distance,98.167,64.679,-0.476
+JORELLE_INTERINO,nn,COMBINED GESTURES,finger-angle-and-palm-distance,98.5,66.936,-0.071
+JORELLE_INTERINO,nn,COMBINED GESTURES,finger-angle-and-palm-distance,99.167,65.636,0.381
+JORELLE_INTERINO,nn,COMBINED GESTURES,finger-angle-and-palm-distance,97.833,66.481,-1.238
+JORELLE_INTERINO,nn,COMBINED GESTURES,finger-angle-and-palm-distance,99.833,67.829,0.904
+JORELLE_INTERINO,dt,COMBINED GESTURES,finger-angle-and-palm-distance,98.5,3.484,-0.571
+JORELLE_INTERINO,dt,COMBINED GESTURES,finger-angle-and-palm-distance,98.5,3.493,-0.571
+JORELLE_INTERINO,dt,COMBINED GESTURES,finger-angle-and-palm-distance,98.833,3.511,-0.381
+JORELLE_INTERINO,dt,COMBINED GESTURES,finger-angle-and-palm-distance,98.667,3.5,-0.333
+JORELLE_INTERINO,dt,COMBINED GESTURES,finger-angle-and-palm-distance,99.0,3.513,-0.143
+JORELLE_INTERINO,dt,COMBINED GESTURES,finger-angle-and-palm-distance,99.333,3.486,0.19
+JORELLE_INTERINO,dt,COMBINED GESTURES,finger-angle-and-palm-distance,98.167,3.458,-1.19
+JORELLE_INTERINO,dt,COMBINED GESTURES,finger-angle-and-palm-distance,98.667,3.64,-0.69
+JORELLE_INTERINO,dt,COMBINED GESTURES,finger-angle-and-palm-distance,97.833,3.644,-1.238
+JORELLE_INTERINO,dt,COMBINED GESTURES,finger-angle-and-palm-distance,98.167,3.424,-1.047
+JORELLE_INTERINO,svm,COMBINED GESTURES,finger-angle-using-bones,89.667,5.837,-1.619
+JORELLE_INTERINO,svm,COMBINED GESTURES,finger-angle-using-bones,91.0,5.245,0.357
+JORELLE_INTERINO,svm,COMBINED GESTURES,finger-angle-using-bones,92.167,5.247,1.524
+JORELLE_INTERINO,svm,COMBINED GESTURES,finger-angle-using-bones,91.667,5.263,1.31
+JORELLE_INTERINO,svm,COMBINED GESTURES,finger-angle-using-bones,91.5,5.159,0.571
+JORELLE_INTERINO,svm,COMBINED GESTURES,finger-angle-using-bones,90.833,5.252,-0.31
+JORELLE_INTERINO,svm,COMBINED GESTURES,finger-angle-using-bones,91.0,5.237,-0.357
+JORELLE_INTERINO,svm,COMBINED GESTURES,finger-angle-using-bones,90.167,5.249,-1.333
+JORELLE_INTERINO,svm,COMBINED GESTURES,finger-angle-using-bones,90.5,5.244,-0.857
+JORELLE_INTERINO,svm,COMBINED GESTURES,finger-angle-using-bones,91.667,5.199,0.881
+JORELLE_INTERINO,nn,COMBINED GESTURES,finger-angle-using-bones,99.0,67.925,0.786
+JORELLE_INTERINO,nn,COMBINED GESTURES,finger-angle-using-bones,98.5,69.015,-0.143
+JORELLE_INTERINO,nn,COMBINED GESTURES,finger-angle-using-bones,98.667,67.086,0.238
+JORELLE_INTERINO,nn,COMBINED GESTURES,finger-angle-using-bones,99.0,70.641,0.5
+JORELLE_INTERINO,nn,COMBINED GESTURES,finger-angle-using-bones,98.167,66.52,-0.262
+JORELLE_INTERINO,nn,COMBINED GESTURES,finger-angle-using-bones,98.0,65.915,0.286
+JORELLE_INTERINO,nn,COMBINED GESTURES,finger-angle-using-bones,98.0,69.812,-0.357
+JORELLE_INTERINO,nn,COMBINED GESTURES,finger-angle-using-bones,95.333,65.606,-2.953
+JORELLE_INTERINO,nn,COMBINED GESTURES,finger-angle-using-bones,99.833,74.686,0.833
+JORELLE_INTERINO,nn,COMBINED GESTURES,finger-angle-using-bones,95.5,67.86,-2.714
+JORELLE_INTERINO,dt,COMBINED GESTURES,finger-angle-using-bones,99.0,3.432,-0.286
+JORELLE_INTERINO,dt,COMBINED GESTURES,finger-angle-using-bones,99.5,3.581,0.143
+JORELLE_INTERINO,dt,COMBINED GESTURES,finger-angle-using-bones,99.0,3.419,-0.143
+JORELLE_INTERINO,dt,COMBINED GESTURES,finger-angle-using-bones,99.5,3.33,-0.071
+JORELLE_INTERINO,dt,COMBINED GESTURES,finger-angle-using-bones,99.5,3.397,0.071
+JORELLE_INTERINO,dt,COMBINED GESTURES,finger-angle-using-bones,98.333,3.46,-0.953
+JORELLE_INTERINO,dt,COMBINED GESTURES,finger-angle-using-bones,99.0,3.612,-0.571
+JORELLE_INTERINO,dt,COMBINED GESTURES,finger-angle-using-bones,99.833,3.367,0.619
+JORELLE_INTERINO,dt,COMBINED GESTURES,finger-angle-using-bones,99.5,3.385,0.214
+JORELLE_INTERINO,dt,COMBINED GESTURES,finger-angle-using-bones,98.333,3.393,-1.096
+JORELLE_INTERINO,svm,COMBINED GESTURES,finger-between-distance,93.0,5.622,-2.286
+JORELLE_INTERINO,svm,COMBINED GESTURES,finger-between-distance,94.5,4.984,-0.5
+JORELLE_INTERINO,svm,COMBINED GESTURES,finger-between-distance,96.0,5.039,1.5
+JORELLE_INTERINO,svm,COMBINED GESTURES,finger-between-distance,95.833,5.011,1.262
+JORELLE_INTERINO,svm,COMBINED GESTURES,finger-between-distance,94.333,5.25,-0.381
+JORELLE_INTERINO,svm,COMBINED GESTURES,finger-between-distance,95.0,5.271,0.357
+JORELLE_INTERINO,svm,COMBINED GESTURES,finger-between-distance,95.0,5.02,0.143
+JORELLE_INTERINO,svm,COMBINED GESTURES,finger-between-distance,95.167,4.95,0.167
+JORELLE_INTERINO,svm,COMBINED GESTURES,finger-between-distance,94.5,4.975,-0.214
+JORELLE_INTERINO,svm,COMBINED GESTURES,finger-between-distance,95.0,4.988,0.5
+JORELLE_INTERINO,nn,COMBINED GESTURES,finger-between-distance,96.667,71.098,-0.762
+JORELLE_INTERINO,nn,COMBINED GESTURES,finger-between-distance,97.167,71.014,-0.119
+JORELLE_INTERINO,nn,COMBINED GESTURES,finger-between-distance,96.167,73.887,-0.904
+JORELLE_INTERINO,nn,COMBINED GESTURES,finger-between-distance,96.667,66.241,0.096
+JORELLE_INTERINO,nn,COMBINED GESTURES,finger-between-distance,98.333,73.41,1.119
+JORELLE_INTERINO,nn,COMBINED GESTURES,finger-between-distance,98.167,74.164,1.596
+JORELLE_INTERINO,nn,COMBINED GESTURES,finger-between-distance,96.167,69.812,-1.19
+JORELLE_INTERINO,nn,COMBINED GESTURES,finger-between-distance,97.0,67.096,-0.5
+JORELLE_INTERINO,nn,COMBINED GESTURES,finger-between-distance,97.167,68.719,0.31
+JORELLE_INTERINO,nn,COMBINED GESTURES,finger-between-distance,98.5,70.255,1.143
+JORELLE_INTERINO,dt,COMBINED GESTURES,finger-between-distance,98.333,3.178,-1.453
+JORELLE_INTERINO,dt,COMBINED GESTURES,finger-between-distance,100.0,3.148,0.286
+JORELLE_INTERINO,dt,COMBINED GESTURES,finger-between-distance,99.833,3.162,-0.096
+JORELLE_INTERINO,dt,COMBINED GESTURES,finger-between-distance,99.0,3.199,-0.857
+JORELLE_INTERINO,dt,COMBINED GESTURES,finger-between-distance,99.333,3.265,-0.524
+JORELLE_INTERINO,dt,COMBINED GESTURES,finger-between-distance,99.333,3.179,-0.453
+JORELLE_INTERINO,dt,COMBINED GESTURES,finger-between-distance,99.667,3.196,-0.047
+JORELLE_INTERINO,dt,COMBINED GESTURES,finger-between-distance,99.667,3.199,-0.047
+JORELLE_INTERINO,dt,COMBINED GESTURES,finger-between-distance,98.667,3.198,-1.047
+JORELLE_INTERINO,dt,COMBINED GESTURES,finger-between-distance,99.833,3.19,0.047
+JORELLE_INTERINO,svm,COMBINED GESTURES,finger-to-palm-distance,95.333,5.672,0.19
+JORELLE_INTERINO,svm,COMBINED GESTURES,finger-to-palm-distance,95.667,5.056,0.524
+JORELLE_INTERINO,svm,COMBINED GESTURES,finger-to-palm-distance,97.5,5.072,2.643
+JORELLE_INTERINO,svm,COMBINED GESTURES,finger-to-palm-distance,96.333,5.089,1.476
+JORELLE_INTERINO,svm,COMBINED GESTURES,finger-to-palm-distance,93.667,5.018,-1.904
+JORELLE_INTERINO,svm,COMBINED GESTURES,finger-to-palm-distance,96.0,5.029,0.0
+JORELLE_INTERINO,svm,COMBINED GESTURES,finger-to-palm-distance,97.5,5.069,2.214
+JORELLE_INTERINO,svm,COMBINED GESTURES,finger-to-palm-distance,96.333,5.06,0.69
+JORELLE_INTERINO,svm,COMBINED GESTURES,finger-to-palm-distance,97.667,5.052,3.167
+JORELLE_INTERINO,svm,COMBINED GESTURES,finger-to-palm-distance,97.0,5.055,1.071
+JORELLE_INTERINO,nn,COMBINED GESTURES,finger-to-palm-distance,97.167,67.71,-2.404
+JORELLE_INTERINO,nn,COMBINED GESTURES,finger-to-palm-distance,100.0,64.384,0.786
+JORELLE_INTERINO,nn,COMBINED GESTURES,finger-to-palm-distance,98.5,63.368,-1.143
+JORELLE_INTERINO,nn,COMBINED GESTURES,finger-to-palm-distance,98.833,63.252,-0.524
+JORELLE_INTERINO,nn,COMBINED GESTURES,finger-to-palm-distance,99.333,62.929,0.333
+JORELLE_INTERINO,nn,COMBINED GESTURES,finger-to-palm-distance,99.5,66.476,0.214
+JORELLE_INTERINO,nn,COMBINED GESTURES,finger-to-palm-distance,99.0,66.847,-0.286
+JORELLE_INTERINO,nn,COMBINED GESTURES,finger-to-palm-distance,100.0,67.253,1.071
+JORELLE_INTERINO,nn,COMBINED GESTURES,finger-to-palm-distance,99.167,65.35,0.167
+JORELLE_INTERINO,nn,COMBINED GESTURES,finger-to-palm-distance,99.5,67.409,0.071
+JORELLE_INTERINO,dt,COMBINED GESTURES,finger-to-palm-distance,99.833,3.375,0.119
+JORELLE_INTERINO,dt,COMBINED GESTURES,finger-to-palm-distance,99.833,3.432,0.262
+JORELLE_INTERINO,dt,COMBINED GESTURES,finger-to-palm-distance,99.333,3.346,-0.31
+JORELLE_INTERINO,dt,COMBINED GESTURES,finger-to-palm-distance,99.667,3.291,-0.119
+JORELLE_INTERINO,dt,COMBINED GESTURES,finger-to-palm-distance,99.167,3.307,-0.476
+JORELLE_INTERINO,dt,COMBINED GESTURES,finger-to-palm-distance,98.5,3.279,-1.143
+JORELLE_INTERINO,dt,COMBINED GESTURES,finger-to-palm-distance,99.833,3.374,0.19
+JORELLE_INTERINO,dt,COMBINED GESTURES,finger-to-palm-distance,99.333,3.253,-0.453
+JORELLE_INTERINO,dt,COMBINED GESTURES,finger-to-palm-distance,99.0,3.276,-0.857
+JORELLE_INTERINO,dt,COMBINED GESTURES,finger-to-palm-distance,99.333,3.272,-0.524
+JOSHUA_POCSIDIO,svm,COMBINED GESTURES,finger-angle-and-palm-distance,85.5,7.027,-0.214
+JOSHUA_POCSIDIO,svm,COMBINED GESTURES,finger-angle-and-palm-distance,85.5,6.443,-0.5
+JOSHUA_POCSIDIO,svm,COMBINED GESTURES,finger-angle-and-palm-distance,86.5,6.541,2.5
+JOSHUA_POCSIDIO,svm,COMBINED GESTURES,finger-angle-and-palm-distance,85.833,6.503,0.119
+JOSHUA_POCSIDIO,svm,COMBINED GESTURES,finger-angle-and-palm-distance,88.167,6.543,4.096
+JOSHUA_POCSIDIO,svm,COMBINED GESTURES,finger-angle-and-palm-distance,86.0,6.48,0.786
+JOSHUA_POCSIDIO,svm,COMBINED GESTURES,finger-angle-and-palm-distance,83.167,6.335,-3.262
+JOSHUA_POCSIDIO,svm,COMBINED GESTURES,finger-angle-and-palm-distance,86.5,6.476,1.286
+JOSHUA_POCSIDIO,svm,COMBINED GESTURES,finger-angle-and-palm-distance,86.833,6.455,2.476
+JOSHUA_POCSIDIO,svm,COMBINED GESTURES,finger-angle-and-palm-distance,85.667,6.438,-0.19
+JOSHUA_POCSIDIO,nn,COMBINED GESTURES,finger-angle-and-palm-distance,98.167,71.136,0.167
+JOSHUA_POCSIDIO,nn,COMBINED GESTURES,finger-angle-and-palm-distance,97.667,72.697,-0.619
+JOSHUA_POCSIDIO,nn,COMBINED GESTURES,finger-angle-and-palm-distance,95.667,71.929,-2.19
+JOSHUA_POCSIDIO,nn,COMBINED GESTURES,finger-angle-and-palm-distance,96.667,70.234,-1.262
+JOSHUA_POCSIDIO,nn,COMBINED GESTURES,finger-angle-and-palm-distance,98.5,69.231,0.857
+JOSHUA_POCSIDIO,nn,COMBINED GESTURES,finger-angle-and-palm-distance,99.0,72.311,0.571
+JOSHUA_POCSIDIO,nn,COMBINED GESTURES,finger-angle-and-palm-distance,96.833,71.093,-1.453
+JOSHUA_POCSIDIO,nn,COMBINED GESTURES,finger-angle-and-palm-distance,94.333,70.491,-4.096
+JOSHUA_POCSIDIO,nn,COMBINED GESTURES,finger-angle-and-palm-distance,97.0,73.791,-1.071
+JOSHUA_POCSIDIO,nn,COMBINED GESTURES,finger-angle-and-palm-distance,98.667,76.633,0.738
+JOSHUA_POCSIDIO,dt,COMBINED GESTURES,finger-angle-and-palm-distance,98.667,3.728,0.881
+JOSHUA_POCSIDIO,dt,COMBINED GESTURES,finger-angle-and-palm-distance,97.667,3.65,-0.476
+JOSHUA_POCSIDIO,dt,COMBINED GESTURES,finger-angle-and-palm-distance,98.0,3.72,0.0
+JOSHUA_POCSIDIO,dt,COMBINED GESTURES,finger-angle-and-palm-distance,97.5,3.727,-0.214
+JOSHUA_POCSIDIO,dt,COMBINED GESTURES,finger-angle-and-palm-distance,96.333,3.846,-1.81
+JOSHUA_POCSIDIO,dt,COMBINED GESTURES,finger-angle-and-palm-distance,97.833,3.766,-0.31
+JOSHUA_POCSIDIO,dt,COMBINED GESTURES,finger-angle-and-palm-distance,94.333,3.696,-3.881
+JOSHUA_POCSIDIO,dt,COMBINED GESTURES,finger-angle-and-palm-distance,95.167,3.69,-3.19
+JOSHUA_POCSIDIO,dt,COMBINED GESTURES,finger-angle-and-palm-distance,97.333,3.76,-0.667
+JOSHUA_POCSIDIO,dt,COMBINED GESTURES,finger-angle-and-palm-distance,96.333,3.642,-1.81
+JOSHUA_POCSIDIO,svm,COMBINED GESTURES,finger-angle-using-bones,86.167,6.624,-0.976
+JOSHUA_POCSIDIO,svm,COMBINED GESTURES,finger-angle-using-bones,91.167,5.684,2.238
+JOSHUA_POCSIDIO,svm,COMBINED GESTURES,finger-angle-using-bones,87.333,5.648,-2.667
+JOSHUA_POCSIDIO,svm,COMBINED GESTURES,finger-angle-using-bones,88.333,5.649,-1.31
+JOSHUA_POCSIDIO,svm,COMBINED GESTURES,finger-angle-using-bones,87.167,5.619,-2.833
+JOSHUA_POCSIDIO,svm,COMBINED GESTURES,finger-angle-using-bones,88.5,5.639,-0.214
+JOSHUA_POCSIDIO,svm,COMBINED GESTURES,finger-angle-using-bones,88.333,5.568,-1.31
+JOSHUA_POCSIDIO,svm,COMBINED GESTURES,finger-angle-using-bones,88.333,5.644,-1.524
+JOSHUA_POCSIDIO,svm,COMBINED GESTURES,finger-angle-using-bones,90.167,5.696,0.738
+JOSHUA_POCSIDIO,svm,COMBINED GESTURES,finger-angle-using-bones,90.667,5.645,1.31
+JOSHUA_POCSIDIO,nn,COMBINED GESTURES,finger-angle-using-bones,94.5,70.266,-1.143
+JOSHUA_POCSIDIO,nn,COMBINED GESTURES,finger-angle-using-bones,94.167,67.161,-1.262
+JOSHUA_POCSIDIO,nn,COMBINED GESTURES,finger-angle-using-bones,96.5,67.731,0.571
+JOSHUA_POCSIDIO,nn,COMBINED GESTURES,finger-angle-using-bones,97.333,67.926,1.619
+JOSHUA_POCSIDIO,nn,COMBINED GESTURES,finger-angle-using-bones,95.0,65.468,-0.857
+JOSHUA_POCSIDIO,nn,COMBINED GESTURES,finger-angle-using-bones,95.833,67.046,0.404
+JOSHUA_POCSIDIO,nn,COMBINED GESTURES,finger-angle-using-bones,96.333,65.945,0.19
+JOSHUA_POCSIDIO,nn,COMBINED GESTURES,finger-angle-using-bones,94.167,63.936,-2.19
+JOSHUA_POCSIDIO,nn,COMBINED GESTURES,finger-angle-using-bones,92.0,61.254,-4.071
+JOSHUA_POCSIDIO,nn,COMBINED GESTURES,finger-angle-using-bones,95.333,70.591,-0.381
+JOSHUA_POCSIDIO,dt,COMBINED GESTURES,finger-angle-using-bones,97.0,3.574,-1.571
+JOSHUA_POCSIDIO,dt,COMBINED GESTURES,finger-angle-using-bones,98.833,3.546,0.119
+JOSHUA_POCSIDIO,dt,COMBINED GESTURES,finger-angle-using-bones,97.0,3.498,-1.786
+JOSHUA_POCSIDIO,dt,COMBINED GESTURES,finger-angle-using-bones,98.5,3.634,0.214
+JOSHUA_POCSIDIO,dt,COMBINED GESTURES,finger-angle-using-bones,98.833,3.578,0.262
+JOSHUA_POCSIDIO,dt,COMBINED GESTURES,finger-angle-using-bones,99.0,3.466,0.357
+JOSHUA_POCSIDIO,dt,COMBINED GESTURES,finger-angle-using-bones,98.833,3.624,0.476
+JOSHUA_POCSIDIO,dt,COMBINED GESTURES,finger-angle-using-bones,98.333,3.604,-0.524
+JOSHUA_POCSIDIO,dt,COMBINED GESTURES,finger-angle-using-bones,98.167,3.612,-0.404
+JOSHUA_POCSIDIO,dt,COMBINED GESTURES,finger-angle-using-bones,98.0,3.644,-0.929
+JOSHUA_POCSIDIO,svm,COMBINED GESTURES,finger-between-distance,94.667,6.231,0.596
+JOSHUA_POCSIDIO,svm,COMBINED GESTURES,finger-between-distance,94.5,5.551,0.643
+JOSHUA_POCSIDIO,svm,COMBINED GESTURES,finger-between-distance,93.167,5.611,-0.404
+JOSHUA_POCSIDIO,svm,COMBINED GESTURES,finger-between-distance,93.667,5.651,-0.262
+JOSHUA_POCSIDIO,svm,COMBINED GESTURES,finger-between-distance,95.0,5.639,1.571
+JOSHUA_POCSIDIO,svm,COMBINED GESTURES,finger-between-distance,94.333,5.645,1.333
+JOSHUA_POCSIDIO,svm,COMBINED GESTURES,finger-between-distance,93.667,5.613,-0.476
+JOSHUA_POCSIDIO,svm,COMBINED GESTURES,finger-between-distance,94.5,5.673,1.429
+JOSHUA_POCSIDIO,svm,COMBINED GESTURES,finger-between-distance,92.833,5.552,-1.524
+JOSHUA_POCSIDIO,svm,COMBINED GESTURES,finger-between-distance,92.5,5.548,-1.643
+JOSHUA_POCSIDIO,nn,COMBINED GESTURES,finger-between-distance,98.0,74.463,0.929
+JOSHUA_POCSIDIO,nn,COMBINED GESTURES,finger-between-distance,96.833,76.942,0.19
+JOSHUA_POCSIDIO,nn,COMBINED GESTURES,finger-between-distance,98.167,78.992,1.31
+JOSHUA_POCSIDIO,nn,COMBINED GESTURES,finger-between-distance,99.0,79.649,2.429
+JOSHUA_POCSIDIO,nn,COMBINED GESTURES,finger-between-distance,97.333,76.767,0.547
+JOSHUA_POCSIDIO,nn,COMBINED GESTURES,finger-between-distance,95.833,79.986,-1.238
+JOSHUA_POCSIDIO,nn,COMBINED GESTURES,finger-between-distance,94.333,78.801,-2.738
+JOSHUA_POCSIDIO,nn,COMBINED GESTURES,finger-between-distance,97.5,77.294,0.857
+JOSHUA_POCSIDIO,nn,COMBINED GESTURES,finger-between-distance,97.0,80.301,-0.5
+JOSHUA_POCSIDIO,nn,COMBINED GESTURES,finger-between-distance,96.667,79.707,-0.833
+JOSHUA_POCSIDIO,dt,COMBINED GESTURES,finger-between-distance,98.0,3.257,-1.429
+JOSHUA_POCSIDIO,dt,COMBINED GESTURES,finger-between-distance,99.167,3.246,-0.333
+JOSHUA_POCSIDIO,dt,COMBINED GESTURES,finger-between-distance,97.833,3.271,-1.524
+JOSHUA_POCSIDIO,dt,COMBINED GESTURES,finger-between-distance,98.0,3.252,-1.357
+JOSHUA_POCSIDIO,dt,COMBINED GESTURES,finger-between-distance,98.333,3.327,-1.096
+JOSHUA_POCSIDIO,dt,COMBINED GESTURES,finger-between-distance,98.667,3.367,-0.619
+JOSHUA_POCSIDIO,dt,COMBINED GESTURES,finger-between-distance,99.333,3.335,-0.238
+JOSHUA_POCSIDIO,dt,COMBINED GESTURES,finger-between-distance,99.833,3.244,0.69
+JOSHUA_POCSIDIO,dt,COMBINED GESTURES,finger-between-distance,98.167,3.275,-1.19
+JOSHUA_POCSIDIO,dt,COMBINED GESTURES,finger-between-distance,98.5,3.25,-0.643
+JOSHUA_POCSIDIO,svm,COMBINED GESTURES,finger-to-palm-distance,92.333,6.009,0.69
+JOSHUA_POCSIDIO,svm,COMBINED GESTURES,finger-to-palm-distance,91.333,5.465,-1.167
+JOSHUA_POCSIDIO,svm,COMBINED GESTURES,finger-to-palm-distance,91.0,5.365,-1.429
+JOSHUA_POCSIDIO,svm,COMBINED GESTURES,finger-to-palm-distance,93.333,5.409,0.69
+JOSHUA_POCSIDIO,svm,COMBINED GESTURES,finger-to-palm-distance,91.5,5.401,-1.286
+JOSHUA_POCSIDIO,svm,COMBINED GESTURES,finger-to-palm-distance,91.833,5.142,-0.953
+JOSHUA_POCSIDIO,svm,COMBINED GESTURES,finger-to-palm-distance,92.333,5.493,-0.167
+JOSHUA_POCSIDIO,svm,COMBINED GESTURES,finger-to-palm-distance,92.833,5.39,0.404
+JOSHUA_POCSIDIO,svm,COMBINED GESTURES,finger-to-palm-distance,93.0,5.4,0.5
+JOSHUA_POCSIDIO,svm,COMBINED GESTURES,finger-to-palm-distance,90.833,5.077,-1.381
+JOSHUA_POCSIDIO,nn,COMBINED GESTURES,finger-to-palm-distance,95.5,64.863,-0.071
+JOSHUA_POCSIDIO,nn,COMBINED GESTURES,finger-to-palm-distance,98.5,71.734,2.071
+JOSHUA_POCSIDIO,nn,COMBINED GESTURES,finger-to-palm-distance,94.5,65.922,-1.857
+JOSHUA_POCSIDIO,nn,COMBINED GESTURES,finger-to-palm-distance,94.167,66.648,-2.404
+JOSHUA_POCSIDIO,nn,COMBINED GESTURES,finger-to-palm-distance,94.833,67.097,-2.024
+JOSHUA_POCSIDIO,nn,COMBINED GESTURES,finger-to-palm-distance,96.833,67.995,0.119
+JOSHUA_POCSIDIO,nn,COMBINED GESTURES,finger-to-palm-distance,95.333,70.728,-0.81
+JOSHUA_POCSIDIO,nn,COMBINED GESTURES,finger-to-palm-distance,97.667,67.519,1.667
+JOSHUA_POCSIDIO,nn,COMBINED GESTURES,finger-to-palm-distance,95.0,66.462,-1.143
+JOSHUA_POCSIDIO,nn,COMBINED GESTURES,finger-to-palm-distance,96.667,70.345,-0.19
+JOSHUA_POCSIDIO,dt,COMBINED GESTURES,finger-to-palm-distance,99.0,3.65,-0.429
+JOSHUA_POCSIDIO,dt,COMBINED GESTURES,finger-to-palm-distance,99.5,3.814,0.143
+JOSHUA_POCSIDIO,dt,COMBINED GESTURES,finger-to-palm-distance,97.333,3.663,-1.953
+JOSHUA_POCSIDIO,dt,COMBINED GESTURES,finger-to-palm-distance,97.833,3.706,-1.096
+JOSHUA_POCSIDIO,dt,COMBINED GESTURES,finger-to-palm-distance,98.5,3.701,-0.857
+JOSHUA_POCSIDIO,dt,COMBINED GESTURES,finger-to-palm-distance,99.0,3.635,-0.286
+JOSHUA_POCSIDIO,dt,COMBINED GESTURES,finger-to-palm-distance,98.667,3.462,-0.619
+JOSHUA_POCSIDIO,dt,COMBINED GESTURES,finger-to-palm-distance,99.5,3.552,0.286
+JOSHUA_POCSIDIO,dt,COMBINED GESTURES,finger-to-palm-distance,98.0,3.562,-1.429
+JOSHUA_POCSIDIO,dt,COMBINED GESTURES,finger-to-palm-distance,98.5,3.588,-0.429
+MARC_SALONGA,svm,COMBINED GESTURES,finger-angle-and-palm-distance,94.5,6.558,0.714
+MARC_SALONGA,svm,COMBINED GESTURES,finger-angle-and-palm-distance,93.167,5.498,-0.976
+MARC_SALONGA,svm,COMBINED GESTURES,finger-angle-and-palm-distance,93.833,5.849,-0.096
+MARC_SALONGA,svm,COMBINED GESTURES,finger-angle-and-palm-distance,94.0,5.506,-0.143
+MARC_SALONGA,svm,COMBINED GESTURES,finger-angle-and-palm-distance,93.167,5.539,-0.476
+MARC_SALONGA,svm,COMBINED GESTURES,finger-angle-and-palm-distance,94.833,5.876,1.119
+MARC_SALONGA,svm,COMBINED GESTURES,finger-angle-and-palm-distance,93.333,5.873,-0.881
+MARC_SALONGA,svm,COMBINED GESTURES,finger-angle-and-palm-distance,95.0,5.886,1.571
+MARC_SALONGA,svm,COMBINED GESTURES,finger-angle-and-palm-distance,94.333,5.875,0.69
+MARC_SALONGA,svm,COMBINED GESTURES,finger-angle-and-palm-distance,95.167,5.852,1.453
+MARC_SALONGA,nn,COMBINED GESTURES,finger-angle-and-palm-distance,98.833,68.129,0.69
+MARC_SALONGA,nn,COMBINED GESTURES,finger-angle-and-palm-distance,96.833,68.222,-1.667
+MARC_SALONGA,nn,COMBINED GESTURES,finger-angle-and-palm-distance,95.333,67.288,-3.167
+MARC_SALONGA,nn,COMBINED GESTURES,finger-angle-and-palm-distance,99.167,68.344,0.667
+MARC_SALONGA,nn,COMBINED GESTURES,finger-angle-and-palm-distance,99.333,71.896,0.619
+MARC_SALONGA,nn,COMBINED GESTURES,finger-angle-and-palm-distance,98.333,67.054,-0.31
+MARC_SALONGA,nn,COMBINED GESTURES,finger-angle-and-palm-distance,97.5,71.783,-0.929
+MARC_SALONGA,nn,COMBINED GESTURES,finger-angle-and-palm-distance,97.5,70.929,-1.357
+MARC_SALONGA,nn,COMBINED GESTURES,finger-angle-and-palm-distance,98.5,64.643,-0.214
+MARC_SALONGA,nn,COMBINED GESTURES,finger-angle-and-palm-distance,98.0,72.637,-0.429
+MARC_SALONGA,dt,COMBINED GESTURES,finger-angle-and-palm-distance,99.167,3.419,-0.19
+MARC_SALONGA,dt,COMBINED GESTURES,finger-angle-and-palm-distance,98.167,3.604,-0.762
+MARC_SALONGA,dt,COMBINED GESTURES,finger-angle-and-palm-distance,99.333,3.639,0.119
+MARC_SALONGA,dt,COMBINED GESTURES,finger-angle-and-palm-distance,98.667,3.59,-0.619
+MARC_SALONGA,dt,COMBINED GESTURES,finger-angle-and-palm-distance,98.5,3.489,-0.786
+MARC_SALONGA,dt,COMBINED GESTURES,finger-angle-and-palm-distance,98.5,3.481,-0.5
+MARC_SALONGA,dt,COMBINED GESTURES,finger-angle-and-palm-distance,98.667,3.664,-0.619
+MARC_SALONGA,dt,COMBINED GESTURES,finger-angle-and-palm-distance,98.833,3.502,-0.381
+MARC_SALONGA,dt,COMBINED GESTURES,finger-angle-and-palm-distance,99.0,3.469,-0.357
+MARC_SALONGA,dt,COMBINED GESTURES,finger-angle-and-palm-distance,98.667,3.452,-0.404
+MARC_SALONGA,svm,COMBINED GESTURES,finger-angle-using-bones,95.333,5.551,-0.738
+MARC_SALONGA,svm,COMBINED GESTURES,finger-angle-using-bones,95.833,4.978,0.119
+MARC_SALONGA,svm,COMBINED GESTURES,finger-angle-using-bones,95.167,4.974,-0.69
+MARC_SALONGA,svm,COMBINED GESTURES,finger-angle-using-bones,96.167,4.979,0.881
+MARC_SALONGA,svm,COMBINED GESTURES,finger-angle-using-bones,95.0,4.947,-0.643
+MARC_SALONGA,svm,COMBINED GESTURES,finger-angle-using-bones,96.333,4.973,0.547
+MARC_SALONGA,svm,COMBINED GESTURES,finger-angle-using-bones,96.667,4.996,1.238
+MARC_SALONGA,svm,COMBINED GESTURES,finger-angle-using-bones,95.667,4.929,-0.19
+MARC_SALONGA,svm,COMBINED GESTURES,finger-angle-using-bones,95.5,4.957,-0.286
+MARC_SALONGA,svm,COMBINED GESTURES,finger-angle-using-bones,95.833,4.996,-0.024
+MARC_SALONGA,nn,COMBINED GESTURES,finger-angle-using-bones,97.0,64.413,-1.5
+MARC_SALONGA,nn,COMBINED GESTURES,finger-angle-using-bones,98.333,62.823,-0.381
+MARC_SALONGA,nn,COMBINED GESTURES,finger-angle-using-bones,96.833,61.474,-1.953
+MARC_SALONGA,nn,COMBINED GESTURES,finger-angle-using-bones,99.0,62.957,0.286
+MARC_SALONGA,nn,COMBINED GESTURES,finger-angle-using-bones,98.167,63.034,-0.476
+MARC_SALONGA,nn,COMBINED GESTURES,finger-angle-using-bones,97.333,59.458,-0.881
+MARC_SALONGA,nn,COMBINED GESTURES,finger-angle-using-bones,98.0,59.589,-0.929
+MARC_SALONGA,nn,COMBINED GESTURES,finger-angle-using-bones,97.0,62.463,-1.714
+MARC_SALONGA,nn,COMBINED GESTURES,finger-angle-using-bones,97.833,56.902,-0.738
+MARC_SALONGA,nn,COMBINED GESTURES,finger-angle-using-bones,97.0,60.202,-1.571
+MARC_SALONGA,dt,COMBINED GESTURES,finger-angle-using-bones,99.0,3.289,-0.643
+MARC_SALONGA,dt,COMBINED GESTURES,finger-angle-using-bones,98.833,3.368,-0.596
+MARC_SALONGA,dt,COMBINED GESTURES,finger-angle-using-bones,98.667,3.293,-0.976
+MARC_SALONGA,dt,COMBINED GESTURES,finger-angle-using-bones,99.5,3.263,0.071
+MARC_SALONGA,dt,COMBINED GESTURES,finger-angle-using-bones,99.667,3.328,0.096
+MARC_SALONGA,dt,COMBINED GESTURES,finger-angle-using-bones,99.5,3.469,0.0
+MARC_SALONGA,dt,COMBINED GESTURES,finger-angle-using-bones,98.833,3.25,-0.738
+MARC_SALONGA,dt,COMBINED GESTURES,finger-angle-using-bones,99.333,3.278,-0.096
+MARC_SALONGA,dt,COMBINED GESTURES,finger-angle-using-bones,99.5,3.344,0.0
+MARC_SALONGA,dt,COMBINED GESTURES,finger-angle-using-bones,99.5,3.347,0.071
+MARC_SALONGA,svm,COMBINED GESTURES,finger-between-distance,95.5,6.04,1.429
+MARC_SALONGA,svm,COMBINED GESTURES,finger-between-distance,93.667,5.338,-1.262
+MARC_SALONGA,svm,COMBINED GESTURES,finger-between-distance,95.0,5.374,0.571
+MARC_SALONGA,svm,COMBINED GESTURES,finger-between-distance,94.833,5.398,0.476
+MARC_SALONGA,svm,COMBINED GESTURES,finger-between-distance,94.0,5.363,-0.714
+MARC_SALONGA,svm,COMBINED GESTURES,finger-between-distance,92.833,5.345,-2.167
+MARC_SALONGA,svm,COMBINED GESTURES,finger-between-distance,95.0,5.36,0.214
+MARC_SALONGA,svm,COMBINED GESTURES,finger-between-distance,95.167,5.34,0.524
+MARC_SALONGA,svm,COMBINED GESTURES,finger-between-distance,94.5,5.397,0.357
+MARC_SALONGA,svm,COMBINED GESTURES,finger-between-distance,93.0,5.381,-1.571
+MARC_SALONGA,nn,COMBINED GESTURES,finger-between-distance,97.333,82.594,0.047
+MARC_SALONGA,nn,COMBINED GESTURES,finger-between-distance,98.167,75.298,1.024
+MARC_SALONGA,nn,COMBINED GESTURES,finger-between-distance,95.0,74.166,-2.0
+MARC_SALONGA,nn,COMBINED GESTURES,finger-between-distance,98.0,72.603,0.429
+MARC_SALONGA,nn,COMBINED GESTURES,finger-between-distance,95.5,71.926,-1.857
+MARC_SALONGA,nn,COMBINED GESTURES,finger-between-distance,97.167,73.446,-0.476
+MARC_SALONGA,nn,COMBINED GESTURES,finger-between-distance,95.167,72.128,-2.619
+MARC_SALONGA,nn,COMBINED GESTURES,finger-between-distance,96.833,74.553,-0.238
+MARC_SALONGA,nn,COMBINED GESTURES,finger-between-distance,97.333,76.0,0.619
+MARC_SALONGA,nn,COMBINED GESTURES,finger-between-distance,96.5,75.324,-0.857
+MARC_SALONGA,dt,COMBINED GESTURES,finger-between-distance,99.167,3.281,-0.262
+MARC_SALONGA,dt,COMBINED GESTURES,finger-between-distance,99.333,3.198,-0.167
+MARC_SALONGA,dt,COMBINED GESTURES,finger-between-distance,98.833,3.173,-0.31
+MARC_SALONGA,dt,COMBINED GESTURES,finger-between-distance,99.0,3.274,-0.5
+MARC_SALONGA,dt,COMBINED GESTURES,finger-between-distance,99.5,3.252,0.0
+MARC_SALONGA,dt,COMBINED GESTURES,finger-between-distance,99.333,3.204,-0.238
+MARC_SALONGA,dt,COMBINED GESTURES,finger-between-distance,98.0,3.126,-1.429
+MARC_SALONGA,dt,COMBINED GESTURES,finger-between-distance,98.0,3.149,-1.357
+MARC_SALONGA,dt,COMBINED GESTURES,finger-between-distance,99.5,3.176,0.0
+MARC_SALONGA,dt,COMBINED GESTURES,finger-between-distance,99.167,3.144,-0.404
+MARC_SALONGA,svm,COMBINED GESTURES,finger-to-palm-distance,95.333,5.603,0.262
+MARC_SALONGA,svm,COMBINED GESTURES,finger-to-palm-distance,95.167,5.215,-0.69
+MARC_SALONGA,svm,COMBINED GESTURES,finger-to-palm-distance,96.833,5.262,1.619
+MARC_SALONGA,svm,COMBINED GESTURES,finger-to-palm-distance,94.5,5.221,-1.643
+MARC_SALONGA,svm,COMBINED GESTURES,finger-to-palm-distance,95.0,5.23,-0.857
+MARC_SALONGA,svm,COMBINED GESTURES,finger-to-palm-distance,96.167,5.331,0.381
+MARC_SALONGA,svm,COMBINED GESTURES,finger-to-palm-distance,95.0,5.206,-1.0
+MARC_SALONGA,svm,COMBINED GESTURES,finger-to-palm-distance,94.833,5.224,-1.024
+MARC_SALONGA,svm,COMBINED GESTURES,finger-to-palm-distance,96.333,5.208,1.047
+MARC_SALONGA,svm,COMBINED GESTURES,finger-to-palm-distance,95.667,5.249,-0.119
+MARC_SALONGA,nn,COMBINED GESTURES,finger-to-palm-distance,98.5,63.274,0.714
+MARC_SALONGA,nn,COMBINED GESTURES,finger-to-palm-distance,97.833,59.347,-0.167
+MARC_SALONGA,nn,COMBINED GESTURES,finger-to-palm-distance,96.5,63.35,-1.929
+MARC_SALONGA,nn,COMBINED GESTURES,finger-to-palm-distance,97.0,59.599,-1.643
+MARC_SALONGA,nn,COMBINED GESTURES,finger-to-palm-distance,98.333,60.861,0.047
+MARC_SALONGA,nn,COMBINED GESTURES,finger-to-palm-distance,98.167,63.609,0.167
+MARC_SALONGA,nn,COMBINED GESTURES,finger-to-palm-distance,96.667,60.644,-1.547
+MARC_SALONGA,nn,COMBINED GESTURES,finger-to-palm-distance,98.333,61.704,0.547
+MARC_SALONGA,nn,COMBINED GESTURES,finger-to-palm-distance,96.833,63.592,-1.096
+MARC_SALONGA,nn,COMBINED GESTURES,finger-to-palm-distance,97.833,61.284,-0.024
+MARC_SALONGA,dt,COMBINED GESTURES,finger-to-palm-distance,99.667,3.389,0.024
+MARC_SALONGA,dt,COMBINED GESTURES,finger-to-palm-distance,99.833,3.357,0.047
+MARC_SALONGA,dt,COMBINED GESTURES,finger-to-palm-distance,99.333,3.309,-0.238
+MARC_SALONGA,dt,COMBINED GESTURES,finger-to-palm-distance,99.167,3.354,-0.476
+MARC_SALONGA,dt,COMBINED GESTURES,finger-to-palm-distance,99.667,3.408,0.096
+MARC_SALONGA,dt,COMBINED GESTURES,finger-to-palm-distance,99.833,3.358,0.19
+MARC_SALONGA,dt,COMBINED GESTURES,finger-to-palm-distance,99.167,3.345,-0.547
+MARC_SALONGA,dt,COMBINED GESTURES,finger-to-palm-distance,98.167,3.382,-1.476
+MARC_SALONGA,dt,COMBINED GESTURES,finger-to-palm-distance,99.0,3.336,-0.643
+MARC_SALONGA,dt,COMBINED GESTURES,finger-to-palm-distance,99.5,3.363,-0.214
+NATAREE_KAEWPONG,svm,COMBINED GESTURES,finger-angle-and-palm-distance,90.0,7.08,2.929
+NATAREE_KAEWPONG,svm,COMBINED GESTURES,finger-angle-and-palm-distance,87.5,5.97,-0.714
+NATAREE_KAEWPONG,svm,COMBINED GESTURES,finger-angle-and-palm-distance,89.167,6.389,1.881
+NATAREE_KAEWPONG,svm,COMBINED GESTURES,finger-angle-and-palm-distance,87.5,6.353,-1.357
+NATAREE_KAEWPONG,svm,COMBINED GESTURES,finger-angle-and-palm-distance,90.0,6.343,1.357
+NATAREE_KAEWPONG,svm,COMBINED GESTURES,finger-angle-and-palm-distance,88.833,6.415,0.69
+NATAREE_KAEWPONG,svm,COMBINED GESTURES,finger-angle-and-palm-distance,89.667,6.359,0.953
+NATAREE_KAEWPONG,svm,COMBINED GESTURES,finger-angle-and-palm-distance,88.5,6.338,0.571
+NATAREE_KAEWPONG,svm,COMBINED GESTURES,finger-angle-and-palm-distance,85.0,5.884,-4.143
+NATAREE_KAEWPONG,svm,COMBINED GESTURES,finger-angle-and-palm-distance,88.167,5.983,-0.547
+NATAREE_KAEWPONG,nn,COMBINED GESTURES,finger-angle-and-palm-distance,99.0,65.285,0.929
+NATAREE_KAEWPONG,nn,COMBINED GESTURES,finger-angle-and-palm-distance,98.833,64.54,0.762
+NATAREE_KAEWPONG,nn,COMBINED GESTURES,finger-angle-and-palm-distance,98.333,66.013,0.119
+NATAREE_KAEWPONG,nn,COMBINED GESTURES,finger-angle-and-palm-distance,99.167,65.756,0.81
+NATAREE_KAEWPONG,nn,COMBINED GESTURES,finger-angle-and-palm-distance,99.0,67.438,0.857
+NATAREE_KAEWPONG,nn,COMBINED GESTURES,finger-angle-and-palm-distance,98.333,63.445,-0.096
+NATAREE_KAEWPONG,nn,COMBINED GESTURES,finger-angle-and-palm-distance,96.833,64.681,-1.31
+NATAREE_KAEWPONG,nn,COMBINED GESTURES,finger-angle-and-palm-distance,97.5,67.038,-0.643
+NATAREE_KAEWPONG,nn,COMBINED GESTURES,finger-angle-and-palm-distance,98.833,69.905,0.476
+NATAREE_KAEWPONG,nn,COMBINED GESTURES,finger-angle-and-palm-distance,98.167,70.966,0.024
+NATAREE_KAEWPONG,dt,COMBINED GESTURES,finger-angle-and-palm-distance,99.167,3.681,0.167
+NATAREE_KAEWPONG,dt,COMBINED GESTURES,finger-angle-and-palm-distance,99.0,3.557,0.0
+NATAREE_KAEWPONG,dt,COMBINED GESTURES,finger-angle-and-palm-distance,98.167,3.459,-0.762
+NATAREE_KAEWPONG,dt,COMBINED GESTURES,finger-angle-and-palm-distance,96.667,3.68,-2.404
+NATAREE_KAEWPONG,dt,COMBINED GESTURES,finger-angle-and-palm-distance,99.333,3.667,0.619
+NATAREE_KAEWPONG,dt,COMBINED GESTURES,finger-angle-and-palm-distance,98.667,3.667,-0.476
+NATAREE_KAEWPONG,dt,COMBINED GESTURES,finger-angle-and-palm-distance,98.167,3.637,-0.619
+NATAREE_KAEWPONG,dt,COMBINED GESTURES,finger-angle-and-palm-distance,97.833,3.737,-1.31
+NATAREE_KAEWPONG,dt,COMBINED GESTURES,finger-angle-and-palm-distance,97.833,3.569,-1.096
+NATAREE_KAEWPONG,dt,COMBINED GESTURES,finger-angle-and-palm-distance,97.667,3.574,-1.262
+NATAREE_KAEWPONG,svm,COMBINED GESTURES,finger-angle-using-bones,91.667,6.117,-0.333
+NATAREE_KAEWPONG,svm,COMBINED GESTURES,finger-angle-using-bones,93.333,5.564,1.762
+NATAREE_KAEWPONG,svm,COMBINED GESTURES,finger-angle-using-bones,92.0,5.704,0.571
+NATAREE_KAEWPONG,svm,COMBINED GESTURES,finger-angle-using-bones,90.167,5.539,-2.547
+NATAREE_KAEWPONG,svm,COMBINED GESTURES,finger-angle-using-bones,91.5,5.594,-0.357
+NATAREE_KAEWPONG,svm,COMBINED GESTURES,finger-angle-using-bones,91.0,5.561,-1.0
+NATAREE_KAEWPONG,svm,COMBINED GESTURES,finger-angle-using-bones,92.167,5.605,0.667
+NATAREE_KAEWPONG,svm,COMBINED GESTURES,finger-angle-using-bones,92.0,5.572,0.286
+NATAREE_KAEWPONG,svm,COMBINED GESTURES,finger-angle-using-bones,92.667,5.565,0.524
+NATAREE_KAEWPONG,svm,COMBINED GESTURES,finger-angle-using-bones,92.0,5.52,0.643
+NATAREE_KAEWPONG,nn,COMBINED GESTURES,finger-angle-using-bones,98.5,70.132,0.5
+NATAREE_KAEWPONG,nn,COMBINED GESTURES,finger-angle-using-bones,96.833,65.704,-1.881
+NATAREE_KAEWPONG,nn,COMBINED GESTURES,finger-angle-using-bones,98.167,64.792,-0.19
+NATAREE_KAEWPONG,nn,COMBINED GESTURES,finger-angle-using-bones,97.333,66.005,-1.096
+NATAREE_KAEWPONG,nn,COMBINED GESTURES,finger-angle-using-bones,98.0,64.749,-0.214
+NATAREE_KAEWPONG,nn,COMBINED GESTURES,finger-angle-using-bones,98.667,64.684,0.096
+NATAREE_KAEWPONG,nn,COMBINED GESTURES,finger-angle-using-bones,99.0,70.884,0.714
+NATAREE_KAEWPONG,nn,COMBINED GESTURES,finger-angle-using-bones,99.0,68.033,0.286
+NATAREE_KAEWPONG,nn,COMBINED GESTURES,finger-angle-using-bones,97.5,69.437,-1.214
+NATAREE_KAEWPONG,nn,COMBINED GESTURES,finger-angle-using-bones,98.5,65.537,-0.214
+NATAREE_KAEWPONG,dt,COMBINED GESTURES,finger-angle-using-bones,99.5,3.48,-0.143
+NATAREE_KAEWPONG,dt,COMBINED GESTURES,finger-angle-using-bones,98.667,3.333,-0.904
+NATAREE_KAEWPONG,dt,COMBINED GESTURES,finger-angle-using-bones,98.0,3.446,-1.643
+NATAREE_KAEWPONG,dt,COMBINED GESTURES,finger-angle-using-bones,99.667,3.338,0.167
+NATAREE_KAEWPONG,dt,COMBINED GESTURES,finger-angle-using-bones,99.333,3.326,-0.31
+NATAREE_KAEWPONG,dt,COMBINED GESTURES,finger-angle-using-bones,99.167,3.329,-0.333
+NATAREE_KAEWPONG,dt,COMBINED GESTURES,finger-angle-using-bones,99.5,3.475,0.0
+NATAREE_KAEWPONG,dt,COMBINED GESTURES,finger-angle-using-bones,99.167,3.369,-0.333
+NATAREE_KAEWPONG,dt,COMBINED GESTURES,finger-angle-using-bones,98.667,3.401,-0.69
+NATAREE_KAEWPONG,dt,COMBINED GESTURES,finger-angle-using-bones,99.167,3.482,-0.404
+NATAREE_KAEWPONG,svm,COMBINED GESTURES,finger-between-distance,93.5,5.752,0.714
+NATAREE_KAEWPONG,svm,COMBINED GESTURES,finger-between-distance,92.667,5.238,0.238
+NATAREE_KAEWPONG,svm,COMBINED GESTURES,finger-between-distance,93.833,5.201,1.19
+NATAREE_KAEWPONG,svm,COMBINED GESTURES,finger-between-distance,93.833,5.179,1.333
+NATAREE_KAEWPONG,svm,COMBINED GESTURES,finger-between-distance,90.167,5.161,-3.476
+NATAREE_KAEWPONG,svm,COMBINED GESTURES,finger-between-distance,92.5,5.189,-0.214
+NATAREE_KAEWPONG,svm,COMBINED GESTURES,finger-between-distance,92.833,5.138,0.762
+NATAREE_KAEWPONG,svm,COMBINED GESTURES,finger-between-distance,93.5,5.232,1.5
+NATAREE_KAEWPONG,svm,COMBINED GESTURES,finger-between-distance,92.0,5.194,-0.643
+NATAREE_KAEWPONG,svm,COMBINED GESTURES,finger-between-distance,93.5,5.21,1.071
+NATAREE_KAEWPONG,nn,COMBINED GESTURES,finger-between-distance,98.167,72.419,1.381
+NATAREE_KAEWPONG,nn,COMBINED GESTURES,finger-between-distance,95.0,78.825,-2.143
+NATAREE_KAEWPONG,nn,COMBINED GESTURES,finger-between-distance,96.167,74.113,-1.047
+NATAREE_KAEWPONG,nn,COMBINED GESTURES,finger-between-distance,97.5,76.663,0.357
+NATAREE_KAEWPONG,nn,COMBINED GESTURES,finger-between-distance,97.0,72.34,-0.286
+NATAREE_KAEWPONG,nn,COMBINED GESTURES,finger-between-distance,96.5,72.999,-1.143
+NATAREE_KAEWPONG,nn,COMBINED GESTURES,finger-between-distance,97.333,71.84,0.119
+NATAREE_KAEWPONG,nn,COMBINED GESTURES,finger-between-distance,97.5,77.079,0.286
+NATAREE_KAEWPONG,nn,COMBINED GESTURES,finger-between-distance,96.667,76.357,-0.69
+NATAREE_KAEWPONG,nn,COMBINED GESTURES,finger-between-distance,97.0,71.425,-0.143
+NATAREE_KAEWPONG,dt,COMBINED GESTURES,finger-between-distance,99.167,3.149,-0.333
+NATAREE_KAEWPONG,dt,COMBINED GESTURES,finger-between-distance,99.5,3.255,0.071
+NATAREE_KAEWPONG,dt,COMBINED GESTURES,finger-between-distance,98.667,3.313,-1.047
+NATAREE_KAEWPONG,dt,COMBINED GESTURES,finger-between-distance,99.0,3.169,-0.5
+NATAREE_KAEWPONG,dt,COMBINED GESTURES,finger-between-distance,99.0,3.218,-0.571
+NATAREE_KAEWPONG,dt,COMBINED GESTURES,finger-between-distance,99.833,3.196,0.333
+NATAREE_KAEWPONG,dt,COMBINED GESTURES,finger-between-distance,99.333,3.131,-0.31
+NATAREE_KAEWPONG,dt,COMBINED GESTURES,finger-between-distance,99.5,3.298,0.0
+NATAREE_KAEWPONG,dt,COMBINED GESTURES,finger-between-distance,99.167,3.18,-0.619
+NATAREE_KAEWPONG,dt,COMBINED GESTURES,finger-between-distance,99.667,3.216,0.024
+NATAREE_KAEWPONG,svm,COMBINED GESTURES,finger-to-palm-distance,91.333,6.028,0.762
+NATAREE_KAEWPONG,svm,COMBINED GESTURES,finger-to-palm-distance,90.333,5.395,-1.596
+NATAREE_KAEWPONG,svm,COMBINED GESTURES,finger-to-palm-distance,92.833,5.387,1.19
+NATAREE_KAEWPONG,svm,COMBINED GESTURES,finger-to-palm-distance,91.5,5.409,-0.357
+NATAREE_KAEWPONG,svm,COMBINED GESTURES,finger-to-palm-distance,89.333,5.365,-2.881
+NATAREE_KAEWPONG,svm,COMBINED GESTURES,finger-to-palm-distance,91.5,5.355,-0.5
+NATAREE_KAEWPONG,svm,COMBINED GESTURES,finger-to-palm-distance,89.167,5.35,-3.333
+NATAREE_KAEWPONG,svm,COMBINED GESTURES,finger-to-palm-distance,90.667,5.365,-1.476
+NATAREE_KAEWPONG,svm,COMBINED GESTURES,finger-to-palm-distance,91.0,5.368,-1.429
+NATAREE_KAEWPONG,svm,COMBINED GESTURES,finger-to-palm-distance,90.333,5.517,-1.096
+NATAREE_KAEWPONG,nn,COMBINED GESTURES,finger-to-palm-distance,98.667,63.385,0.738
+NATAREE_KAEWPONG,nn,COMBINED GESTURES,finger-to-palm-distance,98.667,71.419,0.167
+NATAREE_KAEWPONG,nn,COMBINED GESTURES,finger-to-palm-distance,98.667,71.293,0.81
+NATAREE_KAEWPONG,nn,COMBINED GESTURES,finger-to-palm-distance,99.167,67.777,1.096
+NATAREE_KAEWPONG,nn,COMBINED GESTURES,finger-to-palm-distance,98.833,69.04,0.619
+NATAREE_KAEWPONG,nn,COMBINED GESTURES,finger-to-palm-distance,99.167,71.919,1.238
+NATAREE_KAEWPONG,nn,COMBINED GESTURES,finger-to-palm-distance,99.167,66.772,1.167
+NATAREE_KAEWPONG,nn,COMBINED GESTURES,finger-to-palm-distance,96.167,65.102,-2.547
+NATAREE_KAEWPONG,nn,COMBINED GESTURES,finger-to-palm-distance,97.667,65.615,-1.19
+NATAREE_KAEWPONG,nn,COMBINED GESTURES,finger-to-palm-distance,97.167,65.531,-0.69
+NATAREE_KAEWPONG,dt,COMBINED GESTURES,finger-to-palm-distance,99.5,3.388,-0.143
+NATAREE_KAEWPONG,dt,COMBINED GESTURES,finger-to-palm-distance,99.167,3.436,-0.619
+NATAREE_KAEWPONG,dt,COMBINED GESTURES,finger-to-palm-distance,99.0,3.45,-0.571
+NATAREE_KAEWPONG,dt,COMBINED GESTURES,finger-to-palm-distance,99.667,3.549,-0.119
+NATAREE_KAEWPONG,dt,COMBINED GESTURES,finger-to-palm-distance,99.167,3.439,-0.476
+NATAREE_KAEWPONG,dt,COMBINED GESTURES,finger-to-palm-distance,99.5,3.373,-0.214
+NATAREE_KAEWPONG,dt,COMBINED GESTURES,finger-to-palm-distance,99.333,3.427,-0.31
+NATAREE_KAEWPONG,dt,COMBINED GESTURES,finger-to-palm-distance,99.0,3.401,-0.857
+NATAREE_KAEWPONG,dt,COMBINED GESTURES,finger-to-palm-distance,99.5,3.355,-0.143
+NATAREE_KAEWPONG,dt,COMBINED GESTURES,finger-to-palm-distance,99.5,3.541,-0.214
