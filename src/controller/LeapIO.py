@@ -255,7 +255,7 @@ def do_parameters_match(file_name, labels):
 # GESTURE DATABASE FUNCTIONS
 def create_gesture_database(file_name):
     file_name = con_dir + file_name
-    gestures = ["fist", "one", "two", "three", "four", "five"]
+    gestures = ["zero", "one", "two", "three", "four", "five"]
 
     writer = open(file_name, 'w')
     writer.close()

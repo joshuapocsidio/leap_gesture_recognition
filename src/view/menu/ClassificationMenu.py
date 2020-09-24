@@ -260,7 +260,6 @@ class ClassificationMenu:
                 matching_pickle_list = []
                 total = len(subject_name_list) * ((len(subject_name_list) * 8) + (len(subject_name_list) * 4) + 12)
                 num = 0
-                s_ind = 1
                 u_ind = 1
                 # Get Own Unseen Data
                 for unseen_data in unseen_data_list:
@@ -272,6 +271,7 @@ class ClassificationMenu:
                     unseen_gesture_set = strip(unseen_data.split("--")[0].split(")")[1])
 
                     # Check for all matching trained data from chosen name
+                    t_ind = 1
                     for trained_pickle in trained_pickle_list:
                         # Get File Path without folders
                         file_path = trained_pickle.split("\\")[-1]
@@ -299,12 +299,14 @@ class ClassificationMenu:
                                 file_name=file_name
                             )
 
-                            print("\rData Set (" + str(u_ind) + "\\" + str(len(unseen_data_list)) + ") :"
+                            print("\rUnseen Data (" + str(u_ind) + "\\" + str(len(unseen_data_list)) + ") :"
+                                  + " Trained Data (" + str(t_ind) + "\\" + str(len(trained_pickle_list)) + ") :"
                                   + " ---> Unseen Data  : (" + unseen_subject_name + ") " + unseen_gesture_set + "--" + unseen_feature_set
                                   + " ---> Trained Data : (" + subject_name + ") " + gesture_set + "--" + feature_set
                                   + " # Classifier : " + classifier_type + ", Params : " + params
                                   + " ---> ACCURACY = " + str(accuracy * 100.0) + "%"),
                             num += 1
+                        t_ind += 1
                     u_ind += 1
                 print("")
 
@@ -352,6 +354,7 @@ class ClassificationMenu:
                 # Checkpoint each iteration
                 raw_input("\rProgress ----> " + str(i) + "/" + str(intervals) + " acquired. Press any key to continue"),
 
+                train_c = 0
                 # For each gesture, classify with all pickle files
                 for trained_data in trained_data_files:
                     # Get File Path without folders
