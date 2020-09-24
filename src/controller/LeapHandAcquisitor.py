@@ -12,6 +12,7 @@ class LeapHandAcquisitor:
 
     def acquire_single_hand_data(self):
         done = False
+        loops = 0
         # Keep attempting until valid hand
         while done is False:
             # Only acquire if controller is connected
@@ -21,8 +22,13 @@ class LeapHandAcquisitor:
                 if len(hands) > 0:
                     hand = hands[0]
                     return hand
+                else:
+                    print("\rWaiting for hand..."),
             else:
+                print("\rLeap Motion Not Connected!"),
                 return None
+
+            loops += 1
 
     def acquire_multiple_hand_data(self, iterations=100, intervals=10):
         hand_set = []

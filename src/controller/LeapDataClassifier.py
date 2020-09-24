@@ -19,28 +19,9 @@ class LeapDataClassifier:
         X_data_set, y_data_set = io.acquire_data_from_csv(csv_file=unseen_data)
         trainer = None
 
-        if lower(classifier_type) == 'nn':
-            # Get set hyper parameters
-            activation = pickle_file.split(".")[0].split("--")[1].split("_")[1]
-            # Get NN Trainer
-            trainer = NN_Trainer(subject_name=train_subject, feature_type=feature_set, activation=activation,
-                                 gesture_set=gesture_set)
-            trainer.load(pickle_name=pickle_file)
-            pass
-        elif lower(classifier_type) == 'svm':
-            # Get set hyper parameters
-            kernel_type = pickle_file.split(".")[0].split("--")[1].split("_")[1]
-            # Get SVM Trainer
-            trainer = SVM_Trainer(subject_name=train_subject, feature_type=feature_set, kernel_type=kernel_type,
-                                  gesture_set=gesture_set)
-            trainer.load(pickle_name=pickle_file)
-        elif lower(classifier_type) == 'dt':
-            # Get set hyper parameters
-            criterion_type = pickle_file.split(".")[0].split("--")[1].split("_")[1]
-            # Get NN Trainer
-            trainer = DT_Trainer(subject_name=train_subject, feature_type=feature_set, criterion_type=criterion_type,
-                                 gesture_set=gesture_set)
-            trainer.load(pickle_name=pickle_file)
+        # Obtain classifier type
+        trainer = self.obtain_classifier(classifier_type=classifier_type, gesture_set=gesture_set,
+                                         feature_set=feature_set, train_subject=train_subject, pickle_file=pickle_file)
 
         # Create time and classification lists
         time_list = []
@@ -97,80 +78,42 @@ class LeapDataClassifier:
         return file_name
 
     def do_classification_from_hand(self, pickle_file, train_subject, classifier_type, gesture_set,
-                                    feature_set, chosen_gesture, iterations=100):
+                                    feature_set, chosen_gesture, hand):
         # Initialize variables
-        file_name = None
         feature_data_set = None
         trainer = None
 
         # Obtain classifier type
-        if lower(classifier_type) == 'nn':
-            # Get set hyper parameters
-            activation = pickle_file.split(".")[0].split("--")[1].split("_")[1]
-            # Get NN Trainer
-            trainer = NN_Trainer(subject_name=train_subject, feature_type=feature_set, activation=activation,
-                                 gesture_set=gesture_set)
-            trainer.load(pickle_name=pickle_file)
-            pass
-        elif lower(classifier_type) == 'svm':
-            # Get set hyper parameters
-            kernel_type = pickle_file.split(".")[0].split("--")[1].split("_")[1]
-            # Get SVM Trainer
-            trainer = SVM_Trainer(subject_name=train_subject, feature_type=feature_set, kernel_type=kernel_type,
-                                  gesture_set=gesture_set)
-            trainer.load(pickle_name=pickle_file)
-        elif lower(classifier_type) == 'dt':
-            # Get set hyper parameters
-            criterion_type = pickle_file.split(".")[0].split("--")[1].split("_")[1]
-            # Get NN Trainer
-            trainer = DT_Trainer(subject_name=train_subject, feature_type=feature_set, criterion_type=criterion_type,
-                                 gesture_set=gesture_set)
-            trainer.load(pickle_name=pickle_file)
-
-        # Prompt for what gesture to be recorded
-        gesture_set, _, gesture_src = prompter.prompt_gesture_set()
-
-        # Acquire hand
-        hand = self.acquisitor.acquire_single_hand_data()
-
+        trainer = self.obtain_classifier(classifier_type=classifier_type, gesture_set=gesture_set,
+                                         feature_set=feature_set, train_subject=train_subject, pickle_file=pickle_file)
         # Acquire X data set
         if feature_set == 'finger-angle-and-palm-distance':
-            feature_name, feature_data_set = extractor.extract_finger_palm_distance(hand=hand)
+            feature_name, feature_data_set = extractor.extract_finger_palm_angle_distance(hand=hand)
             pass
         elif feature_set == 'finger-angle-using-bones':
             feature_name, feature_data_set = extractor.extract_finger_palm_angle(hand=hand)
             pass
         elif feature_set == 'finger-between-distance':
-            feature_name, feature_data_set = extractor.extract_finger_palm_angle_distance(hand=hand)
-            pass
-        elif feature_set == 'finger-to-palm-distance':
             feature_name, feature_data_set = extractor.extract_finger_finger_distance(hand=hand)
             pass
+        elif feature_set == 'finger-to-palm-distance':
+            feature_name, feature_data_set = extractor.extract_finger_palm_distance(hand=hand)
+            pass
 
-        print("")
+        # Obtain just the values
+        value_set = []
+        for feature_data in feature_data_set:
+            value_set.append(feature_data.value)
 
-        num_consecutive = 0
-        list_consecutive = []
-        for i in range(iterations):
-            # Classify and return the result of the prediction
-            prediction, result, _ = self.classify_gesture(
-                trainer=trainer,
-                feature_type=feature_set,
-                feature_data_set=feature_data_set,
-                chosen_gesture=chosen_gesture,
-            )
+        prediction, result, _ = self.classify_gesture(
+            trainer=trainer,
+            feature_type=feature_set,
+            feature_data_set=value_set,
+            chosen_gesture=chosen_gesture,
+            verbose=False
+        )
 
-            if prediction == chosen_gesture:
-                num_consecutive += 1
-            else:
-                # Save number of consecutive nums
-                if num_consecutive > 0:
-                    list_consecutive.append(num_consecutive)
-                    # TODO : Add to classification csv results if more than 0
-                # Reset either ways
-                num_consecutive = 0
-
-            i += 1
+        return prediction, result, trainer
 
 
     def classify_gesture(self, feature_data_set, feature_type, chosen_gesture, trainer, verbose=True):
@@ -196,6 +139,34 @@ class LeapDataClassifier:
             print("Time Taken   : " + str(time_taken) + "\n")
 
         return prediction[0], result, time_taken
+
+    def obtain_classifier(self, classifier_type, pickle_file, train_subject, feature_set, gesture_set):
+        trainer = None
+        # Obtain classifier type
+        if lower(classifier_type) == 'nn':
+            # Get set hyper parameters
+            activation = pickle_file.split(".")[0].split("--")[1].split("_")[1]
+            # Get NN Trainer
+            trainer = NN_Trainer(subject_name=train_subject, feature_type=feature_set, activation=activation,
+                                 gesture_set=gesture_set)
+            trainer.load(pickle_name=pickle_file)
+            pass
+        elif lower(classifier_type) == 'svm':
+            # Get set hyper parameters
+            kernel_type = pickle_file.split(".")[0].split("--")[1].split("_")[1]
+            # Get SVM Trainer
+            trainer = SVM_Trainer(subject_name=train_subject, feature_type=feature_set, kernel_type=kernel_type,
+                                  gesture_set=gesture_set)
+            trainer.load(pickle_name=pickle_file)
+        elif lower(classifier_type) == 'dt':
+            # Get set hyper parameters
+            criterion_type = pickle_file.split(".")[0].split("--")[1].split("_")[1]
+            # Get NN Trainer
+            trainer = DT_Trainer(subject_name=train_subject, feature_type=feature_set, criterion_type=criterion_type,
+                                 gesture_set=gesture_set)
+            trainer.load(pickle_name=pickle_file)
+
+        return trainer
 
 
     def process_modified_test_results(self, comparison_subject, test_subject, classifier_type, correct_classification,

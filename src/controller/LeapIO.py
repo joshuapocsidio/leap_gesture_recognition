@@ -290,7 +290,7 @@ def get_unseen_data_files(directory=uns_dir, combined=False):
     unseen_data_files = []
     if combined is True:
         for file_name in os.listdir(cun_dir):
-            print file_name
+            # print file_name
             file_name = cun_dir + file_name
             if file_name.endswith(extension):
                 unseen_data_files.append(file_name)
@@ -364,6 +364,7 @@ def create_csv_results(file_name, labels):
     writer.close()
     pass
 
+
 def create_training_csv_results():
     file_name = tra_dir + "training results.csv"
 
@@ -372,28 +373,83 @@ def create_training_csv_results():
         create_csv_results(file_name=file_name, labels=labels)
         pass
 
-def create_classification_csv_results():
+
+def append_classification_csv_results(personalized, classifier_type, training_score, train_subject, test_subject,
+                                      gesture_set, gesture, prediction, feature_set, correct, time):
     file_name = cla_dir + "classification results.csv"
+    pg_file_name = cla_dir + "pg classification results.csv"
+
+    labels = ['type', 'classifier', 'training score', 'trained subject', 'test subject', 'gesture set',
+              'gesture', 'prediction', 'feature set', 'correct', 'time']
+    pg_labels = ['gesture set', 'gesture', 'classifier', 'feature type', 'correct']
 
     if does_file_exist(file_name) is False:
-        labels = ['type', 'classifier', 'training score', 'trained subject', 'test subject', 'gesture set', 'feature set', 'correct', 'time']
         create_csv_results(file_name=file_name, labels=labels)
-
-def append_classification_csv_results(personalized, classifier_type, training_score, train_subject, test_subject, gesture_set, gesture, prediction, feature_set, correct, time):
-    file_name = cla_dir + "classification results.csv"
-
-    if does_file_exist(file_name) is False:
-        create_classification_csv_results()
         pass
 
+    if does_file_exist(pg_file_name) is False:
+        create_csv_results(file_name=pg_file_name, labels=pg_labels)
+        pass
+
+    # Write on file_name
     writer = open(file_name, 'a')
-    values = [personalized, classifier_type, str(training_score), train_subject, test_subject,
-              gesture_set, gesture, str(prediction), feature_set, str(correct), str(time)]
+    values = [personalized, classifier_type, str(training_score), train_subject, test_subject, feature_set,
+              gesture_set, gesture, str(prediction), str(correct), str(time)]
     entry = ",".join(values)
 
     writer.write(entry)
     writer.write("\n")
     writer.close()
+
+    # Write on pg file name
+    writer = open(pg_file_name, 'a')
+    values = [gesture_set, gesture, classifier_type, feature_set, correct]
+    entry = ",".join(values)
+
+    writer.write(entry)
+    writer.write("\n")
+    writer.close()
+
+
+def append_lighting_csv_results(classifier_type, training_score, train_subject, test_subject, gesture_set,
+                                feature_set, correct, total, accuracy):
+    file_name = cla_dir + "lighting results.csv"
+    labels = ['classifier', 'training score', 'trained subject', 'test subject', 'gesture set',
+              'feature set', 'correct', 'total', 'accuracy']
+
+    if does_file_exist(file_name) is False:
+        create_csv_results(file_name=file_name, labels=labels)
+        pass
+
+    writer = open(file_name, 'a')
+    values = [classifier_type, str(training_score), train_subject, test_subject, gesture_set, feature_set,
+              str(correct), str(total), str(accuracy)]
+    entry = ",".join(values)
+
+    writer.write(entry)
+    writer.write("\n")
+    writer.close()
+
+
+def append_repeatability_csv_results(classifier_type, training_score, train_subject, test_subject, gesture_set, gesture,
+                                     feature_set, consecutive_correct, consecutive_incorrect):
+    file_name = cla_dir + "repeatability results.csv"
+    labels = ['classifier', 'training score', 'trained subject', 'test subject', 'gesture set', 'gesture',
+              'feature set', 'consecutive_correct', 'consecutive_incorrect']
+
+    if does_file_exist(file_name) is False:
+        create_csv_results(file_name=file_name, labels=labels)
+        pass
+
+    writer = open(file_name, 'a')
+    values = [classifier_type, str(training_score), train_subject, test_subject, gesture_set, gesture, feature_set,
+              str(consecutive_correct), str(consecutive_incorrect)]
+    entry = ",".join(values)
+
+    writer.write(entry)
+    writer.write("\n")
+    writer.close()
+
 
 def append_training_csv_results(subject, classifier_type, gesture_set, feature_set, accuracy, time, penalty_acc):
     file_name = tra_dir + "training results.csv"

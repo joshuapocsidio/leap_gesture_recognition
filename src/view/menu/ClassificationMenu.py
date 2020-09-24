@@ -1,4 +1,5 @@
 # Import built in libraries
+import time
 from string import lower, upper, strip
 
 # Import Controller libraries
@@ -22,17 +23,21 @@ class ClassificationMenu:
             print("-------------------")
             print("DATA CLASSIFICATION")
             print("-------------------")
-            print("(1) - Repeatability Classification Test (CURRENTLY NOT WORKING)")
-            print("(2) - Unseen Data Classification Test")
+            print("(1) - Unseen Data Classification Test")
+            print("(2) - Repeatability Classification Test")
+            print("(3) - Lighting Variance Classification Test")
             print("(0) - Back")
 
             choice = raw_input("Your Choice: ")
 
             if choice == '1':
-                self.repeatability_classification_test()
+                self.unseen_data_classification_test()
                 pass
             elif choice == '2':
-                self.unseen_data_classification_test()
+                self.repeatability_classification_test()
+                pass
+            elif choice == '3':
+                self.lighting_classification_test()
                 pass
             elif choice == '0':
                 done = True
@@ -309,6 +314,219 @@ class ClassificationMenu:
                 pass
         pass
 
+    def lighting_classification_test(self):
+        total = 0
+        intervals = 50
+        # Obtain relevant gesture information and list
+        gesture_set, gesture_list, _ = prompter.prompt_gesture_set()
+        # Obtain all other relevant data
+        _, trained_data_files, _, _, _, feature_set_list, _, _ = io.get_params()
+        # Prompt for subject name
+        test_subject = prompter.prompt_subject_name()
+
+        # Initialize map of accuracies and corresponding trained data
+        correct_map = {}
+        for trained_data in trained_data_files:
+            # Each slot is an integer representing correct number of predictions
+            correct_map[trained_data] = 0
+
+        for gesture in gesture_list:
+            print("\rProgress ----> " + str(0) + "/" + str(0) + " acquired"),
+            raw_input("\nGesture Stage - " + gesture + ". Press any key to start test."),
+            for i in range(intervals):
+                timeout = 10
+                timeout_counter = 0
+                hand = None
+
+                while timeout_counter < timeout and hand is None:
+                    hand = self.classification_controller.acquisitor.acquire_single_hand_data()
+                    time.sleep(1)
+                    timeout_counter += 1
+
+                if timeout_counter >= timeout:
+                    print("\n")
+                    print("* * * NOTICE * * *")
+                    print("Please reconnect the controller. Iterations completed -- " + str(i) + " iterations")
+                    print("Returning to Classification Menu...\n")
+                    return None
+
+                # Checkpoint each iteration
+                raw_input("\rProgress ----> " + str(i) + "/" + str(intervals) + " acquired. Press any key to continue"),
+
+                # For each gesture, classify with all pickle files
+                for trained_data in trained_data_files:
+                    # Get File Path without folders
+                    file_path = trained_data.split("\\")[-1]
+                    # Get parameters
+                    classifier_type = file_path.split(" ")[0]
+                    gesture_set = strip(file_path.split("--")[0].split(")")[1])
+                    feature_set = file_path.split("--")[1].split(".pickle")[0].split("_")[0]
+                    train_subject = file_path.split("(")[1].split(")")[0]
+
+                    # Do classification and obtain results and iterate for 100
+                    prediction, result, trainer = self.classification_controller.do_classification_from_hand(
+                        pickle_file=trained_data,
+                        train_subject=train_subject,
+                        classifier_type=classifier_type,
+                        feature_set=feature_set,
+                        gesture_set=gesture_set,
+                        chosen_gesture=gesture,
+                        hand=hand,
+                    )
+
+                    # Check if prediction is correct
+                    if prediction == gesture:
+                        correct_map[trained_data] += 1
+
+                total += 1
+                i += 1
+
+        for trained_data in trained_data_files:
+            # Get File Path without folders
+            file_path = trained_data.split("\\")[-1]
+            # Get parameters
+            classifier_type = file_path.split(" ")[0]
+            gesture_set = strip(file_path.split("--")[0].split(")")[1])
+            feature_set = file_path.split("--")[1].split(".pickle")[0].split("_")[0]
+            train_subject = file_path.split("(")[1].split(")")[0]
+
+            # Obtain classifier type
+            trainer = self.classification_controller.obtain_classifier(
+                classifier_type=classifier_type,
+                gesture_set=gesture_set,
+                feature_set=feature_set,
+                train_subject=train_subject,
+                pickle_file=trained_data
+            )
+
+            # Save number of consecutive nums once consecutive streak is broken
+            io.append_lighting_csv_results(
+                classifier_type=classifier_type,
+                training_score=round(trainer.training_acc * 100, 5),
+                train_subject=trainer.subject_name,
+                test_subject=test_subject,
+                gesture_set=gesture_set,
+                feature_set=feature_set,
+                correct=str(correct_map[trained_data]),
+                total=str(total),
+                accuracy=str(round(float(correct_map[trained_data]) / float(total), 3)),
+            )
+
+    def repeatability_classification_test(self):
+        intervals = 100
+        # Obtain relevant gesture information and list
+        gesture_set, gesture_list, _ = prompter.prompt_gesture_set()
+        # Obtain all other relevant data
+        _, trained_data_files, _, _, _, feature_set_list, _, _ = io.get_params()
+        # Prompt for subject name
+        test_subject = prompter.prompt_subject_name()
+
+        # Initialize map of consecutive and corresponding trained data
+        correct_map = {}
+        incorrect_map = {}
+        for trained_data in trained_data_files:
+            # Each slot is a list of consecutive
+            correct_map[trained_data] = []
+            correct_map[trained_data].append(0)
+            incorrect_map[trained_data] = []
+            incorrect_map[trained_data].append(0)
+
+        print("Consecutive Map : Initialised\n")
+        # For each gesture, iteration i times
+        for gesture in gesture_list:
+            print("\rProgress ----> " + str(0) + "/" + str(0) + " acquired"),
+            raw_input("\nGesture Stage - " + gesture + ". Press any key to start test."),
+
+            hand = None
+            for i in range(intervals):
+                timeout = 10
+                timeout_counter = 0
+                hand = None
+
+                while timeout_counter < timeout and hand is None:
+                    hand = self.classification_controller.acquisitor.acquire_single_hand_data()
+                    time.sleep(1)
+                    timeout_counter += 1
+
+                if timeout_counter >= timeout and hand is None:
+                    print("\n")
+                    print("* * * NOTICE * * *")
+                    print("Please reconnect the controller. Iterations completed -- " + str(i) + " iterations")
+                    print("Returning to Classification Menu...\n")
+                    return None
+
+                # Checkpoint each iteration
+                raw_input("\rProgress ----> " + str(i) + "/" + str(intervals) + " acquired. Press any key to continue"),
+
+                # For each gesture, classify with all pickle files
+                for trained_data in trained_data_files:
+                    # Get File Path without folders
+                    file_path = trained_data.split("\\")[-1]
+                    # Get parameters
+                    classifier_type = file_path.split(" ")[0]
+                    gesture_set = strip(file_path.split("--")[0].split(")")[1])
+                    feature_set = file_path.split("--")[1].split(".pickle")[0].split("_")[0]
+                    train_subject = file_path.split("(")[1].split(")")[0]
+
+                    # Do classification and obtain results and iterate for 100
+                    prediction, result, trainer = self.classification_controller.do_classification_from_hand(
+                        pickle_file=trained_data,
+                        train_subject=train_subject,
+                        classifier_type=classifier_type,
+                        feature_set=feature_set,
+                        gesture_set=gesture_set,
+                        chosen_gesture=gesture,
+                        hand=hand,
+                    )
+
+                    if prediction == gesture:
+                        # Update correct map
+                        correct_map[trained_data][-1] += 1
+                        # Save number of consecutive nums once consecutive streak is broken
+                        if incorrect_map[trained_data][-1] > 0:
+                            io.append_repeatability_csv_results(
+                                classifier_type=classifier_type,
+                                training_score=round(trainer.training_acc * 100, 5),
+                                train_subject=trainer.subject_name,
+                                test_subject=test_subject,
+                                gesture_set=gesture_set,
+                                gesture=gesture,
+                                feature_set=feature_set,
+                                consecutive_correct=0,
+                                consecutive_incorrect=incorrect_map[trained_data[-1]]
+                            )
+
+                        # Reset incorrect streak
+                        incorrect_map[trained_data].append(0)
+                    else:
+                        # Update incorrect map
+                        incorrect_map[trained_data][-1] += 1
+                        # Save number of consecutive nums once consecutive streak is broken
+                        if correct_map[trained_data][-1] > 0:
+                            io.append_repeatability_csv_results(
+                                classifier_type=classifier_type,
+                                training_score=round(trainer.training_acc * 100, 5),
+                                train_subject=trainer.subject_name,
+                                test_subject=test_subject,
+                                gesture_set=gesture_set,
+                                gesture=gesture,
+                                feature_set=feature_set,
+                                consecutive_correct=correct_map[trained_data][-1],
+                                consecutive_incorrect=0
+                            )
+
+                        # Reset correct streak
+                        correct_map[trained_data].append(0)
+                i += 1
+            print("\n Gesture - " + gesture + " stage >> Successful")
+
+    def show_current(self, data_file, classifier_type, feature_set, gesture_set):
+        print("Data File >> " + data_file)
+        print("    Classifier  - " + classifier_type)
+        print("    Feature Set - " + feature_set)
+        print("    Gesture Set - " + gesture_set)
+
+    ''' MIGHT REMOVE THIS
     def single_feature_classification(self):
         # Show files available for classification (pickle files)
         list_data_files = io.get_pickle_files()
@@ -388,46 +606,4 @@ class ClassificationMenu:
         #     feature_set=feature_set,
         #     unseen_data=unseen_data
         # )
-
-    def repeatability_classification_test(self):
-        iterations = 100
-
-        # Obtain relevant gesture information and list
-        gesture_set, gesture_list, gesture_src = prompter.prompt_gesture_set()
-        # Obtain all other relevant data
-        _, trained_data_files, _, _, _, feature_set_list, _, _ = io.get_params()
-        # Prompt for subject name
-        test_subject = prompter.prompt_subject_name()
-
-        # For each gesture, iteration i times
-        for gesture in gesture_list:
-            print gesture
-            # For each gesture, classify with all pickle files
-            for trained_data in trained_data_files:
-                # Get File Path without folders
-                file_path = trained_data.split("\\")[-1]
-                # Get parameters
-                classifier_type = file_path.split(" ")[0]
-                gesture_set = strip(file_path.split("--")[0].split(")")[1])
-                feature_set = file_path.split("--")[1].split(".pickle")[0].split("_")[0]
-                train_subject = file_path.split("(")[1].split(")")[0]
-
-                # Do classification and obtain results and iterate for 100
-                prediction, result, _ = self.classification_controller.do_classification_from_hand(
-                    pickle_file=trained_data,
-                    train_subject=train_subject,
-                    classifier_type=classifier_type,
-                    feature_set=feature_set,
-                    gesture_set=gesture_set,
-                    chosen_gesture=gesture,
-                    iterations=100
-                )
-
-
-
-
-    def show_current(self, data_file, classifier_type, feature_set, gesture_set):
-        print("Data File >> " + data_file)
-        print("    Classifier  - " + classifier_type)
-        print("    Feature Set - " + feature_set)
-        print("    Gesture Set - " + gesture_set)
+    '''''
