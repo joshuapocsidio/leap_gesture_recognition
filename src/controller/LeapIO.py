@@ -369,7 +369,7 @@ def create_training_csv_results():
     file_name = tra_dir + "training results.csv"
 
     if does_file_exist(file_name) is False:
-        labels = ['subject', 'classifier', 'gesture set', 'feature set', 'accuracy', 'time', 'time penalty']
+        labels = ['subject', 'classifier', 'gesture set', 'feature set', 'accuracy', 'time', 'accuracy penalty']
         create_csv_results(file_name=file_name, labels=labels)
         pass
 
