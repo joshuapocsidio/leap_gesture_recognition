@@ -52,7 +52,9 @@ class LeapDataClassifier:
                 personalized = "non-personalized"
 
             # Print regardless of verbosity
-            print(upper(personalized) + " : " + upper(classifier_type) + "(" + str(trainer.training_acc) + "%) -- Train Subject :" + test_subject + ", Test Subject : " + comparison_subject + " >> " + gesture_set + " - " + feature_set + " = " + prediction)
+            print(upper(personalized) + " : " + upper(classifier_type) +
+                  "(" + str(trainer.training_acc) + "%) -- Train Subject :" + test_subject +
+                  ", Test Subject : " + test_subject + " >> " + gesture_set + " - " + feature_set + " = " + prediction)
 
             # Append to csv results
             io.append_classification_csv_results(personalized=personalized, classifier_type=classifier_type,
@@ -84,7 +86,6 @@ class LeapDataClassifier:
                                     feature_set, chosen_gesture, hand):
         # Initialize variables
         feature_data_set = None
-        trainer = None
 
         # Obtain classifier type
         trainer = self.obtain_classifier(classifier_type=classifier_type, gesture_set=gesture_set,
@@ -117,7 +118,6 @@ class LeapDataClassifier:
         )
 
         return prediction, result, trainer
-
 
     def classify_gesture(self, feature_data_set, feature_type, chosen_gesture, trainer, verbose=True):
         # Recording timing of classification
@@ -171,7 +171,6 @@ class LeapDataClassifier:
             trainer.load(pickle_name=pickle_file)
 
         return trainer
-
 
     def process_modified_test_results(self, comparison_subject, test_subject, classifier_type, correct_classification,
                                       time_list, trainer,

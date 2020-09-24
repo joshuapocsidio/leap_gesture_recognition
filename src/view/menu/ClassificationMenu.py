@@ -293,8 +293,9 @@ class ClassificationMenu:
                             if unseen_feature_set == feature_set and \
                                     unseen_gesture_set == gesture_set:
                                 params = matching_pickle.split("_")[-1].split(".")[0]
-                                print("\rProgress (" + str(num) + "\\" + str(
-                                    total) + ")" + " ----> (" + subject_name + ") " + gesture_set + "--" + feature_set + "_" + params + " acquired"),
+                                print("\rProgress (" + str(num) + "\\" + str(total) + ")" +
+                                      " ----> (" + subject_name + ") " + gesture_set + "--"
+                                      + feature_set + "_" + params + " acquired"),
 
                                 # Do classification from csv
                                 self.classification_controller.do_classification_from_csv(
@@ -437,7 +438,6 @@ class ClassificationMenu:
             print("\rProgress ----> " + str(0) + "/" + str(0) + " acquired"),
             raw_input("\nGesture Stage - " + gesture + ". Press any key to start test."),
 
-            hand = None
             for i in range(intervals):
                 timeout = 10
                 timeout_counter = 0

@@ -73,7 +73,6 @@ def prompt_iterations():
         iterations = raw_input("Training Size: ")
 
         if iterations.isdigit() is not False or iterations is not None or iterations is not "":
-            done = True
             return int(iterations)
         else:
             print("Please try again")
@@ -95,6 +94,7 @@ def prompt_data_file():
     print("")
 
     return data_file
+
 
 def prompt_data_directories():
     done = False

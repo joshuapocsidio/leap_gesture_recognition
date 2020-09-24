@@ -125,7 +125,6 @@ def do_manual_acquisition(acquisitor):
 
 def do_systematic_acquisition(acquisitor, training=False, testing=False):
     # Pre-defined gesture titles
-    gesture_titles = ['Counting Gestures', 'Status Gestures', 'American Sign Language Gestures']
     hand_config = ['LEFT HAND', 'RIGHT HAND']
 
     if training is True:
