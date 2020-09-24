@@ -28,6 +28,7 @@ class LeapDataClassifier:
         i = 0
         correct_predictions = 0
         # Do classification for each data set
+        print(""),
         for X_data in X_data_set:
             y_data = y_data_set[i]
 
@@ -51,10 +52,11 @@ class LeapDataClassifier:
             else:
                 personalized = "non-personalized"
 
+            print("\rProgress - - - > " + str(i) + "/" + str(len(X_data_set))),
             # Print regardless of verbosity
-            print(upper(personalized) + " : " + upper(classifier_type) +
-                  "(" + str(trainer.training_acc) + "%) -- Train Subject :" + test_subject +
-                  ", Test Subject : " + test_subject + " >> " + gesture_set + " - " + feature_set + " = " + prediction)
+            # print(upper(personalized) + " : " + upper(classifier_type) +
+            #       "(" + str(trainer.training_acc) + "%) -- Train Subject :" + test_subject +
+            #       ", Test Subject : " + test_subject + " >> " + gesture_set + " - " + feature_set + " = " + prediction)
 
             # Append to csv results
             io.append_classification_csv_results(personalized=personalized, classifier_type=classifier_type,
@@ -65,7 +67,7 @@ class LeapDataClassifier:
             i += 1
 
         # Process corresponding results
-        file_name = self.process_modified_test_results(
+        self.process_modified_test_results(
             classifier_type=classifier_type,
             test_subject=train_subject,
             correct_classification=correct_predictions,
@@ -77,10 +79,11 @@ class LeapDataClassifier:
             file_path=pickle_file,
             unseen_data=unseen_data,
             trainer=trainer,
-            verbose=True
+            verbose=False
         )
 
-        return file_name
+        accuracy = round(float(correct_predictions)/float(len(X_data_set)), 5)
+        return accuracy
 
     def do_classification_from_hand(self, pickle_file, train_subject, classifier_type, gesture_set,
                                     feature_set, chosen_gesture, hand):

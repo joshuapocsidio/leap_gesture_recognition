@@ -380,7 +380,7 @@ def append_classification_csv_results(personalized, classifier_type, training_sc
     pg_file_name = cla_dir + "pg classification results.csv"
 
     labels = ['type', 'classifier', 'training score', 'trained subject', 'test subject', 'gesture set',
-              'gesture', 'prediction', 'feature set', 'correct', 'time']
+              'feature set', 'gesture', 'prediction', 'correct', 'time']
     pg_labels = ['gesture set', 'gesture', 'classifier', 'feature type', 'correct']
 
     if does_file_exist(file_name) is False:
@@ -403,7 +403,7 @@ def append_classification_csv_results(personalized, classifier_type, training_sc
 
     # Write on pg file name
     writer = open(pg_file_name, 'a')
-    values = [gesture_set, gesture, classifier_type, feature_set, correct]
+    values = [gesture_set, gesture, classifier_type, feature_set, str(correct)]
     entry = ",".join(values)
 
     writer.write(entry)
