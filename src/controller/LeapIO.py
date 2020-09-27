@@ -467,6 +467,22 @@ def append_training_csv_results(subject, classifier_type, gesture_set, feature_s
     writer.close()
 
 
+def append_training_csv_summary(subject, classifier_type, gesture_set, feature_set, accuracy, time, penalty_acc):
+    file_name = tra_dir + "training summary.csv"
+
+    if does_file_exist(file_name) is False:
+        create_training_csv_results()
+        pass
+
+    writer = open(file_name, 'a')
+    values = [subject, classifier_type, gesture_set, feature_set, str(accuracy), str(time), str(penalty_acc)]
+    entry = ",".join(values)
+
+    writer.write(entry)
+    writer.write("\n")
+    writer.close()
+
+
 def acquire_data_from_csv(csv_file):
     # Read csv file
     data = pd.read_csv(csv_file)
