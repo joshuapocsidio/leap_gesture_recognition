@@ -20,8 +20,8 @@ def do_training(csv_file_name, trainer):
 
 
 def obtain_optimal_classifier(csv_file_name, subject_name, classifier_type, feature_type, gesture_set, params):
-    # Set iterations default = 10
-    iterations = 10
+    # Set iterations default = 5
+    iterations = 5
 
     # Initialize single variables
     test_acc = None
