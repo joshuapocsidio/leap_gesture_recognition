@@ -22,7 +22,7 @@ def combine_gestures_separate_subjects():
 
         # Group by Feature Set
         for feature_set in feature_set_list:
-
+            # raw_input(feature_set + " -- " + subject_name)
             # Acquired Data
             subject_feature_group = []
             for data_file in data_files:
@@ -234,8 +234,8 @@ def file_creation(file_name, group=None, single_item=None, single=False):
 
         if io.does_file_exist(file_name=file_name) is False:
             io.create_data_file(file_name=file_name, labels=labels)
-        else:
-            io.append_to_file(file_name=file_name, lines=strip(str(content)))
+
+        io.append_to_file(file_name=file_name, lines=strip(str(content)))
     else:
         for file_item in group:
             # Get the content and labels from the file
@@ -243,9 +243,8 @@ def file_creation(file_name, group=None, single_item=None, single=False):
             labels = strip(str(content[0])).split(",")
             del content[0]
             content = "".join(content)
-
             if io.does_file_exist(file_name=file_name) is False:
                 io.create_data_file(file_name=file_name, labels=labels)
-            else:
-                io.append_to_file(file_name=file_name, lines=strip(str(content)))
+
+            io.append_to_file(file_name=file_name, lines=strip(str(content)))
 
