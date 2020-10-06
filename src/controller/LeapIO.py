@@ -379,8 +379,8 @@ def append_classification_csv_results(personalized, classifier_type, training_sc
     file_name = cla_dir + "classification results.csv"
     pg_file_name = cla_dir + "pg classification results.csv"
 
-    labels = ['type', 'classifier', 'training score', 'trained subject', 'test subject', 'gesture set',
-              'feature set', 'gesture', 'prediction', 'correct', 'time']
+    labels = ['type', 'classifier', 'training score', 'trained subject', 'test subject',
+              'feature set', 'gesture set', 'gesture', 'prediction', 'correct', 'time']
     pg_labels = ['gesture set', 'gesture', 'classifier', 'feature type', 'correct']
 
     if does_file_exist(file_name) is False:
@@ -453,6 +453,22 @@ def append_repeatability_csv_results(classifier_type, training_score, train_subj
 
 def append_training_csv_results(subject, classifier_type, gesture_set, feature_set, accuracy, time, penalty_acc):
     file_name = tra_dir + "training results.csv"
+
+    if does_file_exist(file_name) is False:
+        create_training_csv_results()
+        pass
+
+    writer = open(file_name, 'a')
+    values = [subject, classifier_type, gesture_set, feature_set, str(accuracy), str(time), str(penalty_acc)]
+    entry = ",".join(values)
+
+    writer.write(entry)
+    writer.write("\n")
+    writer.close()
+
+
+def append_training_csv_summary(subject, classifier_type, gesture_set, feature_set, accuracy, time, penalty_acc):
+    file_name = tra_dir + "training summary.csv"
 
     if does_file_exist(file_name) is False:
         create_training_csv_results()

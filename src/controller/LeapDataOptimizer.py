@@ -20,8 +20,8 @@ def do_training(csv_file_name, trainer):
 
 
 def obtain_optimal_classifier(csv_file_name, subject_name, classifier_type, feature_type, gesture_set, params):
-    # Set iterations default = 10
-    iterations = 10
+    # Set iterations default = 5
+    iterations = 5
 
     # Initialize single variables
     test_acc = None
@@ -34,6 +34,7 @@ def obtain_optimal_classifier(csv_file_name, subject_name, classifier_type, feat
     train_accuracy_list = []
     test_accuracy_list = []
     time_list = []
+    penalty_list = []
 
     i = 0
     while i < iterations:
@@ -52,6 +53,7 @@ def obtain_optimal_classifier(csv_file_name, subject_name, classifier_type, feat
 
         training_time, train_acc, test_acc = do_training(csv_file_name=csv_file_name, trainer=trainer)
         penalty_acc = test_acc - train_acc
+        penalty_list.append(penalty_acc)
 
         # Print result of this iteration on console
         iteration_result = "Classifier #" + str(i) + " - (" + str(train_acc) + "%, " + str(
@@ -71,6 +73,11 @@ def obtain_optimal_classifier(csv_file_name, subject_name, classifier_type, feat
                                        accuracy=str(test_acc), time=str(training_time),
                                        penalty_acc=penalty_acc)
         i += 1
+
+    io.append_training_csv_summary(subject=subject_name, classifier_type=classifier_type,
+                                   gesture_set=gesture_set, feature_set=feature_type,
+                                   accuracy=str(mean(test_accuracy_list)), time=str(mean(time_list)),
+                                   penalty_acc=str(mean(penalty_list)))
 
     # Get optimization results
     optimized = analyze_classifiers(
