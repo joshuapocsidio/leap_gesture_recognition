@@ -55,6 +55,7 @@ def show(leap_controller):
             stack = 0
             print("\r.."),
             while time_elapsed <= 60:
+                time.sleep(0.1)
                 time_elapsed = round(time.time() - start_time, 2)
 
                 frame = leap_controller.frame()
@@ -95,6 +96,7 @@ def show(leap_controller):
                     X_data = []
                     for leap_data in data:
                         X_data.append(leap_data.value)
+
                     prediction = trainer.classify(X=[X_data])
                     print("\rTime Elapsed : " + str(time_elapsed) + " seconds ---> Prediction : " + str(prediction[0])),
 
@@ -106,9 +108,8 @@ def show(leap_controller):
                     #     print("\rTime Elapsed : " + str(time_elapsed) + " seconds ---> Prediction : " + str(prediction[0])),
                     #     stack = 0
 
-                    time.sleep(0.1)
                 else:
-                    print("\rTime Elapsed : " + str(time_elapsed) + " seconds ---> Prediction : None"),
+                    print("\rTime Elapsed : " + str(time_elapsed) + " seconds ---> Prediction : asdaNone"),
                     stack = 0
 
             print("System       : Demo has completed.\n\n")
@@ -140,6 +141,7 @@ def show(leap_controller):
             # Exit
             done = True
             pass
+
 
 
 def get_relevant_data(feature_set, hand=None):

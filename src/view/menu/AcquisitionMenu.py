@@ -140,20 +140,12 @@ def do_systematic_acquisition(acquisitor, training=False, testing=False):
         checkpoints = 1
         pass
 
-    print("--------------------")
-    print("TRAINING ACQUISITION")
-    print("--------------------")
-    print("1 --> Counting Gestures (6 Gestures)")
-    print("2 --> Status Gestures (10 Gestures)")
-    print("3 --> American Sign Language (ASL) (26 Gestures)")
-
-    time.sleep(1)
-
     # Prompt relevant variables
     subject_name = prompter.prompt_subject_name()
+
     gesture_set, gesture_list, _ = prompter.prompt_gesture_set()
 
-    # Loop between gestures
+    # Loop between gesture
     i_ges = 0
     hand_set = []
     feature_map = []
@@ -173,7 +165,10 @@ def do_systematic_acquisition(acquisitor, training=False, testing=False):
             while n_taken < intervals:
                 time.sleep(0.05)
                 # Acquire data and append to hand set
-                hand = acquisitor.acquire_single_hand_data()
+                hand = None
+                while hand is None:
+                    hand = acquisitor.acquire_single_hand_data()
+
                 hand_set.append(hand)
 
                 # Obtain all the feature name and data set
@@ -183,7 +178,7 @@ def do_systematic_acquisition(acquisitor, training=False, testing=False):
                     feature_data_set = feature_pair[1]
 
                     # Create the file name
-                    file_name = "(" + gesture_set + ") --" + feature_name
+                    file_name = gesture_set + "--" + feature_name
                     # Save data based on feature name, feature data set, and file name
                     io.save_data(file_name=file_name, subject_name=subject_name, gesture_name=cur_gesture,
                                  data_set=feature_data_set)

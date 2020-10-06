@@ -51,6 +51,7 @@ class Trainer:
     def classify(self, X):
         X = self.std_scale.transform(X)
         prediction = self.classifier.predict(X)
+        raw_input(self.classifier.predict_proba(X))
 
         ''' UNCOMMENT FOR DEBUGGING
         # print("SCALED : " + str(X))

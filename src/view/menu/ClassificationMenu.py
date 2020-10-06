@@ -34,7 +34,8 @@ class ClassificationMenu:
                 self.unseen_data_classification_test()
                 pass
             elif choice == '2':
-                self.repeatability_classification_test()
+                self.sampling_classification_test()
+                # self.repeatability_classification_test()
                 pass
             elif choice == '3':
                 self.lighting_classification_test()
@@ -414,6 +415,119 @@ class ClassificationMenu:
                 accuracy=str(round(float(correct_map[trained_data]) / float(total), 3)),
             )
 
+    def sampling_classification_test(self):
+        # Number of sample group per gesture
+        intervals = 100
+        # Number of samples per group
+        sample_size = 10
+        # Obtain relevant gesture information and list
+        gesture_set, gesture_list, _ = prompter.prompt_gesture_set()
+        # Obtain all other relevant data
+        _, trained_data_files, _, _, _, feature_set_list, _, _ = io.get_params()
+        test_subject = prompter.prompt_subject_name()
+
+        # Initialize correct predictions 2 Dimensional Dictionaries
+        trained_data_dict = {}
+        temporary_trained_dict = {}
+        for trained_data in trained_data_files:
+            # Get File Path without folders
+            file_path = trained_data.split("\\")[-1]
+            # Dictionary for each gesture
+            gesture_dict = {}
+            temporary_dict = {}
+            # Initialize each gesture
+            for gesture in gesture_list:
+                gesture_dict[gesture] = 0
+                temporary_dict[gesture] = 0
+            # Add initialized gesture dictionary to trained data dictionary
+            trained_data_dict[file_path] = gesture_dict
+            # Add temporary dictionary for each trained data
+            temporary_trained_dict[file_path] = temporary_dict
+
+        # for trained_data in trained_data_files:
+        #     file_path = trained_data.split("\\")[-1]
+        #     raw_input(file_path + " -- " + str(trained_data_dict[file_path]))
+
+        for gesture in gesture_list:
+            print("\rProgress ----> " + str(0) + "/" + str(0) + " acquired"),
+            print("\nGesture Stage - " + gesture + ". Press any key to start test."),
+
+            hand = None
+            # Keep going until reached goal of number of gesture data
+            for i in range(intervals):
+                stack = 0
+
+                sample_obtained = False
+                while sample_obtained is False:
+                    # Obtain hand
+                    hand = self.classification_controller.acquisitor.acquire_single_hand_data()
+                    # Ensure hand is not None
+                    if hand is not None:
+                        for trained_data in trained_data_files:
+                            # Get File Path without folders
+                            file_path = trained_data.split("\\")[-1]
+                            # Get parameters
+                            classifier_type = file_path.split(" ")[0]
+                            gesture_set = strip(file_path.split("--")[0].split(")")[1])
+                            feature_set = file_path.split("--")[1].split(".pickle")[0].split("_")[0]
+                            train_subject = file_path.split("(")[1].split(")")[0]
+
+                            # Do classification and obtain results
+                            prediction, _, _ = self.classification_controller.do_classification_from_hand(
+                                pickle_file=trained_data,
+                                train_subject=train_subject,
+                                classifier_type=classifier_type,
+                                feature_set=feature_set,
+                                gesture_set=gesture_set,
+                                chosen_gesture=gesture,
+                                hand=hand,
+                            )
+
+                            temporary_trained_dict[file_path][prediction] += 1
+                            stack += 1
+
+                            if stack >= sample_size:
+                                sample_obtained = True
+                                pass
+
+                        time.sleep(0.05)
+                    # Reset
+                    else:
+                        stack = 0
+                        for trained_data in trained_data_files:
+                            # Get File Path without folders
+                            file_path = trained_data.split("\\")[-1]
+                            # For each gesture, reset dictionary
+                            for gesture in gesture_list:
+                                temporary_trained_dict[file_path][gesture] = 0
+                        pass
+
+                # Check for each dictionary
+                for trained_data in trained_data_files:
+                    # Get File Path without folders
+                    file_path = trained_data.split("\\")[-1]
+                    raw_input(file_path + " -- " + str(trained_data_dict[file_path]))
+
+                    # Get the gesture with highest value in sample window
+                    max_key = max(temporary_trained_dict[file_path], temporary_trained_dict[file_path].get)
+                    # Gesture obtained from highest value is the prediction
+                    trained_data_dict[file_path][max_key] += 1
+
+
+
+
+
+
+                # while prediction == trainer.classify(get_relevant_data(kernel_type=kernel_type, file_name=chosen_pickle_no_extension, acquisitor=acquisitor, hand=hand)) and stack < 5:
+                #     hand = leap_controller.frame().hands[0]
+                #     stack += 1
+                #
+                # if stack >= 5:
+                #     print("\rTime Elapsed : " + str(time_elapsed) + " seconds ---> Prediction : " + str(prediction[0])),
+                #     stack = 0
+
+                i += 1
+
     def repeatability_classification_test(self):
         intervals = 100
         # Obtain relevant gesture information and list
@@ -437,13 +551,14 @@ class ClassificationMenu:
         # For each gesture, iteration i times
         for gesture in gesture_list:
             print("\rProgress ----> " + str(0) + "/" + str(0) + " acquired"),
-            raw_input("\nGesture Stage - " + gesture + ". Press any key to start test."),
+            print("\nGesture Stage - " + gesture + ". Press any key to start test."),
 
             for i in range(intervals):
-                timeout = 10
-                timeout_counter = 0
+
                 hand = None
 
+                timeout = 30
+                timeout_counter = 0
                 while timeout_counter < timeout and hand is None:
                     hand = self.classification_controller.acquisitor.acquire_single_hand_data()
                     time.sleep(1)
