@@ -68,10 +68,10 @@ def combine_gestures_separate_subjects():
             feature_set = file_item[0].split("--")[1].split(".")[0]
 
             # Construct file name
-            file_name = io.com_dir + "(" + subject + ") " + "COMBINED GESTURES--" + feature_set + ".csv"
+            file_name = io.cot_dir + "(" + subject + ") " + "COMBINED GESTURES--" + feature_set + ".csv"
 
             # Create the file
-            file_creation(group=file_item, file_name=file_name)
+            file_creation(gesture_set="COMBINED GESTURES", group=file_item, file_name=file_name)
 
     # Creating data file for combined unseen data
     for group in unseen_group_by_subject:
@@ -81,10 +81,10 @@ def combine_gestures_separate_subjects():
             feature_set = file_item[0].split("--")[1].split(".")[0]
 
             # Construct file name
-            file_name = io.cun_dir + "(" + subject + ") " + "COMBINED GESTURES--" + feature_set + ".csv"
+            file_name = io.cou_dir + "(" + subject + ") " + "COMBINED GESTURES--" + feature_set + ".csv"
 
             # Create the file
-            file_creation(group=file_item, file_name=file_name)
+            file_creation(gesture_set="COMBINED GESTURES", group=file_item, file_name=file_name)
     pass
 
 
@@ -149,7 +149,7 @@ def combine_subjects_separate_gestures():
             feature_set = file_item[0].split("--")[1].split(".")[0]
 
             # Construct file name
-            file_name = io.com_dir + "(COMBINED SUBJECTS) " + gesture_set + "--" + feature_set + ".csv"
+            file_name = io.cot_dir + "(COMBINED SUBJECTS) " + gesture_set + "--" + feature_set + ".csv"
 
             # Create the file
             file_creation(group=file_item, file_name=file_name)
@@ -162,7 +162,7 @@ def combine_subjects_separate_gestures():
             feature_set = file_item[0].split("--")[1].split(".")[0]
 
             # Construct file name
-            file_name = io.cun_dir + "(COMBINED SUBJECTS) " + gesture_set + "--" + feature_set + ".csv"
+            file_name = io.cou_dir + "(COMBINED SUBJECTS) " + gesture_set + "--" + feature_set + ".csv"
 
             # Create the file
             file_creation(group=file_item, file_name=file_name)
@@ -205,10 +205,10 @@ def combine_subjects_combine_gestures():
         feature_set = file_item.split("--")[1].split(".")[0]
 
         # Construct file name
-        file_name = io.com_dir + "(COMBINED SUBJECTS) " + "COMBINED GESTURES--" + feature_set + ".csv"
+        file_name = io.cot_dir + "(COMBINED SUBJECTS) " + "COMBINED GESTURES--" + feature_set + ".csv"
 
         # Create the file
-        file_creation(single_item=file_item, file_name=file_name, single=True)
+        file_creation(gesture_set="COMBINED GESTURES", single_item=file_item, file_name=file_name, single=True)
 
     # Creating data file for combined unseen data
     for file_item in combined_unseen_data:
@@ -216,35 +216,42 @@ def combine_subjects_combine_gestures():
         feature_set = file_item.split("--")[1].split(".")[0]
 
         # Construct file name
-        file_name = io.cun_dir + "(COMBINED SUBJECTS) " + "COMBINED GESTURES--" + feature_set + ".csv"
+        file_name = io.cou_dir + "(COMBINED SUBJECTS) " + "COMBINED GESTURES--" + feature_set + ".csv"
 
         # Create the file
-        file_creation(single_item=file_item, file_name=file_name, single=True)
+        file_creation(gesture_set="COMBINED GESTURES", single_item=file_item, file_name=file_name, single=True)
 
     pass
 
 
-def file_creation(file_name, group=None, single_item=None, single=False):
+def file_creation(file_name, gesture_set=None, group=None, single_item=None, single=False):
     if single is True and single_item is not None:
         # Get the content and labels from the file
         content = io.read_all(single_item)
         labels = strip(str(content[0])).split(",")
         del content[0]
-        content = "".join(content)
 
-        if io.does_file_exist(file_name=file_name) is False:
-            io.create_data_file(file_name=file_name, labels=labels)
-
-        io.append_to_file(file_name=file_name, lines=strip(str(content)))
+        for content_item in content:
+            content_item_list = content_item.split(",")
+            if not (gesture_set == "COMBINED GESTURES" and "okay\n" in content_item_list):
+                process_contents(file_name=file_name, content_item=content_item, labels=labels)
     else:
         for file_item in group:
             # Get the content and labels from the file
             content = io.read_all(file_item)
             labels = strip(str(content[0])).split(",")
             del content[0]
-            content = "".join(content)
-            if io.does_file_exist(file_name=file_name) is False:
-                io.create_data_file(file_name=file_name, labels=labels)
 
-            io.append_to_file(file_name=file_name, lines=strip(str(content)))
+            for content_item in content:
+                content_item_list = content_item.split(",")
+                if not (gesture_set == "COMBINED GESTURES" and "okay\n" in content_item_list):
+                    process_contents(file_name=file_name, content_item=content_item, labels=labels)
 
+
+def process_contents(file_name, content_item, labels):
+    content_item = "".join(content_item)
+
+    if io.does_file_exist(file_name=file_name) is False:
+        io.create_data_file(file_name=file_name, labels=labels)
+
+    io.append_to_file(file_name=file_name, lines=strip(str(content_item)))

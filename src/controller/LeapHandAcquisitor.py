@@ -10,7 +10,7 @@ class LeapHandAcquisitor:
 
         pass
 
-    def acquire_single_hand_data(self):
+    def acquire_single_hand_data(self, supervised=True):
         done = False
         loops = 0
         # Keep attempting until valid hand
@@ -22,8 +22,10 @@ class LeapHandAcquisitor:
                 if len(hands) > 0:
                     hand = hands[0]
                     return hand
-                else:
+                elif supervised is True:
                     print("\rWaiting for hand..."),
+                else:
+                    return None
             else:
                 print("\rLeap Motion Not Connected!"),
                 return None

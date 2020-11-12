@@ -33,7 +33,7 @@ class LeapDataClassifier:
             y_data = y_data_set[i]
 
             # Classify gestures and return results
-            prediction, result, time_taken = self.classify_gesture(
+            prediction, result, time_taken = self.classify_known_gesture(
                 feature_data_set=X_data,
                 feature_type=feature_set,
                 chosen_gesture=y_data,
@@ -85,6 +85,17 @@ class LeapDataClassifier:
         accuracy = round(float(correct_predictions)/float(len(X_data_set)), 5)
         return accuracy
 
+    def do_classification_from_features(self, trainer, feature_data_set):
+        # Obtain values
+        value_set = []
+        for feature_data in feature_data_set:
+            value_set.append(feature_data.value)
+
+        prediction = self.classify_unknown_gesture(feature_data_set=value_set, trainer=trainer)
+
+        return prediction[0]
+
+
     def do_classification_from_hand(self, pickle_file, train_subject, classifier_type, gesture_set,
                                     feature_set, chosen_gesture, hand):
         # Initialize variables
@@ -112,7 +123,7 @@ class LeapDataClassifier:
         for feature_data in feature_data_set:
             value_set.append(feature_data.value)
 
-        prediction, result, _ = self.classify_gesture(
+        prediction, result, _ = self.classify_known_gesture(
             trainer=trainer,
             feature_type=feature_set,
             feature_data_set=value_set,
@@ -122,7 +133,12 @@ class LeapDataClassifier:
 
         return prediction, result, trainer
 
-    def classify_gesture(self, feature_data_set, feature_type, chosen_gesture, trainer, verbose=True):
+    def classify_unknown_gesture(self, feature_data_set, trainer):
+        prediction = trainer.classify([feature_data_set])
+        return prediction
+
+
+    def classify_known_gesture(self, feature_data_set, chosen_gesture, trainer, feature_type=None, verbose=True):
         # Recording timing of classification
         start_time = round(time.time(), 8)
         prediction = trainer.classify([feature_data_set])
@@ -140,7 +156,7 @@ class LeapDataClassifier:
                 print("+ + + + + INCORRECT PREDICTION + + + + +")
             result = False
 
-        if verbose is True:
+        if verbose is True and feature_type is not None:
             print("Feature Used : " + feature_type)
             print("Prediction   : " + lower(prediction[0]))
             print("Time Taken   : " + str(time_taken) + "\n")

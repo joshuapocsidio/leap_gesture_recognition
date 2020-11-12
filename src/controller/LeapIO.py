@@ -17,22 +17,23 @@ out_dir = os.path.dirname(os.getcwd()) + "\output\\"
 dta_dir = out_dir + "data\\"
 tdd_dir = out_dir + "trained\\"
 
-trd_dir = tdd_dir + "classifiers\\"
-sca_dir = tdd_dir + "scales\\"
+cld_dir = tdd_dir + "classifiers\\"
+scd_dir = tdd_dir + "scales\\"
 
-dat_dir = dta_dir + "training\\raw\\"
-com_dir = dta_dir + "training\\combined\\"
-uns_dir = dta_dir + "testing\\raw\\"
-cun_dir = dta_dir + "testing\\combined\\"
+rat_dir = dta_dir + "training\\raw\\"
+cot_dir = dta_dir + "training\\combined\\"
+rau_dir = dta_dir + "testing\\raw\\"
+cou_dir = dta_dir + "testing\\combined\\"
 
-sum_dir = out_dir + "reports\\"
-tra_dir = sum_dir + "training\\"
-cla_dir = sum_dir + "classification\\"
+rep_dir = out_dir + "reports\\"
+trr_dir = rep_dir + "training\\"
+clr_dir = rep_dir + "classification\\"
+sar_dir = rep_dir + "sampling\\"
 
 
 # DATA FILE FUNCTIONS
 def save_data(file_name, subject_name, gesture_name, data_set):
-    file_name = dat_dir + "(" + subject_name + ") " + file_name + ".csv"
+    file_name = rat_dir + "(" + subject_name + ") " + file_name + ".csv"
     label_list = []
     value_list = []
 
@@ -82,7 +83,7 @@ def append_to_data_file(gesture_name, file_name, data_set, verbose=False):
 
 
 def save_classifier(pickle_name, data, verbose=False):
-    file_path = trd_dir + pickle_name
+    file_path = cld_dir + pickle_name
 
     if verbose is True:
         print("Saving Classifier : " + str(file_path))
@@ -94,7 +95,7 @@ def save_classifier(pickle_name, data, verbose=False):
 
 
 def load_classifier(pickle_name, verbose=False):
-    file_path = trd_dir + rsplit(pickle_name, "\\")[-1]
+    file_path = cld_dir + rsplit(pickle_name, "\\")[-1]
 
     if verbose is True:
         print("Saving Classifier : " + str(file_path))
@@ -105,7 +106,7 @@ def load_classifier(pickle_name, verbose=False):
 
 
 def save_scale(pickle_name, data, verbose=False):
-    file_path = sca_dir + pickle_name
+    file_path = scd_dir + pickle_name
 
     if verbose is True:
         print("Saving Scale      : " + str(file_path))
@@ -116,7 +117,7 @@ def save_scale(pickle_name, data, verbose=False):
 
 
 def load_scale(pickle_name, verbose=False):
-    file_path = sca_dir + rsplit(pickle_name, "\\")[-1]
+    file_path = scd_dir + rsplit(pickle_name, "\\")[-1]
 
     if verbose is True:
         print("Loading Scale     : " + str(file_path))
@@ -149,7 +150,7 @@ def append_to_report(file_name, line):
 # TRAINING SUMMARY FUNCTIONS
 def create_training_report(subject_name, feature_set, classifier_type):
     file_name = upper(classifier_type) + "_TRAINING_REPORT "
-    file_name = tra_dir + file_name + "(" + subject_name + ") " + feature_set + ".txt"
+    file_name = trr_dir + file_name + "(" + subject_name + ") " + feature_set + ".txt"
 
     writer = open(file_name, 'w')
     writer.close()
@@ -160,7 +161,7 @@ def create_training_report(subject_name, feature_set, classifier_type):
 # CLASSIFICATION SUMMARY FUNCTIONS
 def create_classification_report(subject_name, classifier_type=None, feature_set=None):
     file_name = upper(classifier_type) + "_CLASSIFICATION_REPORT"
-    file_name = cla_dir + file_name + " (" + subject_name + ") " + feature_set + ".txt"
+    file_name = clr_dir + file_name + " (" + subject_name + ") " + feature_set + ".txt"
 
     writer = open(file_name, 'w')
     writer.close()
@@ -190,7 +191,7 @@ def validate_report_file(report_header, subject_name, file_name, classifier_type
     if file_name is None:
         if lower(report_header) == 'training':
             file_name = upper(classifier_type) + "_TRAINING_REPORT "
-            file_name = tra_dir + file_name + "(" + subject_name + ") " + feature_set + ".txt"
+            file_name = trr_dir + file_name + "(" + subject_name + ") " + feature_set + ".txt"
 
             if does_file_exist(file_name) is False:
                 return create_training_report(subject_name=subject_name, classifier_type=classifier_type,
@@ -199,7 +200,7 @@ def validate_report_file(report_header, subject_name, file_name, classifier_type
                 return file_name
         elif lower(report_header) == 'classification':
             file_name = upper(classifier_type) + "_CLASSIFICATION_REPORT "
-            file_name = cla_dir + file_name + "(" + subject_name + ") " + feature_set + ".txt"
+            file_name = clr_dir + file_name + "(" + subject_name + ") " + feature_set + ".txt"
 
             if does_file_exist(file_name) is False:
                 return create_classification_report(subject_name=subject_name, classifier_type=classifier_type,
@@ -268,12 +269,12 @@ def create_gesture_database(file_name):
 
 
 # Returns all file names inside current directory (or given directory if omitted) with matching extension
-def get_data_files(directory=dat_dir, combined=False):
+def get_data_files(directory=rat_dir, combined=False):
     extension = '.csv'
     data_file_names = []
     if combined is True:
-        for file_name in os.listdir(com_dir):
-            file_name = com_dir + file_name
+        for file_name in os.listdir(cot_dir):
+            file_name = cot_dir + file_name
             if file_name.endswith(extension):
                 data_file_names.append(file_name)
     else:
@@ -285,13 +286,13 @@ def get_data_files(directory=dat_dir, combined=False):
     return data_file_names
 
 
-def get_unseen_data_files(directory=uns_dir, combined=False):
+def get_unseen_data_files(directory=rau_dir, combined=False):
     extension = '.csv'
     unseen_data_files = []
     if combined is True:
-        for file_name in os.listdir(cun_dir):
+        for file_name in os.listdir(cou_dir):
             # print file_name
-            file_name = cun_dir + file_name
+            file_name = cou_dir + file_name
             if file_name.endswith(extension):
                 unseen_data_files.append(file_name)
     else:
@@ -303,7 +304,7 @@ def get_unseen_data_files(directory=uns_dir, combined=False):
     return unseen_data_files
 
 
-def get_pickle_files(directory=trd_dir):
+def get_pickle_files(directory=cld_dir):
     extension = '.pickle'
     pickle_file_names = []
 
@@ -355,7 +356,6 @@ def append_to_file(file_name, lines):
     writer.close()
     pass
 
-
 # Creating Excel Reports
 def create_csv_results(file_name, labels):
     writer = open(file_name, 'w')
@@ -366,7 +366,7 @@ def create_csv_results(file_name, labels):
 
 
 def create_training_csv_results():
-    file_name = tra_dir + "training results.csv"
+    file_name = trr_dir + "training results.csv"
 
     if does_file_exist(file_name) is False:
         labels = ['subject', 'classifier', 'gesture set', 'feature set', 'accuracy', 'time', 'accuracy penalty']
@@ -376,8 +376,8 @@ def create_training_csv_results():
 
 def append_classification_csv_results(personalized, classifier_type, training_score, train_subject, test_subject,
                                       gesture_set, gesture, prediction, feature_set, correct, time):
-    file_name = cla_dir + "classification results.csv"
-    pg_file_name = cla_dir + "pg classification results.csv"
+    file_name = clr_dir + "classification results.csv"
+    pg_file_name = clr_dir + "pg classification results.csv"
 
     labels = ['type', 'classifier', 'training score', 'trained subject', 'test subject',
               'feature set', 'gesture set', 'gesture', 'prediction', 'correct', 'time']
@@ -411,29 +411,9 @@ def append_classification_csv_results(personalized, classifier_type, training_sc
     writer.close()
 
 
-def append_lighting_csv_results(classifier_type, training_score, train_subject, test_subject, gesture_set,
-                                feature_set, correct, total, accuracy):
-    file_name = cla_dir + "lighting results.csv"
-    labels = ['classifier', 'training score', 'trained subject', 'test subject', 'gesture set',
-              'feature set', 'correct', 'total', 'accuracy']
-
-    if does_file_exist(file_name) is False:
-        create_csv_results(file_name=file_name, labels=labels)
-        pass
-
-    writer = open(file_name, 'a')
-    values = [classifier_type, str(training_score), train_subject, test_subject, gesture_set, feature_set,
-              str(correct), str(total), str(accuracy)]
-    entry = ",".join(values)
-
-    writer.write(entry)
-    writer.write("\n")
-    writer.close()
-
-
 def append_repeatability_csv_results(classifier_type, training_score, train_subject, test_subject, gesture_set, gesture,
                                      feature_set, consecutive_correct, consecutive_incorrect):
-    file_name = cla_dir + "repeatability results.csv"
+    file_name = clr_dir + "repeatability results.csv"
     labels = ['classifier', 'training score', 'trained subject', 'test subject', 'gesture set', 'gesture',
               'feature set', 'consecutive_correct', 'consecutive_incorrect']
 
@@ -452,7 +432,7 @@ def append_repeatability_csv_results(classifier_type, training_score, train_subj
 
 
 def append_training_csv_results(subject, classifier_type, gesture_set, feature_set, accuracy, time, penalty_acc):
-    file_name = tra_dir + "training results.csv"
+    file_name = trr_dir + "training results.csv"
 
     if does_file_exist(file_name) is False:
         create_training_csv_results()
@@ -468,7 +448,7 @@ def append_training_csv_results(subject, classifier_type, gesture_set, feature_s
 
 
 def append_training_csv_summary(subject, classifier_type, gesture_set, feature_set, accuracy, time, penalty_acc):
-    file_name = tra_dir + "training summary.csv"
+    file_name = trr_dir + "training summary.csv"
 
     if does_file_exist(file_name) is False:
         create_training_csv_results()
@@ -522,3 +502,88 @@ def get_params():
     subject_name_list = read_col("subjects.txt")
 
     return data_files, trained_data, unseen_data_files, unseen_combined_files, all_unseen_data_files, feature_set_list, gesture_set_list, subject_name_list
+
+
+def append_sampling_csv_report(test_subject, trainer, gesture, result_list, prediction):
+    file_name = sar_dir + "sampling results.csv"
+    labels = ['test subject', 'classifier', 'gesture', 'feature set',
+              'zero', 'one', 'two', 'three', 'four', 'five',
+              'okay', 'rock', 'thumbs down', 'thumbs up', 'gun', 'call', 'finger purse',
+              'fingers-crossed', 'loser', 'pinky-one',
+              'prediction']
+
+    if does_file_exist(file_name) is False:
+        create_csv_results(file_name=file_name, labels=labels)
+        pass
+
+    string_results = []
+    for result in result_list:
+        string_results.append(str(result))
+
+    value_list = []
+    value_list.append(test_subject)
+    value_list.append(trainer.classifier_name)
+    value_list.append(gesture)
+    value_list.append(trainer.feature_type)
+    value_list.extend(string_results)
+    value_list.append(prediction)
+    # Write on file_name
+    writer = open(file_name, 'a')
+    entry = ",".join(value_list)
+
+    writer.write(entry)
+    writer.write("\n")
+    writer.close()
+
+def append_ensemble_csv_report(test_subject, classifier_type, gesture, prediction_list, top_gesture):
+    file_name = sar_dir + "ensembling results.csv"
+    labels = ['test subject', 'classifier', 'gesture']
+
+    for p in range(len(prediction_list)):
+        labels.append('model' + str(p))
+        p += 1
+    labels.append('top gesture')
+
+    if does_file_exist(file_name) is False:
+        create_csv_results(file_name=file_name, labels=labels)
+        pass
+
+    value_list = []
+    value_list.append(test_subject)
+    value_list.append(classifier_type)
+    value_list.append(gesture)
+    value_list.extend(prediction_list)
+    value_list.append(top_gesture)
+
+    # Write on file_name
+    writer = open(file_name, 'a')
+    entry = ",".join(value_list)
+
+    writer.write(entry)
+    writer.write("\n")
+    writer.close()
+
+
+''' MIGHT REMOVE THIS '''
+
+def append_lighting_csv_results(classifier_type, training_score, train_subject, test_subject, gesture_set,
+                                feature_set, correct, total, accuracy):
+    file_name = clr_dir + "lighting results.csv"
+    labels = ['classifier', 'training score', 'trained subject', 'test subject', 'gesture set',
+              'feature set', 'correct', 'total', 'accuracy']
+
+    if does_file_exist(file_name) is False:
+        create_csv_results(file_name=file_name, labels=labels)
+        pass
+
+    writer = open(file_name, 'a')
+    values = [classifier_type, str(training_score), train_subject, test_subject, gesture_set, feature_set,
+              str(correct), str(total), str(accuracy)]
+    entry = ",".join(values)
+
+    writer.write(entry)
+    writer.write("\n")
+    writer.close()
+
+
+''' '''

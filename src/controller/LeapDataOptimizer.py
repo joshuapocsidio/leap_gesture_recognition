@@ -19,10 +19,7 @@ def do_training(csv_file_name, trainer):
     return training_time, train_accuracy, test_accuracy
 
 
-def obtain_optimal_classifier(csv_file_name, subject_name, classifier_type, feature_type, gesture_set, params):
-    # Set iterations default = 5
-    iterations = 5
-
+def obtain_optimal_classifier(csv_file_name, subject_name, classifier_type, feature_type, gesture_set, params, iterations=10):
     # Initialize single variables
     test_acc = None
     train_acc = None

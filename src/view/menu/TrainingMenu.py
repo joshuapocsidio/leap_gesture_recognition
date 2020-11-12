@@ -222,7 +222,8 @@ def train_auto(csv_file, subject_name, feature_type, gesture_set, classifier_typ
         feature_type=feature_type,
         gesture_set=gesture_set,
         classifier_type=classifier_type,
-        params=params
+        params=params,
+        iterations=5
     )
 
     optimal_classifier = results[0]

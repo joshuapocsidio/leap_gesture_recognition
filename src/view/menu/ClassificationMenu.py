@@ -1,10 +1,13 @@
 # Import built in libraries
 import time
+from collections import Counter
 from string import lower, upper, strip
+from random import shuffle
 
 # Import Controller libraries
 import controller.LeapIO as io
 import controller.Printer as printer
+from controller import LeapFeatureExtractor as extractor
 from controller.LeapDataTrainer import SVM_Trainer
 
 # Import View Libraries
@@ -24,8 +27,7 @@ class ClassificationMenu:
             print("DATA CLASSIFICATION")
             print("-------------------")
             print("(1) - Unseen Data Classification Test")
-            print("(2) - Repeatability Classification Test")
-            print("(3) - Lighting Variance Classification Test")
+            print("(2) - Sampling Classification Test")
             print("(0) - Back")
 
             choice = raw_input("Your Choice: ")
@@ -36,9 +38,6 @@ class ClassificationMenu:
             elif choice == '2':
                 self.sampling_classification_test()
                 # self.repeatability_classification_test()
-                pass
-            elif choice == '3':
-                self.lighting_classification_test()
                 pass
             elif choice == '0':
                 done = True
@@ -316,6 +315,172 @@ class ClassificationMenu:
                 pass
         pass
 
+    def sampling_classification_test(self):
+        # Obtain relevant gesture information and list
+        gesture_set, gesture_list, _ = prompter.prompt_gesture_set()
+        # Obtain all other relevant data
+        _, trained_data_files, _, _, _, feature_set_list, _, _ = io.get_params()
+        test_subject = prompter.prompt_subject_name()
+
+        # Number of sample group per gesture
+        intervals = 50
+        hand_configurations = ['LEFT HAND', 'RIGHT HAND']
+
+        # Initialize prediction dict for ensemble
+        prediction_dict_ensemble = {}
+        classifier_types = ['Support Vector Machine', 'Multi-Layer Perceptron Neural Network', 'Decision Tree']
+        for classifier_type in classifier_types:
+            prediction_dict_ensemble[classifier_type] = []
+
+        # Initialize correct predictions dictionaries and list of trainer
+        trainer_list = []
+        gesture_dict = {}
+        trained_data_dict = {}
+        for trained_data in trained_data_files:
+            # Get File Path without folders
+            file_path = trained_data.split("\\")[-1]
+            # Get parameters
+            classifier_type = file_path.split(" ")[0]
+            gesture_set = strip(file_path.split("--")[0].split(")")[1])
+            feature_set = file_path.split("--")[1].split(".pickle")[0].split("_")[0]
+            train_subject = file_path.split("(")[1].split(")")[0]
+
+            # Obtain learning model
+            trainer = self.classification_controller.obtain_classifier(classifier_type=classifier_type,
+                                                                       gesture_set=gesture_set,
+                                                                       feature_set=feature_set,
+                                                                       train_subject=train_subject,
+                                                                       pickle_file=trained_data)
+            trainer_list.append(trainer)
+
+            # Each gesture corresponds to an index of the gesture data list results
+            gesture_ind = 0
+            for gesture in gesture_list:
+                gesture_dict[gesture] = gesture_ind
+                gesture_ind += 1
+
+            # Initialize each gesture data list - contains occurrences
+            gesture_data_list = []
+            for g in range(len(gesture_list)):
+                gesture_data_list.append(0)
+                g += 1
+
+            # Add initialized gesture dictionary to trained data dictionary
+            trained_data_dict[trainer] = gesture_data_list
+
+            print file_path
+
+        # Number of samples per group
+        sample_size = 30
+        gesture_progress = 0
+        check_gesture_list = ['three']
+        for gesture in check_gesture_list:
+            for hand_config in hand_configurations:
+                raw_input("\n * * * * " + hand_config + " * * * *\n")
+                print("\rGesture Progress ----> " + str(gesture_progress) + "/" + str(
+                    len(gesture_list)) + " acquired --> USE " + hand_config)
+                # Keep going until reached goal of number of gesture data
+                for i in range(intervals):
+                    stack = 0
+                    sample_obtained = False
+                    feature_map_list = []
+
+                    raw_input(
+                        "\rSample Progress (" + str(i) + "/" + str(intervals) + ") -- "
+                        + gesture + ". Press any key when hand is ready. Use your " + hand_config),
+                    while sample_obtained is False:
+                        # Obtain hand
+                        hand = self.classification_controller.acquisitor.acquire_single_hand_data(supervised=False)
+                        # Ensure hand is not None
+                        if hand is not None:
+
+                            feature_map = extractor.extract_all_feature_type(hand=hand)
+                            feature_map_list.append(feature_map)
+
+                            stack += 1
+
+                            if stack >= sample_size:
+                                sample_obtained = True
+                                pass
+                        # Reset
+                        else:
+                            stack = 0
+                            for trainer in trainer_list:
+                                # For each gesture, reset dictionary
+                                for g in range(len(gesture_list)):
+                                    trained_data_dict[trainer][g] = 0
+                            pass
+                        # print("\r\rStack: " + str(stack)),
+                        time.sleep(0.001)
+                    # Check for each dictionary
+                    for trainer in trainer_list:
+                        for feature_map in feature_map_list:
+                            for feature_pair in feature_map:
+                                feature_name = feature_pair[0]
+                                feature_data_set = feature_pair[1]
+
+                                if trainer.feature_type == feature_name:
+                                    prediction = self.classification_controller.do_classification_from_features(
+                                        trainer=trainer,
+                                        feature_data_set=feature_data_set,
+                                    )
+                                    trained_data_dict[trainer][gesture_dict[prediction]] += 1
+                    # For each learning model, find the most occurring prediction in the sample window
+                    prediction_list = []
+                    for trainer in trainer_list:
+                        # Get the gesture with highest value in sample window
+                        result_gesture_data_list = trained_data_dict[trainer]
+                        max_value = result_gesture_data_list.index(max(result_gesture_data_list))
+                        for key, value in gesture_dict.items():
+                            if max_value == value:
+                                prediction = key
+                                io.append_sampling_csv_report(test_subject=test_subject,
+                                                              trainer=trainer,
+                                                              result_list=result_gesture_data_list,
+                                                              gesture=gesture,
+                                                              prediction=prediction
+                                                              )
+                                prediction_list.append(prediction)
+                                prediction_dict_ensemble[trainer.classifier_name].append(prediction)
+
+                    print("\r" + str(prediction_list))
+
+                    # Find the most common prediction for each ensemble or learning group
+                    for classifier_type in classifier_types:
+                        ensemble_prediction_list = prediction_dict_ensemble[classifier_type]
+                        shuffle(ensemble_prediction_list)
+                        occurrence_count = Counter(ensemble_prediction_list)
+                        occurrence_count.most_common()
+                        final_prediction = occurrence_count.most_common(1)[0][0]
+                        io.append_ensemble_csv_report(
+                            test_subject=test_subject,
+                            classifier_type=classifier_type,
+                            gesture=gesture,
+                            prediction_list=prediction_dict_ensemble[classifier_type],
+                            top_gesture=final_prediction
+                        )
+                        # Reset ensemble dictionary
+                        prediction_dict_ensemble[classifier_type] = []
+
+                    # Rest sampling dictionary
+                    for trainer in trainer_list:
+                        # For each gesture, reset dictionary
+                        for g in range(len(gesture_list)):
+                            trained_data_dict[trainer][g] = 0
+                    i += 1
+
+            raw_input("\n * * * * NEXT GESTURE * * * *\n")
+            gesture_progress += 1
+
+
+    def show_current(self, data_file, classifier_type, feature_set, gesture_set):
+        print("Data File >> " + data_file)
+        print("    Classifier  - " + classifier_type)
+        print("    Feature Set - " + feature_set)
+        print("    Gesture Set - " + gesture_set)
+
+    ''' MIGHT REMOVE THIS
+    
     def lighting_classification_test(self):
         total = 0
         intervals = 50
@@ -414,120 +579,7 @@ class ClassificationMenu:
                 total=str(total),
                 accuracy=str(round(float(correct_map[trained_data]) / float(total), 3)),
             )
-
-    def sampling_classification_test(self):
-        # Number of sample group per gesture
-        intervals = 100
-        # Number of samples per group
-        sample_size = 10
-        # Obtain relevant gesture information and list
-        gesture_set, gesture_list, _ = prompter.prompt_gesture_set()
-        # Obtain all other relevant data
-        _, trained_data_files, _, _, _, feature_set_list, _, _ = io.get_params()
-        test_subject = prompter.prompt_subject_name()
-
-        # Initialize correct predictions 2 Dimensional Dictionaries
-        trained_data_dict = {}
-        temporary_trained_dict = {}
-        for trained_data in trained_data_files:
-            # Get File Path without folders
-            file_path = trained_data.split("\\")[-1]
-            # Dictionary for each gesture
-            gesture_dict = {}
-            temporary_dict = {}
-            # Initialize each gesture
-            for gesture in gesture_list:
-                gesture_dict[gesture] = 0
-                temporary_dict[gesture] = 0
-            # Add initialized gesture dictionary to trained data dictionary
-            trained_data_dict[file_path] = gesture_dict
-            # Add temporary dictionary for each trained data
-            temporary_trained_dict[file_path] = temporary_dict
-
-        # for trained_data in trained_data_files:
-        #     file_path = trained_data.split("\\")[-1]
-        #     raw_input(file_path + " -- " + str(trained_data_dict[file_path]))
-
-        for gesture in gesture_list:
-            print("\rProgress ----> " + str(0) + "/" + str(0) + " acquired"),
-            print("\nGesture Stage - " + gesture + ". Press any key to start test."),
-
-            hand = None
-            # Keep going until reached goal of number of gesture data
-            for i in range(intervals):
-                stack = 0
-
-                sample_obtained = False
-                while sample_obtained is False:
-                    # Obtain hand
-                    hand = self.classification_controller.acquisitor.acquire_single_hand_data()
-                    # Ensure hand is not None
-                    if hand is not None:
-                        for trained_data in trained_data_files:
-                            # Get File Path without folders
-                            file_path = trained_data.split("\\")[-1]
-                            # Get parameters
-                            classifier_type = file_path.split(" ")[0]
-                            gesture_set = strip(file_path.split("--")[0].split(")")[1])
-                            feature_set = file_path.split("--")[1].split(".pickle")[0].split("_")[0]
-                            train_subject = file_path.split("(")[1].split(")")[0]
-
-                            # Do classification and obtain results
-                            prediction, _, _ = self.classification_controller.do_classification_from_hand(
-                                pickle_file=trained_data,
-                                train_subject=train_subject,
-                                classifier_type=classifier_type,
-                                feature_set=feature_set,
-                                gesture_set=gesture_set,
-                                chosen_gesture=gesture,
-                                hand=hand,
-                            )
-
-                            temporary_trained_dict[file_path][prediction] += 1
-                            stack += 1
-
-                            if stack >= sample_size:
-                                sample_obtained = True
-                                pass
-
-                        time.sleep(0.05)
-                    # Reset
-                    else:
-                        stack = 0
-                        for trained_data in trained_data_files:
-                            # Get File Path without folders
-                            file_path = trained_data.split("\\")[-1]
-                            # For each gesture, reset dictionary
-                            for gesture in gesture_list:
-                                temporary_trained_dict[file_path][gesture] = 0
-                        pass
-
-                # Check for each dictionary
-                for trained_data in trained_data_files:
-                    # Get File Path without folders
-                    file_path = trained_data.split("\\")[-1]
-                    raw_input(file_path + " -- " + str(trained_data_dict[file_path]))
-
-                    # Get the gesture with highest value in sample window
-                    max_key = max(temporary_trained_dict[file_path], temporary_trained_dict[file_path].get)
-                    # Gesture obtained from highest value is the prediction
-                    trained_data_dict[file_path][max_key] += 1
-
-
-
-
-
-
-                # while prediction == trainer.classify(get_relevant_data(kernel_type=kernel_type, file_name=chosen_pickle_no_extension, acquisitor=acquisitor, hand=hand)) and stack < 5:
-                #     hand = leap_controller.frame().hands[0]
-                #     stack += 1
-                #
-                # if stack >= 5:
-                #     print("\rTime Elapsed : " + str(time_elapsed) + " seconds ---> Prediction : " + str(prediction[0])),
-                #     stack = 0
-
-                i += 1
-
+            
     def repeatability_classification_test(self):
         intervals = 100
         # Obtain relevant gesture information and list
@@ -635,14 +687,7 @@ class ClassificationMenu:
                         correct_map[trained_data].append(0)
                 i += 1
             print("\n Gesture - " + gesture + " stage >> Successful")
-
-    def show_current(self, data_file, classifier_type, feature_set, gesture_set):
-        print("Data File >> " + data_file)
-        print("    Classifier  - " + classifier_type)
-        print("    Feature Set - " + feature_set)
-        print("    Gesture Set - " + gesture_set)
-
-    ''' MIGHT REMOVE THIS
+            
     def single_feature_classification(self):
         # Show files available for classification (pickle files)
         list_data_files = io.get_pickle_files()

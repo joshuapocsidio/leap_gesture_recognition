@@ -48,7 +48,7 @@ def prompt_gesture_set():
 
     while done is False:
         gesture_src_list = ['gestures_counting.txt', 'gestures_status.txt', 'gestures_asl.txt']
-        gesture_set_list = ['COUNTING GESTURES', 'STATUS GESTURES', 'ASL GESTURES']
+        gesture_set_list = ['COUNTING GESTURES', 'STATUS GESTURES', 'ASL GESTURES', 'COMBINED GESTURES']
 
         print("* List of Valid Gesture Sources *")
         printer.print_numbered_list(gesture_set_list)
@@ -56,9 +56,14 @@ def prompt_gesture_set():
         print("")
 
         num_choice = int(choice)
-        if 1 <= num_choice <= len(gesture_src_list):
-            gesture_src = lower(gesture_src_list[int(choice) - 1])
-            gesture_list = io.read_col(gesture_src)
+        if 1 <= num_choice <= len(gesture_set_list):
+            if num_choice == 4:
+                gesture_list = io.read_col(gesture_src_list[0])
+                gesture_list.extend(io.read_col(gesture_src_list[1]))
+                gesture_src = gesture_src_list[0] + " and " + gesture_src_list[1]
+            else:
+                gesture_src = lower(gesture_src_list[int(choice) - 1])
+                gesture_list = io.read_col(gesture_src)
 
             return gesture_set_list[num_choice - 1], gesture_list, gesture_src
         else:
@@ -98,7 +103,7 @@ def prompt_data_file():
 
 def prompt_data_directories():
     done = False
-    directories = [io.dat_dir, io.com_dir]
+    directories = [io.rat_dir, io.cot_dir]
     while done is False:
         printer.print_numbered_list(directories)
 
@@ -111,6 +116,27 @@ def prompt_data_directories():
         else:
             print("Please try again - invalid input")
     pass
+
+
+def prompt_feature_set():
+    done = False
+    feature_set_list = [
+        'finger-angle-and-palm-distance',
+        'finger-angle-using-bones',
+        'finger-between-distance',
+        'finger-to-palm-distance',
+    ]
+
+    while done is False:
+        printer.print_numbered_list(feature_set_list)
+
+        choice = raw_input("Your Choice: ")
+        num_choice = int(choice)
+
+        if 0 < num_choice <= len(feature_set_list):
+            return feature_set_list[num_choice - 1]
+        else:
+            print("Please try again - invalid input")
 
 
 def prompt_classifier():
